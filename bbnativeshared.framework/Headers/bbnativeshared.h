@@ -584,9 +584,16 @@ __attribute__((swift_name("InViewController")))
 @end;
 
 __attribute__((objc_subclassing_restricted))
+__attribute__((swift_name("LocalStorageController")))
+@interface BbnativesharedLocalStorageController : BbnativesharedBase
+- (instancetype)initWithDatabaseParameters:(BbnativesharedDatabaseParameters * _Nullable)databaseParameters __attribute__((swift_name("init(databaseParameters:)"))) __attribute__((objc_designated_initializer));
+- (void)__destruct __attribute__((swift_name("__destruct()")));
+@end;
+
+__attribute__((objc_subclassing_restricted))
 __attribute__((swift_name("MainController")))
 @interface BbnativesharedMainController : BbnativesharedBase
-- (instancetype)initWithPublicationName:(NSString *)publicationName databaseParameters:(BbnativesharedDatabaseParameters * _Nullable)databaseParameters __attribute__((swift_name("init(publicationName:databaseParameters:)"))) __attribute__((objc_designated_initializer));
+- (instancetype)initWithPublicationName:(NSString *)publicationName __attribute__((swift_name("init(publicationName:)"))) __attribute__((objc_designated_initializer));
 - (NSString *)version __attribute__((swift_name("version()")));
 @end;
 
@@ -2089,9 +2096,14 @@ __attribute__((swift_name("ContentLoader")))
 @end;
 
 __attribute__((objc_subclassing_restricted))
+__attribute__((swift_name("LocalStorageControllerKt")))
+@interface BbnativesharedLocalStorageControllerKt : BbnativesharedBase
+@property (class) BbnativesharedDatabase * _Nullable localStorage __attribute__((swift_name("localStorage")));
+@end;
+
+__attribute__((objc_subclassing_restricted))
 __attribute__((swift_name("MainControllerKt")))
 @interface BbnativesharedMainControllerKt : BbnativesharedBase
-@property (class) BbnativesharedDatabase *localStorage __attribute__((swift_name("localStorage")));
 @property (class) NSString *playerPublicationName __attribute__((swift_name("playerPublicationName")));
 @property (class) BbnativesharedPlayerSettings *playerSettings __attribute__((swift_name("playerSettings")));
 @property (class, readonly) BbnativesharedProgramController *programController __attribute__((swift_name("programController")));
