@@ -253,9 +253,9 @@ __attribute__((swift_name("MediaControllerInterface")))
 @protocol BbnativesharedMediaControllerInterface
 @required
 - (id _Nullable)getPropertyName:(NSString *)propertyName __attribute__((swift_name("get(propertyName:)")));
-- (BOOL)loadMediaUrl:(NSString * _Nullable)mediaUrl seekPosition:(id _Nullable)seekPosition __attribute__((swift_name("load(mediaUrl:seekPosition:)")));
+- (BOOL)loadMediaUrl:(NSString * _Nullable)mediaUrl seekPosition:(id _Nullable)seekPosition metadata:(NSDictionary<NSString *, id> * _Nullable)metadata __attribute__((swift_name("load(mediaUrl:seekPosition:metadata:)")));
 - (BOOL)pauseRequested:(BOOL)requested __attribute__((swift_name("pause(requested:)")));
-- (BOOL)playRequested:(BOOL)requested __attribute__((swift_name("play(requested:)")));
+- (BOOL)playUserAction:(BOOL)userAction requested:(BOOL)requested __attribute__((swift_name("play(userAction:requested:)")));
 - (BOOL)setPropertyName:(NSString *)propertyName propertyValue:(id _Nullable)propertyValue __attribute__((swift_name("set(propertyName:propertyValue:)")));
 @end;
 
@@ -503,6 +503,7 @@ __attribute__((swift_name("MasterController")))
 - (void)__destruct __attribute__((swift_name("__destruct()")));
 - (void)onEventEventType:(BbnativesharedEventName *)eventType data:(NSDictionary<NSString *, id> * _Nullable)data __attribute__((swift_name("onEvent(eventType:data:)")));
 @property BOOL muted __attribute__((swift_name("muted")));
+@property double volume __attribute__((swift_name("volume")));
 @end;
 
 __attribute__((objc_subclassing_restricted))
@@ -552,7 +553,7 @@ __attribute__((swift_name("ProgramController")))
 - (void)loadContentByIdContentId:(NSString *)contentId contentIndicator:(NSString * _Nullable)contentIndicator initiator:(NSString * _Nullable)initiator autoPlay:(BbnativesharedBoolean * _Nullable)autoPlay seekPosition:(id _Nullable)seekPosition __attribute__((swift_name("loadContentById(contentId:contentIndicator:initiator:autoPlay:seekPosition:)")));
 - (void)onEventEventType:(BbnativesharedEventName *)eventType data:(NSDictionary<NSString *, id> * _Nullable)data __attribute__((swift_name("onEvent(eventType:data:)")));
 - (void)pause __attribute__((swift_name("pause()")));
-- (void)play __attribute__((swift_name("play()")));
+- (void)playUserAction:(BOOL)userAction __attribute__((swift_name("play(userAction:)")));
 - (void)seekPositionInSeconds:(id)positionInSeconds __attribute__((swift_name("seek(positionInSeconds:)")));
 @property id<BbnativesharedAdControllerInterface> _Nullable adController __attribute__((swift_name("adController")));
 @property BbnativesharedMediaClip * _Nullable clipData __attribute__((swift_name("clipData")));
@@ -691,6 +692,7 @@ __attribute__((swift_name("EventName")))
 @property (class, readonly) BbnativesharedEventName *bbMediaCanplay __attribute__((swift_name("bbMediaCanplay")));
 @property (class, readonly) BbnativesharedEventName *bbMediaDurationChange __attribute__((swift_name("bbMediaDurationChange")));
 @property (class, readonly) BbnativesharedEventName *bbMediaTimeupdate __attribute__((swift_name("bbMediaTimeupdate")));
+@property (class, readonly) BbnativesharedEventName *bbMediaCastInfo __attribute__((swift_name("bbMediaCastInfo")));
 @property (class, readonly) BbnativesharedEventName *bbMsasPreFinished __attribute__((swift_name("bbMsasPreFinished")));
 @property (class, readonly) BbnativesharedEventName *bbMsasMainFinished __attribute__((swift_name("bbMsasMainFinished")));
 @property (class, readonly) BbnativesharedEventName *bbMsasPostFinished __attribute__((swift_name("bbMsasPostFinished")));
@@ -732,6 +734,7 @@ __attribute__((swift_name("EventName")))
 @property (class, readonly) BbnativesharedEventName *bbResized __attribute__((swift_name("bbResized")));
 @property (class, readonly) BbnativesharedEventName *bbMasterMute __attribute__((swift_name("bbMasterMute")));
 @property (class, readonly) BbnativesharedEventName *bbMasterUnmute __attribute__((swift_name("bbMasterUnmute")));
+@property (class, readonly) BbnativesharedEventName *bbMasterVolume __attribute__((swift_name("bbMasterVolume")));
 @property (class, readonly) BbnativesharedEventName *bbImaLoadFailed __attribute__((swift_name("bbImaLoadFailed")));
 @property (class, readonly) BbnativesharedEventName *loadstart __attribute__((swift_name("loadstart")));
 @property (class, readonly) BbnativesharedEventName *durationchange __attribute__((swift_name("durationchange")));
@@ -754,6 +757,9 @@ __attribute__((swift_name("EventName")))
 @property (class, readonly) BbnativesharedEventName *bbAsItemFailed __attribute__((swift_name("bbAsItemFailed")));
 @property (class, readonly) BbnativesharedEventName *bbAsFinished __attribute__((swift_name("bbAsFinished")));
 @property (class, readonly) BbnativesharedEventName *bbAsAdQuartile __attribute__((swift_name("bbAsAdQuartile")));
+@property (class, readonly) BbnativesharedEventName *bbAsPreFinished __attribute__((swift_name("bbAsPreFinished")));
+@property (class, readonly) BbnativesharedEventName *bbAsMainFinished __attribute__((swift_name("bbAsMainFinished")));
+@property (class, readonly) BbnativesharedEventName *bbAsPostFinished __attribute__((swift_name("bbAsPostFinished")));
 @property (class, readonly) BbnativesharedEventName *adinitialized __attribute__((swift_name("adinitialized")));
 @property (class, readonly) BbnativesharedEventName *adfailed __attribute__((swift_name("adfailed")));
 @property (class, readonly) BbnativesharedEventName *adnoad __attribute__((swift_name("adnoad")));
