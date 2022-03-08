@@ -651,6 +651,8 @@ __attribute__((swift_name("ApiProperty")))
 @property (class, readonly) BbnativesharedApiProperty *volume __attribute__((swift_name("volume")));
 @property (class, readonly) BbnativesharedApiProperty *muted __attribute__((swift_name("muted")));
 @property (class, readonly) BbnativesharedApiProperty *duration __attribute__((swift_name("duration")));
+@property (class, readonly) BbnativesharedApiProperty *admediawidth __attribute__((swift_name("admediawidth")));
+@property (class, readonly) BbnativesharedApiProperty *admediaheight __attribute__((swift_name("admediaheight")));
 @property (class, readonly) BbnativesharedApiProperty *inview __attribute__((swift_name("inview")));
 + (BbnativesharedKotlinArray<BbnativesharedApiProperty *> *)values __attribute__((swift_name("values()")));
 @end;
