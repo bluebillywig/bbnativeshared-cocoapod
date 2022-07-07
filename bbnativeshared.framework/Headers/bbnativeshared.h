@@ -6,9 +6,9 @@
 #import <Foundation/NSString.h>
 #import <Foundation/NSValue.h>
 
-@class BbnativesharedEventName, BbnativesharedProgramController, BbnativesharedAutoPlayNextTimerCompanion, BbnativesharedLogger, BbnativesharedPlatformCompanion, BbnativesharedRelatedItemsHelperCompanion, BbnativesharedPosType, BbnativesharedDatabaseDriverFactory, BbnativesharedDatabaseParameters, BbnativesharedDatabaseCompanion, BbnativesharedLocalStorage, BbnativesharedLocalStorageDatabaseCompanion, BbnativesharedRuntimeQuery<__covariant RowType>, BbnativesharedSelectKey, BbnativesharedSelectKeyType, BbnativesharedVersion, BbnativesharedEmbedObject, BbnativesharedAdSchedulingControllerCompanion, BbnativesharedPhase, BbnativesharedEmbedControllerCompanion, BbnativesharedMediaClip, BbnativesharedMediaClipList, BbnativesharedPlayout, BbnativesharedProject, BbnativesharedPublication, BbnativesharedMasterController, BbnativesharedMasterControllerCompanion, BbnativesharedMsasControllerCompanion, BbnativesharedAdUnit, BbnativesharedProgramControllerCompanion, BbnativesharedState, BbnativesharedMediaAsset, BbnativesharedKotlinEnumCompanion, BbnativesharedKotlinEnum<E>, BbnativesharedApiMethod, BbnativesharedKotlinArray<T>, BbnativesharedApiProperty, BbnativesharedFitMode, BbnativesharedParameter, BbnativesharedActionCompanion, BbnativesharedAction, BbnativesharedAdSchedulingDataCompanion, BbnativesharedAdSchedulingData, BbnativesharedAdUnitPlayout, BbnativesharedLineItem_, BbnativesharedAdUnitCompanion, BbnativesharedEventHandler, BbnativesharedAdUnitPlayoutCompanion, BbnativesharedAudiotrackCompanion, BbnativesharedAudiotrack, BbnativesharedStep, BbnativesharedChapterCompanion, BbnativesharedChapter, BbnativesharedKotlinx_serialization_jsonJsonElement, BbnativesharedConditionCompanion, BbnativesharedCondition, BbnativesharedBBModel, BbnativesharedContentItemCompanion, BbnativesharedDatesCompanion, BbnativesharedDates, BbnativesharedEmbedDataCompanion, BbnativesharedEmbedData, BbnativesharedRequestParams, BbnativesharedVersioningData, BbnativesharedEmbedObjectCompanion, BbnativesharedProcedure, BbnativesharedEventHandlerCompanion, BbnativesharedLineItem_Companion, BbnativesharedMediaAssetCompanion, BbnativesharedContentItem, BbnativesharedThumbnail, BbnativesharedSubtitle, BbnativesharedTimeline, BbnativesharedMediaClipCompanion, BbnativesharedMediaClipListCompanion, BbnativesharedParameterCompanion, BbnativesharedPlayerCompanion, BbnativesharedPlayer, BbnativesharedPlayerSettingsCompanion, BbnativesharedPlayerSettings, BbnativesharedPlayoutCompanion, BbnativesharedProcedureCompanion, BbnativesharedProjectCompanion, BbnativesharedPublicationCompanion, BbnativesharedRequestParamsCompanion, BbnativesharedStepCompanion, BbnativesharedSubtitleCompanion, BbnativesharedThumbnailCompanion, BbnativesharedTimelineCompanion, BbnativesharedTypedObjectCompanion, BbnativesharedTypedObject, BbnativesharedVersioningDataCompanion, BbnativesharedKotlinx_coroutines_coreCoroutineDispatcher, BbnativesharedBlueBillywigLoggerCompanion, BbnativesharedContentLoaderCompanion, BbnativesharedKotlinException, BbnativesharedDatabase, BbnativesharedKotlinx_serialization_coreSerializersModule, BbnativesharedRuntimeTransacterTransaction, BbnativesharedKotlinx_serialization_jsonJsonElementCompanion, BbnativesharedKotlinAbstractCoroutineContextElement, BbnativesharedKotlinx_coroutines_coreCoroutineDispatcherKey, BbnativesharedKotlinUnit, BbnativesharedKotlinThrowable, BbnativesharedKotlinCancellationException, BbnativesharedKotlinByteArray, BbnativesharedKotlinx_serialization_coreSerialKind, BbnativesharedKotlinNothing, BbnativesharedKotlinAbstractCoroutineContextKey<B, E>, BbnativesharedKotlinRuntimeException, BbnativesharedKotlinIllegalStateException, BbnativesharedKotlinByteIterator, BbnativesharedKotlinx_coroutines_coreAtomicDesc, BbnativesharedKotlinx_coroutines_coreLockFreeLinkedListNodePrepareOp, BbnativesharedKotlinx_coroutines_coreAtomicOp<__contravariant T>, BbnativesharedKotlinx_coroutines_coreOpDescriptor, BbnativesharedKotlinx_coroutines_coreLockFreeLinkedListNode, BbnativesharedKotlinx_coroutines_coreLockFreeLinkedListNodeAbstractAtomicDesc, BbnativesharedKotlinx_coroutines_coreLockFreeLinkedListNodeAddLastDesc<T>, BbnativesharedKotlinx_coroutines_coreLockFreeLinkedListNodeRemoveFirstDesc<T>;
+@class BbnativesharedEventName, BbnativesharedProgramController, BbnativesharedAutoPlayNextTimerCompanion, BbnativesharedLogger, BbnativesharedPlatformCompanion, BbnativesharedRelatedItemsHelperCompanion, BbnativesharedPosType, BbnativesharedEmbedObject, BbnativesharedAdSchedulingControllerCompanion, BbnativesharedPhase, BbnativesharedEmbedControllerCompanion, BbnativesharedMediaClip, BbnativesharedMediaClipList, BbnativesharedPlayout, BbnativesharedProject, BbnativesharedPublication, BbnativesharedMasterController, BbnativesharedMasterControllerCompanion, BbnativesharedMsasControllerCompanion, BbnativesharedAdUnit, BbnativesharedProgramControllerCompanion, BbnativesharedState, BbnativesharedMediaAsset, BbnativesharedKotlinEnumCompanion, BbnativesharedKotlinEnum<E>, BbnativesharedApiMethod, BbnativesharedKotlinArray<T>, BbnativesharedApiProperty, BbnativesharedFitMode, BbnativesharedParameter, BbnativesharedActionCompanion, BbnativesharedAction, BbnativesharedAdSchedulingDataCompanion, BbnativesharedAdSchedulingData, BbnativesharedAdUnitPlayout, BbnativesharedLineItem_, BbnativesharedAdUnitCompanion, BbnativesharedEventHandler, BbnativesharedAdUnitPlayoutCompanion, BbnativesharedAudiotrackCompanion, BbnativesharedAudiotrack, BbnativesharedStep, BbnativesharedChapterCompanion, BbnativesharedChapter, BbnativesharedKotlinx_serialization_jsonJsonElement, BbnativesharedConditionCompanion, BbnativesharedCondition, BbnativesharedBBModel, BbnativesharedContentItemCompanion, BbnativesharedDatesCompanion, BbnativesharedDates, BbnativesharedEmbedDataCompanion, BbnativesharedEmbedData, BbnativesharedRequestParams, BbnativesharedVersioningData, BbnativesharedEmbedObjectCompanion, BbnativesharedProcedure, BbnativesharedEventHandlerCompanion, BbnativesharedLineItem_Companion, BbnativesharedMediaAssetCompanion, BbnativesharedContentItem, BbnativesharedThumbnail, BbnativesharedSubtitle, BbnativesharedTimeline, BbnativesharedMediaClipCompanion, BbnativesharedMediaClipListCompanion, BbnativesharedParameterCompanion, BbnativesharedPlayerCompanion, BbnativesharedPlayer, BbnativesharedPlayerSettingsCompanion, BbnativesharedPlayerSettings, BbnativesharedPlayoutCompanion, BbnativesharedProcedureCompanion, BbnativesharedProjectCompanion, BbnativesharedPublicationCompanion, BbnativesharedRequestParamsCompanion, BbnativesharedStepCompanion, BbnativesharedSubtitleCompanion, BbnativesharedThumbnailCompanion, BbnativesharedTimelineCompanion, BbnativesharedTypedObjectCompanion, BbnativesharedTypedObject, BbnativesharedVersioningDataCompanion, BbnativesharedKotlinx_coroutines_coreCoroutineDispatcher, BbnativesharedBlueBillywigLoggerCompanion, BbnativesharedContentLoaderCompanion, BbnativesharedKotlinException, BbnativesharedKotlinx_serialization_coreSerializersModule, BbnativesharedKotlinx_serialization_jsonJsonElementCompanion, BbnativesharedKotlinAbstractCoroutineContextElement, BbnativesharedKotlinx_coroutines_coreCoroutineDispatcherKey, BbnativesharedKotlinUnit, BbnativesharedKotlinThrowable, BbnativesharedKotlinCancellationException, BbnativesharedKotlinx_serialization_coreSerialKind, BbnativesharedKotlinNothing, BbnativesharedKotlinAbstractCoroutineContextKey<B, E>, BbnativesharedKotlinRuntimeException, BbnativesharedKotlinIllegalStateException, BbnativesharedKotlinx_coroutines_coreAtomicDesc, BbnativesharedKotlinx_coroutines_coreLockFreeLinkedListNodePrepareOp, BbnativesharedKotlinx_coroutines_coreAtomicOp<__contravariant T>, BbnativesharedKotlinx_coroutines_coreOpDescriptor, BbnativesharedKotlinx_coroutines_coreLockFreeLinkedListNode, BbnativesharedKotlinx_coroutines_coreLockFreeLinkedListNodeAbstractAtomicDesc, BbnativesharedKotlinx_coroutines_coreLockFreeLinkedListNodeAddLastDesc<T>, BbnativesharedKotlinx_coroutines_coreLockFreeLinkedListNodeRemoveFirstDesc<T>;
 
-@protocol BbnativesharedEventListenerInterface, BbnativesharedEventBusInterface, BbnativesharedKotlinx_coroutines_coreCoroutineScope, BbnativesharedNetworkInterface, BbnativesharedRuntimeSqlDriver, BbnativesharedLocalStorageDatabaseQueries, BbnativesharedRuntimeTransactionWithoutReturn, BbnativesharedRuntimeTransactionWithReturn, BbnativesharedRuntimeTransacter, BbnativesharedLocalStorageDatabase, BbnativesharedRuntimeSqlDriverSchema, BbnativesharedAdControllerInterface, BbnativesharedContentItemInterface, BbnativesharedMediaControllerInterface, BbnativesharedPosterControllerInterface, BbnativesharedKotlinComparable, BbnativesharedKotlinx_serialization_coreKSerializer, BbnativesharedKotlinCoroutineContext, BbnativesharedKotlinx_coroutines_coreMutableStateFlow, BbnativesharedKotlinx_coroutines_coreCompletableJob, BbnativesharedRuntimeSqlPreparedStatement, BbnativesharedRuntimeSqlCursor, BbnativesharedRuntimeCloseable, BbnativesharedRuntimeTransactionCallbacks, BbnativesharedRuntimeQueryListener, BbnativesharedKotlinIterator, BbnativesharedKotlinx_serialization_coreEncoder, BbnativesharedKotlinx_serialization_coreSerialDescriptor, BbnativesharedKotlinx_serialization_coreSerializationStrategy, BbnativesharedKotlinx_serialization_coreDecoder, BbnativesharedKotlinx_serialization_coreDeserializationStrategy, BbnativesharedKotlinCoroutineContextElement, BbnativesharedKotlinCoroutineContextKey, BbnativesharedKotlinContinuation, BbnativesharedKotlinContinuationInterceptor, BbnativesharedKotlinx_coroutines_coreRunnable, BbnativesharedKotlinx_coroutines_coreFlowCollector, BbnativesharedKotlinx_coroutines_coreFlow, BbnativesharedKotlinx_coroutines_coreSharedFlow, BbnativesharedKotlinx_coroutines_coreStateFlow, BbnativesharedKotlinx_coroutines_coreMutableSharedFlow, BbnativesharedKotlinx_coroutines_coreChildHandle, BbnativesharedKotlinx_coroutines_coreChildJob, BbnativesharedKotlinx_coroutines_coreDisposableHandle, BbnativesharedKotlinx_coroutines_coreJob, BbnativesharedKotlinSequence, BbnativesharedKotlinx_coroutines_coreSelectClause0, BbnativesharedKotlinx_serialization_coreSerializersModuleCollector, BbnativesharedKotlinKClass, BbnativesharedKotlinx_serialization_coreCompositeEncoder, BbnativesharedKotlinAnnotation, BbnativesharedKotlinx_serialization_coreCompositeDecoder, BbnativesharedKotlinx_coroutines_coreParentJob, BbnativesharedKotlinx_coroutines_coreSelectInstance, BbnativesharedKotlinSuspendFunction0, BbnativesharedKotlinKDeclarationContainer, BbnativesharedKotlinKAnnotatedElement, BbnativesharedKotlinKClassifier, BbnativesharedKotlinFunction;
+@protocol BbnativesharedEventListenerInterface, BbnativesharedEventBusInterface, BbnativesharedKotlinx_coroutines_coreCoroutineScope, BbnativesharedNetworkInterface, BbnativesharedAdControllerInterface, BbnativesharedContentItemInterface, BbnativesharedMediaControllerInterface, BbnativesharedPosterControllerInterface, BbnativesharedKotlinComparable, BbnativesharedKotlinx_serialization_coreKSerializer, BbnativesharedKotlinCoroutineContext, BbnativesharedKotlinx_coroutines_coreMutableStateFlow, BbnativesharedKotlinx_coroutines_coreCompletableJob, BbnativesharedKotlinIterator, BbnativesharedKotlinx_serialization_coreEncoder, BbnativesharedKotlinx_serialization_coreSerialDescriptor, BbnativesharedKotlinx_serialization_coreSerializationStrategy, BbnativesharedKotlinx_serialization_coreDecoder, BbnativesharedKotlinx_serialization_coreDeserializationStrategy, BbnativesharedKotlinCoroutineContextElement, BbnativesharedKotlinCoroutineContextKey, BbnativesharedKotlinContinuation, BbnativesharedKotlinContinuationInterceptor, BbnativesharedKotlinx_coroutines_coreRunnable, BbnativesharedKotlinx_coroutines_coreFlowCollector, BbnativesharedKotlinx_coroutines_coreFlow, BbnativesharedKotlinx_coroutines_coreSharedFlow, BbnativesharedKotlinx_coroutines_coreStateFlow, BbnativesharedKotlinx_coroutines_coreMutableSharedFlow, BbnativesharedKotlinx_coroutines_coreChildHandle, BbnativesharedKotlinx_coroutines_coreChildJob, BbnativesharedKotlinx_coroutines_coreDisposableHandle, BbnativesharedKotlinx_coroutines_coreJob, BbnativesharedKotlinSequence, BbnativesharedKotlinx_coroutines_coreSelectClause0, BbnativesharedKotlinx_serialization_coreSerializersModuleCollector, BbnativesharedKotlinKClass, BbnativesharedKotlinx_serialization_coreCompositeEncoder, BbnativesharedKotlinAnnotation, BbnativesharedKotlinx_serialization_coreCompositeDecoder, BbnativesharedKotlinx_coroutines_coreParentJob, BbnativesharedKotlinx_coroutines_coreSelectInstance, BbnativesharedKotlinSuspendFunction0, BbnativesharedKotlinKDeclarationContainer, BbnativesharedKotlinKAnnotatedElement, BbnativesharedKotlinKClassifier, BbnativesharedKotlinFunction;
 
 NS_ASSUME_NONNULL_BEGIN
 #pragma clang diagnostic push
@@ -277,6 +277,7 @@ __attribute__((swift_name("NetworkInterface")))
 @required
 - (void)__destruct __attribute__((swift_name("__destruct()")));
 - (void)getJsonStringJsonUrl:(NSString *)jsonUrl onSuccess:(void (^)(NSString *))onSuccess onFailure:(void (^)(BbnativesharedBoolean *))onFailure __attribute__((swift_name("getJsonString(jsonUrl:onSuccess:onFailure:)")));
+- (void)logStatsUrl:(NSString *)url onSuccess:(void (^)(void))onSuccess onFailure:(void (^)(BbnativesharedBoolean *))onFailure __attribute__((swift_name("logStats(url:onSuccess:onFailure:)")));
 @end;
 
 __attribute__((swift_name("PosterControllerInterface")))
@@ -285,135 +286,6 @@ __attribute__((swift_name("PosterControllerInterface")))
 - (BOOL)hide __attribute__((swift_name("hide()")));
 - (BOOL)loadPosterUrl:(NSString * _Nullable)posterUrl posterMediaType:(NSString * _Nullable)posterMediaType __attribute__((swift_name("load(posterUrl:posterMediaType:)")));
 - (BOOL)show __attribute__((swift_name("show()")));
-@end;
-
-__attribute__((objc_subclassing_restricted))
-__attribute__((swift_name("Database")))
-@interface BbnativesharedDatabase : BbnativesharedBase
-- (instancetype)initWithDatabaseDriverFactory:(BbnativesharedDatabaseDriverFactory * _Nullable)databaseDriverFactory databaseParameters:(BbnativesharedDatabaseParameters * _Nullable)databaseParameters __attribute__((swift_name("init(databaseDriverFactory:databaseParameters:)"))) __attribute__((objc_designated_initializer));
-@property (class, readonly, getter=companion) BbnativesharedDatabaseCompanion *companion __attribute__((swift_name("companion")));
-@end;
-
-__attribute__((objc_subclassing_restricted))
-__attribute__((swift_name("Database.Companion")))
-@interface BbnativesharedDatabaseCompanion : BbnativesharedBase
-+ (instancetype)alloc __attribute__((unavailable));
-+ (instancetype)allocWithZone:(struct _NSZone *)zone __attribute__((unavailable));
-+ (instancetype)companion __attribute__((swift_name("init()")));
-@property (class, readonly, getter=shared) BbnativesharedDatabaseCompanion *shared __attribute__((swift_name("shared")));
-@end;
-
-__attribute__((objc_subclassing_restricted))
-__attribute__((swift_name("DatabaseDriverFactory")))
-@interface BbnativesharedDatabaseDriverFactory : BbnativesharedBase
-- (instancetype)init __attribute__((swift_name("init()"))) __attribute__((objc_designated_initializer));
-+ (instancetype)new __attribute__((availability(swift, unavailable, message="use object initializers instead")));
-- (id<BbnativesharedRuntimeSqlDriver>)createDriverDatabaseParameters:(BbnativesharedDatabaseParameters * _Nullable)databaseParameters __attribute__((swift_name("createDriver(databaseParameters:)")));
-@end;
-
-__attribute__((objc_subclassing_restricted))
-__attribute__((swift_name("DatabaseParameters")))
-@interface BbnativesharedDatabaseParameters : BbnativesharedBase
-- (instancetype)init __attribute__((swift_name("init()"))) __attribute__((objc_designated_initializer));
-+ (instancetype)new __attribute__((availability(swift, unavailable, message="use object initializers instead")));
-@end;
-
-__attribute__((objc_subclassing_restricted))
-__attribute__((swift_name("LocalStorage")))
-@interface BbnativesharedLocalStorage : BbnativesharedBase
-- (instancetype)initWithKey:(NSString *)key value:(NSString * _Nullable)value type:(BbnativesharedLong * _Nullable)type __attribute__((swift_name("init(key:value:type:)"))) __attribute__((objc_designated_initializer));
-- (NSString *)component1 __attribute__((swift_name("component1()")));
-- (NSString * _Nullable)component2 __attribute__((swift_name("component2()")));
-- (BbnativesharedLong * _Nullable)component3 __attribute__((swift_name("component3()")));
-- (BbnativesharedLocalStorage *)doCopyKey:(NSString *)key value:(NSString * _Nullable)value type:(BbnativesharedLong * _Nullable)type __attribute__((swift_name("doCopy(key:value:type:)")));
-- (BOOL)isEqual:(id _Nullable)other __attribute__((swift_name("isEqual(_:)")));
-- (NSUInteger)hash __attribute__((swift_name("hash()")));
-- (NSString *)description __attribute__((swift_name("description()")));
-@property (readonly) NSString *key __attribute__((swift_name("key")));
-@property (readonly) BbnativesharedLong * _Nullable type __attribute__((swift_name("type")));
-@property (readonly) NSString * _Nullable value __attribute__((swift_name("value")));
-@end;
-
-__attribute__((swift_name("RuntimeTransacter")))
-@protocol BbnativesharedRuntimeTransacter
-@required
-- (void)transactionNoEnclosing:(BOOL)noEnclosing body:(void (^)(id<BbnativesharedRuntimeTransactionWithoutReturn>))body __attribute__((swift_name("transaction(noEnclosing:body:)")));
-- (id _Nullable)transactionWithResultNoEnclosing:(BOOL)noEnclosing bodyWithReturn:(id _Nullable (^)(id<BbnativesharedRuntimeTransactionWithReturn>))bodyWithReturn __attribute__((swift_name("transactionWithResult(noEnclosing:bodyWithReturn:)")));
-@end;
-
-__attribute__((swift_name("LocalStorageDatabase")))
-@protocol BbnativesharedLocalStorageDatabase <BbnativesharedRuntimeTransacter>
-@required
-@property (readonly) id<BbnativesharedLocalStorageDatabaseQueries> localStorageDatabaseQueries __attribute__((swift_name("localStorageDatabaseQueries")));
-@end;
-
-__attribute__((objc_subclassing_restricted))
-__attribute__((swift_name("LocalStorageDatabaseCompanion")))
-@interface BbnativesharedLocalStorageDatabaseCompanion : BbnativesharedBase
-+ (instancetype)alloc __attribute__((unavailable));
-+ (instancetype)allocWithZone:(struct _NSZone *)zone __attribute__((unavailable));
-+ (instancetype)companion __attribute__((swift_name("init()")));
-@property (class, readonly, getter=shared) BbnativesharedLocalStorageDatabaseCompanion *shared __attribute__((swift_name("shared")));
-- (id<BbnativesharedLocalStorageDatabase>)invokeDriver:(id<BbnativesharedRuntimeSqlDriver>)driver __attribute__((swift_name("invoke(driver:)")));
-@property (readonly) id<BbnativesharedRuntimeSqlDriverSchema> Schema __attribute__((swift_name("Schema")));
-@end;
-
-__attribute__((swift_name("LocalStorageDatabaseQueries")))
-@protocol BbnativesharedLocalStorageDatabaseQueries <BbnativesharedRuntimeTransacter>
-@required
-- (void)createLocalStorageTable __attribute__((swift_name("createLocalStorageTable()")));
-- (void)createVersionTable __attribute__((swift_name("createVersionTable()")));
-- (void)deleteVersions __attribute__((swift_name("deleteVersions()")));
-- (void)dropTable __attribute__((swift_name("dropTable()")));
-- (void)insertKeyKey:(NSString *)key value:(NSString * _Nullable)value __attribute__((swift_name("insertKey(key:value:)")));
-- (void)insertKeyTypeKey:(NSString *)key value:(NSString * _Nullable)value type:(BbnativesharedLong * _Nullable)type __attribute__((swift_name("insertKeyType(key:value:type:)")));
-- (void)insertVersionVersion:(BbnativesharedLong * _Nullable)version __attribute__((swift_name("insertVersion(version:)")));
-- (void)removeAllKeys __attribute__((swift_name("removeAllKeys()")));
-- (void)removeKeyKey:(NSString *)key __attribute__((swift_name("removeKey(key:)")));
-- (BbnativesharedRuntimeQuery<NSString *> *)selectAllKeys __attribute__((swift_name("selectAllKeys()")));
-- (BbnativesharedRuntimeQuery<BbnativesharedSelectKey *> *)selectKeyKey:(NSString *)key __attribute__((swift_name("selectKey(key:)")));
-- (BbnativesharedRuntimeQuery<id> *)selectKeyKey:(NSString *)key mapper:(id (^)(NSString * _Nullable))mapper __attribute__((swift_name("selectKey(key:mapper:)")));
-- (BbnativesharedRuntimeQuery<BbnativesharedSelectKeyType *> *)selectKeyTypeKey:(NSString *)key __attribute__((swift_name("selectKeyType(key:)")));
-- (BbnativesharedRuntimeQuery<id> *)selectKeyTypeKey:(NSString *)key mapper:(id (^)(NSString * _Nullable, BbnativesharedLong * _Nullable))mapper __attribute__((swift_name("selectKeyType(key:mapper:)")));
-- (BbnativesharedRuntimeQuery<BbnativesharedLong *> *)selectVersion __attribute__((swift_name("selectVersion()")));
-@end;
-
-__attribute__((objc_subclassing_restricted))
-__attribute__((swift_name("SelectKey")))
-@interface BbnativesharedSelectKey : BbnativesharedBase
-- (instancetype)initWithValue:(NSString * _Nullable)value __attribute__((swift_name("init(value:)"))) __attribute__((objc_designated_initializer));
-- (NSString * _Nullable)component1 __attribute__((swift_name("component1()")));
-- (BbnativesharedSelectKey *)doCopyValue:(NSString * _Nullable)value __attribute__((swift_name("doCopy(value:)")));
-- (BOOL)isEqual:(id _Nullable)other __attribute__((swift_name("isEqual(_:)")));
-- (NSUInteger)hash __attribute__((swift_name("hash()")));
-- (NSString *)description __attribute__((swift_name("description()")));
-@property (readonly) NSString * _Nullable value __attribute__((swift_name("value")));
-@end;
-
-__attribute__((objc_subclassing_restricted))
-__attribute__((swift_name("SelectKeyType")))
-@interface BbnativesharedSelectKeyType : BbnativesharedBase
-- (instancetype)initWithValue:(NSString * _Nullable)value type:(BbnativesharedLong * _Nullable)type __attribute__((swift_name("init(value:type:)"))) __attribute__((objc_designated_initializer));
-- (NSString * _Nullable)component1 __attribute__((swift_name("component1()")));
-- (BbnativesharedLong * _Nullable)component2 __attribute__((swift_name("component2()")));
-- (BbnativesharedSelectKeyType *)doCopyValue:(NSString * _Nullable)value type:(BbnativesharedLong * _Nullable)type __attribute__((swift_name("doCopy(value:type:)")));
-- (BOOL)isEqual:(id _Nullable)other __attribute__((swift_name("isEqual(_:)")));
-- (NSUInteger)hash __attribute__((swift_name("hash()")));
-- (NSString *)description __attribute__((swift_name("description()")));
-@property (readonly) BbnativesharedLong * _Nullable type __attribute__((swift_name("type")));
-@property (readonly) NSString * _Nullable value __attribute__((swift_name("value")));
-@end;
-
-__attribute__((objc_subclassing_restricted))
-__attribute__((swift_name("Version")))
-@interface BbnativesharedVersion : BbnativesharedBase
-- (instancetype)initWithVersion:(int64_t)version __attribute__((swift_name("init(version:)"))) __attribute__((objc_designated_initializer));
-- (int64_t)component1 __attribute__((swift_name("component1()")));
-- (BbnativesharedVersion *)doCopyVersion:(int64_t)version __attribute__((swift_name("doCopy(version:)")));
-- (BOOL)isEqual:(id _Nullable)other __attribute__((swift_name("isEqual(_:)")));
-- (NSUInteger)hash __attribute__((swift_name("hash()")));
-- (NSString *)description __attribute__((swift_name("description()")));
-@property (readonly) int64_t version __attribute__((swift_name("version")));
 @end;
 
 __attribute__((objc_subclassing_restricted))
@@ -491,13 +363,6 @@ __attribute__((swift_name("InViewController")))
 @property NSString *_inViewAction __attribute__((swift_name("_inViewAction")));
 @property BbnativesharedBoolean * _Nullable _inView_forced __attribute__((swift_name("_inView_forced")));
 @property NSString *_outViewAction __attribute__((swift_name("_outViewAction")));
-@end;
-
-__attribute__((objc_subclassing_restricted))
-__attribute__((swift_name("LocalStorageController")))
-@interface BbnativesharedLocalStorageController : BbnativesharedBase
-- (instancetype)initWithDatabaseParameters:(BbnativesharedDatabaseParameters * _Nullable)databaseParameters __attribute__((swift_name("init(databaseParameters:)"))) __attribute__((objc_designated_initializer));
-- (void)__destruct __attribute__((swift_name("__destruct()")));
 @end;
 
 __attribute__((objc_subclassing_restricted))
@@ -592,7 +457,7 @@ __attribute__((swift_name("ProgramController.Companion")))
 __attribute__((objc_subclassing_restricted))
 __attribute__((swift_name("StatsController")))
 @interface BbnativesharedStatsController : BbnativesharedBase <BbnativesharedEventListenerInterface>
-- (instancetype)initWithEventBus:(id<BbnativesharedEventBusInterface> _Nullable)eventBus __attribute__((swift_name("init(eventBus:)"))) __attribute__((objc_designated_initializer));
+- (instancetype)initWithEventBus:(id<BbnativesharedEventBusInterface> _Nullable)eventBus network:(id<BbnativesharedNetworkInterface> _Nullable)network __attribute__((swift_name("init(eventBus:network:)"))) __attribute__((objc_designated_initializer));
 - (void)__destruct __attribute__((swift_name("__destruct()")));
 - (void)onEventEventType:(BbnativesharedEventName *)eventType data:(NSDictionary<NSString *, id> * _Nullable)data __attribute__((swift_name("onEvent(eventType:data:)")));
 @property id<BbnativesharedEventBusInterface> _Nullable eventBus __attribute__((swift_name("eventBus")));
@@ -2620,8 +2485,8 @@ __attribute__((swift_name("Kotlinx_coroutines_coreCoroutineScope")))
 
 __attribute__((swift_name("BlueBillywigLogger")))
 @interface BbnativesharedBlueBillywigLogger : BbnativesharedBase <BbnativesharedEventListenerInterface, BbnativesharedKotlinx_coroutines_coreCoroutineScope>
-- (instancetype)initWithEventBus:(id<BbnativesharedEventBusInterface> _Nullable)eventBus __attribute__((swift_name("init(eventBus:)"))) __attribute__((objc_designated_initializer));
-- (instancetype)initWithEventBus:(id<BbnativesharedEventBusInterface> _Nullable)eventBus mainDispatcher:(BbnativesharedKotlinx_coroutines_coreCoroutineDispatcher *)mainDispatcher __attribute__((swift_name("init(eventBus:mainDispatcher:)"))) __attribute__((objc_designated_initializer));
+- (instancetype)initWithEventBus:(id<BbnativesharedEventBusInterface> _Nullable)eventBus network:(id<BbnativesharedNetworkInterface> _Nullable)network __attribute__((swift_name("init(eventBus:network:)"))) __attribute__((objc_designated_initializer));
+- (instancetype)initWithEventBus:(id<BbnativesharedEventBusInterface> _Nullable)eventBus network:(id<BbnativesharedNetworkInterface> _Nullable)network mainDispatcher:(BbnativesharedKotlinx_coroutines_coreCoroutineDispatcher *)mainDispatcher __attribute__((swift_name("init(eventBus:network:mainDispatcher:)"))) __attribute__((objc_designated_initializer));
 @property (class, readonly, getter=companion) BbnativesharedBlueBillywigLoggerCompanion *companion __attribute__((swift_name("companion")));
 - (void)__destruct __attribute__((swift_name("__destruct()")));
 - (void)disable __attribute__((swift_name("disable()")));
@@ -2676,72 +2541,9 @@ __attribute__((swift_name("ContentLoader.Companion")))
 @end;
 
 __attribute__((objc_subclassing_restricted))
-__attribute__((swift_name("LocalStorageControllerKt")))
-@interface BbnativesharedLocalStorageControllerKt : BbnativesharedBase
-@property (class) BbnativesharedDatabase * _Nullable localStorage __attribute__((swift_name("localStorage")));
-@end;
-
-__attribute__((objc_subclassing_restricted))
 __attribute__((swift_name("ContentItemKt")))
 @interface BbnativesharedContentItemKt : BbnativesharedBase
 @property (class, readonly) BbnativesharedKotlinx_serialization_coreSerializersModule *contentItemSerializersModule __attribute__((swift_name("contentItemSerializersModule")));
-@end;
-
-__attribute__((swift_name("RuntimeCloseable")))
-@protocol BbnativesharedRuntimeCloseable
-@required
-- (void)close __attribute__((swift_name("close()")));
-@end;
-
-__attribute__((swift_name("RuntimeSqlDriver")))
-@protocol BbnativesharedRuntimeSqlDriver <BbnativesharedRuntimeCloseable>
-@required
-- (BbnativesharedRuntimeTransacterTransaction * _Nullable)currentTransaction __attribute__((swift_name("currentTransaction()")));
-- (void)executeIdentifier:(BbnativesharedInt * _Nullable)identifier sql:(NSString *)sql parameters:(int32_t)parameters binders:(void (^ _Nullable)(id<BbnativesharedRuntimeSqlPreparedStatement>))binders __attribute__((swift_name("execute(identifier:sql:parameters:binders:)")));
-- (id<BbnativesharedRuntimeSqlCursor>)executeQueryIdentifier:(BbnativesharedInt * _Nullable)identifier sql:(NSString *)sql parameters:(int32_t)parameters binders:(void (^ _Nullable)(id<BbnativesharedRuntimeSqlPreparedStatement>))binders __attribute__((swift_name("executeQuery(identifier:sql:parameters:binders:)")));
-- (BbnativesharedRuntimeTransacterTransaction *)doNewTransaction __attribute__((swift_name("doNewTransaction()")));
-@end;
-
-__attribute__((swift_name("RuntimeTransactionCallbacks")))
-@protocol BbnativesharedRuntimeTransactionCallbacks
-@required
-- (void)afterCommitFunction:(void (^)(void))function __attribute__((swift_name("afterCommit(function:)")));
-- (void)afterRollbackFunction:(void (^)(void))function __attribute__((swift_name("afterRollback(function:)")));
-@end;
-
-__attribute__((swift_name("RuntimeTransactionWithoutReturn")))
-@protocol BbnativesharedRuntimeTransactionWithoutReturn <BbnativesharedRuntimeTransactionCallbacks>
-@required
-- (void)rollback __attribute__((swift_name("rollback()")));
-- (void)transactionBody:(void (^)(id<BbnativesharedRuntimeTransactionWithoutReturn>))body __attribute__((swift_name("transaction(body:)")));
-@end;
-
-__attribute__((swift_name("RuntimeTransactionWithReturn")))
-@protocol BbnativesharedRuntimeTransactionWithReturn <BbnativesharedRuntimeTransactionCallbacks>
-@required
-- (void)rollbackReturnValue:(id _Nullable)returnValue __attribute__((swift_name("rollback(returnValue:)")));
-- (id _Nullable)transactionBody_:(id _Nullable (^)(id<BbnativesharedRuntimeTransactionWithReturn>))body __attribute__((swift_name("transaction(body_:)")));
-@end;
-
-__attribute__((swift_name("RuntimeSqlDriverSchema")))
-@protocol BbnativesharedRuntimeSqlDriverSchema
-@required
-- (void)createDriver:(id<BbnativesharedRuntimeSqlDriver>)driver __attribute__((swift_name("create(driver:)")));
-- (void)migrateDriver:(id<BbnativesharedRuntimeSqlDriver>)driver oldVersion:(int32_t)oldVersion newVersion:(int32_t)newVersion __attribute__((swift_name("migrate(driver:oldVersion:newVersion:)")));
-@property (readonly) int32_t version __attribute__((swift_name("version")));
-@end;
-
-__attribute__((swift_name("RuntimeQuery")))
-@interface BbnativesharedRuntimeQuery<__covariant RowType> : BbnativesharedBase
-- (instancetype)initWithQueries:(NSMutableArray<BbnativesharedRuntimeQuery<id> *> *)queries mapper:(RowType (^)(id<BbnativesharedRuntimeSqlCursor>))mapper __attribute__((swift_name("init(queries:mapper:)"))) __attribute__((objc_designated_initializer));
-- (void)addListenerListener:(id<BbnativesharedRuntimeQueryListener>)listener __attribute__((swift_name("addListener(listener:)")));
-- (id<BbnativesharedRuntimeSqlCursor>)execute __attribute__((swift_name("execute()")));
-- (NSArray<RowType> *)executeAsList __attribute__((swift_name("executeAsList()")));
-- (RowType)executeAsOne __attribute__((swift_name("executeAsOne()")));
-- (RowType _Nullable)executeAsOneOrNull __attribute__((swift_name("executeAsOneOrNull()")));
-- (void)notifyDataChanged __attribute__((swift_name("notifyDataChanged()")));
-- (void)removeListenerListener:(id<BbnativesharedRuntimeQueryListener>)listener __attribute__((swift_name("removeListener(listener:)")));
-@property (readonly) RowType (^mapper)(id<BbnativesharedRuntimeSqlCursor>) __attribute__((swift_name("mapper")));
 @end;
 
 __attribute__((objc_subclassing_restricted))
@@ -2829,6 +2631,7 @@ __attribute__((swift_name("Kotlinx_coroutines_coreCoroutineDispatcher")))
 - (void)dispatchYieldContext:(id<BbnativesharedKotlinCoroutineContext>)context block:(id<BbnativesharedKotlinx_coroutines_coreRunnable>)block __attribute__((swift_name("dispatchYield(context:block:)")));
 - (id<BbnativesharedKotlinContinuation>)interceptContinuationContinuation:(id<BbnativesharedKotlinContinuation>)continuation __attribute__((swift_name("interceptContinuation(continuation:)")));
 - (BOOL)isDispatchNeededContext:(id<BbnativesharedKotlinCoroutineContext>)context __attribute__((swift_name("isDispatchNeeded(context:)")));
+- (BbnativesharedKotlinx_coroutines_coreCoroutineDispatcher *)limitedParallelismParallelism:(int32_t)parallelism __attribute__((swift_name("limitedParallelism(parallelism:)")));
 - (BbnativesharedKotlinx_coroutines_coreCoroutineDispatcher *)plusOther:(BbnativesharedKotlinx_coroutines_coreCoroutineDispatcher *)other __attribute__((swift_name("plus(other:)"))) __attribute__((unavailable("Operator '+' on two CoroutineDispatcher objects is meaningless. CoroutineDispatcher is a coroutine context element and `+` is a set-sum operator for coroutine contexts. The dispatcher to the right of `+` just replaces the dispatcher to the left.")));
 - (void)releaseInterceptedContinuationContinuation:(id<BbnativesharedKotlinContinuation>)continuation __attribute__((swift_name("releaseInterceptedContinuation(continuation:)")));
 - (NSString *)description __attribute__((swift_name("description()")));
@@ -2947,46 +2750,11 @@ __attribute__((swift_name("Kotlinx_serialization_coreSerializersModule")))
 - (id<BbnativesharedKotlinx_serialization_coreDeserializationStrategy> _Nullable)getPolymorphicBaseClass:(id<BbnativesharedKotlinKClass>)baseClass serializedClassName:(NSString * _Nullable)serializedClassName __attribute__((swift_name("getPolymorphic(baseClass:serializedClassName:)")));
 @end;
 
-__attribute__((swift_name("RuntimeTransacterTransaction")))
-@interface BbnativesharedRuntimeTransacterTransaction : BbnativesharedBase <BbnativesharedRuntimeTransactionCallbacks>
-- (instancetype)init __attribute__((swift_name("init()"))) __attribute__((objc_designated_initializer));
-+ (instancetype)new __attribute__((availability(swift, unavailable, message="use object initializers instead")));
-- (void)afterCommitFunction:(void (^)(void))function __attribute__((swift_name("afterCommit(function:)")));
-- (void)afterRollbackFunction:(void (^)(void))function __attribute__((swift_name("afterRollback(function:)")));
-- (void)endTransactionSuccessful:(BOOL)successful __attribute__((swift_name("endTransaction(successful:)")));
-@property (readonly) BbnativesharedRuntimeTransacterTransaction * _Nullable enclosingTransaction __attribute__((swift_name("enclosingTransaction")));
-@end;
-
-__attribute__((swift_name("RuntimeSqlPreparedStatement")))
-@protocol BbnativesharedRuntimeSqlPreparedStatement
-@required
-- (void)bindBytesIndex:(int32_t)index bytes:(BbnativesharedKotlinByteArray * _Nullable)bytes __attribute__((swift_name("bindBytes(index:bytes:)")));
-- (void)bindDoubleIndex:(int32_t)index double:(BbnativesharedDouble * _Nullable)double_ __attribute__((swift_name("bindDouble(index:double:)")));
-- (void)bindLongIndex:(int32_t)index long:(BbnativesharedLong * _Nullable)long_ __attribute__((swift_name("bindLong(index:long:)")));
-- (void)bindStringIndex:(int32_t)index string:(NSString * _Nullable)string __attribute__((swift_name("bindString(index:string:)")));
-@end;
-
-__attribute__((swift_name("RuntimeSqlCursor")))
-@protocol BbnativesharedRuntimeSqlCursor <BbnativesharedRuntimeCloseable>
-@required
-- (BbnativesharedKotlinByteArray * _Nullable)getBytesIndex:(int32_t)index __attribute__((swift_name("getBytes(index:)")));
-- (BbnativesharedDouble * _Nullable)getDoubleIndex:(int32_t)index __attribute__((swift_name("getDouble(index:)")));
-- (BbnativesharedLong * _Nullable)getLongIndex:(int32_t)index __attribute__((swift_name("getLong(index:)")));
-- (NSString * _Nullable)getStringIndex:(int32_t)index __attribute__((swift_name("getString(index:)")));
-- (BOOL)next __attribute__((swift_name("next()")));
-@end;
-
-__attribute__((swift_name("RuntimeQueryListener")))
-@protocol BbnativesharedRuntimeQueryListener
-@required
-- (void)queryResultsChanged __attribute__((swift_name("queryResultsChanged()")));
-@end;
-
 __attribute__((swift_name("KotlinIterator")))
 @protocol BbnativesharedKotlinIterator
 @required
 - (BOOL)hasNext __attribute__((swift_name("hasNext()")));
-- (id _Nullable)next_ __attribute__((swift_name("next_()")));
+- (id _Nullable)next __attribute__((swift_name("next()")));
 @end;
 
 __attribute__((swift_name("Kotlinx_serialization_coreEncoder")))
@@ -3193,19 +2961,6 @@ __attribute__((swift_name("KotlinKClass")))
 @property (readonly) NSString * _Nullable simpleName __attribute__((swift_name("simpleName")));
 @end;
 
-__attribute__((objc_subclassing_restricted))
-__attribute__((swift_name("KotlinByteArray")))
-@interface BbnativesharedKotlinByteArray : BbnativesharedBase
-+ (instancetype)arrayWithSize:(int32_t)size __attribute__((swift_name("init(size:)")));
-+ (instancetype)arrayWithSize:(int32_t)size init:(BbnativesharedByte *(^)(BbnativesharedInt *))init __attribute__((swift_name("init(size:init:)")));
-+ (instancetype)alloc __attribute__((unavailable));
-+ (instancetype)allocWithZone:(struct _NSZone *)zone __attribute__((unavailable));
-- (int8_t)getIndex:(int32_t)index __attribute__((swift_name("get(index:)")));
-- (BbnativesharedKotlinByteIterator *)iterator __attribute__((swift_name("iterator()")));
-- (void)setIndex:(int32_t)index value:(int8_t)value __attribute__((swift_name("set(index:value:)")));
-@property (readonly) int32_t size __attribute__((swift_name("size")));
-@end;
-
 __attribute__((swift_name("Kotlinx_serialization_coreCompositeEncoder")))
 @protocol BbnativesharedKotlinx_serialization_coreCompositeEncoder
 @required
@@ -3300,14 +3055,6 @@ __attribute__((swift_name("KotlinSuspendFunction0")))
 - (void)invokeWithCompletionHandler:(void (^)(id _Nullable_result, NSError * _Nullable))completionHandler __attribute__((swift_name("invoke(completionHandler:)")));
 @end;
 
-__attribute__((swift_name("KotlinByteIterator")))
-@interface BbnativesharedKotlinByteIterator : BbnativesharedBase <BbnativesharedKotlinIterator>
-- (instancetype)init __attribute__((swift_name("init()"))) __attribute__((objc_designated_initializer));
-+ (instancetype)new __attribute__((availability(swift, unavailable, message="use object initializers instead")));
-- (BbnativesharedByte *)next_ __attribute__((swift_name("next_()")));
-- (int8_t)nextByte __attribute__((swift_name("nextByte()")));
-@end;
-
 __attribute__((swift_name("Kotlinx_coroutines_coreAtomicDesc")))
 @interface BbnativesharedKotlinx_coroutines_coreAtomicDesc : BbnativesharedBase
 - (instancetype)init __attribute__((swift_name("init()"))) __attribute__((objc_designated_initializer));
@@ -3374,7 +3121,7 @@ __attribute__((swift_name("Kotlinx_coroutines_coreLockFreeLinkedListNode")))
 - (BbnativesharedKotlinx_coroutines_coreLockFreeLinkedListNode * _Nullable)removeFirstOrNull __attribute__((swift_name("removeFirstOrNull()")));
 - (NSString *)description __attribute__((swift_name("description()")));
 @property (readonly) BOOL isRemoved __attribute__((swift_name("isRemoved")));
-@property (readonly, getter=next__) id _Nullable next __attribute__((swift_name("next")));
+@property (readonly, getter=next_) id _Nullable next __attribute__((swift_name("next")));
 @property (readonly) BbnativesharedKotlinx_coroutines_coreLockFreeLinkedListNode *nextNode __attribute__((swift_name("nextNode")));
 @property (readonly) BbnativesharedKotlinx_coroutines_coreLockFreeLinkedListNode *prevNode __attribute__((swift_name("prevNode")));
 @end;
