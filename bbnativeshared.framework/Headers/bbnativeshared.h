@@ -425,6 +425,7 @@ __attribute__((swift_name("ProgramController")))
 @property (class, readonly, getter=companion) BbnativesharedProgramControllerCompanion *companion __attribute__((swift_name("companion")));
 - (void)__destruct __attribute__((swift_name("__destruct()")));
 - (BOOL)autoPlayNextCancel __attribute__((swift_name("autoPlayNextCancel()")));
+- (float)getPlaybackRate __attribute__((swift_name("getPlaybackRate()")));
 - (NSString * _Nullable)getPosterUrlContent:(id<BbnativesharedContentItemInterface> _Nullable)content __attribute__((swift_name("getPosterUrl(content:)")));
 - (BbnativesharedState *)getState __attribute__((swift_name("getState()")));
 - (void)loadContentContent:(id<BbnativesharedContentItemInterface>)content initiator:(NSString * _Nullable)initiator autoPlay:(BbnativesharedBoolean * _Nullable)autoPlay seekPosition:(id _Nullable)seekPosition __attribute__((swift_name("loadContent(content:initiator:autoPlay:seekPosition:)")));
@@ -434,6 +435,7 @@ __attribute__((swift_name("ProgramController")))
 - (void)playUserAction:(BOOL)userAction __attribute__((swift_name("play(userAction:)")));
 - (void)seekPositionInSeconds:(id)positionInSeconds relativeToCurrentTime:(BOOL)relativeToCurrentTime __attribute__((swift_name("seek(positionInSeconds:relativeToCurrentTime:)")));
 - (void)setAudioTrackId:(NSString *)id __attribute__((swift_name("setAudioTrack(id:)")));
+- (void)setPlaybackRateRate:(float)rate __attribute__((swift_name("setPlaybackRate(rate:)")));
 - (void)setQualityIndex:(int32_t)index __attribute__((swift_name("setQuality(index:)")));
 - (void)setSubtitleId:(NSString *)id __attribute__((swift_name("setSubtitle(id:)")));
 @property id<BbnativesharedAdControllerInterface> _Nullable adController __attribute__((swift_name("adController")));
@@ -650,6 +652,7 @@ __attribute__((swift_name("EventName")))
 @property (class, readonly) BbnativesharedEventName *audiotrackschanged __attribute__((swift_name("audiotrackschanged")));
 @property (class, readonly) BbnativesharedEventName *subtitletrackschanged __attribute__((swift_name("subtitletrackschanged")));
 @property (class, readonly) BbnativesharedEventName *qualitytrackschanged __attribute__((swift_name("qualitytrackschanged")));
+@property (class, readonly) BbnativesharedEventName *playbackspeedchanged __attribute__((swift_name("playbackspeedchanged")));
 + (BbnativesharedKotlinArray<BbnativesharedEventName *> *)values __attribute__((swift_name("values()")));
 @end;
 
