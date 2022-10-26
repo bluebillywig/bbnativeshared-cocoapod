@@ -270,9 +270,11 @@ __attribute__((swift_name("MediaControllerInterface")))
 - (BOOL)pauseRequested:(BOOL)requested __attribute__((swift_name("pause(requested:)")));
 - (BOOL)playUserAction:(BOOL)userAction requested:(BOOL)requested __attribute__((swift_name("play(userAction:requested:)")));
 - (BOOL)setPropertyName:(NSString *)propertyName propertyValue:(id _Nullable)propertyValue __attribute__((swift_name("set(propertyName:propertyValue:)")));
-- (BOOL)setAudioTrackId:(NSString *)id __attribute__((swift_name("setAudioTrack(id:)")));
+- (BOOL)setAudiotrackId:(NSString *)id __attribute__((swift_name("setAudiotrack(id:)")));
 - (BOOL)setQualityIndex:(int32_t)index __attribute__((swift_name("setQuality(index:)")));
 - (BOOL)setSubtitleId:(NSString *)id __attribute__((swift_name("setSubtitle(id:)")));
+- (void)subtitlesOff __attribute__((swift_name("subtitlesOff()")));
+- (void)subtitlesOn __attribute__((swift_name("subtitlesOn()")));
 @end;
 
 __attribute__((swift_name("NetworkInterface")))
@@ -434,7 +436,7 @@ __attribute__((swift_name("ProgramController")))
 - (void)pause __attribute__((swift_name("pause()")));
 - (void)playUserAction:(BOOL)userAction __attribute__((swift_name("play(userAction:)")));
 - (void)seekPositionInSeconds:(id)positionInSeconds relativeToCurrentTime:(BOOL)relativeToCurrentTime __attribute__((swift_name("seek(positionInSeconds:relativeToCurrentTime:)")));
-- (void)setAudioTrackId:(NSString *)id __attribute__((swift_name("setAudioTrack(id:)")));
+- (void)setAudiotrackId:(NSString *)id __attribute__((swift_name("setAudiotrack(id:)")));
 - (void)setPlaybackRateRate:(float)rate __attribute__((swift_name("setPlaybackRate(rate:)")));
 - (void)setQualityIndex:(int32_t)index __attribute__((swift_name("setQuality(index:)")));
 - (void)setSubtitleId:(NSString *)id __attribute__((swift_name("setSubtitle(id:)")));
