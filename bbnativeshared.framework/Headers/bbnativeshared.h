@@ -636,6 +636,7 @@ __attribute__((swift_name("EventName")))
 @property (class, readonly) BbnativesharedEventName *bbAsMainFinished __attribute__((swift_name("bbAsMainFinished")));
 @property (class, readonly) BbnativesharedEventName *bbAsPostFinished __attribute__((swift_name("bbAsPostFinished")));
 @property (class, readonly) BbnativesharedEventName *requestopenurl __attribute__((swift_name("requestopenurl")));
+@property (class, readonly) BbnativesharedEventName *customstatistics __attribute__((swift_name("customstatistics")));
 @property (class, readonly) BbnativesharedEventName *adinitialized __attribute__((swift_name("adinitialized")));
 @property (class, readonly) BbnativesharedEventName *adfailed __attribute__((swift_name("adfailed")));
 @property (class, readonly) BbnativesharedEventName *adnoad __attribute__((swift_name("adnoad")));
@@ -651,6 +652,8 @@ __attribute__((swift_name("EventName")))
 @property (class, readonly) BbnativesharedEventName *adstarted __attribute__((swift_name("adstarted")));
 @property (class, readonly) BbnativesharedEventName *adcomplete __attribute__((swift_name("adcomplete")));
 @property (class, readonly) BbnativesharedEventName *alladscompleted __attribute__((swift_name("alladscompleted")));
+@property (class, readonly) BbnativesharedEventName *adpaused __attribute__((swift_name("adpaused")));
+@property (class, readonly) BbnativesharedEventName *adresumed __attribute__((swift_name("adresumed")));
 @property (class, readonly) BbnativesharedEventName *audiotrackschanged __attribute__((swift_name("audiotrackschanged")));
 @property (class, readonly) BbnativesharedEventName *subtitletrackschanged __attribute__((swift_name("subtitletrackschanged")));
 @property (class, readonly) BbnativesharedEventName *qualitytrackschanged __attribute__((swift_name("qualitytrackschanged")));
@@ -2549,6 +2552,16 @@ __attribute__((swift_name("BlueBillywigLogger.Companion")))
 + (instancetype)companion __attribute__((swift_name("init()")));
 @property (class, readonly, getter=shared) BbnativesharedBlueBillywigLoggerCompanion *shared __attribute__((swift_name("shared")));
 @property (readonly) NSString *TAG __attribute__((swift_name("TAG")));
+@end;
+
+__attribute__((objc_subclassing_restricted))
+__attribute__((swift_name("CustomStatistics")))
+@interface BbnativesharedCustomStatistics : BbnativesharedBase
+- (instancetype)init __attribute__((swift_name("init()"))) __attribute__((objc_designated_initializer));
++ (instancetype)new __attribute__((availability(swift, unavailable, message="use object initializers instead")));
+- (void)__destruct __attribute__((swift_name("__destruct()")));
+- (void)sendIdent:(NSString *)ident ev:(NSString *)ev aux:(NSDictionary<NSString *, NSString *> *)aux __attribute__((swift_name("send(ident:ev:aux:)")));
+@property id<BbnativesharedEventBusInterface> _Nullable eventBus __attribute__((swift_name("eventBus")));
 @end;
 
 __attribute__((objc_subclassing_restricted))
