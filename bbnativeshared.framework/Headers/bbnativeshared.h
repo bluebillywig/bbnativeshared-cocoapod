@@ -158,6 +158,8 @@ __attribute__((swift_name("AutoPlayNextTimer")))
 - (void)__destruct __attribute__((swift_name("__destruct()")));
 - (void)cancel __attribute__((swift_name("cancel()")));
 - (void)onEventEventType:(BbnativesharedEventName *)eventType data:(NSDictionary<NSString *, id> * _Nullable)data __attribute__((swift_name("onEvent(eventType:data:)")));
+- (void)pause __attribute__((swift_name("pause()")));
+- (void)resume __attribute__((swift_name("resume()")));
 - (void)start __attribute__((swift_name("start()")));
 @property (readonly) id<BbnativesharedKotlinx_coroutines_coreCoroutineScope> mainScope __attribute__((swift_name("mainScope")));
 @end;
@@ -427,6 +429,8 @@ __attribute__((swift_name("ProgramController")))
 @property (class, readonly, getter=companion) BbnativesharedProgramControllerCompanion *companion __attribute__((swift_name("companion")));
 - (void)__destruct __attribute__((swift_name("__destruct()")));
 - (BOOL)autoPlayNextCancel __attribute__((swift_name("autoPlayNextCancel()")));
+- (void)autoPlayNextPause __attribute__((swift_name("autoPlayNextPause()")));
+- (void)autoPlayNextResume __attribute__((swift_name("autoPlayNextResume()")));
 - (float)getPlaybackRate __attribute__((swift_name("getPlaybackRate()")));
 - (NSString * _Nullable)getPosterUrlContent:(id<BbnativesharedContentItemInterface> _Nullable)content __attribute__((swift_name("getPosterUrl(content:)")));
 - (BbnativesharedState *)getState __attribute__((swift_name("getState()")));
@@ -521,6 +525,7 @@ __attribute__((swift_name("ApiProperty")))
 @property (class, readonly) BbnativesharedApiProperty *clipdata __attribute__((swift_name("clipdata")));
 @property (class, readonly) BbnativesharedApiProperty *volume __attribute__((swift_name("volume")));
 @property (class, readonly) BbnativesharedApiProperty *muted __attribute__((swift_name("muted")));
+@property (class, readonly) BbnativesharedApiProperty *controls __attribute__((swift_name("controls")));
 @property (class, readonly) BbnativesharedApiProperty *duration __attribute__((swift_name("duration")));
 @property (class, readonly) BbnativesharedApiProperty *admediawidth __attribute__((swift_name("admediawidth")));
 @property (class, readonly) BbnativesharedApiProperty *admediaheight __attribute__((swift_name("admediaheight")));
