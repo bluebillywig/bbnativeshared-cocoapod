@@ -214,6 +214,7 @@ __attribute__((swift_name("Platform.Companion")))
 + (instancetype)companion __attribute__((swift_name("init()")));
 @property (class, readonly, getter=shared) BbnativesharedPlatformCompanion *shared __attribute__((swift_name("shared")));
 @property (readonly) NSString *platform __attribute__((swift_name("platform")));
+@property (readonly) NSString *resolution __attribute__((swift_name("resolution")));
 @end;
 
 __attribute__((objc_subclassing_restricted))
