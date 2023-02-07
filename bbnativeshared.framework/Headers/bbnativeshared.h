@@ -663,6 +663,7 @@ __attribute__((swift_name("EventName")))
 @property (class, readonly) BbnativesharedEventName *audiotrackschanged __attribute__((swift_name("audiotrackschanged")));
 @property (class, readonly) BbnativesharedEventName *subtitletrackschanged __attribute__((swift_name("subtitletrackschanged")));
 @property (class, readonly) BbnativesharedEventName *qualitytrackschanged __attribute__((swift_name("qualitytrackschanged")));
+@property (class, readonly) BbnativesharedEventName *subtitletrackchanged __attribute__((swift_name("subtitletrackchanged")));
 @property (class, readonly) BbnativesharedEventName *playbackspeedchanged __attribute__((swift_name("playbackspeedchanged")));
 + (BbnativesharedKotlinArray<BbnativesharedEventName *> *)values __attribute__((swift_name("values()")));
 @end;
@@ -2992,7 +2993,9 @@ __attribute__((swift_name("Kotlinx_serialization_coreSerializersModuleCollector"
 - (void)contextualKClass:(id<BbnativesharedKotlinKClass>)kClass provider:(id<BbnativesharedKotlinx_serialization_coreKSerializer> (^)(NSArray<id<BbnativesharedKotlinx_serialization_coreKSerializer>> *))provider __attribute__((swift_name("contextual(kClass:provider:)")));
 - (void)contextualKClass:(id<BbnativesharedKotlinKClass>)kClass serializer:(id<BbnativesharedKotlinx_serialization_coreKSerializer>)serializer __attribute__((swift_name("contextual(kClass:serializer:)")));
 - (void)polymorphicBaseClass:(id<BbnativesharedKotlinKClass>)baseClass actualClass:(id<BbnativesharedKotlinKClass>)actualClass actualSerializer:(id<BbnativesharedKotlinx_serialization_coreKSerializer>)actualSerializer __attribute__((swift_name("polymorphic(baseClass:actualClass:actualSerializer:)")));
-- (void)polymorphicDefaultBaseClass:(id<BbnativesharedKotlinKClass>)baseClass defaultSerializerProvider:(id<BbnativesharedKotlinx_serialization_coreDeserializationStrategy> _Nullable (^)(NSString * _Nullable))defaultSerializerProvider __attribute__((swift_name("polymorphicDefault(baseClass:defaultSerializerProvider:)")));
+- (void)polymorphicDefaultBaseClass:(id<BbnativesharedKotlinKClass>)baseClass defaultDeserializerProvider:(id<BbnativesharedKotlinx_serialization_coreDeserializationStrategy> _Nullable (^)(NSString * _Nullable))defaultDeserializerProvider __attribute__((swift_name("polymorphicDefault(baseClass:defaultDeserializerProvider:)")));
+- (void)polymorphicDefaultDeserializerBaseClass:(id<BbnativesharedKotlinKClass>)baseClass defaultDeserializerProvider:(id<BbnativesharedKotlinx_serialization_coreDeserializationStrategy> _Nullable (^)(NSString * _Nullable))defaultDeserializerProvider __attribute__((swift_name("polymorphicDefaultDeserializer(baseClass:defaultDeserializerProvider:)")));
+- (void)polymorphicDefaultSerializerBaseClass:(id<BbnativesharedKotlinKClass>)baseClass defaultSerializerProvider:(id<BbnativesharedKotlinx_serialization_coreSerializationStrategy> _Nullable (^)(id))defaultSerializerProvider __attribute__((swift_name("polymorphicDefaultSerializer(baseClass:defaultSerializerProvider:)")));
 @end;
 
 __attribute__((swift_name("KotlinKDeclarationContainer")))
