@@ -809,7 +809,7 @@ __attribute__((swift_name("AdSchedulingData.Companion")))
 __attribute__((objc_subclassing_restricted))
 __attribute__((swift_name("AdUnit")))
 @interface BbnativesharedAdUnit : BbnativesharedBase
-- (instancetype)initWithId:(NSString * _Nullable)id type:(NSString * _Nullable)type status:(NSString * _Nullable)status createddate:(NSString * _Nullable)createddate createdBy:(NSString * _Nullable)createdBy updateddate:(NSString * _Nullable)updateddate updatedBy:(NSString * _Nullable)updatedBy playout:(BbnativesharedAdUnitPlayout * _Nullable)playout positionType:(NSString * _Nullable)positionType positionDisplayType:(NSString * _Nullable)positionDisplayType playoutCode:(NSString * _Nullable)playoutCode title:(NSString * _Nullable)title code:(NSString * _Nullable)code assignedLineitems:(NSArray<NSString *> * _Nullable)assignedLineitems prebidConfig:(NSString * _Nullable)prebidConfig label:(NSString * _Nullable)label lineitems:(NSArray<BbnativesharedLineItem_ *> * _Nullable)lineitems __attribute__((swift_name("init(id:type:status:createddate:createdBy:updateddate:updatedBy:playout:positionType:positionDisplayType:playoutCode:title:code:assignedLineitems:prebidConfig:label:lineitems:)"))) __attribute__((objc_designated_initializer));
+- (instancetype)initWithId:(NSString * _Nullable)id type:(NSString * _Nullable)type status:(NSString * _Nullable)status createddate:(NSString * _Nullable)createddate createdBy:(NSString * _Nullable)createdBy updateddate:(NSString * _Nullable)updateddate updatedBy:(NSString * _Nullable)updatedBy playout:(BbnativesharedAdUnitPlayout * _Nullable)playout positionType:(NSString * _Nullable)positionType positionDisplayType:(NSString * _Nullable)positionDisplayType playoutCode:(NSString * _Nullable)playoutCode title:(NSString * _Nullable)title code:(NSString * _Nullable)code assignedLineitems:(NSArray<NSString *> * _Nullable)assignedLineitems label:(NSString * _Nullable)label lineitems:(NSArray<BbnativesharedLineItem_ *> * _Nullable)lineitems __attribute__((swift_name("init(id:type:status:createddate:createdBy:updateddate:updatedBy:playout:positionType:positionDisplayType:playoutCode:title:code:assignedLineitems:label:lineitems:)"))) __attribute__((objc_designated_initializer));
 @property (class, readonly, getter=companion) BbnativesharedAdUnitCompanion *companion __attribute__((swift_name("companion")));
 - (NSString * _Nullable)component1 __attribute__((swift_name("component1()")));
 - (NSString * _Nullable)component10 __attribute__((swift_name("component10()")));
@@ -818,8 +818,7 @@ __attribute__((swift_name("AdUnit")))
 - (NSString * _Nullable)component13 __attribute__((swift_name("component13()")));
 - (NSArray<NSString *> * _Nullable)component14 __attribute__((swift_name("component14()")));
 - (NSString * _Nullable)component15 __attribute__((swift_name("component15()")));
-- (NSString * _Nullable)component16 __attribute__((swift_name("component16()")));
-- (NSArray<BbnativesharedLineItem_ *> * _Nullable)component17 __attribute__((swift_name("component17()")));
+- (NSArray<BbnativesharedLineItem_ *> * _Nullable)component16 __attribute__((swift_name("component16()")));
 - (NSString * _Nullable)component2 __attribute__((swift_name("component2()")));
 - (NSString * _Nullable)component3 __attribute__((swift_name("component3()")));
 - (NSString * _Nullable)component4 __attribute__((swift_name("component4()")));
@@ -828,7 +827,7 @@ __attribute__((swift_name("AdUnit")))
 - (NSString * _Nullable)component7 __attribute__((swift_name("component7()")));
 - (BbnativesharedAdUnitPlayout * _Nullable)component8 __attribute__((swift_name("component8()")));
 - (NSString * _Nullable)component9 __attribute__((swift_name("component9()")));
-- (BbnativesharedAdUnit *)doCopyId:(NSString * _Nullable)id type:(NSString * _Nullable)type status:(NSString * _Nullable)status createddate:(NSString * _Nullable)createddate createdBy:(NSString * _Nullable)createdBy updateddate:(NSString * _Nullable)updateddate updatedBy:(NSString * _Nullable)updatedBy playout:(BbnativesharedAdUnitPlayout * _Nullable)playout positionType:(NSString * _Nullable)positionType positionDisplayType:(NSString * _Nullable)positionDisplayType playoutCode:(NSString * _Nullable)playoutCode title:(NSString * _Nullable)title code:(NSString * _Nullable)code assignedLineitems:(NSArray<NSString *> * _Nullable)assignedLineitems prebidConfig:(NSString * _Nullable)prebidConfig label:(NSString * _Nullable)label lineitems:(NSArray<BbnativesharedLineItem_ *> * _Nullable)lineitems __attribute__((swift_name("doCopy(id:type:status:createddate:createdBy:updateddate:updatedBy:playout:positionType:positionDisplayType:playoutCode:title:code:assignedLineitems:prebidConfig:label:lineitems:)")));
+- (BbnativesharedAdUnit *)doCopyId:(NSString * _Nullable)id type:(NSString * _Nullable)type status:(NSString * _Nullable)status createddate:(NSString * _Nullable)createddate createdBy:(NSString * _Nullable)createdBy updateddate:(NSString * _Nullable)updateddate updatedBy:(NSString * _Nullable)updatedBy playout:(BbnativesharedAdUnitPlayout * _Nullable)playout positionType:(NSString * _Nullable)positionType positionDisplayType:(NSString * _Nullable)positionDisplayType playoutCode:(NSString * _Nullable)playoutCode title:(NSString * _Nullable)title code:(NSString * _Nullable)code assignedLineitems:(NSArray<NSString *> * _Nullable)assignedLineitems label:(NSString * _Nullable)label lineitems:(NSArray<BbnativesharedLineItem_ *> * _Nullable)lineitems __attribute__((swift_name("doCopy(id:type:status:createddate:createdBy:updateddate:updatedBy:playout:positionType:positionDisplayType:playoutCode:title:code:assignedLineitems:label:lineitems:)")));
 - (BOOL)isEqual:(id _Nullable)other __attribute__((swift_name("isEqual(_:)")));
 - (NSUInteger)hash __attribute__((swift_name("hash()")));
 - (NSString *)description __attribute__((swift_name("description()")));
@@ -843,7 +842,6 @@ __attribute__((swift_name("AdUnit")))
 @property (readonly) NSString * _Nullable playoutCode __attribute__((swift_name("playoutCode")));
 @property (readonly) NSString * _Nullable positionDisplayType __attribute__((swift_name("positionDisplayType")));
 @property (readonly) NSString * _Nullable positionType __attribute__((swift_name("positionType")));
-@property (readonly) NSString * _Nullable prebidConfig __attribute__((swift_name("prebidConfig")));
 @property (readonly) NSString * _Nullable status __attribute__((swift_name("status")));
 @property (readonly) NSString * _Nullable title __attribute__((swift_name("title")));
 @property (readonly) NSString * _Nullable type __attribute__((swift_name("type")));
