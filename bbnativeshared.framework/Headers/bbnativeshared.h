@@ -387,6 +387,7 @@ __attribute__((swift_name("InViewController")))
 @property id<BbnativesharedEventBusInterface> _Nullable _eventBus __attribute__((swift_name("_eventBus")));
 @property BOOL _inView __attribute__((swift_name("_inView")));
 @property NSString *_inViewAction __attribute__((swift_name("_inViewAction")));
+@property int32_t _inViewMargin __attribute__((swift_name("_inViewMargin")));
 @property BbnativesharedBoolean * _Nullable _inView_forced __attribute__((swift_name("_inView_forced")));
 @property NSString *_outViewAction __attribute__((swift_name("_outViewAction")));
 @end;
