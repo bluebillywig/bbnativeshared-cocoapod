@@ -1,7 +1,7 @@
 Pod::Spec.new do |spec|
 
   spec.name         = "BlueBillywigNativeShared-iOS"
-  spec.version      = "7.115"
+  spec.version      = "7.115.1"
   spec.summary      = "Blue Billywig native shared framework"
 
   spec.description  = <<-DESC
@@ -22,5 +22,5 @@ Pod::Spec.new do |spec|
     'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64'
   }
   spec.user_target_xcconfig = { 'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64' }
-  
+
 end
