@@ -317,7 +317,7 @@ __attribute__((swift_name("PosterControllerInterface")))
 __attribute__((objc_subclassing_restricted))
 __attribute__((swift_name("AdSchedulingController")))
 @interface BbnativesharedAdSchedulingController : BbnativesharedBase <BbnativesharedEventListenerInterface>
-- (instancetype)initWithEventBus:(id<BbnativesharedEventBusInterface> _Nullable)eventBus opts:(BbnativesharedEmbedObject * _Nullable)opts __attribute__((swift_name("init(eventBus:opts:)"))) __attribute__((objc_designated_initializer));
+- (instancetype)initWithEventBus:(id<BbnativesharedEventBusInterface> _Nullable)eventBus opts:(BbnativesharedEmbedObject * _Nullable)opts options:(NSDictionary<NSString *, id> * _Nullable)options __attribute__((swift_name("init(eventBus:opts:options:)"))) __attribute__((objc_designated_initializer));
 @property (class, readonly, getter=companion) BbnativesharedAdSchedulingControllerCompanion *companion __attribute__((swift_name("companion")));
 - (void)__destruct __attribute__((swift_name("__destruct()")));
 - (id _Nullable)getPropertyName:(NSString *)propertyName __attribute__((swift_name("get(propertyName:)")));
@@ -416,7 +416,7 @@ __attribute__((swift_name("MasterController.Companion")))
 __attribute__((objc_subclassing_restricted))
 __attribute__((swift_name("MsasController")))
 @interface BbnativesharedMsasController : BbnativesharedBase <BbnativesharedEventListenerInterface>
-- (instancetype)initWithEventBus:(id<BbnativesharedEventBusInterface> _Nullable)eventBus opts:(BbnativesharedEmbedObject * _Nullable)opts __attribute__((swift_name("init(eventBus:opts:)"))) __attribute__((objc_designated_initializer));
+- (instancetype)initWithEventBus:(id<BbnativesharedEventBusInterface> _Nullable)eventBus opts:(BbnativesharedEmbedObject * _Nullable)opts options:(NSDictionary<NSString *, id> * _Nullable)options __attribute__((swift_name("init(eventBus:opts:options:)"))) __attribute__((objc_designated_initializer));
 @property (class, readonly, getter=companion) BbnativesharedMsasControllerCompanion *companion __attribute__((swift_name("companion")));
 - (void)__destruct __attribute__((swift_name("__destruct()")));
 - (id _Nullable)getPropertyName:(NSString *)propertyName __attribute__((swift_name("get(propertyName:)")));
