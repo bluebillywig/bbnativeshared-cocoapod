@@ -1,7 +1,7 @@
 Pod::Spec.new do |spec|
 
   spec.name         = "BlueBillywigNativeShared-iOS"
-  spec.version      = "7.123"
+  spec.version      = "7.124"
   spec.summary      = "Blue Billywig native shared framework"
 
   spec.description  = <<-DESC
@@ -14,13 +14,7 @@ Pod::Spec.new do |spec|
   spec.platform     = :ios, "12.0"
 
   spec.ios.deployment_target = '12.0'
-  spec.ios.vendored_frameworks = 'bbnativeshared.framework'
+  spec.ios.vendored_frameworks = 'bbnativeshared.xcframework'
 
   spec.source       = { :git => "https://github.com/bluebillywig/bbnativeshared-cocoapod.git", :tag => "#{spec.version}" }
-
-  spec.pod_target_xcconfig = {
-    'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64'
-  }
-  spec.user_target_xcconfig = { 'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64' }
-
 end
