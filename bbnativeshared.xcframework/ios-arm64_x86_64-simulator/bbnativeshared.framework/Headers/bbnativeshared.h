@@ -2613,19 +2613,27 @@ __attribute__((swift_name("Publication.Companion")))
 __attribute__((objc_subclassing_restricted))
 __attribute__((swift_name("Quality")))
 @interface BbnativesharedQuality : BbnativesharedBase
-- (instancetype)initWithId:(NSString * _Nullable)id index:(BbnativesharedInt * _Nullable)index label:(NSString * _Nullable)label isSelected:(BbnativesharedBoolean * _Nullable)isSelected __attribute__((swift_name("init(id:index:label:isSelected:)"))) __attribute__((objc_designated_initializer));
+- (instancetype)initWithId:(NSString * _Nullable)id index:(BbnativesharedInt * _Nullable)index label:(NSString * _Nullable)label isSelected:(BbnativesharedBoolean * _Nullable)isSelected mimeType:(NSString * _Nullable)mimeType origId:(NSString * _Nullable)origId bitrate:(int32_t)bitrate height:(int32_t)height __attribute__((swift_name("init(id:index:label:isSelected:mimeType:origId:bitrate:height:)"))) __attribute__((objc_designated_initializer));
 - (NSString * _Nullable)component1 __attribute__((swift_name("component1()"))) __attribute__((deprecated("use corresponding property instead")));
 - (BbnativesharedInt * _Nullable)component2 __attribute__((swift_name("component2()"))) __attribute__((deprecated("use corresponding property instead")));
 - (NSString * _Nullable)component3 __attribute__((swift_name("component3()"))) __attribute__((deprecated("use corresponding property instead")));
 - (BbnativesharedBoolean * _Nullable)component4 __attribute__((swift_name("component4()"))) __attribute__((deprecated("use corresponding property instead")));
-- (BbnativesharedQuality *)doCopyId:(NSString * _Nullable)id index:(BbnativesharedInt * _Nullable)index label:(NSString * _Nullable)label isSelected:(BbnativesharedBoolean * _Nullable)isSelected __attribute__((swift_name("doCopy(id:index:label:isSelected:)")));
+- (NSString * _Nullable)component5 __attribute__((swift_name("component5()"))) __attribute__((deprecated("use corresponding property instead")));
+- (NSString * _Nullable)component6 __attribute__((swift_name("component6()"))) __attribute__((deprecated("use corresponding property instead")));
+- (int32_t)component7 __attribute__((swift_name("component7()"))) __attribute__((deprecated("use corresponding property instead")));
+- (int32_t)component8 __attribute__((swift_name("component8()"))) __attribute__((deprecated("use corresponding property instead")));
+- (BbnativesharedQuality *)doCopyId:(NSString * _Nullable)id index:(BbnativesharedInt * _Nullable)index label:(NSString * _Nullable)label isSelected:(BbnativesharedBoolean * _Nullable)isSelected mimeType:(NSString * _Nullable)mimeType origId:(NSString * _Nullable)origId bitrate:(int32_t)bitrate height:(int32_t)height __attribute__((swift_name("doCopy(id:index:label:isSelected:mimeType:origId:bitrate:height:)")));
 - (BOOL)isEqual:(id _Nullable)other __attribute__((swift_name("isEqual(_:)")));
 - (NSUInteger)hash __attribute__((swift_name("hash()")));
 - (NSString *)description __attribute__((swift_name("description()")));
+@property int32_t bitrate __attribute__((swift_name("bitrate")));
+@property int32_t height __attribute__((swift_name("height")));
 @property NSString * _Nullable id __attribute__((swift_name("id")));
 @property BbnativesharedInt * _Nullable index __attribute__((swift_name("index")));
 @property BbnativesharedBoolean * _Nullable isSelected __attribute__((swift_name("isSelected")));
 @property NSString * _Nullable label __attribute__((swift_name("label")));
+@property NSString * _Nullable mimeType __attribute__((swift_name("mimeType")));
+@property NSString * _Nullable origId __attribute__((swift_name("origId")));
 @end
 
 
