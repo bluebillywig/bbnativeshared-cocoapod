@@ -1697,7 +1697,7 @@ __attribute__((swift_name("LineItem_.Companion")))
 __attribute__((objc_subclassing_restricted))
 __attribute__((swift_name("MediaAsset")))
 @interface BbnativesharedMediaAsset : BbnativesharedBase
-- (instancetype)initWithMediatype:(NSString * _Nullable)mediatype id:(NSString * _Nullable)id status:(NSString * _Nullable)status src:(NSString * _Nullable)src length:(NSString * _Nullable)length exactlength:(NSString * _Nullable)exactlength width:(NSString * _Nullable)width height:(NSString * _Nullable)height bandwidth:(NSString * _Nullable)bandwidth jobdefid:(NSString * _Nullable)jobdefid languageId:(NSString * _Nullable)languageId languageName:(NSString * _Nullable)languageName languageIsocode:(NSString * _Nullable)languageIsocode isDefaultLanguage:(BbnativesharedBoolean * _Nullable)isDefaultLanguage __attribute__((swift_name("init(mediatype:id:status:src:length:exactlength:width:height:bandwidth:jobdefid:languageId:languageName:languageIsocode:isDefaultLanguage:)"))) __attribute__((objc_designated_initializer));
+- (instancetype)initWithMediatype:(NSString * _Nullable)mediatype id:(NSString * _Nullable)id status:(NSString * _Nullable)status src:(NSString * _Nullable)src length:(NSString * _Nullable)length exactlength:(NSString * _Nullable)exactlength width:(NSString * _Nullable)width height:(NSString * _Nullable)height bandwidth:(NSString * _Nullable)bandwidth jobdefid:(NSString * _Nullable)jobdefid languageId:(NSString * _Nullable)languageId languageName:(NSString * _Nullable)languageName languageIsocode:(NSString * _Nullable)languageIsocode isDefaultLanguage:(BbnativesharedBoolean * _Nullable)isDefaultLanguage title:(NSString * _Nullable)title __attribute__((swift_name("init(mediatype:id:status:src:length:exactlength:width:height:bandwidth:jobdefid:languageId:languageName:languageIsocode:isDefaultLanguage:title:)"))) __attribute__((objc_designated_initializer));
 @property (class, readonly, getter=companion) BbnativesharedMediaAssetCompanion *companion __attribute__((swift_name("companion")));
 - (NSString * _Nullable)component1 __attribute__((swift_name("component1()"))) __attribute__((deprecated("use corresponding property instead")));
 - (NSString * _Nullable)component10 __attribute__((swift_name("component10()"))) __attribute__((deprecated("use corresponding property instead")));
@@ -1705,6 +1705,7 @@ __attribute__((swift_name("MediaAsset")))
 - (NSString * _Nullable)component12 __attribute__((swift_name("component12()"))) __attribute__((deprecated("use corresponding property instead")));
 - (NSString * _Nullable)component13 __attribute__((swift_name("component13()"))) __attribute__((deprecated("use corresponding property instead")));
 - (BbnativesharedBoolean * _Nullable)component14 __attribute__((swift_name("component14()"))) __attribute__((deprecated("use corresponding property instead")));
+- (NSString * _Nullable)component15 __attribute__((swift_name("component15()"))) __attribute__((deprecated("use corresponding property instead")));
 - (NSString * _Nullable)component2 __attribute__((swift_name("component2()"))) __attribute__((deprecated("use corresponding property instead")));
 - (NSString * _Nullable)component3 __attribute__((swift_name("component3()"))) __attribute__((deprecated("use corresponding property instead")));
 - (NSString * _Nullable)component4 __attribute__((swift_name("component4()"))) __attribute__((deprecated("use corresponding property instead")));
@@ -1713,7 +1714,7 @@ __attribute__((swift_name("MediaAsset")))
 - (NSString * _Nullable)component7 __attribute__((swift_name("component7()"))) __attribute__((deprecated("use corresponding property instead")));
 - (NSString * _Nullable)component8 __attribute__((swift_name("component8()"))) __attribute__((deprecated("use corresponding property instead")));
 - (NSString * _Nullable)component9 __attribute__((swift_name("component9()"))) __attribute__((deprecated("use corresponding property instead")));
-- (BbnativesharedMediaAsset *)doCopyMediatype:(NSString * _Nullable)mediatype id:(NSString * _Nullable)id status:(NSString * _Nullable)status src:(NSString * _Nullable)src length:(NSString * _Nullable)length exactlength:(NSString * _Nullable)exactlength width:(NSString * _Nullable)width height:(NSString * _Nullable)height bandwidth:(NSString * _Nullable)bandwidth jobdefid:(NSString * _Nullable)jobdefid languageId:(NSString * _Nullable)languageId languageName:(NSString * _Nullable)languageName languageIsocode:(NSString * _Nullable)languageIsocode isDefaultLanguage:(BbnativesharedBoolean * _Nullable)isDefaultLanguage __attribute__((swift_name("doCopy(mediatype:id:status:src:length:exactlength:width:height:bandwidth:jobdefid:languageId:languageName:languageIsocode:isDefaultLanguage:)")));
+- (BbnativesharedMediaAsset *)doCopyMediatype:(NSString * _Nullable)mediatype id:(NSString * _Nullable)id status:(NSString * _Nullable)status src:(NSString * _Nullable)src length:(NSString * _Nullable)length exactlength:(NSString * _Nullable)exactlength width:(NSString * _Nullable)width height:(NSString * _Nullable)height bandwidth:(NSString * _Nullable)bandwidth jobdefid:(NSString * _Nullable)jobdefid languageId:(NSString * _Nullable)languageId languageName:(NSString * _Nullable)languageName languageIsocode:(NSString * _Nullable)languageIsocode isDefaultLanguage:(BbnativesharedBoolean * _Nullable)isDefaultLanguage title:(NSString * _Nullable)title __attribute__((swift_name("doCopy(mediatype:id:status:src:length:exactlength:width:height:bandwidth:jobdefid:languageId:languageName:languageIsocode:isDefaultLanguage:title:)")));
 - (BOOL)isEqual:(id _Nullable)other __attribute__((swift_name("isEqual(_:)")));
 - (NSUInteger)hash __attribute__((swift_name("hash()")));
 - (NSString *)description __attribute__((swift_name("description()")));
@@ -1730,6 +1731,7 @@ __attribute__((swift_name("MediaAsset")))
 @property (readonly) NSString * _Nullable mediatype __attribute__((swift_name("mediatype")));
 @property (readonly) NSString * _Nullable src __attribute__((swift_name("src")));
 @property (readonly) NSString * _Nullable status __attribute__((swift_name("status")));
+@property NSString * _Nullable title __attribute__((swift_name("title")));
 @property (readonly) NSString * _Nullable width __attribute__((swift_name("width")));
 @end
 
