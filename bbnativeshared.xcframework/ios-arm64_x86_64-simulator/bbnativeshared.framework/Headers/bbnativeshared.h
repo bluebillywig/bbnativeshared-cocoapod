@@ -6,9 +6,9 @@
 #import <Foundation/NSString.h>
 #import <Foundation/NSValue.h>
 
-@class BbnativesharedAdMacroHelperCompanion, BbnativesharedEventName, BbnativesharedProgramController, BbnativesharedAutoPlayNextTimerCompanion, BbnativesharedCapabilitiesCompanion, BbnativesharedInstantFactoryCompanion, BbnativesharedKotlinx_datetimeInstant, BbnativesharedLogger, BbnativesharedPlatformCompanion, BbnativesharedRelatedItemsHelperCompanion, BbnativesharedEmbedObject, BbnativesharedShortsEngineCompanion, BbnativesharedMsasController, BbnativesharedSoftEmbargoTimerCompanion, BbnativesharedPosType, BbnativesharedAdSchedulingControllerCompanion, BbnativesharedPhase, BbnativesharedEmbedControllerCompanion, BbnativesharedMediaClip, BbnativesharedMediaClipList, BbnativesharedPlayout, BbnativesharedProject, BbnativesharedPublication, BbnativesharedMasterController, BbnativesharedMasterControllerCompanion, BbnativesharedMsasControllerCompanion, BbnativesharedAdUnit, BbnativesharedProgramControllerCompanion, BbnativesharedState, BbnativesharedMediaAsset, BbnativesharedKotlinEnumCompanion, BbnativesharedKotlinEnum<E>, BbnativesharedApiMethod, BbnativesharedKotlinArray<T>, BbnativesharedApiProperty, BbnativesharedFitMode, BbnativesharedParameter, BbnativesharedActionCompanion, BbnativesharedAction, BbnativesharedAdSchedulingDataCompanion, BbnativesharedAdSchedulingData, BbnativesharedAdUnitPlayout, BbnativesharedLineItem_, BbnativesharedAdUnitCompanion, BbnativesharedEventHandler, BbnativesharedAdUnitPlayoutCompanion, BbnativesharedAppConfigCompanion, BbnativesharedAppConfig, BbnativesharedAudiotrackCompanion, BbnativesharedAudiotrack, BbnativesharedStep, BbnativesharedChapterCompanion, BbnativesharedChapter, BbnativesharedKotlinx_serialization_jsonJsonElement, BbnativesharedConditionCompanion, BbnativesharedCondition, BbnativesharedBBModel, BbnativesharedContentItemCompanion, BbnativesharedContentItemFactoryCompanion, BbnativesharedDatesCompanion, BbnativesharedDates, BbnativesharedEmbedDataCompanion, BbnativesharedEmbedData, BbnativesharedRequestParams, BbnativesharedVersioningData, BbnativesharedEmbedObjectCompanion, BbnativesharedProcedure, BbnativesharedEventHandlerCompanion, BbnativesharedHighlightCompanion, BbnativesharedHighlight, BbnativesharedLineItem_Companion, BbnativesharedMediaAssetCompanion, BbnativesharedContentItem, BbnativesharedThumbnail, BbnativesharedSubtitle, BbnativesharedTimeline, BbnativesharedMediaClipCompanion, BbnativesharedMediaClipListCompanion, BbnativesharedParameterCompanion, BbnativesharedPlayerCompanion, BbnativesharedPlayer, BbnativesharedPlayerSettingsCompanion, BbnativesharedPlayerSettings, BbnativesharedPlayoutCompanion, BbnativesharedProcedureCompanion, BbnativesharedProjectCompanion, BbnativesharedPublicationCompanion, BbnativesharedQuality, BbnativesharedRequestParamsCompanion, BbnativesharedStepCompanion, BbnativesharedSubtitleCompanion, BbnativesharedThumbnailCompanion, BbnativesharedTimelineCompanion, BbnativesharedTypedObjectCompanion, BbnativesharedTypedObject, BbnativesharedVersioningDataCompanion, BbnativesharedKotlinx_coroutines_coreCoroutineDispatcher, BbnativesharedBlueBillywigLoggerCompanion, BbnativesharedContentLoaderCompanion, BbnativesharedKotlinException, BbnativesharedLanguage, BbnativesharedLanguagesCompanion, BbnativesharedLanguages, BbnativesharedKotlinx_serialization_coreSerializersModule, BbnativesharedKotlinx_datetimeInstantCompanion, BbnativesharedKotlinx_serialization_jsonJsonElementCompanion, BbnativesharedKotlinAbstractCoroutineContextElement, BbnativesharedKotlinx_coroutines_coreCoroutineDispatcherKey, BbnativesharedKotlinThrowable, BbnativesharedKotlinCancellationException, BbnativesharedKotlinx_serialization_coreSerialKind, BbnativesharedKotlinNothing, BbnativesharedKotlinAbstractCoroutineContextKey<B, E>, BbnativesharedKotlinRuntimeException, BbnativesharedKotlinIllegalStateException, BbnativesharedKotlinx_coroutines_coreAtomicDesc, BbnativesharedKotlinx_coroutines_coreLockFreeLinkedListNodePrepareOp, BbnativesharedKotlinx_coroutines_coreAtomicOp<__contravariant T>, BbnativesharedKotlinx_coroutines_coreOpDescriptor, BbnativesharedKotlinx_coroutines_coreLockFreeLinkedListNode, BbnativesharedKotlinx_coroutines_coreLockFreeLinkedListNodeAbstractAtomicDesc, BbnativesharedKotlinx_coroutines_coreLockFreeLinkedListNodeAddLastDesc<T>, BbnativesharedKotlinx_coroutines_coreLockFreeLinkedListNodeRemoveFirstDesc<T>;
+@class BbnativesharedAction, BbnativesharedActionCompanion, BbnativesharedAdMacroHelperCompanion, BbnativesharedAdSchedulingControllerCompanion, BbnativesharedAdSchedulingData, BbnativesharedAdSchedulingDataCompanion, BbnativesharedAdUnit, BbnativesharedAdUnitCompanion, BbnativesharedAdUnitPlayout, BbnativesharedAdUnitPlayoutCompanion, BbnativesharedApiMethod, BbnativesharedApiProperty, BbnativesharedAppConfig, BbnativesharedAppConfigCompanion, BbnativesharedAudiotrack, BbnativesharedAudiotrackCompanion, BbnativesharedAutoPlayNextTimerCompanion, BbnativesharedBBModel, BbnativesharedBlueBillywigLoggerCompanion, BbnativesharedCapabilitiesCompanion, BbnativesharedChapter, BbnativesharedChapterCompanion, BbnativesharedCondition, BbnativesharedConditionCompanion, BbnativesharedContentItem, BbnativesharedContentItemCompanion, BbnativesharedContentItemFactoryCompanion, BbnativesharedContentLoaderCompanion, BbnativesharedDates, BbnativesharedDatesCompanion, BbnativesharedEmbedControllerCompanion, BbnativesharedEmbedData, BbnativesharedEmbedDataCompanion, BbnativesharedEmbedObject, BbnativesharedEmbedObjectCompanion, BbnativesharedEventHandler, BbnativesharedEventHandlerCompanion, BbnativesharedEventName, BbnativesharedFitMode, BbnativesharedHighlight, BbnativesharedHighlightCompanion, BbnativesharedInstantFactoryCompanion, BbnativesharedKotlinAbstractCoroutineContextElement, BbnativesharedKotlinAbstractCoroutineContextKey<B, E>, BbnativesharedKotlinArray<T>, BbnativesharedKotlinCancellationException, BbnativesharedKotlinEnum<E>, BbnativesharedKotlinEnumCompanion, BbnativesharedKotlinException, BbnativesharedKotlinIllegalStateException, BbnativesharedKotlinNothing, BbnativesharedKotlinRuntimeException, BbnativesharedKotlinThrowable, BbnativesharedKotlinx_coroutines_coreAtomicDesc, BbnativesharedKotlinx_coroutines_coreAtomicOp<__contravariant T>, BbnativesharedKotlinx_coroutines_coreCoroutineDispatcher, BbnativesharedKotlinx_coroutines_coreCoroutineDispatcherKey, BbnativesharedKotlinx_coroutines_coreLockFreeLinkedListNode, BbnativesharedKotlinx_coroutines_coreLockFreeLinkedListNodeAbstractAtomicDesc, BbnativesharedKotlinx_coroutines_coreLockFreeLinkedListNodeAddLastDesc<T>, BbnativesharedKotlinx_coroutines_coreLockFreeLinkedListNodePrepareOp, BbnativesharedKotlinx_coroutines_coreLockFreeLinkedListNodeRemoveFirstDesc<T>, BbnativesharedKotlinx_coroutines_coreOpDescriptor, BbnativesharedKotlinx_datetimeInstant, BbnativesharedKotlinx_datetimeInstantCompanion, BbnativesharedKotlinx_serialization_coreSerialKind, BbnativesharedKotlinx_serialization_coreSerializersModule, BbnativesharedKotlinx_serialization_jsonJsonElement, BbnativesharedKotlinx_serialization_jsonJsonElementCompanion, BbnativesharedLanguage, BbnativesharedLanguages, BbnativesharedLanguagesCompanion, BbnativesharedLineItem_, BbnativesharedLineItem_Companion, BbnativesharedLogger, BbnativesharedMasterController, BbnativesharedMasterControllerCompanion, BbnativesharedMediaAsset, BbnativesharedMediaAssetCompanion, BbnativesharedMediaClip, BbnativesharedMediaClipCompanion, BbnativesharedMediaClipList, BbnativesharedMediaClipListCompanion, BbnativesharedMsasController, BbnativesharedMsasControllerCompanion, BbnativesharedParameter, BbnativesharedParameterCompanion, BbnativesharedPhase, BbnativesharedPlatformCompanion, BbnativesharedPlayer, BbnativesharedPlayerCompanion, BbnativesharedPlayerSettings, BbnativesharedPlayerSettingsCompanion, BbnativesharedPlayout, BbnativesharedPlayoutCompanion, BbnativesharedPosType, BbnativesharedProcedure, BbnativesharedProcedureCompanion, BbnativesharedProgramController, BbnativesharedProgramControllerCompanion, BbnativesharedProject, BbnativesharedProjectCompanion, BbnativesharedPublication, BbnativesharedPublicationCompanion, BbnativesharedQuality, BbnativesharedRelatedItemsHelperCompanion, BbnativesharedRequestParams, BbnativesharedRequestParamsCompanion, BbnativesharedShortsEngineCompanion, BbnativesharedSoftEmbargoTimerCompanion, BbnativesharedState, BbnativesharedStep, BbnativesharedStepCompanion, BbnativesharedSubtitle, BbnativesharedSubtitleCompanion, BbnativesharedThumbnail, BbnativesharedThumbnailCompanion, BbnativesharedTimeline, BbnativesharedTimelineCompanion, BbnativesharedTypedObject, BbnativesharedTypedObjectCompanion, BbnativesharedVersioningData, BbnativesharedVersioningDataCompanion;
 
-@protocol BbnativesharedEventListenerInterface, BbnativesharedEventBusInterface, BbnativesharedKotlinx_coroutines_coreCoroutineScope, BbnativesharedContentItemInterface, BbnativesharedNetworkInterface, BbnativesharedAdControllerInterface, BbnativesharedMediaControllerInterface, BbnativesharedPosterControllerInterface, BbnativesharedKotlinComparable, BbnativesharedKotlinx_serialization_coreKSerializer, BbnativesharedKotlinCoroutineContext, BbnativesharedKotlinx_coroutines_coreMutableStateFlow, BbnativesharedKotlinx_coroutines_coreCompletableJob, BbnativesharedKotlinIterator, BbnativesharedKotlinx_serialization_coreEncoder, BbnativesharedKotlinx_serialization_coreSerialDescriptor, BbnativesharedKotlinx_serialization_coreSerializationStrategy, BbnativesharedKotlinx_serialization_coreDecoder, BbnativesharedKotlinx_serialization_coreDeserializationStrategy, BbnativesharedKotlinCoroutineContextElement, BbnativesharedKotlinCoroutineContextKey, BbnativesharedKotlinContinuation, BbnativesharedKotlinContinuationInterceptor, BbnativesharedKotlinx_coroutines_coreRunnable, BbnativesharedKotlinx_coroutines_coreFlowCollector, BbnativesharedKotlinx_coroutines_coreFlow, BbnativesharedKotlinx_coroutines_coreSharedFlow, BbnativesharedKotlinx_coroutines_coreStateFlow, BbnativesharedKotlinx_coroutines_coreMutableSharedFlow, BbnativesharedKotlinx_coroutines_coreChildHandle, BbnativesharedKotlinx_coroutines_coreChildJob, BbnativesharedKotlinx_coroutines_coreDisposableHandle, BbnativesharedKotlinx_coroutines_coreJob, BbnativesharedKotlinSequence, BbnativesharedKotlinx_coroutines_coreSelectClause0, BbnativesharedKotlinx_serialization_coreSerializersModuleCollector, BbnativesharedKotlinKClass, BbnativesharedKotlinx_serialization_coreCompositeEncoder, BbnativesharedKotlinAnnotation, BbnativesharedKotlinx_serialization_coreCompositeDecoder, BbnativesharedKotlinx_coroutines_coreParentJob, BbnativesharedKotlinx_coroutines_coreSelectInstance, BbnativesharedKotlinSuspendFunction0, BbnativesharedKotlinKDeclarationContainer, BbnativesharedKotlinKAnnotatedElement, BbnativesharedKotlinKClassifier, BbnativesharedKotlinFunction;
+@protocol BbnativesharedAdControllerInterface, BbnativesharedContentItemInterface, BbnativesharedEventBusInterface, BbnativesharedEventListenerInterface, BbnativesharedKotlinAnnotation, BbnativesharedKotlinComparable, BbnativesharedKotlinContinuation, BbnativesharedKotlinContinuationInterceptor, BbnativesharedKotlinCoroutineContext, BbnativesharedKotlinCoroutineContextElement, BbnativesharedKotlinCoroutineContextKey, BbnativesharedKotlinFunction, BbnativesharedKotlinIterator, BbnativesharedKotlinKAnnotatedElement, BbnativesharedKotlinKClass, BbnativesharedKotlinKClassifier, BbnativesharedKotlinKDeclarationContainer, BbnativesharedKotlinSequence, BbnativesharedKotlinSuspendFunction0, BbnativesharedKotlinx_coroutines_coreChildHandle, BbnativesharedKotlinx_coroutines_coreChildJob, BbnativesharedKotlinx_coroutines_coreCompletableJob, BbnativesharedKotlinx_coroutines_coreCoroutineScope, BbnativesharedKotlinx_coroutines_coreDisposableHandle, BbnativesharedKotlinx_coroutines_coreFlow, BbnativesharedKotlinx_coroutines_coreFlowCollector, BbnativesharedKotlinx_coroutines_coreJob, BbnativesharedKotlinx_coroutines_coreMutableSharedFlow, BbnativesharedKotlinx_coroutines_coreMutableStateFlow, BbnativesharedKotlinx_coroutines_coreParentJob, BbnativesharedKotlinx_coroutines_coreRunnable, BbnativesharedKotlinx_coroutines_coreSelectClause0, BbnativesharedKotlinx_coroutines_coreSelectInstance, BbnativesharedKotlinx_coroutines_coreSharedFlow, BbnativesharedKotlinx_coroutines_coreStateFlow, BbnativesharedKotlinx_serialization_coreCompositeDecoder, BbnativesharedKotlinx_serialization_coreCompositeEncoder, BbnativesharedKotlinx_serialization_coreDecoder, BbnativesharedKotlinx_serialization_coreDeserializationStrategy, BbnativesharedKotlinx_serialization_coreEncoder, BbnativesharedKotlinx_serialization_coreKSerializer, BbnativesharedKotlinx_serialization_coreSerialDescriptor, BbnativesharedKotlinx_serialization_coreSerializationStrategy, BbnativesharedKotlinx_serialization_coreSerializersModuleCollector, BbnativesharedMediaControllerInterface, BbnativesharedNetworkInterface, BbnativesharedPosterControllerInterface;
 
 NS_ASSUME_NONNULL_BEGIN
 #pragma clang diagnostic push
@@ -340,65 +340,6 @@ __attribute__((swift_name("SoftEmbargoTimer.Companion")))
 @property (readonly) NSString *TAG __attribute__((swift_name("TAG")));
 @end
 
-__attribute__((swift_name("AdControllerInterface")))
-@protocol BbnativesharedAdControllerInterface
-@required
-- (id _Nullable)getPropertyName:(NSString *)propertyName __attribute__((swift_name("get(propertyName:)")));
-- (BOOL)loadVastUrl:(NSString * _Nullable)vastUrl position:(BbnativesharedPosType *)position __attribute__((swift_name("load(vastUrl:position:)")));
-- (BOOL)pause __attribute__((swift_name("pause()")));
-- (BOOL)play __attribute__((swift_name("play()")));
-- (BOOL)setPropertyName:(NSString *)propertyName propertyValue:(id _Nullable)propertyValue __attribute__((swift_name("set(propertyName:propertyValue:)")));
-@end
-
-__attribute__((swift_name("ContentItemInterface")))
-@protocol BbnativesharedContentItemInterface
-@required
-@property (readonly) NSString * _Nullable deeplink __attribute__((swift_name("deeplink")));
-@property (readonly) NSString * _Nullable id __attribute__((swift_name("id")));
-@property (readonly) NSString * _Nullable title __attribute__((swift_name("title")));
-@end
-
-__attribute__((swift_name("EventBusInterface")))
-@protocol BbnativesharedEventBusInterface
-@required
-- (void)addEventlistenerListener:(id<BbnativesharedEventListenerInterface>)listener __attribute__((swift_name("addEventlistener(listener:)")));
-- (void)removeEventlistenerListener:(id<BbnativesharedEventListenerInterface>)listener __attribute__((swift_name("removeEventlistener(listener:)")));
-- (void)triggerEventType:(BbnativesharedEventName *)eventType __attribute__((swift_name("trigger(eventType:)")));
-- (void)triggerEventType:(BbnativesharedEventName *)eventType data:(NSDictionary<NSString *, id> *)data __attribute__((swift_name("trigger(eventType:data:)")));
-@property NSMutableArray<id<BbnativesharedEventListenerInterface>> *listeners __attribute__((swift_name("listeners")));
-@end
-
-__attribute__((swift_name("MediaControllerInterface")))
-@protocol BbnativesharedMediaControllerInterface
-@required
-- (id _Nullable)getPropertyName:(NSString *)propertyName __attribute__((swift_name("get(propertyName:)")));
-- (BOOL)loadMediaUrl:(NSString * _Nullable)mediaUrl seekPosition:(id _Nullable)seekPosition metadata:(NSDictionary<NSString *, id> * _Nullable)metadata __attribute__((swift_name("load(mediaUrl:seekPosition:metadata:)")));
-- (BOOL)pauseRequested:(BOOL)requested __attribute__((swift_name("pause(requested:)")));
-- (BOOL)playUserAction:(BOOL)userAction requested:(BOOL)requested __attribute__((swift_name("play(userAction:requested:)")));
-- (BOOL)setPropertyName:(NSString *)propertyName propertyValue:(id _Nullable)propertyValue __attribute__((swift_name("set(propertyName:propertyValue:)")));
-- (BOOL)setAudiotrackId:(NSString *)id __attribute__((swift_name("setAudiotrack(id:)")));
-- (BOOL)setQualityIndex:(int32_t)index __attribute__((swift_name("setQuality(index:)")));
-- (BOOL)setSubtitleId:(NSString *)id __attribute__((swift_name("setSubtitle(id:)")));
-- (void)subtitlesOff __attribute__((swift_name("subtitlesOff()")));
-- (void)subtitlesOn __attribute__((swift_name("subtitlesOn()")));
-@end
-
-__attribute__((swift_name("NetworkInterface")))
-@protocol BbnativesharedNetworkInterface
-@required
-- (void)__destruct __attribute__((swift_name("__destruct()")));
-- (void)getJsonStringJsonUrl:(NSString *)jsonUrl onSuccess:(void (^)(NSString *))onSuccess onFailure:(void (^)(BbnativesharedBoolean *))onFailure __attribute__((swift_name("getJsonString(jsonUrl:onSuccess:onFailure:)")));
-- (void)logStatsUrl:(NSString *)url onSuccess:(void (^)(void))onSuccess onFailure:(void (^)(BbnativesharedBoolean *))onFailure __attribute__((swift_name("logStats(url:onSuccess:onFailure:)")));
-@end
-
-__attribute__((swift_name("PosterControllerInterface")))
-@protocol BbnativesharedPosterControllerInterface
-@required
-- (BOOL)hide __attribute__((swift_name("hide()")));
-- (BOOL)loadPosterUrl:(NSString * _Nullable)posterUrl posterMediaType:(NSString * _Nullable)posterMediaType __attribute__((swift_name("load(posterUrl:posterMediaType:)")));
-- (BOOL)show __attribute__((swift_name("show()")));
-@end
-
 __attribute__((objc_subclassing_restricted))
 __attribute__((swift_name("AdSchedulingController")))
 @interface BbnativesharedAdSchedulingController : BbnativesharedBase <BbnativesharedEventListenerInterface>
@@ -473,14 +414,50 @@ __attribute__((swift_name("InViewController")))
 - (BOOL)getInView __attribute__((swift_name("getInView()")));
 - (void)onEventEventType:(BbnativesharedEventName *)eventType data:(NSDictionary<NSString *, id> * _Nullable)data __attribute__((swift_name("onEvent(eventType:data:)")));
 - (void)setInViewInView:(BbnativesharedBoolean * _Nullable)inView __attribute__((swift_name("setInView(inView:)")));
+
+/**
+ * @note This property has protected visibility in Kotlin source and is intended only for use by subclasses.
+*/
 @property BOOL _autoPlay __attribute__((swift_name("_autoPlay")));
+
+/**
+ * @note This property has protected visibility in Kotlin source and is intended only for use by subclasses.
+*/
 @property BOOL _autoPlay_override __attribute__((swift_name("_autoPlay_override")));
+
+/**
+ * @note This property has protected visibility in Kotlin source and is intended only for use by subclasses.
+*/
 @property id<BbnativesharedEventBusInterface> _Nullable _eventBus __attribute__((swift_name("_eventBus")));
+
+/**
+ * @note This property has protected visibility in Kotlin source and is intended only for use by subclasses.
+*/
 @property BOOL _inView __attribute__((swift_name("_inView")));
+
+/**
+ * @note This property has protected visibility in Kotlin source and is intended only for use by subclasses.
+*/
 @property NSString *_inViewAction __attribute__((swift_name("_inViewAction")));
+
+/**
+ * @note This property has protected visibility in Kotlin source and is intended only for use by subclasses.
+*/
 @property int32_t _inViewMargin __attribute__((swift_name("_inViewMargin")));
+
+/**
+ * @note This property has protected visibility in Kotlin source and is intended only for use by subclasses.
+*/
 @property BbnativesharedBoolean * _Nullable _inView_forced __attribute__((swift_name("_inView_forced")));
+
+/**
+ * @note This property has protected visibility in Kotlin source and is intended only for use by subclasses.
+*/
 @property NSString *_outViewAction __attribute__((swift_name("_outViewAction")));
+
+/**
+ * @note This property has protected visibility in Kotlin source and is intended only for use by subclasses.
+*/
 @property BOOL _outViewOnce __attribute__((swift_name("_outViewOnce")));
 @end
 
@@ -557,7 +534,6 @@ __attribute__((swift_name("ProgramController")))
 - (void)pause __attribute__((swift_name("pause()")));
 - (void)playUserAction:(BOOL)userAction __attribute__((swift_name("play(userAction:)")));
 - (void)seekPositionInSeconds:(id)positionInSeconds relativeToCurrentTime:(BOOL)relativeToCurrentTime __attribute__((swift_name("seek(positionInSeconds:relativeToCurrentTime:)")));
-- (void)seekBackwardForwardPositionInSeconds:(id)positionInSeconds direction:(NSString *)direction __attribute__((swift_name("seekBackwardForward(positionInSeconds:direction:)")));
 - (void)setAudiotrackId:(NSString *)id __attribute__((swift_name("setAudiotrack(id:)")));
 - (void)setPlaybackRateRate:(float)rate __attribute__((swift_name("setPlaybackRate(rate:)")));
 - (void)setQualityIndex:(int32_t)index __attribute__((swift_name("setQuality(index:)")));
@@ -599,6 +575,62 @@ __attribute__((swift_name("StatsController")))
 @property id<BbnativesharedEventBusInterface> _Nullable eventBus __attribute__((swift_name("eventBus")));
 @end
 
+__attribute__((objc_subclassing_restricted))
+__attribute__((swift_name("ContentLoader")))
+@interface BbnativesharedContentLoader : BbnativesharedBase
+- (instancetype)init __attribute__((swift_name("init()"))) __attribute__((objc_designated_initializer));
++ (instancetype)new __attribute__((availability(swift, unavailable, message="use object initializers instead")));
+@property (class, readonly, getter=companion) BbnativesharedContentLoaderCompanion *companion __attribute__((swift_name("companion")));
+- (void)__destruct __attribute__((swift_name("__destruct()")));
+- (void)getContentFromJsonUrlJsonUrl:(NSString *)jsonUrl onSuccess:(void (^)(id<BbnativesharedContentItemInterface>))onSuccess onFailure:(void (^)(BbnativesharedKotlinException *))onFailure __attribute__((swift_name("getContentFromJsonUrl(jsonUrl:onSuccess:onFailure:)")));
+- (void)getJsonStringFromUrlJsonUrl:(NSString *)jsonUrl onSuccess:(void (^)(NSString *))onSuccess onFailure:(void (^)(BbnativesharedKotlinException *))onFailure __attribute__((swift_name("getJsonStringFromUrl(jsonUrl:onSuccess:onFailure:)")));
+- (void)getObjectFromJsonUrlJsonUrl:(NSString *)jsonUrl onSuccess:(void (^)(id _Nullable))onSuccess onFailure:(void (^)(BbnativesharedKotlinException *))onFailure __attribute__((swift_name("getObjectFromJsonUrl(jsonUrl:onSuccess:onFailure:)")));
+@property (readonly) id<BbnativesharedKotlinx_coroutines_coreCoroutineScope> mainScope __attribute__((swift_name("mainScope")));
+@property id<BbnativesharedNetworkInterface> _Nullable network __attribute__((swift_name("network")));
+@end
+
+__attribute__((objc_subclassing_restricted))
+__attribute__((swift_name("ContentLoader.Companion")))
+@interface BbnativesharedContentLoaderCompanion : BbnativesharedBase
++ (instancetype)alloc __attribute__((unavailable));
++ (instancetype)allocWithZone:(struct _NSZone *)zone __attribute__((unavailable));
++ (instancetype)companion __attribute__((swift_name("init()")));
+@property (class, readonly, getter=shared) BbnativesharedContentLoaderCompanion *shared __attribute__((swift_name("shared")));
+- (NSString *)fixDataInconsistenciesDataString:(NSString *)dataString __attribute__((swift_name("fixDataInconsistencies(dataString:)")));
+- (BbnativesharedMediaClip * _Nullable)parseMediaClipJsonString:(NSString *)jsonString __attribute__((swift_name("parseMediaClip(jsonString:)")));
+- (BbnativesharedMediaClipList * _Nullable)parseMediaClipListJsonString:(NSString *)jsonString __attribute__((swift_name("parseMediaClipList(jsonString:)")));
+- (BbnativesharedProject * _Nullable)parseProjectJsonString:(NSString *)jsonString __attribute__((swift_name("parseProject(jsonString:)")));
+@end
+
+__attribute__((objc_subclassing_restricted))
+__attribute__((swift_name("Language")))
+@interface BbnativesharedLanguage : BbnativesharedBase
+- (instancetype)initWithIso:(NSString * _Nullable)iso translations:(BbnativesharedMutableDictionary<NSString *, NSString *> *)translations __attribute__((swift_name("init(iso:translations:)"))) __attribute__((objc_designated_initializer));
+- (BbnativesharedLanguage *)doCopyIso:(NSString * _Nullable)iso translations:(BbnativesharedMutableDictionary<NSString *, NSString *> *)translations __attribute__((swift_name("doCopy(iso:translations:)")));
+- (BOOL)isEqual:(id _Nullable)other __attribute__((swift_name("isEqual(_:)")));
+- (NSUInteger)hash __attribute__((swift_name("hash()")));
+- (NSString *)description __attribute__((swift_name("description()")));
+@property NSString * _Nullable iso __attribute__((swift_name("iso")));
+@property BbnativesharedMutableDictionary<NSString *, NSString *> *translations __attribute__((swift_name("translations")));
+@end
+
+__attribute__((objc_subclassing_restricted))
+__attribute__((swift_name("Languages")))
+@interface BbnativesharedLanguages : BbnativesharedBase
+@property (class, readonly, getter=companion) BbnativesharedLanguagesCompanion *companion __attribute__((swift_name("companion")));
+- (NSString *)translateIso:(NSString *)iso text:(NSString *)text __attribute__((swift_name("translate(iso:text:)")));
+@end
+
+__attribute__((objc_subclassing_restricted))
+__attribute__((swift_name("Languages.Companion")))
+@interface BbnativesharedLanguagesCompanion : BbnativesharedBase
++ (instancetype)alloc __attribute__((unavailable));
++ (instancetype)allocWithZone:(struct _NSZone *)zone __attribute__((unavailable));
++ (instancetype)companion __attribute__((swift_name("init()")));
+@property (class, readonly, getter=shared) BbnativesharedLanguagesCompanion *shared __attribute__((swift_name("shared")));
+@property (readonly) BbnativesharedLanguages *instance __attribute__((swift_name("instance")));
+@end
+
 __attribute__((swift_name("KotlinComparable")))
 @protocol BbnativesharedKotlinComparable
 @required
@@ -634,6 +666,7 @@ __attribute__((swift_name("ApiMethod")))
 @property (class, readonly) BbnativesharedApiMethod *exitfullscreen __attribute__((swift_name("exitfullscreen")));
 @property (class, readonly) BbnativesharedApiMethod *handlewidgetevent __attribute__((swift_name("handlewidgetevent")));
 + (BbnativesharedKotlinArray<BbnativesharedApiMethod *> *)values __attribute__((swift_name("values()")));
+@property (class, readonly) NSArray<BbnativesharedApiMethod *> *entries __attribute__((swift_name("entries")));
 @end
 
 __attribute__((objc_subclassing_restricted))
@@ -657,6 +690,7 @@ __attribute__((swift_name("ApiProperty")))
 @property (class, readonly) BbnativesharedApiProperty *admediaheight __attribute__((swift_name("admediaheight")));
 @property (class, readonly) BbnativesharedApiProperty *inview __attribute__((swift_name("inview")));
 + (BbnativesharedKotlinArray<BbnativesharedApiProperty *> *)values __attribute__((swift_name("values()")));
+@property (class, readonly) NSArray<BbnativesharedApiProperty *> *entries __attribute__((swift_name("entries")));
 @end
 
 __attribute__((objc_subclassing_restricted))
@@ -800,6 +834,7 @@ __attribute__((swift_name("EventName")))
 @property (class, readonly) BbnativesharedEventName *subtitletrackchanged __attribute__((swift_name("subtitletrackchanged")));
 @property (class, readonly) BbnativesharedEventName *playbackspeedchanged __attribute__((swift_name("playbackspeedchanged")));
 + (BbnativesharedKotlinArray<BbnativesharedEventName *> *)values __attribute__((swift_name("values()")));
+@property (class, readonly) NSArray<BbnativesharedEventName *> *entries __attribute__((swift_name("entries")));
 @end
 
 __attribute__((objc_subclassing_restricted))
@@ -816,6 +851,7 @@ __attribute__((swift_name("FitMode")))
 @property (class, readonly) BbnativesharedFitMode *fitStretch __attribute__((swift_name("fitStretch")));
 @property (class, readonly) BbnativesharedFitMode *fitOverscan __attribute__((swift_name("fitOverscan")));
 + (BbnativesharedKotlinArray<BbnativesharedFitMode *> *)values __attribute__((swift_name("values()")));
+@property (class, readonly) NSArray<BbnativesharedFitMode *> *entries __attribute__((swift_name("entries")));
 @end
 
 __attribute__((objc_subclassing_restricted))
@@ -830,6 +866,7 @@ __attribute__((swift_name("Phase")))
 @property (class, readonly) BbnativesharedPhase *post __attribute__((swift_name("post")));
 @property (class, readonly) BbnativesharedPhase *exit __attribute__((swift_name("exit")));
 + (BbnativesharedKotlinArray<BbnativesharedPhase *> *)values __attribute__((swift_name("values()")));
+@property (class, readonly) NSArray<BbnativesharedPhase *> *entries __attribute__((swift_name("entries")));
 @end
 
 __attribute__((objc_subclassing_restricted))
@@ -847,6 +884,7 @@ __attribute__((swift_name("PosType")))
 @property (class, readonly) BbnativesharedPosType *postroll __attribute__((swift_name("postroll")));
 @property (class, readonly) BbnativesharedPosType *exitscreen __attribute__((swift_name("exitscreen")));
 + (BbnativesharedKotlinArray<BbnativesharedPosType *> *)values __attribute__((swift_name("values()")));
+@property (class, readonly) NSArray<BbnativesharedPosType *> *entries __attribute__((swift_name("entries")));
 @end
 
 __attribute__((objc_subclassing_restricted))
@@ -861,6 +899,120 @@ __attribute__((swift_name("State")))
 @property (class, readonly) BbnativesharedState *playing __attribute__((swift_name("playing")));
 @property (class, readonly) BbnativesharedState *error __attribute__((swift_name("error")));
 + (BbnativesharedKotlinArray<BbnativesharedState *> *)values __attribute__((swift_name("values()")));
+@property (class, readonly) NSArray<BbnativesharedState *> *entries __attribute__((swift_name("entries")));
+@end
+
+__attribute__((swift_name("AdControllerInterface")))
+@protocol BbnativesharedAdControllerInterface
+@required
+- (id _Nullable)getPropertyName:(NSString *)propertyName __attribute__((swift_name("get(propertyName:)")));
+- (BOOL)loadVastUrl:(NSString * _Nullable)vastUrl position:(BbnativesharedPosType *)position __attribute__((swift_name("load(vastUrl:position:)")));
+- (BOOL)pause __attribute__((swift_name("pause()")));
+- (BOOL)play __attribute__((swift_name("play()")));
+- (BOOL)setPropertyName:(NSString *)propertyName propertyValue:(id _Nullable)propertyValue __attribute__((swift_name("set(propertyName:propertyValue:)")));
+@end
+
+__attribute__((swift_name("ContentItemInterface")))
+@protocol BbnativesharedContentItemInterface
+@required
+@property (readonly) NSString * _Nullable deeplink __attribute__((swift_name("deeplink")));
+@property (readonly) NSString * _Nullable id __attribute__((swift_name("id")));
+@property (readonly) NSString * _Nullable title __attribute__((swift_name("title")));
+@end
+
+__attribute__((swift_name("EventBusInterface")))
+@protocol BbnativesharedEventBusInterface
+@required
+- (void)addEventlistenerListener:(id<BbnativesharedEventListenerInterface>)listener __attribute__((swift_name("addEventlistener(listener:)")));
+- (void)removeEventlistenerListener:(id<BbnativesharedEventListenerInterface>)listener __attribute__((swift_name("removeEventlistener(listener:)")));
+- (void)triggerEventType:(BbnativesharedEventName *)eventType __attribute__((swift_name("trigger(eventType:)")));
+- (void)triggerEventType:(BbnativesharedEventName *)eventType data:(NSDictionary<NSString *, id> *)data __attribute__((swift_name("trigger(eventType:data:)")));
+@property NSMutableArray<id<BbnativesharedEventListenerInterface>> *listeners __attribute__((swift_name("listeners")));
+@end
+
+__attribute__((swift_name("MediaControllerInterface")))
+@protocol BbnativesharedMediaControllerInterface
+@required
+- (id _Nullable)getPropertyName:(NSString *)propertyName __attribute__((swift_name("get(propertyName:)")));
+- (BOOL)loadMediaUrl:(NSString * _Nullable)mediaUrl seekPosition:(id _Nullable)seekPosition metadata:(NSDictionary<NSString *, id> * _Nullable)metadata __attribute__((swift_name("load(mediaUrl:seekPosition:metadata:)")));
+- (BOOL)pauseRequested:(BOOL)requested __attribute__((swift_name("pause(requested:)")));
+- (BOOL)playUserAction:(BOOL)userAction requested:(BOOL)requested __attribute__((swift_name("play(userAction:requested:)")));
+- (BOOL)setPropertyName:(NSString *)propertyName propertyValue:(id _Nullable)propertyValue __attribute__((swift_name("set(propertyName:propertyValue:)")));
+- (BOOL)setAudiotrackId:(NSString *)id __attribute__((swift_name("setAudiotrack(id:)")));
+- (BOOL)setQualityIndex:(int32_t)index __attribute__((swift_name("setQuality(index:)")));
+- (BOOL)setSubtitleId:(NSString *)id __attribute__((swift_name("setSubtitle(id:)")));
+- (void)subtitlesOff __attribute__((swift_name("subtitlesOff()")));
+- (void)subtitlesOn __attribute__((swift_name("subtitlesOn()")));
+@end
+
+__attribute__((swift_name("NetworkInterface")))
+@protocol BbnativesharedNetworkInterface
+@required
+- (void)__destruct __attribute__((swift_name("__destruct()")));
+- (void)getJsonStringJsonUrl:(NSString *)jsonUrl onSuccess:(void (^)(NSString *))onSuccess onFailure:(void (^)(BbnativesharedBoolean *))onFailure __attribute__((swift_name("getJsonString(jsonUrl:onSuccess:onFailure:)")));
+- (void)logStatsUrl:(NSString *)url onSuccess:(void (^)(void))onSuccess onFailure:(void (^)(BbnativesharedBoolean *))onFailure __attribute__((swift_name("logStats(url:onSuccess:onFailure:)")));
+@end
+
+__attribute__((swift_name("PosterControllerInterface")))
+@protocol BbnativesharedPosterControllerInterface
+@required
+- (BOOL)hide __attribute__((swift_name("hide()")));
+- (BOOL)loadPosterUrl:(NSString * _Nullable)posterUrl posterMediaType:(NSString * _Nullable)posterMediaType __attribute__((swift_name("load(posterUrl:posterMediaType:)")));
+- (BOOL)show __attribute__((swift_name("show()")));
+@end
+
+__attribute__((swift_name("Kotlinx_coroutines_coreCoroutineScope")))
+@protocol BbnativesharedKotlinx_coroutines_coreCoroutineScope
+@required
+@property (readonly) id<BbnativesharedKotlinCoroutineContext> coroutineContext __attribute__((swift_name("coroutineContext")));
+@end
+
+__attribute__((swift_name("BlueBillywigLogger")))
+@interface BbnativesharedBlueBillywigLogger : BbnativesharedBase <BbnativesharedEventListenerInterface, BbnativesharedKotlinx_coroutines_coreCoroutineScope>
+- (instancetype)initWithEventBus:(id<BbnativesharedEventBusInterface> _Nullable)eventBus network:(id<BbnativesharedNetworkInterface> _Nullable)network __attribute__((swift_name("init(eventBus:network:)"))) __attribute__((objc_designated_initializer));
+- (instancetype)initWithEventBus:(id<BbnativesharedEventBusInterface> _Nullable)eventBus network:(id<BbnativesharedNetworkInterface> _Nullable)network mainDispatcher:(BbnativesharedKotlinx_coroutines_coreCoroutineDispatcher *)mainDispatcher __attribute__((swift_name("init(eventBus:network:mainDispatcher:)"))) __attribute__((objc_designated_initializer));
+@property (class, readonly, getter=companion) BbnativesharedBlueBillywigLoggerCompanion *companion __attribute__((swift_name("companion")));
+- (void)__destruct __attribute__((swift_name("__destruct()")));
+- (void)disable __attribute__((swift_name("disable()")));
+- (void)enable __attribute__((swift_name("enable()")));
+- (void)handleAutoPause __attribute__((swift_name("handleAutoPause()")));
+- (void)ingestOptsOpts:(BbnativesharedEmbedObject * _Nullable)opts __attribute__((swift_name("ingestOpts(opts:)")));
+- (void)logMediaClipEventEvent:(NSString *)event aux:(NSDictionary<NSString *, NSString *> *)aux __attribute__((swift_name("logMediaClipEvent(event:aux:)")));
+- (void)onClipDataLoadedEventType:(BbnativesharedEventName *)eventType payload:(NSDictionary<NSString *, id> * _Nullable)payload __attribute__((swift_name("onClipDataLoaded(eventType:payload:)")));
+- (void)onEventEventType:(BbnativesharedEventName *)eventType data:(NSDictionary<NSString *, id> * _Nullable)data __attribute__((swift_name("onEvent(eventType:data:)")));
+
+/**
+ * @note This property has protected visibility in Kotlin source and is intended only for use by subclasses.
+*/
+@property BbnativesharedMutableDictionary<NSString *, id<BbnativesharedKotlinx_coroutines_coreMutableStateFlow>> *_debouncedEventListMap __attribute__((swift_name("_debouncedEventListMap")));
+
+/**
+ * @note This property has protected visibility in Kotlin source and is intended only for use by subclasses.
+*/
+@property NSMutableArray<BbnativesharedMutableDictionary<NSString *, NSString *> *> *_enabledQueue __attribute__((swift_name("_enabledQueue")));
+@property (readonly) id<BbnativesharedKotlinCoroutineContext> coroutineContext __attribute__((swift_name("coroutineContext")));
+@property id<BbnativesharedEventBusInterface> _Nullable eventBus __attribute__((swift_name("eventBus")));
+@property (readonly) id<BbnativesharedKotlinx_coroutines_coreCompletableJob> job __attribute__((swift_name("job")));
+@end
+
+__attribute__((objc_subclassing_restricted))
+__attribute__((swift_name("BlueBillywigLogger.Companion")))
+@interface BbnativesharedBlueBillywigLoggerCompanion : BbnativesharedBase
++ (instancetype)alloc __attribute__((unavailable));
++ (instancetype)allocWithZone:(struct _NSZone *)zone __attribute__((unavailable));
++ (instancetype)companion __attribute__((swift_name("init()")));
+@property (class, readonly, getter=shared) BbnativesharedBlueBillywigLoggerCompanion *shared __attribute__((swift_name("shared")));
+@property (readonly) NSString *TAG __attribute__((swift_name("TAG")));
+@end
+
+__attribute__((objc_subclassing_restricted))
+__attribute__((swift_name("CustomStatistics")))
+@interface BbnativesharedCustomStatistics : BbnativesharedBase
+- (instancetype)init __attribute__((swift_name("init()"))) __attribute__((objc_designated_initializer));
++ (instancetype)new __attribute__((availability(swift, unavailable, message="use object initializers instead")));
+- (void)__destruct __attribute__((swift_name("__destruct()")));
+- (void)sendIdent:(NSString *)ident ev:(NSString *)ev aux:(NSDictionary<NSString *, NSString *> *)aux __attribute__((swift_name("send(ident:ev:aux:)")));
+@property id<BbnativesharedEventBusInterface> _Nullable eventBus __attribute__((swift_name("eventBus")));
 @end
 
 
@@ -873,10 +1025,6 @@ __attribute__((swift_name("Action")))
 @interface BbnativesharedAction : BbnativesharedBase
 - (instancetype)initWithId:(NSString * _Nullable)id entity:(NSString * _Nullable)entity command:(NSString * _Nullable)command parameters:(NSArray<BbnativesharedParameter *> * _Nullable)parameters __attribute__((swift_name("init(id:entity:command:parameters:)"))) __attribute__((objc_designated_initializer));
 @property (class, readonly, getter=companion) BbnativesharedActionCompanion *companion __attribute__((swift_name("companion")));
-- (NSString * _Nullable)component1 __attribute__((swift_name("component1()"))) __attribute__((deprecated("use corresponding property instead")));
-- (NSString * _Nullable)component2 __attribute__((swift_name("component2()"))) __attribute__((deprecated("use corresponding property instead")));
-- (NSString * _Nullable)component3 __attribute__((swift_name("component3()"))) __attribute__((deprecated("use corresponding property instead")));
-- (NSArray<BbnativesharedParameter *> * _Nullable)component4 __attribute__((swift_name("component4()"))) __attribute__((deprecated("use corresponding property instead")));
 - (BbnativesharedAction *)doCopyId:(NSString * _Nullable)id entity:(NSString * _Nullable)entity command:(NSString * _Nullable)command parameters:(NSArray<BbnativesharedParameter *> * _Nullable)parameters __attribute__((swift_name("doCopy(id:entity:command:parameters:)")));
 - (BOOL)isEqual:(id _Nullable)other __attribute__((swift_name("isEqual(_:)")));
 - (NSUInteger)hash __attribute__((swift_name("hash()")));
@@ -907,9 +1055,6 @@ __attribute__((swift_name("AdSchedulingData")))
 @interface BbnativesharedAdSchedulingData : BbnativesharedBase
 - (instancetype)initWithScheduleId:(BbnativesharedInt * _Nullable)scheduleId scheduleCode:(NSString * _Nullable)scheduleCode macros:(NSDictionary<NSString *, BbnativesharedKotlinArray<NSString *> *> * _Nullable)macros __attribute__((swift_name("init(scheduleId:scheduleCode:macros:)"))) __attribute__((objc_designated_initializer));
 @property (class, readonly, getter=companion) BbnativesharedAdSchedulingDataCompanion *companion __attribute__((swift_name("companion")));
-- (BbnativesharedInt * _Nullable)component1 __attribute__((swift_name("component1()"))) __attribute__((deprecated("use corresponding property instead")));
-- (NSString * _Nullable)component2 __attribute__((swift_name("component2()"))) __attribute__((deprecated("use corresponding property instead")));
-- (NSDictionary<NSString *, BbnativesharedKotlinArray<NSString *> *> * _Nullable)component3 __attribute__((swift_name("component3()"))) __attribute__((deprecated("use corresponding property instead")));
 - (BbnativesharedAdSchedulingData *)doCopyScheduleId:(BbnativesharedInt * _Nullable)scheduleId scheduleCode:(NSString * _Nullable)scheduleCode macros:(NSDictionary<NSString *, BbnativesharedKotlinArray<NSString *> *> * _Nullable)macros __attribute__((swift_name("doCopy(scheduleId:scheduleCode:macros:)")));
 - (BOOL)isEqual:(id _Nullable)other __attribute__((swift_name("isEqual(_:)")));
 - (NSUInteger)hash __attribute__((swift_name("hash()")));
@@ -939,22 +1084,6 @@ __attribute__((swift_name("AdUnit")))
 @interface BbnativesharedAdUnit : BbnativesharedBase
 - (instancetype)initWithId:(NSString * _Nullable)id type:(NSString * _Nullable)type status:(NSString * _Nullable)status createddate:(NSString * _Nullable)createddate createdBy:(NSString * _Nullable)createdBy updateddate:(NSString * _Nullable)updateddate updatedBy:(NSString * _Nullable)updatedBy playout:(BbnativesharedAdUnitPlayout * _Nullable)playout positionType:(NSString * _Nullable)positionType positionDisplayType:(NSString * _Nullable)positionDisplayType playoutCode:(NSString * _Nullable)playoutCode title:(NSString * _Nullable)title code:(NSString * _Nullable)code assignedLineitems:(NSArray<NSString *> * _Nullable)assignedLineitems label:(NSString * _Nullable)label lineitems:(NSArray<BbnativesharedLineItem_ *> * _Nullable)lineitems __attribute__((swift_name("init(id:type:status:createddate:createdBy:updateddate:updatedBy:playout:positionType:positionDisplayType:playoutCode:title:code:assignedLineitems:label:lineitems:)"))) __attribute__((objc_designated_initializer));
 @property (class, readonly, getter=companion) BbnativesharedAdUnitCompanion *companion __attribute__((swift_name("companion")));
-- (NSString * _Nullable)component1 __attribute__((swift_name("component1()"))) __attribute__((deprecated("use corresponding property instead")));
-- (NSString * _Nullable)component10 __attribute__((swift_name("component10()"))) __attribute__((deprecated("use corresponding property instead")));
-- (NSString * _Nullable)component11 __attribute__((swift_name("component11()"))) __attribute__((deprecated("use corresponding property instead")));
-- (NSString * _Nullable)component12 __attribute__((swift_name("component12()"))) __attribute__((deprecated("use corresponding property instead")));
-- (NSString * _Nullable)component13 __attribute__((swift_name("component13()"))) __attribute__((deprecated("use corresponding property instead")));
-- (NSArray<NSString *> * _Nullable)component14 __attribute__((swift_name("component14()"))) __attribute__((deprecated("use corresponding property instead")));
-- (NSString * _Nullable)component15 __attribute__((swift_name("component15()"))) __attribute__((deprecated("use corresponding property instead")));
-- (NSArray<BbnativesharedLineItem_ *> * _Nullable)component16 __attribute__((swift_name("component16()"))) __attribute__((deprecated("use corresponding property instead")));
-- (NSString * _Nullable)component2 __attribute__((swift_name("component2()"))) __attribute__((deprecated("use corresponding property instead")));
-- (NSString * _Nullable)component3 __attribute__((swift_name("component3()"))) __attribute__((deprecated("use corresponding property instead")));
-- (NSString * _Nullable)component4 __attribute__((swift_name("component4()"))) __attribute__((deprecated("use corresponding property instead")));
-- (NSString * _Nullable)component5 __attribute__((swift_name("component5()"))) __attribute__((deprecated("use corresponding property instead")));
-- (NSString * _Nullable)component6 __attribute__((swift_name("component6()"))) __attribute__((deprecated("use corresponding property instead")));
-- (NSString * _Nullable)component7 __attribute__((swift_name("component7()"))) __attribute__((deprecated("use corresponding property instead")));
-- (BbnativesharedAdUnitPlayout * _Nullable)component8 __attribute__((swift_name("component8()"))) __attribute__((deprecated("use corresponding property instead")));
-- (NSString * _Nullable)component9 __attribute__((swift_name("component9()"))) __attribute__((deprecated("use corresponding property instead")));
 - (BbnativesharedAdUnit *)doCopyId:(NSString * _Nullable)id type:(NSString * _Nullable)type status:(NSString * _Nullable)status createddate:(NSString * _Nullable)createddate createdBy:(NSString * _Nullable)createdBy updateddate:(NSString * _Nullable)updateddate updatedBy:(NSString * _Nullable)updatedBy playout:(BbnativesharedAdUnitPlayout * _Nullable)playout positionType:(NSString * _Nullable)positionType positionDisplayType:(NSString * _Nullable)positionDisplayType playoutCode:(NSString * _Nullable)playoutCode title:(NSString * _Nullable)title code:(NSString * _Nullable)code assignedLineitems:(NSArray<NSString *> * _Nullable)assignedLineitems label:(NSString * _Nullable)label lineitems:(NSArray<BbnativesharedLineItem_ *> * _Nullable)lineitems __attribute__((swift_name("doCopy(id:type:status:createddate:createdBy:updateddate:updatedBy:playout:positionType:positionDisplayType:playoutCode:title:code:assignedLineitems:label:lineitems:)")));
 - (BOOL)isEqual:(id _Nullable)other __attribute__((swift_name("isEqual(_:)")));
 - (NSUInteger)hash __attribute__((swift_name("hash()")));
@@ -997,102 +1126,6 @@ __attribute__((swift_name("AdUnitPlayout")))
 @interface BbnativesharedAdUnitPlayout : BbnativesharedBase
 - (instancetype)initWithLabel:(NSString * _Nullable)label autoHeight:(NSString * _Nullable)autoHeight responsiveSizing:(NSString * _Nullable)responsiveSizing width:(NSString * _Nullable)width height:(NSString * _Nullable)height commercials:(NSString * _Nullable)commercials preferFlashPlayback:(NSString * _Nullable)preferFlashPlayback disableHtml5VPAID:(NSString * _Nullable)disableHtml5VPAID enableHtml5VPAID:(NSString * _Nullable)enableHtml5VPAID commercialPauseButton:(NSString * _Nullable)commercialPauseButton commercialMuteButton:(NSString * _Nullable)commercialMuteButton commercialAdIcon:(NSString * _Nullable)commercialAdIcon commercialProgressBar:(NSString * _Nullable)commercialProgressBar commercialProgressBarColor:(NSString * _Nullable)commercialProgressBarColor commercialBehaviour:(NSString * _Nullable)commercialBehaviour minClipDurationPreroll:(NSString * _Nullable)minClipDurationPreroll minClipDurationPostroll:(NSString * _Nullable)minClipDurationPostroll textAbovePlayer:(NSString * _Nullable)textAbovePlayer textCommercialSkip:(NSString * _Nullable)textCommercialSkip skipCounterText:(NSString * _Nullable)skipCounterText skipButtonText:(NSString * _Nullable)skipButtonText preloadMainroll:(NSString * _Nullable)preloadMainroll textCommercialTimeRemaining:(NSString * _Nullable)textCommercialTimeRemaining autoPlay:(NSString * _Nullable)autoPlay autoMute:(NSString * _Nullable)autoMute autoLoop:(NSString * _Nullable)autoLoop interactivityInView:(NSString * _Nullable)interactivityInView interactivityOutView:(NSString * _Nullable)interactivityOutView interactivityMouseIn:(NSString * _Nullable)interactivityMouseIn interactivityMouseOut:(NSString * _Nullable)interactivityMouseOut inviewMargin:(NSString * _Nullable)inviewMargin stickyMode:(NSString * _Nullable)stickyMode hideFloatingClose:(NSString * _Nullable)hideFloatingClose interactivityOnClick:(NSString * _Nullable)interactivityOnClick clickURL:(NSString * _Nullable)clickURL startCollapsed:(NSString * _Nullable)startCollapsed playInOverlay:(NSString * _Nullable)playInOverlay hidePlayerOnEnd:(NSString * _Nullable)hidePlayerOnEnd waitForApproval:(NSString * _Nullable)waitForApproval placementOption:(NSString * _Nullable)placementOption placementDOMSelector:(NSString * _Nullable)placementDOMSelector iframeBreakout:(NSString * _Nullable)iframeBreakout clearBothOption:(NSString * _Nullable)clearBothOption nsiNoAutoPlay:(NSString * _Nullable)nsiNoAutoPlay nsiNoPlayer:(NSString * _Nullable)nsiNoPlayer alphaControlBar:(NSString * _Nullable)alphaControlBar skinBackgroundColor:(NSString * _Nullable)skinBackgroundColor skinForegroundColor:(NSString * _Nullable)skinForegroundColor skinWidgetColor:(NSString * _Nullable)skinWidgetColor bgColor:(NSString * _Nullable)bgColor placeholderTextColor:(NSString * _Nullable)placeholderTextColor placeholderText:(NSString * _Nullable)placeholderText ctaExitScreen:(NSString * _Nullable)ctaExitScreen ctaTextColor:(NSString * _Nullable)ctaTextColor ctaText:(NSString * _Nullable)ctaText logoID:(NSString * _Nullable)logoID logoAlign:(NSString * _Nullable)logoAlign logoClickURL:(NSString * _Nullable)logoClickURL controlBar:(NSString * _Nullable)controlBar controlBarPlacement:(NSString * _Nullable)controlBarPlacement timeDisplay:(NSString * _Nullable)timeDisplay timeLine:(NSString * _Nullable)timeLine muteButton:(NSString * _Nullable)muteButton volume:(NSString * _Nullable)volume volumeOrientation:(NSString * _Nullable)volumeOrientation languageSelect:(NSString * _Nullable)languageSelect qualitySelector:(NSString * _Nullable)qualitySelector fullScreen:(NSString * _Nullable)fullScreen shareButton:(NSString * _Nullable)shareButton showBigPlayButton:(NSString * _Nullable)showBigPlayButton title:(NSString * _Nullable)title authorCopyright:(NSString * _Nullable)authorCopyright relatedItems:(NSString * _Nullable)relatedItems sharePlayout:(NSString * _Nullable)sharePlayout skinBehaviour:(NSString * _Nullable)skinBehaviour skinOnTimeline:(NSString * _Nullable)skinOnTimeline nativeControls:(NSString * _Nullable)nativeControls forceNativeFullscreen:(NSString * _Nullable)forceNativeFullscreen preferHD:(NSString * _Nullable)preferHD youTubeHosting:(NSString * _Nullable)youTubeHosting youTubeSkinInMainPhase:(NSString * _Nullable)youTubeSkinInMainPhase nedStatLoggerURL:(NSString * _Nullable)nedStatLoggerURL googleAnalyticsID:(NSString * _Nullable)googleAnalyticsID disableCookies:(NSString * _Nullable)disableCookies disableContextMenuNavigate:(NSString * _Nullable)disableContextMenuNavigate playerSignature:(NSString * _Nullable)playerSignature playerSignatureLink:(NSString * _Nullable)playerSignatureLink fitmode:(NSString * _Nullable)fitmode allowImageSequence:(NSString * _Nullable)allowImageSequence forceInview:(NSString * _Nullable)forceInview customCode:(NSString * _Nullable)customCode ctaMidplay:(NSString * _Nullable)ctaMidplay ctaMidplayPosition:(NSString * _Nullable)ctaMidplayPosition commercialControls:(NSString * _Nullable)commercialControls aspectRatio:(NSString * _Nullable)aspectRatio eventHandlers:(NSArray<BbnativesharedEventHandler *> * _Nullable)eventHandlers __attribute__((swift_name("init(label:autoHeight:responsiveSizing:width:height:commercials:preferFlashPlayback:disableHtml5VPAID:enableHtml5VPAID:commercialPauseButton:commercialMuteButton:commercialAdIcon:commercialProgressBar:commercialProgressBarColor:commercialBehaviour:minClipDurationPreroll:minClipDurationPostroll:textAbovePlayer:textCommercialSkip:skipCounterText:skipButtonText:preloadMainroll:textCommercialTimeRemaining:autoPlay:autoMute:autoLoop:interactivityInView:interactivityOutView:interactivityMouseIn:interactivityMouseOut:inviewMargin:stickyMode:hideFloatingClose:interactivityOnClick:clickURL:startCollapsed:playInOverlay:hidePlayerOnEnd:waitForApproval:placementOption:placementDOMSelector:iframeBreakout:clearBothOption:nsiNoAutoPlay:nsiNoPlayer:alphaControlBar:skinBackgroundColor:skinForegroundColor:skinWidgetColor:bgColor:placeholderTextColor:placeholderText:ctaExitScreen:ctaTextColor:ctaText:logoID:logoAlign:logoClickURL:controlBar:controlBarPlacement:timeDisplay:timeLine:muteButton:volume:volumeOrientation:languageSelect:qualitySelector:fullScreen:shareButton:showBigPlayButton:title:authorCopyright:relatedItems:sharePlayout:skinBehaviour:skinOnTimeline:nativeControls:forceNativeFullscreen:preferHD:youTubeHosting:youTubeSkinInMainPhase:nedStatLoggerURL:googleAnalyticsID:disableCookies:disableContextMenuNavigate:playerSignature:playerSignatureLink:fitmode:allowImageSequence:forceInview:customCode:ctaMidplay:ctaMidplayPosition:commercialControls:aspectRatio:eventHandlers:)"))) __attribute__((objc_designated_initializer));
 @property (class, readonly, getter=companion) BbnativesharedAdUnitPlayoutCompanion *companion __attribute__((swift_name("companion")));
-- (NSString * _Nullable)component1 __attribute__((swift_name("component1()"))) __attribute__((deprecated("use corresponding property instead")));
-- (NSString * _Nullable)component10 __attribute__((swift_name("component10()"))) __attribute__((deprecated("use corresponding property instead")));
-- (NSString * _Nullable)component11 __attribute__((swift_name("component11()"))) __attribute__((deprecated("use corresponding property instead")));
-- (NSString * _Nullable)component12 __attribute__((swift_name("component12()"))) __attribute__((deprecated("use corresponding property instead")));
-- (NSString * _Nullable)component13 __attribute__((swift_name("component13()"))) __attribute__((deprecated("use corresponding property instead")));
-- (NSString * _Nullable)component14 __attribute__((swift_name("component14()"))) __attribute__((deprecated("use corresponding property instead")));
-- (NSString * _Nullable)component15 __attribute__((swift_name("component15()"))) __attribute__((deprecated("use corresponding property instead")));
-- (NSString * _Nullable)component16 __attribute__((swift_name("component16()"))) __attribute__((deprecated("use corresponding property instead")));
-- (NSString * _Nullable)component17 __attribute__((swift_name("component17()"))) __attribute__((deprecated("use corresponding property instead")));
-- (NSString * _Nullable)component18 __attribute__((swift_name("component18()"))) __attribute__((deprecated("use corresponding property instead")));
-- (NSString * _Nullable)component19 __attribute__((swift_name("component19()"))) __attribute__((deprecated("use corresponding property instead")));
-- (NSString * _Nullable)component2 __attribute__((swift_name("component2()"))) __attribute__((deprecated("use corresponding property instead")));
-- (NSString * _Nullable)component20 __attribute__((swift_name("component20()"))) __attribute__((deprecated("use corresponding property instead")));
-- (NSString * _Nullable)component21 __attribute__((swift_name("component21()"))) __attribute__((deprecated("use corresponding property instead")));
-- (NSString * _Nullable)component22 __attribute__((swift_name("component22()"))) __attribute__((deprecated("use corresponding property instead")));
-- (NSString * _Nullable)component23 __attribute__((swift_name("component23()"))) __attribute__((deprecated("use corresponding property instead")));
-- (NSString * _Nullable)component24 __attribute__((swift_name("component24()"))) __attribute__((deprecated("use corresponding property instead")));
-- (NSString * _Nullable)component25 __attribute__((swift_name("component25()"))) __attribute__((deprecated("use corresponding property instead")));
-- (NSString * _Nullable)component26 __attribute__((swift_name("component26()"))) __attribute__((deprecated("use corresponding property instead")));
-- (NSString * _Nullable)component27 __attribute__((swift_name("component27()"))) __attribute__((deprecated("use corresponding property instead")));
-- (NSString * _Nullable)component28 __attribute__((swift_name("component28()"))) __attribute__((deprecated("use corresponding property instead")));
-- (NSString * _Nullable)component29 __attribute__((swift_name("component29()"))) __attribute__((deprecated("use corresponding property instead")));
-- (NSString * _Nullable)component3 __attribute__((swift_name("component3()"))) __attribute__((deprecated("use corresponding property instead")));
-- (NSString * _Nullable)component30 __attribute__((swift_name("component30()"))) __attribute__((deprecated("use corresponding property instead")));
-- (NSString * _Nullable)component31 __attribute__((swift_name("component31()"))) __attribute__((deprecated("use corresponding property instead")));
-- (NSString * _Nullable)component32 __attribute__((swift_name("component32()"))) __attribute__((deprecated("use corresponding property instead")));
-- (NSString * _Nullable)component33 __attribute__((swift_name("component33()"))) __attribute__((deprecated("use corresponding property instead")));
-- (NSString * _Nullable)component34 __attribute__((swift_name("component34()"))) __attribute__((deprecated("use corresponding property instead")));
-- (NSString * _Nullable)component35 __attribute__((swift_name("component35()"))) __attribute__((deprecated("use corresponding property instead")));
-- (NSString * _Nullable)component36 __attribute__((swift_name("component36()"))) __attribute__((deprecated("use corresponding property instead")));
-- (NSString * _Nullable)component37 __attribute__((swift_name("component37()"))) __attribute__((deprecated("use corresponding property instead")));
-- (NSString * _Nullable)component38 __attribute__((swift_name("component38()"))) __attribute__((deprecated("use corresponding property instead")));
-- (NSString * _Nullable)component39 __attribute__((swift_name("component39()"))) __attribute__((deprecated("use corresponding property instead")));
-- (NSString * _Nullable)component4 __attribute__((swift_name("component4()"))) __attribute__((deprecated("use corresponding property instead")));
-- (NSString * _Nullable)component40 __attribute__((swift_name("component40()"))) __attribute__((deprecated("use corresponding property instead")));
-- (NSString * _Nullable)component41 __attribute__((swift_name("component41()"))) __attribute__((deprecated("use corresponding property instead")));
-- (NSString * _Nullable)component42 __attribute__((swift_name("component42()"))) __attribute__((deprecated("use corresponding property instead")));
-- (NSString * _Nullable)component43 __attribute__((swift_name("component43()"))) __attribute__((deprecated("use corresponding property instead")));
-- (NSString * _Nullable)component44 __attribute__((swift_name("component44()"))) __attribute__((deprecated("use corresponding property instead")));
-- (NSString * _Nullable)component45 __attribute__((swift_name("component45()"))) __attribute__((deprecated("use corresponding property instead")));
-- (NSString * _Nullable)component46 __attribute__((swift_name("component46()"))) __attribute__((deprecated("use corresponding property instead")));
-- (NSString * _Nullable)component47 __attribute__((swift_name("component47()"))) __attribute__((deprecated("use corresponding property instead")));
-- (NSString * _Nullable)component48 __attribute__((swift_name("component48()"))) __attribute__((deprecated("use corresponding property instead")));
-- (NSString * _Nullable)component49 __attribute__((swift_name("component49()"))) __attribute__((deprecated("use corresponding property instead")));
-- (NSString * _Nullable)component5 __attribute__((swift_name("component5()"))) __attribute__((deprecated("use corresponding property instead")));
-- (NSString * _Nullable)component50 __attribute__((swift_name("component50()"))) __attribute__((deprecated("use corresponding property instead")));
-- (NSString * _Nullable)component51 __attribute__((swift_name("component51()"))) __attribute__((deprecated("use corresponding property instead")));
-- (NSString * _Nullable)component52 __attribute__((swift_name("component52()"))) __attribute__((deprecated("use corresponding property instead")));
-- (NSString * _Nullable)component53 __attribute__((swift_name("component53()"))) __attribute__((deprecated("use corresponding property instead")));
-- (NSString * _Nullable)component54 __attribute__((swift_name("component54()"))) __attribute__((deprecated("use corresponding property instead")));
-- (NSString * _Nullable)component55 __attribute__((swift_name("component55()"))) __attribute__((deprecated("use corresponding property instead")));
-- (NSString * _Nullable)component56 __attribute__((swift_name("component56()"))) __attribute__((deprecated("use corresponding property instead")));
-- (NSString * _Nullable)component57 __attribute__((swift_name("component57()"))) __attribute__((deprecated("use corresponding property instead")));
-- (NSString * _Nullable)component58 __attribute__((swift_name("component58()"))) __attribute__((deprecated("use corresponding property instead")));
-- (NSString * _Nullable)component59 __attribute__((swift_name("component59()"))) __attribute__((deprecated("use corresponding property instead")));
-- (NSString * _Nullable)component6 __attribute__((swift_name("component6()"))) __attribute__((deprecated("use corresponding property instead")));
-- (NSString * _Nullable)component60 __attribute__((swift_name("component60()"))) __attribute__((deprecated("use corresponding property instead")));
-- (NSString * _Nullable)component61 __attribute__((swift_name("component61()"))) __attribute__((deprecated("use corresponding property instead")));
-- (NSString * _Nullable)component62 __attribute__((swift_name("component62()"))) __attribute__((deprecated("use corresponding property instead")));
-- (NSString * _Nullable)component63 __attribute__((swift_name("component63()"))) __attribute__((deprecated("use corresponding property instead")));
-- (NSString * _Nullable)component64 __attribute__((swift_name("component64()"))) __attribute__((deprecated("use corresponding property instead")));
-- (NSString * _Nullable)component65 __attribute__((swift_name("component65()"))) __attribute__((deprecated("use corresponding property instead")));
-- (NSString * _Nullable)component66 __attribute__((swift_name("component66()"))) __attribute__((deprecated("use corresponding property instead")));
-- (NSString * _Nullable)component67 __attribute__((swift_name("component67()"))) __attribute__((deprecated("use corresponding property instead")));
-- (NSString * _Nullable)component68 __attribute__((swift_name("component68()"))) __attribute__((deprecated("use corresponding property instead")));
-- (NSString * _Nullable)component69 __attribute__((swift_name("component69()"))) __attribute__((deprecated("use corresponding property instead")));
-- (NSString * _Nullable)component7 __attribute__((swift_name("component7()"))) __attribute__((deprecated("use corresponding property instead")));
-- (NSString * _Nullable)component70 __attribute__((swift_name("component70()"))) __attribute__((deprecated("use corresponding property instead")));
-- (NSString * _Nullable)component71 __attribute__((swift_name("component71()"))) __attribute__((deprecated("use corresponding property instead")));
-- (NSString * _Nullable)component72 __attribute__((swift_name("component72()"))) __attribute__((deprecated("use corresponding property instead")));
-- (NSString * _Nullable)component73 __attribute__((swift_name("component73()"))) __attribute__((deprecated("use corresponding property instead")));
-- (NSString * _Nullable)component74 __attribute__((swift_name("component74()"))) __attribute__((deprecated("use corresponding property instead")));
-- (NSString * _Nullable)component75 __attribute__((swift_name("component75()"))) __attribute__((deprecated("use corresponding property instead")));
-- (NSString * _Nullable)component76 __attribute__((swift_name("component76()"))) __attribute__((deprecated("use corresponding property instead")));
-- (NSString * _Nullable)component77 __attribute__((swift_name("component77()"))) __attribute__((deprecated("use corresponding property instead")));
-- (NSString * _Nullable)component78 __attribute__((swift_name("component78()"))) __attribute__((deprecated("use corresponding property instead")));
-- (NSString * _Nullable)component79 __attribute__((swift_name("component79()"))) __attribute__((deprecated("use corresponding property instead")));
-- (NSString * _Nullable)component8 __attribute__((swift_name("component8()"))) __attribute__((deprecated("use corresponding property instead")));
-- (NSString * _Nullable)component80 __attribute__((swift_name("component80()"))) __attribute__((deprecated("use corresponding property instead")));
-- (NSString * _Nullable)component81 __attribute__((swift_name("component81()"))) __attribute__((deprecated("use corresponding property instead")));
-- (NSString * _Nullable)component82 __attribute__((swift_name("component82()"))) __attribute__((deprecated("use corresponding property instead")));
-- (NSString * _Nullable)component83 __attribute__((swift_name("component83()"))) __attribute__((deprecated("use corresponding property instead")));
-- (NSString * _Nullable)component84 __attribute__((swift_name("component84()"))) __attribute__((deprecated("use corresponding property instead")));
-- (NSString * _Nullable)component85 __attribute__((swift_name("component85()"))) __attribute__((deprecated("use corresponding property instead")));
-- (NSString * _Nullable)component86 __attribute__((swift_name("component86()"))) __attribute__((deprecated("use corresponding property instead")));
-- (NSString * _Nullable)component87 __attribute__((swift_name("component87()"))) __attribute__((deprecated("use corresponding property instead")));
-- (NSString * _Nullable)component88 __attribute__((swift_name("component88()"))) __attribute__((deprecated("use corresponding property instead")));
-- (NSString * _Nullable)component89 __attribute__((swift_name("component89()"))) __attribute__((deprecated("use corresponding property instead")));
-- (NSString * _Nullable)component9 __attribute__((swift_name("component9()"))) __attribute__((deprecated("use corresponding property instead")));
-- (NSString * _Nullable)component90 __attribute__((swift_name("component90()"))) __attribute__((deprecated("use corresponding property instead")));
-- (NSString * _Nullable)component91 __attribute__((swift_name("component91()"))) __attribute__((deprecated("use corresponding property instead")));
-- (NSString * _Nullable)component92 __attribute__((swift_name("component92()"))) __attribute__((deprecated("use corresponding property instead")));
-- (NSString * _Nullable)component93 __attribute__((swift_name("component93()"))) __attribute__((deprecated("use corresponding property instead")));
-- (NSString * _Nullable)component94 __attribute__((swift_name("component94()"))) __attribute__((deprecated("use corresponding property instead")));
-- (NSString * _Nullable)component95 __attribute__((swift_name("component95()"))) __attribute__((deprecated("use corresponding property instead")));
-- (NSArray<BbnativesharedEventHandler *> * _Nullable)component96 __attribute__((swift_name("component96()"))) __attribute__((deprecated("use corresponding property instead")));
 - (BbnativesharedAdUnitPlayout *)doCopyLabel:(NSString * _Nullable)label autoHeight:(NSString * _Nullable)autoHeight responsiveSizing:(NSString * _Nullable)responsiveSizing width:(NSString * _Nullable)width height:(NSString * _Nullable)height commercials:(NSString * _Nullable)commercials preferFlashPlayback:(NSString * _Nullable)preferFlashPlayback disableHtml5VPAID:(NSString * _Nullable)disableHtml5VPAID enableHtml5VPAID:(NSString * _Nullable)enableHtml5VPAID commercialPauseButton:(NSString * _Nullable)commercialPauseButton commercialMuteButton:(NSString * _Nullable)commercialMuteButton commercialAdIcon:(NSString * _Nullable)commercialAdIcon commercialProgressBar:(NSString * _Nullable)commercialProgressBar commercialProgressBarColor:(NSString * _Nullable)commercialProgressBarColor commercialBehaviour:(NSString * _Nullable)commercialBehaviour minClipDurationPreroll:(NSString * _Nullable)minClipDurationPreroll minClipDurationPostroll:(NSString * _Nullable)minClipDurationPostroll textAbovePlayer:(NSString * _Nullable)textAbovePlayer textCommercialSkip:(NSString * _Nullable)textCommercialSkip skipCounterText:(NSString * _Nullable)skipCounterText skipButtonText:(NSString * _Nullable)skipButtonText preloadMainroll:(NSString * _Nullable)preloadMainroll textCommercialTimeRemaining:(NSString * _Nullable)textCommercialTimeRemaining autoPlay:(NSString * _Nullable)autoPlay autoMute:(NSString * _Nullable)autoMute autoLoop:(NSString * _Nullable)autoLoop interactivityInView:(NSString * _Nullable)interactivityInView interactivityOutView:(NSString * _Nullable)interactivityOutView interactivityMouseIn:(NSString * _Nullable)interactivityMouseIn interactivityMouseOut:(NSString * _Nullable)interactivityMouseOut inviewMargin:(NSString * _Nullable)inviewMargin stickyMode:(NSString * _Nullable)stickyMode hideFloatingClose:(NSString * _Nullable)hideFloatingClose interactivityOnClick:(NSString * _Nullable)interactivityOnClick clickURL:(NSString * _Nullable)clickURL startCollapsed:(NSString * _Nullable)startCollapsed playInOverlay:(NSString * _Nullable)playInOverlay hidePlayerOnEnd:(NSString * _Nullable)hidePlayerOnEnd waitForApproval:(NSString * _Nullable)waitForApproval placementOption:(NSString * _Nullable)placementOption placementDOMSelector:(NSString * _Nullable)placementDOMSelector iframeBreakout:(NSString * _Nullable)iframeBreakout clearBothOption:(NSString * _Nullable)clearBothOption nsiNoAutoPlay:(NSString * _Nullable)nsiNoAutoPlay nsiNoPlayer:(NSString * _Nullable)nsiNoPlayer alphaControlBar:(NSString * _Nullable)alphaControlBar skinBackgroundColor:(NSString * _Nullable)skinBackgroundColor skinForegroundColor:(NSString * _Nullable)skinForegroundColor skinWidgetColor:(NSString * _Nullable)skinWidgetColor bgColor:(NSString * _Nullable)bgColor placeholderTextColor:(NSString * _Nullable)placeholderTextColor placeholderText:(NSString * _Nullable)placeholderText ctaExitScreen:(NSString * _Nullable)ctaExitScreen ctaTextColor:(NSString * _Nullable)ctaTextColor ctaText:(NSString * _Nullable)ctaText logoID:(NSString * _Nullable)logoID logoAlign:(NSString * _Nullable)logoAlign logoClickURL:(NSString * _Nullable)logoClickURL controlBar:(NSString * _Nullable)controlBar controlBarPlacement:(NSString * _Nullable)controlBarPlacement timeDisplay:(NSString * _Nullable)timeDisplay timeLine:(NSString * _Nullable)timeLine muteButton:(NSString * _Nullable)muteButton volume:(NSString * _Nullable)volume volumeOrientation:(NSString * _Nullable)volumeOrientation languageSelect:(NSString * _Nullable)languageSelect qualitySelector:(NSString * _Nullable)qualitySelector fullScreen:(NSString * _Nullable)fullScreen shareButton:(NSString * _Nullable)shareButton showBigPlayButton:(NSString * _Nullable)showBigPlayButton title:(NSString * _Nullable)title authorCopyright:(NSString * _Nullable)authorCopyright relatedItems:(NSString * _Nullable)relatedItems sharePlayout:(NSString * _Nullable)sharePlayout skinBehaviour:(NSString * _Nullable)skinBehaviour skinOnTimeline:(NSString * _Nullable)skinOnTimeline nativeControls:(NSString * _Nullable)nativeControls forceNativeFullscreen:(NSString * _Nullable)forceNativeFullscreen preferHD:(NSString * _Nullable)preferHD youTubeHosting:(NSString * _Nullable)youTubeHosting youTubeSkinInMainPhase:(NSString * _Nullable)youTubeSkinInMainPhase nedStatLoggerURL:(NSString * _Nullable)nedStatLoggerURL googleAnalyticsID:(NSString * _Nullable)googleAnalyticsID disableCookies:(NSString * _Nullable)disableCookies disableContextMenuNavigate:(NSString * _Nullable)disableContextMenuNavigate playerSignature:(NSString * _Nullable)playerSignature playerSignatureLink:(NSString * _Nullable)playerSignatureLink fitmode:(NSString * _Nullable)fitmode allowImageSequence:(NSString * _Nullable)allowImageSequence forceInview:(NSString * _Nullable)forceInview customCode:(NSString * _Nullable)customCode ctaMidplay:(NSString * _Nullable)ctaMidplay ctaMidplayPosition:(NSString * _Nullable)ctaMidplayPosition commercialControls:(NSString * _Nullable)commercialControls aspectRatio:(NSString * _Nullable)aspectRatio eventHandlers:(NSArray<BbnativesharedEventHandler *> * _Nullable)eventHandlers __attribute__((swift_name("doCopy(label:autoHeight:responsiveSizing:width:height:commercials:preferFlashPlayback:disableHtml5VPAID:enableHtml5VPAID:commercialPauseButton:commercialMuteButton:commercialAdIcon:commercialProgressBar:commercialProgressBarColor:commercialBehaviour:minClipDurationPreroll:minClipDurationPostroll:textAbovePlayer:textCommercialSkip:skipCounterText:skipButtonText:preloadMainroll:textCommercialTimeRemaining:autoPlay:autoMute:autoLoop:interactivityInView:interactivityOutView:interactivityMouseIn:interactivityMouseOut:inviewMargin:stickyMode:hideFloatingClose:interactivityOnClick:clickURL:startCollapsed:playInOverlay:hidePlayerOnEnd:waitForApproval:placementOption:placementDOMSelector:iframeBreakout:clearBothOption:nsiNoAutoPlay:nsiNoPlayer:alphaControlBar:skinBackgroundColor:skinForegroundColor:skinWidgetColor:bgColor:placeholderTextColor:placeholderText:ctaExitScreen:ctaTextColor:ctaText:logoID:logoAlign:logoClickURL:controlBar:controlBarPlacement:timeDisplay:timeLine:muteButton:volume:volumeOrientation:languageSelect:qualitySelector:fullScreen:shareButton:showBigPlayButton:title:authorCopyright:relatedItems:sharePlayout:skinBehaviour:skinOnTimeline:nativeControls:forceNativeFullscreen:preferHD:youTubeHosting:youTubeSkinInMainPhase:nedStatLoggerURL:googleAnalyticsID:disableCookies:disableContextMenuNavigate:playerSignature:playerSignatureLink:fitmode:allowImageSequence:forceInview:customCode:ctaMidplay:ctaMidplayPosition:commercialControls:aspectRatio:eventHandlers:)")));
 - (BOOL)isEqual:(id _Nullable)other __attribute__((swift_name("isEqual(_:)")));
 - (NSUInteger)hash __attribute__((swift_name("hash()")));
@@ -1215,23 +1248,6 @@ __attribute__((swift_name("AppConfig")))
 @interface BbnativesharedAppConfig : BbnativesharedBase
 - (instancetype)initWithId:(NSString * _Nullable)id type:(NSString * _Nullable)type showThumbnails:(BbnativesharedBoolean * _Nullable)showThumbnails showNextPreviousControls:(BbnativesharedBoolean * _Nullable)showNextPreviousControls subtype:(NSString * _Nullable)subtype swipeDirection:(NSString * _Nullable)swipeDirection backgroundColor:(NSString * _Nullable)backgroundColor clipAdInterval:(BbnativesharedInt * _Nullable)clipAdInterval minuteAdInterval:(BbnativesharedInt * _Nullable)minuteAdInterval listThumbnailHeight:(BbnativesharedInt * _Nullable)listThumbnailHeight showThumbnailDuration:(BbnativesharedBoolean * _Nullable)showThumbnailDuration showThumbnailTitle:(BbnativesharedBoolean * _Nullable)showThumbnailTitle thumbnailBackground:(BbnativesharedBoolean * _Nullable)thumbnailBackground cornerRadius:(BbnativesharedInt * _Nullable)cornerRadius adunitId:(NSString * _Nullable)adunitId playout:(BbnativesharedPlayout * _Nullable)playout cliplistid:(NSString * _Nullable)cliplistid __attribute__((swift_name("init(id:type:showThumbnails:showNextPreviousControls:subtype:swipeDirection:backgroundColor:clipAdInterval:minuteAdInterval:listThumbnailHeight:showThumbnailDuration:showThumbnailTitle:thumbnailBackground:cornerRadius:adunitId:playout:cliplistid:)"))) __attribute__((objc_designated_initializer));
 @property (class, readonly, getter=companion) BbnativesharedAppConfigCompanion *companion __attribute__((swift_name("companion")));
-- (NSString * _Nullable)component1 __attribute__((swift_name("component1()"))) __attribute__((deprecated("use corresponding property instead")));
-- (BbnativesharedInt * _Nullable)component10 __attribute__((swift_name("component10()"))) __attribute__((deprecated("use corresponding property instead")));
-- (BbnativesharedBoolean * _Nullable)component11 __attribute__((swift_name("component11()"))) __attribute__((deprecated("use corresponding property instead")));
-- (BbnativesharedBoolean * _Nullable)component12 __attribute__((swift_name("component12()"))) __attribute__((deprecated("use corresponding property instead")));
-- (BbnativesharedBoolean * _Nullable)component13 __attribute__((swift_name("component13()"))) __attribute__((deprecated("use corresponding property instead")));
-- (BbnativesharedInt * _Nullable)component14 __attribute__((swift_name("component14()"))) __attribute__((deprecated("use corresponding property instead")));
-- (NSString * _Nullable)component15 __attribute__((swift_name("component15()"))) __attribute__((deprecated("use corresponding property instead")));
-- (BbnativesharedPlayout * _Nullable)component16 __attribute__((swift_name("component16()"))) __attribute__((deprecated("use corresponding property instead")));
-- (NSString * _Nullable)component17 __attribute__((swift_name("component17()"))) __attribute__((deprecated("use corresponding property instead")));
-- (NSString * _Nullable)component2 __attribute__((swift_name("component2()"))) __attribute__((deprecated("use corresponding property instead")));
-- (BbnativesharedBoolean * _Nullable)component3 __attribute__((swift_name("component3()"))) __attribute__((deprecated("use corresponding property instead")));
-- (BbnativesharedBoolean * _Nullable)component4 __attribute__((swift_name("component4()"))) __attribute__((deprecated("use corresponding property instead")));
-- (NSString * _Nullable)component5 __attribute__((swift_name("component5()"))) __attribute__((deprecated("use corresponding property instead")));
-- (NSString * _Nullable)component6 __attribute__((swift_name("component6()"))) __attribute__((deprecated("use corresponding property instead")));
-- (NSString * _Nullable)component7 __attribute__((swift_name("component7()"))) __attribute__((deprecated("use corresponding property instead")));
-- (BbnativesharedInt * _Nullable)component8 __attribute__((swift_name("component8()"))) __attribute__((deprecated("use corresponding property instead")));
-- (BbnativesharedInt * _Nullable)component9 __attribute__((swift_name("component9()"))) __attribute__((deprecated("use corresponding property instead")));
 - (BbnativesharedAppConfig *)doCopyId:(NSString * _Nullable)id type:(NSString * _Nullable)type showThumbnails:(BbnativesharedBoolean * _Nullable)showThumbnails showNextPreviousControls:(BbnativesharedBoolean * _Nullable)showNextPreviousControls subtype:(NSString * _Nullable)subtype swipeDirection:(NSString * _Nullable)swipeDirection backgroundColor:(NSString * _Nullable)backgroundColor clipAdInterval:(BbnativesharedInt * _Nullable)clipAdInterval minuteAdInterval:(BbnativesharedInt * _Nullable)minuteAdInterval listThumbnailHeight:(BbnativesharedInt * _Nullable)listThumbnailHeight showThumbnailDuration:(BbnativesharedBoolean * _Nullable)showThumbnailDuration showThumbnailTitle:(BbnativesharedBoolean * _Nullable)showThumbnailTitle thumbnailBackground:(BbnativesharedBoolean * _Nullable)thumbnailBackground cornerRadius:(BbnativesharedInt * _Nullable)cornerRadius adunitId:(NSString * _Nullable)adunitId playout:(BbnativesharedPlayout * _Nullable)playout cliplistid:(NSString * _Nullable)cliplistid __attribute__((swift_name("doCopy(id:type:showThumbnails:showNextPreviousControls:subtype:swipeDirection:backgroundColor:clipAdInterval:minuteAdInterval:listThumbnailHeight:showThumbnailDuration:showThumbnailTitle:thumbnailBackground:cornerRadius:adunitId:playout:cliplistid:)")));
 - (BOOL)isEqual:(id _Nullable)other __attribute__((swift_name("isEqual(_:)")));
 - (NSUInteger)hash __attribute__((swift_name("hash()")));
@@ -1275,26 +1291,6 @@ __attribute__((swift_name("Audiotrack")))
 @interface BbnativesharedAudiotrack : BbnativesharedBase
 - (instancetype)initWithId:(NSString * _Nullable)id type:(NSString * _Nullable)type status:(NSString * _Nullable)status createddate:(NSString * _Nullable)createddate name:(NSString * _Nullable)name createdBy:(NSString * _Nullable)createdBy updateddate:(NSString * _Nullable)updateddate updatedBy:(NSString * _Nullable)updatedBy isocode:(NSString * _Nullable)isocode mediaclipid:(NSString * _Nullable)mediaclipid originalfilename:(NSString * _Nullable)originalfilename languageid:(BbnativesharedLong * _Nullable)languageid src:(NSString * _Nullable)src remotesrc:(NSString * _Nullable)remotesrc exactlength:(NSString * _Nullable)exactlength publisheddate:(NSString * _Nullable)publisheddate label:(NSString * _Nullable)label uri:(NSString * _Nullable)uri isDefaultLanguage:(BbnativesharedBoolean * _Nullable)isDefaultLanguage isSelected:(BbnativesharedBoolean * _Nullable)isSelected __attribute__((swift_name("init(id:type:status:createddate:name:createdBy:updateddate:updatedBy:isocode:mediaclipid:originalfilename:languageid:src:remotesrc:exactlength:publisheddate:label:uri:isDefaultLanguage:isSelected:)"))) __attribute__((objc_designated_initializer));
 @property (class, readonly, getter=companion) BbnativesharedAudiotrackCompanion *companion __attribute__((swift_name("companion")));
-- (NSString * _Nullable)component1 __attribute__((swift_name("component1()"))) __attribute__((deprecated("use corresponding property instead")));
-- (NSString * _Nullable)component10 __attribute__((swift_name("component10()"))) __attribute__((deprecated("use corresponding property instead")));
-- (NSString * _Nullable)component11 __attribute__((swift_name("component11()"))) __attribute__((deprecated("use corresponding property instead")));
-- (BbnativesharedLong * _Nullable)component12 __attribute__((swift_name("component12()"))) __attribute__((deprecated("use corresponding property instead")));
-- (NSString * _Nullable)component13 __attribute__((swift_name("component13()"))) __attribute__((deprecated("use corresponding property instead")));
-- (NSString * _Nullable)component14 __attribute__((swift_name("component14()"))) __attribute__((deprecated("use corresponding property instead")));
-- (NSString * _Nullable)component15 __attribute__((swift_name("component15()"))) __attribute__((deprecated("use corresponding property instead")));
-- (NSString * _Nullable)component16 __attribute__((swift_name("component16()"))) __attribute__((deprecated("use corresponding property instead")));
-- (NSString * _Nullable)component17 __attribute__((swift_name("component17()"))) __attribute__((deprecated("use corresponding property instead")));
-- (NSString * _Nullable)component18 __attribute__((swift_name("component18()"))) __attribute__((deprecated("use corresponding property instead")));
-- (BbnativesharedBoolean * _Nullable)component19 __attribute__((swift_name("component19()"))) __attribute__((deprecated("use corresponding property instead")));
-- (NSString * _Nullable)component2 __attribute__((swift_name("component2()"))) __attribute__((deprecated("use corresponding property instead")));
-- (BbnativesharedBoolean * _Nullable)component20 __attribute__((swift_name("component20()"))) __attribute__((deprecated("use corresponding property instead")));
-- (NSString * _Nullable)component3 __attribute__((swift_name("component3()"))) __attribute__((deprecated("use corresponding property instead")));
-- (NSString * _Nullable)component4 __attribute__((swift_name("component4()"))) __attribute__((deprecated("use corresponding property instead")));
-- (NSString * _Nullable)component5 __attribute__((swift_name("component5()"))) __attribute__((deprecated("use corresponding property instead")));
-- (NSString * _Nullable)component6 __attribute__((swift_name("component6()"))) __attribute__((deprecated("use corresponding property instead")));
-- (NSString * _Nullable)component7 __attribute__((swift_name("component7()"))) __attribute__((deprecated("use corresponding property instead")));
-- (NSString * _Nullable)component8 __attribute__((swift_name("component8()"))) __attribute__((deprecated("use corresponding property instead")));
-- (NSString * _Nullable)component9 __attribute__((swift_name("component9()"))) __attribute__((deprecated("use corresponding property instead")));
 - (BbnativesharedAudiotrack *)doCopyId:(NSString * _Nullable)id type:(NSString * _Nullable)type status:(NSString * _Nullable)status createddate:(NSString * _Nullable)createddate name:(NSString * _Nullable)name createdBy:(NSString * _Nullable)createdBy updateddate:(NSString * _Nullable)updateddate updatedBy:(NSString * _Nullable)updatedBy isocode:(NSString * _Nullable)isocode mediaclipid:(NSString * _Nullable)mediaclipid originalfilename:(NSString * _Nullable)originalfilename languageid:(BbnativesharedLong * _Nullable)languageid src:(NSString * _Nullable)src remotesrc:(NSString * _Nullable)remotesrc exactlength:(NSString * _Nullable)exactlength publisheddate:(NSString * _Nullable)publisheddate label:(NSString * _Nullable)label uri:(NSString * _Nullable)uri isDefaultLanguage:(BbnativesharedBoolean * _Nullable)isDefaultLanguage isSelected:(BbnativesharedBoolean * _Nullable)isSelected __attribute__((swift_name("doCopy(id:type:status:createddate:name:createdBy:updateddate:updatedBy:isocode:mediaclipid:originalfilename:languageid:src:remotesrc:exactlength:publisheddate:label:uri:isDefaultLanguage:isSelected:)")));
 - (BOOL)isEqual:(id _Nullable)other __attribute__((swift_name("isEqual(_:)")));
 - (NSUInteger)hash __attribute__((swift_name("hash()")));
@@ -1348,10 +1344,6 @@ __attribute__((swift_name("Chapter")))
 @interface BbnativesharedChapter : BbnativesharedBase
 - (instancetype)initWithId:(NSString * _Nullable)id title:(NSString * _Nullable)title timeOffset:(BbnativesharedFloat * _Nullable)timeOffset steps:(NSArray<BbnativesharedStep *> * _Nullable)steps __attribute__((swift_name("init(id:title:timeOffset:steps:)"))) __attribute__((objc_designated_initializer));
 @property (class, readonly, getter=companion) BbnativesharedChapterCompanion *companion __attribute__((swift_name("companion")));
-- (NSString * _Nullable)component1 __attribute__((swift_name("component1()"))) __attribute__((deprecated("use corresponding property instead")));
-- (NSString * _Nullable)component2 __attribute__((swift_name("component2()"))) __attribute__((deprecated("use corresponding property instead")));
-- (BbnativesharedFloat * _Nullable)component3 __attribute__((swift_name("component3()"))) __attribute__((deprecated("use corresponding property instead")));
-- (NSArray<BbnativesharedStep *> * _Nullable)component4 __attribute__((swift_name("component4()"))) __attribute__((deprecated("use corresponding property instead")));
 - (BbnativesharedChapter *)doCopyId:(NSString * _Nullable)id title:(NSString * _Nullable)title timeOffset:(BbnativesharedFloat * _Nullable)timeOffset steps:(NSArray<BbnativesharedStep *> * _Nullable)steps __attribute__((swift_name("doCopy(id:title:timeOffset:steps:)")));
 - (BOOL)isEqual:(id _Nullable)other __attribute__((swift_name("isEqual(_:)")));
 - (NSUInteger)hash __attribute__((swift_name("hash()")));
@@ -1382,8 +1374,6 @@ __attribute__((swift_name("Condition")))
 @interface BbnativesharedCondition : BbnativesharedBase
 - (instancetype)initWithVariables:(NSDictionary<NSString *, BbnativesharedKotlinx_serialization_jsonJsonElement *> * _Nullable)variables expression:(NSString * _Nullable)expression __attribute__((swift_name("init(variables:expression:)"))) __attribute__((objc_designated_initializer));
 @property (class, readonly, getter=companion) BbnativesharedConditionCompanion *companion __attribute__((swift_name("companion")));
-- (NSDictionary<NSString *, BbnativesharedKotlinx_serialization_jsonJsonElement *> * _Nullable)component1 __attribute__((swift_name("component1()"))) __attribute__((deprecated("use corresponding property instead")));
-- (NSString * _Nullable)component2 __attribute__((swift_name("component2()"))) __attribute__((deprecated("use corresponding property instead")));
 - (BbnativesharedCondition *)doCopyVariables:(NSDictionary<NSString *, BbnativesharedKotlinx_serialization_jsonJsonElement *> * _Nullable)variables expression:(NSString * _Nullable)expression __attribute__((swift_name("doCopy(variables:expression:)")));
 - (BOOL)isEqual:(id _Nullable)other __attribute__((swift_name("isEqual(_:)")));
 - (NSUInteger)hash __attribute__((swift_name("hash()")));
@@ -1411,6 +1401,7 @@ __attribute__((swift_name("ContentItem")))
 @interface BbnativesharedContentItem : BbnativesharedBBModel
 - (instancetype)init __attribute__((swift_name("init()"))) __attribute__((objc_designated_initializer));
 + (instancetype)new __attribute__((availability(swift, unavailable, message="use object initializers instead")));
+- (instancetype)initWithSeen0:(int32_t)seen0 isPrefetch:(BOOL)isPrefetch serializationConstructorMarker:(id _Nullable)serializationConstructorMarker __attribute__((swift_name("init(seen0:isPrefetch:serializationConstructorMarker:)"))) __attribute__((objc_designated_initializer));
 @property (class, readonly, getter=companion) BbnativesharedContentItemCompanion *companion __attribute__((swift_name("companion")));
 @property (readonly) NSString * _Nullable id __attribute__((swift_name("id")));
 @property BOOL isPrefetch __attribute__((swift_name("isPrefetch")));
@@ -1461,9 +1452,6 @@ __attribute__((swift_name("Dates")))
 @interface BbnativesharedDates : BbnativesharedBase
 - (instancetype)initWithCreated:(NSString * _Nullable)created updated:(NSString * _Nullable)updated published:(NSString * _Nullable)published __attribute__((swift_name("init(created:updated:published:)"))) __attribute__((objc_designated_initializer));
 @property (class, readonly, getter=companion) BbnativesharedDatesCompanion *companion __attribute__((swift_name("companion")));
-- (NSString * _Nullable)component1 __attribute__((swift_name("component1()"))) __attribute__((deprecated("use corresponding property instead")));
-- (NSString * _Nullable)component2 __attribute__((swift_name("component2()"))) __attribute__((deprecated("use corresponding property instead")));
-- (NSString * _Nullable)component3 __attribute__((swift_name("component3()"))) __attribute__((deprecated("use corresponding property instead")));
 - (BbnativesharedDates *)doCopyCreated:(NSString * _Nullable)created updated:(NSString * _Nullable)updated published:(NSString * _Nullable)published __attribute__((swift_name("doCopy(created:updated:published:)")));
 - (BOOL)isEqual:(id _Nullable)other __attribute__((swift_name("isEqual(_:)")));
 - (NSUInteger)hash __attribute__((swift_name("hash()")));
@@ -1493,13 +1481,6 @@ __attribute__((swift_name("EmbedData")))
 @interface BbnativesharedEmbedData : BbnativesharedBase
 - (instancetype)initWithForceSSL:(BbnativesharedBoolean * _Nullable)forceSSL baseurl:(NSString * _Nullable)baseurl contentIndicator:(NSString * _Nullable)contentIndicator contentId:(NSString * _Nullable)contentId playoutIndicator:(NSString * _Nullable)playoutIndicator playoutSafeName:(NSString * _Nullable)playoutSafeName queryString:(NSString * _Nullable)queryString __attribute__((swift_name("init(forceSSL:baseurl:contentIndicator:contentId:playoutIndicator:playoutSafeName:queryString:)"))) __attribute__((objc_designated_initializer));
 @property (class, readonly, getter=companion) BbnativesharedEmbedDataCompanion *companion __attribute__((swift_name("companion")));
-- (BbnativesharedBoolean * _Nullable)component1 __attribute__((swift_name("component1()"))) __attribute__((deprecated("use corresponding property instead")));
-- (NSString * _Nullable)component2 __attribute__((swift_name("component2()"))) __attribute__((deprecated("use corresponding property instead")));
-- (NSString * _Nullable)component3 __attribute__((swift_name("component3()"))) __attribute__((deprecated("use corresponding property instead")));
-- (NSString * _Nullable)component4 __attribute__((swift_name("component4()"))) __attribute__((deprecated("use corresponding property instead")));
-- (NSString * _Nullable)component5 __attribute__((swift_name("component5()"))) __attribute__((deprecated("use corresponding property instead")));
-- (NSString * _Nullable)component6 __attribute__((swift_name("component6()"))) __attribute__((deprecated("use corresponding property instead")));
-- (NSString * _Nullable)component7 __attribute__((swift_name("component7()"))) __attribute__((deprecated("use corresponding property instead")));
 - (BbnativesharedEmbedData *)doCopyForceSSL:(BbnativesharedBoolean * _Nullable)forceSSL baseurl:(NSString * _Nullable)baseurl contentIndicator:(NSString * _Nullable)contentIndicator contentId:(NSString * _Nullable)contentId playoutIndicator:(NSString * _Nullable)playoutIndicator playoutSafeName:(NSString * _Nullable)playoutSafeName queryString:(NSString * _Nullable)queryString __attribute__((swift_name("doCopy(forceSSL:baseurl:contentIndicator:contentId:playoutIndicator:playoutSafeName:queryString:)")));
 - (BOOL)isEqual:(id _Nullable)other __attribute__((swift_name("isEqual(_:)")));
 - (NSUInteger)hash __attribute__((swift_name("hash()")));
@@ -1536,30 +1517,6 @@ __attribute__((swift_name("EmbedObject")))
 - (instancetype)init __attribute__((swift_name("init()"))) __attribute__((objc_designated_initializer)) __attribute__((unavailable));
 + (instancetype)new __attribute__((unavailable));
 @property (class, readonly, getter=companion) BbnativesharedEmbedObjectCompanion *companion __attribute__((swift_name("companion")));
-- (BbnativesharedPublication * _Nullable)component1 __attribute__((swift_name("component1()"))) __attribute__((deprecated("use corresponding property instead")));
-- (NSString * _Nullable)component10 __attribute__((swift_name("component10()"))) __attribute__((deprecated("use corresponding property instead")));
-- (NSString * _Nullable)component11 __attribute__((swift_name("component11()"))) __attribute__((deprecated("use corresponding property instead")));
-- (NSString * _Nullable)component12 __attribute__((swift_name("component12()"))) __attribute__((deprecated("use corresponding property instead")));
-- (NSString * _Nullable)component13 __attribute__((swift_name("component13()"))) __attribute__((deprecated("use corresponding property instead")));
-- (NSString * _Nullable)component14 __attribute__((swift_name("component14()"))) __attribute__((deprecated("use corresponding property instead")));
-- (NSString * _Nullable)component15 __attribute__((swift_name("component15()"))) __attribute__((deprecated("use corresponding property instead")));
-- (NSString * _Nullable)component16 __attribute__((swift_name("component16()"))) __attribute__((deprecated("use corresponding property instead")));
-- (NSString * _Nullable)component17 __attribute__((swift_name("component17()"))) __attribute__((deprecated("use corresponding property instead")));
-- (NSString * _Nullable)component18 __attribute__((swift_name("component18()"))) __attribute__((deprecated("use corresponding property instead")));
-- (NSString * _Nullable)component19 __attribute__((swift_name("component19()"))) __attribute__((deprecated("use corresponding property instead")));
-- (BbnativesharedEmbedData * _Nullable)component2 __attribute__((swift_name("component2()"))) __attribute__((deprecated("use corresponding property instead")));
-- (NSString * _Nullable)component20 __attribute__((swift_name("component20()"))) __attribute__((deprecated("use corresponding property instead")));
-- (NSString * _Nullable)component21 __attribute__((swift_name("component21()"))) __attribute__((deprecated("use corresponding property instead")));
-- (NSString * _Nullable)component22 __attribute__((swift_name("component22()"))) __attribute__((deprecated("use corresponding property instead")));
-- (BbnativesharedRequestParams * _Nullable)component23 __attribute__((swift_name("component23()"))) __attribute__((deprecated("use corresponding property instead")));
-- (BbnativesharedVersioningData * _Nullable)component24 __attribute__((swift_name("component24()"))) __attribute__((deprecated("use corresponding property instead")));
-- (BbnativesharedPlayout * _Nullable)component3 __attribute__((swift_name("component3()"))) __attribute__((deprecated("use corresponding property instead")));
-- (BbnativesharedMediaClip * _Nullable)component4 __attribute__((swift_name("component4()"))) __attribute__((deprecated("use corresponding property instead")));
-- (BbnativesharedMediaClipList * _Nullable)component5 __attribute__((swift_name("component5()"))) __attribute__((deprecated("use corresponding property instead")));
-- (BbnativesharedProject * _Nullable)component6 __attribute__((swift_name("component6()"))) __attribute__((deprecated("use corresponding property instead")));
-- (NSArray<BbnativesharedAdUnit *> * _Nullable)component7 __attribute__((swift_name("component7()"))) __attribute__((deprecated("use corresponding property instead")));
-- (BbnativesharedAdSchedulingData * _Nullable)component8 __attribute__((swift_name("component8()"))) __attribute__((deprecated("use corresponding property instead")));
-- (BbnativesharedAppConfig * _Nullable)component9 __attribute__((swift_name("component9()"))) __attribute__((deprecated("use corresponding property instead")));
 - (BbnativesharedEmbedObject *)doCopyPublicationData:(BbnativesharedPublication * _Nullable)publicationData embedData:(BbnativesharedEmbedData * _Nullable)embedData playoutData:(BbnativesharedPlayout * _Nullable)playoutData clipData:(BbnativesharedMediaClip * _Nullable)clipData clipListData:(BbnativesharedMediaClipList * _Nullable)clipListData projectData:(BbnativesharedProject * _Nullable)projectData adServicesData:(NSArray<BbnativesharedAdUnit *> * _Nullable)adServicesData adSchedulingData:(BbnativesharedAdSchedulingData * _Nullable)adSchedulingData appConfig:(BbnativesharedAppConfig * _Nullable)appConfig protocol:(NSString * _Nullable)protocol userLanguage:(NSString * _Nullable)userLanguage userDeviceType:(NSString * _Nullable)userDeviceType playoutSafeName:(NSString * _Nullable)playoutSafeName contentIndicator:(NSString * _Nullable)contentIndicator contentId:(NSString * _Nullable)contentId playerWidth:(NSString * _Nullable)playerWidth playerHeight:(NSString * _Nullable)playerHeight playerUrl:(NSString * _Nullable)playerUrl scriptTarget:(NSString * _Nullable)scriptTarget playerBase:(NSString * _Nullable)playerBase playerPath:(NSString * _Nullable)playerPath scriptLink:(NSString * _Nullable)scriptLink requestParams:(BbnativesharedRequestParams * _Nullable)requestParams versioningData:(BbnativesharedVersioningData * _Nullable)versioningData __attribute__((swift_name("doCopy(publicationData:embedData:playoutData:clipData:clipListData:projectData:adServicesData:adSchedulingData:appConfig:protocol:userLanguage:userDeviceType:playoutSafeName:contentIndicator:contentId:playerWidth:playerHeight:playerUrl:scriptTarget:playerBase:playerPath:scriptLink:requestParams:versioningData:)")));
 - (BOOL)isEqual:(id _Nullable)other __attribute__((swift_name("isEqual(_:)")));
 - (NSUInteger)hash __attribute__((swift_name("hash()")));
@@ -1610,8 +1567,6 @@ __attribute__((swift_name("EventHandler")))
 @interface BbnativesharedEventHandler : BbnativesharedBase
 - (instancetype)initWithName:(NSString * _Nullable)name procedures:(NSArray<BbnativesharedProcedure *> * _Nullable)procedures __attribute__((swift_name("init(name:procedures:)"))) __attribute__((objc_designated_initializer));
 @property (class, readonly, getter=companion) BbnativesharedEventHandlerCompanion *companion __attribute__((swift_name("companion")));
-- (NSString * _Nullable)component1 __attribute__((swift_name("component1()"))) __attribute__((deprecated("use corresponding property instead")));
-- (NSArray<BbnativesharedProcedure *> * _Nullable)component2 __attribute__((swift_name("component2()"))) __attribute__((deprecated("use corresponding property instead")));
 - (BbnativesharedEventHandler *)doCopyName:(NSString * _Nullable)name procedures:(NSArray<BbnativesharedProcedure *> * _Nullable)procedures __attribute__((swift_name("doCopy(name:procedures:)")));
 - (BOOL)isEqual:(id _Nullable)other __attribute__((swift_name("isEqual(_:)")));
 - (NSUInteger)hash __attribute__((swift_name("hash()")));
@@ -1640,9 +1595,6 @@ __attribute__((swift_name("Highlight")))
 @interface BbnativesharedHighlight : BbnativesharedBase
 - (instancetype)initWithId:(NSString * _Nullable)id title:(NSString * _Nullable)title timeOffset:(BbnativesharedFloat * _Nullable)timeOffset __attribute__((swift_name("init(id:title:timeOffset:)"))) __attribute__((objc_designated_initializer));
 @property (class, readonly, getter=companion) BbnativesharedHighlightCompanion *companion __attribute__((swift_name("companion")));
-- (NSString * _Nullable)component1 __attribute__((swift_name("component1()"))) __attribute__((deprecated("use corresponding property instead")));
-- (NSString * _Nullable)component2 __attribute__((swift_name("component2()"))) __attribute__((deprecated("use corresponding property instead")));
-- (BbnativesharedFloat * _Nullable)component3 __attribute__((swift_name("component3()"))) __attribute__((deprecated("use corresponding property instead")));
 - (BbnativesharedHighlight *)doCopyId:(NSString * _Nullable)id title:(NSString * _Nullable)title timeOffset:(BbnativesharedFloat * _Nullable)timeOffset __attribute__((swift_name("doCopy(id:title:timeOffset:)")));
 - (BOOL)isEqual:(id _Nullable)other __attribute__((swift_name("isEqual(_:)")));
 - (NSUInteger)hash __attribute__((swift_name("hash()")));
@@ -1672,24 +1624,6 @@ __attribute__((swift_name("LineItem_")))
 @interface BbnativesharedLineItem_ : BbnativesharedBase
 - (instancetype)initWithId:(NSString * _Nullable)id type:(NSString * _Nullable)type status:(NSString * _Nullable)status createddate:(NSString * _Nullable)createddate createdBy:(NSString * _Nullable)createdBy updateddate:(NSString * _Nullable)updateddate updatedBy:(NSString * _Nullable)updatedBy creativeType:(NSString * _Nullable)creativeType creativeId:(NSString * _Nullable)creativeId timeout:(BbnativesharedLong * _Nullable)timeout preferredPlayMode:(NSString * _Nullable)preferredPlayMode playout:(NSDictionary<NSString *, id> * _Nullable)playout title:(NSString * _Nullable)title code:(NSString * _Nullable)code vastUrl:(NSString * _Nullable)vastUrl vastSubtype:(NSString * _Nullable)vastSubtype label:(NSString * _Nullable)label relatedAdunits:(NSArray<BbnativesharedKotlinx_serialization_jsonJsonElement *> * _Nullable)relatedAdunits __attribute__((swift_name("init(id:type:status:createddate:createdBy:updateddate:updatedBy:creativeType:creativeId:timeout:preferredPlayMode:playout:title:code:vastUrl:vastSubtype:label:relatedAdunits:)"))) __attribute__((objc_designated_initializer));
 @property (class, readonly, getter=companion) BbnativesharedLineItem_Companion *companion __attribute__((swift_name("companion")));
-- (NSString * _Nullable)component1 __attribute__((swift_name("component1()"))) __attribute__((deprecated("use corresponding property instead")));
-- (BbnativesharedLong * _Nullable)component10 __attribute__((swift_name("component10()"))) __attribute__((deprecated("use corresponding property instead")));
-- (NSString * _Nullable)component11 __attribute__((swift_name("component11()"))) __attribute__((deprecated("use corresponding property instead")));
-- (NSDictionary<NSString *, id> * _Nullable)component12 __attribute__((swift_name("component12()"))) __attribute__((deprecated("use corresponding property instead")));
-- (NSString * _Nullable)component13 __attribute__((swift_name("component13()"))) __attribute__((deprecated("use corresponding property instead")));
-- (NSString * _Nullable)component14 __attribute__((swift_name("component14()"))) __attribute__((deprecated("use corresponding property instead")));
-- (NSString * _Nullable)component15 __attribute__((swift_name("component15()"))) __attribute__((deprecated("use corresponding property instead")));
-- (NSString * _Nullable)component16 __attribute__((swift_name("component16()"))) __attribute__((deprecated("use corresponding property instead")));
-- (NSString * _Nullable)component17 __attribute__((swift_name("component17()"))) __attribute__((deprecated("use corresponding property instead")));
-- (NSArray<BbnativesharedKotlinx_serialization_jsonJsonElement *> * _Nullable)component18 __attribute__((swift_name("component18()"))) __attribute__((deprecated("use corresponding property instead")));
-- (NSString * _Nullable)component2 __attribute__((swift_name("component2()"))) __attribute__((deprecated("use corresponding property instead")));
-- (NSString * _Nullable)component3 __attribute__((swift_name("component3()"))) __attribute__((deprecated("use corresponding property instead")));
-- (NSString * _Nullable)component4 __attribute__((swift_name("component4()"))) __attribute__((deprecated("use corresponding property instead")));
-- (NSString * _Nullable)component5 __attribute__((swift_name("component5()"))) __attribute__((deprecated("use corresponding property instead")));
-- (NSString * _Nullable)component6 __attribute__((swift_name("component6()"))) __attribute__((deprecated("use corresponding property instead")));
-- (NSString * _Nullable)component7 __attribute__((swift_name("component7()"))) __attribute__((deprecated("use corresponding property instead")));
-- (NSString * _Nullable)component8 __attribute__((swift_name("component8()"))) __attribute__((deprecated("use corresponding property instead")));
-- (NSString * _Nullable)component9 __attribute__((swift_name("component9()"))) __attribute__((deprecated("use corresponding property instead")));
 - (BbnativesharedLineItem_ *)doCopyId:(NSString * _Nullable)id type:(NSString * _Nullable)type status:(NSString * _Nullable)status createddate:(NSString * _Nullable)createddate createdBy:(NSString * _Nullable)createdBy updateddate:(NSString * _Nullable)updateddate updatedBy:(NSString * _Nullable)updatedBy creativeType:(NSString * _Nullable)creativeType creativeId:(NSString * _Nullable)creativeId timeout:(BbnativesharedLong * _Nullable)timeout preferredPlayMode:(NSString * _Nullable)preferredPlayMode playout:(NSDictionary<NSString *, id> * _Nullable)playout title:(NSString * _Nullable)title code:(NSString * _Nullable)code vastUrl:(NSString * _Nullable)vastUrl vastSubtype:(NSString * _Nullable)vastSubtype label:(NSString * _Nullable)label relatedAdunits:(NSArray<BbnativesharedKotlinx_serialization_jsonJsonElement *> * _Nullable)relatedAdunits __attribute__((swift_name("doCopy(id:type:status:createddate:createdBy:updateddate:updatedBy:creativeType:creativeId:timeout:preferredPlayMode:playout:title:code:vastUrl:vastSubtype:label:relatedAdunits:)")));
 - (BOOL)isEqual:(id _Nullable)other __attribute__((swift_name("isEqual(_:)")));
 - (NSUInteger)hash __attribute__((swift_name("hash()")));
@@ -1734,21 +1668,6 @@ __attribute__((swift_name("MediaAsset")))
 @interface BbnativesharedMediaAsset : BbnativesharedBase
 - (instancetype)initWithMediatype:(NSString * _Nullable)mediatype id:(NSString * _Nullable)id status:(NSString * _Nullable)status src:(NSString * _Nullable)src length:(NSString * _Nullable)length exactlength:(NSString * _Nullable)exactlength width:(NSString * _Nullable)width height:(NSString * _Nullable)height bandwidth:(NSString * _Nullable)bandwidth jobdefid:(NSString * _Nullable)jobdefid languageId:(NSString * _Nullable)languageId languageName:(NSString * _Nullable)languageName languageIsocode:(NSString * _Nullable)languageIsocode isDefaultLanguage:(BbnativesharedBoolean * _Nullable)isDefaultLanguage title:(NSString * _Nullable)title __attribute__((swift_name("init(mediatype:id:status:src:length:exactlength:width:height:bandwidth:jobdefid:languageId:languageName:languageIsocode:isDefaultLanguage:title:)"))) __attribute__((objc_designated_initializer));
 @property (class, readonly, getter=companion) BbnativesharedMediaAssetCompanion *companion __attribute__((swift_name("companion")));
-- (NSString * _Nullable)component1 __attribute__((swift_name("component1()"))) __attribute__((deprecated("use corresponding property instead")));
-- (NSString * _Nullable)component10 __attribute__((swift_name("component10()"))) __attribute__((deprecated("use corresponding property instead")));
-- (NSString * _Nullable)component11 __attribute__((swift_name("component11()"))) __attribute__((deprecated("use corresponding property instead")));
-- (NSString * _Nullable)component12 __attribute__((swift_name("component12()"))) __attribute__((deprecated("use corresponding property instead")));
-- (NSString * _Nullable)component13 __attribute__((swift_name("component13()"))) __attribute__((deprecated("use corresponding property instead")));
-- (BbnativesharedBoolean * _Nullable)component14 __attribute__((swift_name("component14()"))) __attribute__((deprecated("use corresponding property instead")));
-- (NSString * _Nullable)component15 __attribute__((swift_name("component15()"))) __attribute__((deprecated("use corresponding property instead")));
-- (NSString * _Nullable)component2 __attribute__((swift_name("component2()"))) __attribute__((deprecated("use corresponding property instead")));
-- (NSString * _Nullable)component3 __attribute__((swift_name("component3()"))) __attribute__((deprecated("use corresponding property instead")));
-- (NSString * _Nullable)component4 __attribute__((swift_name("component4()"))) __attribute__((deprecated("use corresponding property instead")));
-- (NSString * _Nullable)component5 __attribute__((swift_name("component5()"))) __attribute__((deprecated("use corresponding property instead")));
-- (NSString * _Nullable)component6 __attribute__((swift_name("component6()"))) __attribute__((deprecated("use corresponding property instead")));
-- (NSString * _Nullable)component7 __attribute__((swift_name("component7()"))) __attribute__((deprecated("use corresponding property instead")));
-- (NSString * _Nullable)component8 __attribute__((swift_name("component8()"))) __attribute__((deprecated("use corresponding property instead")));
-- (NSString * _Nullable)component9 __attribute__((swift_name("component9()"))) __attribute__((deprecated("use corresponding property instead")));
 - (BbnativesharedMediaAsset *)doCopyMediatype:(NSString * _Nullable)mediatype id:(NSString * _Nullable)id status:(NSString * _Nullable)status src:(NSString * _Nullable)src length:(NSString * _Nullable)length exactlength:(NSString * _Nullable)exactlength width:(NSString * _Nullable)width height:(NSString * _Nullable)height bandwidth:(NSString * _Nullable)bandwidth jobdefid:(NSString * _Nullable)jobdefid languageId:(NSString * _Nullable)languageId languageName:(NSString * _Nullable)languageName languageIsocode:(NSString * _Nullable)languageIsocode isDefaultLanguage:(BbnativesharedBoolean * _Nullable)isDefaultLanguage title:(NSString * _Nullable)title __attribute__((swift_name("doCopy(mediatype:id:status:src:length:exactlength:width:height:bandwidth:jobdefid:languageId:languageName:languageIsocode:isDefaultLanguage:title:)")));
 - (BOOL)isEqual:(id _Nullable)other __attribute__((swift_name("isEqual(_:)")));
 - (NSUInteger)hash __attribute__((swift_name("hash()")));
@@ -1792,63 +1711,8 @@ __attribute__((swift_name("MediaClip")))
 - (instancetype)initWithId:(NSString * _Nullable)id title:(NSString * _Nullable)title deeplink:(NSString * _Nullable)deeplink gendeeplink:(NSString * _Nullable)gendeeplink sourcetype:(NSString * _Nullable)sourcetype length:(NSString * _Nullable)length mediatype:(NSString * _Nullable)mediatype mediatype_override:(NSString * _Nullable)mediatype_override fitmode:(NSString * _Nullable)fitmode usetype:(NSString * _Nullable)usetype useThumbsFromMetadata:(NSString * _Nullable)useThumbsFromMetadata location:(NSString * _Nullable)location originalfilename:(NSString * _Nullable)originalfilename sourceid:(NSString * _Nullable)sourceid description:(NSString * _Nullable)description copyright:(NSString * _Nullable)copyright author:(NSString * _Nullable)author status:(NSString * _Nullable)status createddate:(NSString * _Nullable)createddate updateddate:(NSString * _Nullable)updateddate publisheddate:(NSString * _Nullable)publisheddate width:(BbnativesharedLong * _Nullable)width height:(BbnativesharedLong * _Nullable)height dar:(NSString * _Nullable)dar originalWidth:(BbnativesharedLong * _Nullable)originalWidth originalHeight:(BbnativesharedLong * _Nullable)originalHeight date:(BbnativesharedDates * _Nullable)date src:(NSString * _Nullable)src cat:(NSArray<NSString *> * _Nullable)cat thumbnails:(NSArray<BbnativesharedThumbnail *> * _Nullable)thumbnails movingThumbnails:(NSArray<BbnativesharedThumbnail *> * _Nullable)movingThumbnails assets:(NSArray<BbnativesharedMediaAsset *> * _Nullable)assets hasJobs:(NSString * _Nullable)hasJobs hasFailedJobs:(BbnativesharedBoolean * _Nullable)hasFailedJobs hasRunningJobs:(BbnativesharedBoolean * _Nullable)hasRunningJobs hasNewJobs:(BbnativesharedBoolean * _Nullable)hasNewJobs transcodingFinished:(BbnativesharedBoolean * _Nullable)transcodingFinished isYoutubeImport:(BbnativesharedBoolean * _Nullable)isYoutubeImport subtitles:(NSArray<BbnativesharedSubtitle *> * _Nullable)subtitles subtitletracks:(NSArray<BbnativesharedSubtitle *> * _Nullable)subtitletracks transcript:(NSString * _Nullable)transcript timelineId:(NSString * _Nullable)timelineId timelines:(NSArray<BbnativesharedTimeline *> * _Nullable)timelines audiotracks:(NSArray<BbnativesharedAudiotrack *> * _Nullable)audiotracks youtubeImportID:(NSString * _Nullable)youtubeImportID importSource:(NSString * _Nullable)importSource importURL:(NSString * _Nullable)importURL disablecommercials:(NSString * _Nullable)disablecommercials isDynamic:(NSString * _Nullable)isDynamic checkbox:(NSString * _Nullable)checkbox comment:(NSString * _Nullable)comment chapters:(NSArray<BbnativesharedChapter *> * _Nullable)chapters highlights:(NSArray<BbnativesharedHighlight *> * _Nullable)highlights softEmbargo:(NSString * _Nullable)softEmbargo isOutro:(NSString * _Nullable)isOutro projectId:(NSString * _Nullable)projectId __attribute__((swift_name("init(id:title:deeplink:gendeeplink:sourcetype:length:mediatype:mediatype_override:fitmode:usetype:useThumbsFromMetadata:location:originalfilename:sourceid:description:copyright:author:status:createddate:updateddate:publisheddate:width:height:dar:originalWidth:originalHeight:date:src:cat:thumbnails:movingThumbnails:assets:hasJobs:hasFailedJobs:hasRunningJobs:hasNewJobs:transcodingFinished:isYoutubeImport:subtitles:subtitletracks:transcript:timelineId:timelines:audiotracks:youtubeImportID:importSource:importURL:disablecommercials:isDynamic:checkbox:comment:chapters:highlights:softEmbargo:isOutro:projectId:)"))) __attribute__((objc_designated_initializer));
 - (instancetype)init __attribute__((swift_name("init()"))) __attribute__((objc_designated_initializer)) __attribute__((unavailable));
 + (instancetype)new __attribute__((unavailable));
+- (instancetype)initWithSeen0:(int32_t)seen0 isPrefetch:(BOOL)isPrefetch serializationConstructorMarker:(id _Nullable)serializationConstructorMarker __attribute__((swift_name("init(seen0:isPrefetch:serializationConstructorMarker:)"))) __attribute__((objc_designated_initializer)) __attribute__((unavailable));
 @property (class, readonly, getter=companion) BbnativesharedMediaClipCompanion *companion __attribute__((swift_name("companion")));
-- (NSString * _Nullable)component1 __attribute__((swift_name("component1()"))) __attribute__((deprecated("use corresponding property instead")));
-- (NSString * _Nullable)component10 __attribute__((swift_name("component10()"))) __attribute__((deprecated("use corresponding property instead")));
-- (NSString * _Nullable)component11 __attribute__((swift_name("component11()"))) __attribute__((deprecated("use corresponding property instead")));
-- (NSString * _Nullable)component12 __attribute__((swift_name("component12()"))) __attribute__((deprecated("use corresponding property instead")));
-- (NSString * _Nullable)component13 __attribute__((swift_name("component13()"))) __attribute__((deprecated("use corresponding property instead")));
-- (NSString * _Nullable)component14 __attribute__((swift_name("component14()"))) __attribute__((deprecated("use corresponding property instead")));
-- (NSString * _Nullable)component15 __attribute__((swift_name("component15()"))) __attribute__((deprecated("use corresponding property instead")));
-- (NSString * _Nullable)component16 __attribute__((swift_name("component16()"))) __attribute__((deprecated("use corresponding property instead")));
-- (NSString * _Nullable)component17 __attribute__((swift_name("component17()"))) __attribute__((deprecated("use corresponding property instead")));
-- (NSString * _Nullable)component18 __attribute__((swift_name("component18()"))) __attribute__((deprecated("use corresponding property instead")));
-- (NSString * _Nullable)component19 __attribute__((swift_name("component19()"))) __attribute__((deprecated("use corresponding property instead")));
-- (NSString * _Nullable)component2 __attribute__((swift_name("component2()"))) __attribute__((deprecated("use corresponding property instead")));
-- (NSString * _Nullable)component20 __attribute__((swift_name("component20()"))) __attribute__((deprecated("use corresponding property instead")));
-- (NSString * _Nullable)component21 __attribute__((swift_name("component21()"))) __attribute__((deprecated("use corresponding property instead")));
-- (BbnativesharedLong * _Nullable)component22 __attribute__((swift_name("component22()"))) __attribute__((deprecated("use corresponding property instead")));
-- (BbnativesharedLong * _Nullable)component23 __attribute__((swift_name("component23()"))) __attribute__((deprecated("use corresponding property instead")));
-- (NSString * _Nullable)component24 __attribute__((swift_name("component24()"))) __attribute__((deprecated("use corresponding property instead")));
-- (BbnativesharedLong * _Nullable)component25 __attribute__((swift_name("component25()"))) __attribute__((deprecated("use corresponding property instead")));
-- (BbnativesharedLong * _Nullable)component26 __attribute__((swift_name("component26()"))) __attribute__((deprecated("use corresponding property instead")));
-- (BbnativesharedDates * _Nullable)component27 __attribute__((swift_name("component27()"))) __attribute__((deprecated("use corresponding property instead")));
-- (NSString * _Nullable)component28 __attribute__((swift_name("component28()"))) __attribute__((deprecated("use corresponding property instead")));
-- (NSArray<NSString *> * _Nullable)component29 __attribute__((swift_name("component29()"))) __attribute__((deprecated("use corresponding property instead")));
-- (NSString * _Nullable)component3 __attribute__((swift_name("component3()"))) __attribute__((deprecated("use corresponding property instead")));
-- (NSArray<BbnativesharedThumbnail *> * _Nullable)component30 __attribute__((swift_name("component30()"))) __attribute__((deprecated("use corresponding property instead")));
-- (NSArray<BbnativesharedThumbnail *> * _Nullable)component31 __attribute__((swift_name("component31()"))) __attribute__((deprecated("use corresponding property instead")));
-- (NSArray<BbnativesharedMediaAsset *> * _Nullable)component32 __attribute__((swift_name("component32()"))) __attribute__((deprecated("use corresponding property instead")));
-- (NSString * _Nullable)component33 __attribute__((swift_name("component33()"))) __attribute__((deprecated("use corresponding property instead")));
-- (BbnativesharedBoolean * _Nullable)component34 __attribute__((swift_name("component34()"))) __attribute__((deprecated("use corresponding property instead")));
-- (BbnativesharedBoolean * _Nullable)component35 __attribute__((swift_name("component35()"))) __attribute__((deprecated("use corresponding property instead")));
-- (BbnativesharedBoolean * _Nullable)component36 __attribute__((swift_name("component36()"))) __attribute__((deprecated("use corresponding property instead")));
-- (BbnativesharedBoolean * _Nullable)component37 __attribute__((swift_name("component37()"))) __attribute__((deprecated("use corresponding property instead")));
-- (BbnativesharedBoolean * _Nullable)component38 __attribute__((swift_name("component38()"))) __attribute__((deprecated("use corresponding property instead")));
-- (NSArray<BbnativesharedSubtitle *> * _Nullable)component39 __attribute__((swift_name("component39()"))) __attribute__((deprecated("use corresponding property instead")));
-- (NSString * _Nullable)component4 __attribute__((swift_name("component4()"))) __attribute__((deprecated("use corresponding property instead")));
-- (NSArray<BbnativesharedSubtitle *> * _Nullable)component40 __attribute__((swift_name("component40()"))) __attribute__((deprecated("use corresponding property instead")));
-- (NSString * _Nullable)component41 __attribute__((swift_name("component41()"))) __attribute__((deprecated("use corresponding property instead")));
-- (NSString * _Nullable)component42 __attribute__((swift_name("component42()"))) __attribute__((deprecated("use corresponding property instead")));
-- (NSArray<BbnativesharedTimeline *> * _Nullable)component43 __attribute__((swift_name("component43()"))) __attribute__((deprecated("use corresponding property instead")));
-- (NSArray<BbnativesharedAudiotrack *> * _Nullable)component44 __attribute__((swift_name("component44()"))) __attribute__((deprecated("use corresponding property instead")));
-- (NSString * _Nullable)component45 __attribute__((swift_name("component45()"))) __attribute__((deprecated("use corresponding property instead")));
-- (NSString * _Nullable)component46 __attribute__((swift_name("component46()"))) __attribute__((deprecated("use corresponding property instead")));
-- (NSString * _Nullable)component47 __attribute__((swift_name("component47()"))) __attribute__((deprecated("use corresponding property instead")));
-- (NSString * _Nullable)component48 __attribute__((swift_name("component48()"))) __attribute__((deprecated("use corresponding property instead")));
-- (NSString * _Nullable)component49 __attribute__((swift_name("component49()"))) __attribute__((deprecated("use corresponding property instead")));
-- (NSString * _Nullable)component5 __attribute__((swift_name("component5()"))) __attribute__((deprecated("use corresponding property instead")));
-- (NSString * _Nullable)component50 __attribute__((swift_name("component50()"))) __attribute__((deprecated("use corresponding property instead")));
-- (NSString * _Nullable)component51 __attribute__((swift_name("component51()"))) __attribute__((deprecated("use corresponding property instead")));
-- (NSArray<BbnativesharedChapter *> * _Nullable)component52 __attribute__((swift_name("component52()"))) __attribute__((deprecated("use corresponding property instead")));
-- (NSArray<BbnativesharedHighlight *> * _Nullable)component53 __attribute__((swift_name("component53()"))) __attribute__((deprecated("use corresponding property instead")));
-- (NSString * _Nullable)component54 __attribute__((swift_name("component54()"))) __attribute__((deprecated("use corresponding property instead")));
-- (NSString * _Nullable)component55 __attribute__((swift_name("component55()"))) __attribute__((deprecated("use corresponding property instead")));
-- (NSString * _Nullable)component56 __attribute__((swift_name("component56()"))) __attribute__((deprecated("use corresponding property instead")));
-- (NSString * _Nullable)component6 __attribute__((swift_name("component6()"))) __attribute__((deprecated("use corresponding property instead")));
-- (NSString * _Nullable)component7 __attribute__((swift_name("component7()"))) __attribute__((deprecated("use corresponding property instead")));
-- (NSString * _Nullable)component8 __attribute__((swift_name("component8()"))) __attribute__((deprecated("use corresponding property instead")));
-- (NSString * _Nullable)component9 __attribute__((swift_name("component9()"))) __attribute__((deprecated("use corresponding property instead")));
 - (BbnativesharedMediaClip *)doCopyId:(NSString * _Nullable)id title:(NSString * _Nullable)title deeplink:(NSString * _Nullable)deeplink gendeeplink:(NSString * _Nullable)gendeeplink sourcetype:(NSString * _Nullable)sourcetype length:(NSString * _Nullable)length mediatype:(NSString * _Nullable)mediatype mediatype_override:(NSString * _Nullable)mediatype_override fitmode:(NSString * _Nullable)fitmode usetype:(NSString * _Nullable)usetype useThumbsFromMetadata:(NSString * _Nullable)useThumbsFromMetadata location:(NSString * _Nullable)location originalfilename:(NSString * _Nullable)originalfilename sourceid:(NSString * _Nullable)sourceid description:(NSString * _Nullable)description copyright:(NSString * _Nullable)copyright author:(NSString * _Nullable)author status:(NSString * _Nullable)status createddate:(NSString * _Nullable)createddate updateddate:(NSString * _Nullable)updateddate publisheddate:(NSString * _Nullable)publisheddate width:(BbnativesharedLong * _Nullable)width height:(BbnativesharedLong * _Nullable)height dar:(NSString * _Nullable)dar originalWidth:(BbnativesharedLong * _Nullable)originalWidth originalHeight:(BbnativesharedLong * _Nullable)originalHeight date:(BbnativesharedDates * _Nullable)date src:(NSString * _Nullable)src cat:(NSArray<NSString *> * _Nullable)cat thumbnails:(NSArray<BbnativesharedThumbnail *> * _Nullable)thumbnails movingThumbnails:(NSArray<BbnativesharedThumbnail *> * _Nullable)movingThumbnails assets:(NSArray<BbnativesharedMediaAsset *> * _Nullable)assets hasJobs:(NSString * _Nullable)hasJobs hasFailedJobs:(BbnativesharedBoolean * _Nullable)hasFailedJobs hasRunningJobs:(BbnativesharedBoolean * _Nullable)hasRunningJobs hasNewJobs:(BbnativesharedBoolean * _Nullable)hasNewJobs transcodingFinished:(BbnativesharedBoolean * _Nullable)transcodingFinished isYoutubeImport:(BbnativesharedBoolean * _Nullable)isYoutubeImport subtitles:(NSArray<BbnativesharedSubtitle *> * _Nullable)subtitles subtitletracks:(NSArray<BbnativesharedSubtitle *> * _Nullable)subtitletracks transcript:(NSString * _Nullable)transcript timelineId:(NSString * _Nullable)timelineId timelines:(NSArray<BbnativesharedTimeline *> * _Nullable)timelines audiotracks:(NSArray<BbnativesharedAudiotrack *> * _Nullable)audiotracks youtubeImportID:(NSString * _Nullable)youtubeImportID importSource:(NSString * _Nullable)importSource importURL:(NSString * _Nullable)importURL disablecommercials:(NSString * _Nullable)disablecommercials isDynamic:(NSString * _Nullable)isDynamic checkbox:(NSString * _Nullable)checkbox comment:(NSString * _Nullable)comment chapters:(NSArray<BbnativesharedChapter *> * _Nullable)chapters highlights:(NSArray<BbnativesharedHighlight *> * _Nullable)highlights softEmbargo:(NSString * _Nullable)softEmbargo isOutro:(NSString * _Nullable)isOutro projectId:(NSString * _Nullable)projectId __attribute__((swift_name("doCopy(id:title:deeplink:gendeeplink:sourcetype:length:mediatype:mediatype_override:fitmode:usetype:useThumbsFromMetadata:location:originalfilename:sourceid:description:copyright:author:status:createddate:updateddate:publisheddate:width:height:dar:originalWidth:originalHeight:date:src:cat:thumbnails:movingThumbnails:assets:hasJobs:hasFailedJobs:hasRunningJobs:hasNewJobs:transcodingFinished:isYoutubeImport:subtitles:subtitletracks:transcript:timelineId:timelines:audiotracks:youtubeImportID:importSource:importURL:disablecommercials:isDynamic:checkbox:comment:chapters:highlights:softEmbargo:isOutro:projectId:)")));
 - (BOOL)isEqual:(id _Nullable)other __attribute__((swift_name("isEqual(_:)")));
 - (NSUInteger)hash __attribute__((swift_name("hash()")));
@@ -1933,31 +1797,8 @@ __attribute__((swift_name("MediaClipList")))
 - (instancetype)initWithId:(NSString * _Nullable)id title:(NSString * _Nullable)title deeplink:(NSString * _Nullable)deeplink numfound:(BbnativesharedLong * _Nullable)numfound offset:(BbnativesharedLong * _Nullable)offset parentid:(NSString * _Nullable)parentid status:(NSString * _Nullable)status publication:(NSArray<NSString *> * _Nullable)publication parentpublicationid:(NSString * _Nullable)parentpublicationid mediatype:(NSString * _Nullable)mediatype usetype:(NSString * _Nullable)usetype modifieddate:(NSString * _Nullable)modifieddate createddate:(NSString * _Nullable)createddate publishedDate:(NSString * _Nullable)publishedDate listtypeString:(NSString * _Nullable)listtypeString isEmptyBoolean:(BbnativesharedBoolean * _Nullable)isEmptyBoolean filtersString:(NSString * _Nullable)filtersString createdbyString:(NSString * _Nullable)createdbyString updatedbyString:(NSString * _Nullable)updatedbyString allowDatasource:(NSString * _Nullable)allowDatasource allowDatasource_boolean:(BbnativesharedBoolean * _Nullable)allowDatasource_boolean score:(BbnativesharedDouble * _Nullable)score count:(BbnativesharedLong * _Nullable)count items:(NSArray<BbnativesharedContentItem *> * _Nullable)items __attribute__((swift_name("init(id:title:deeplink:numfound:offset:parentid:status:publication:parentpublicationid:mediatype:usetype:modifieddate:createddate:publishedDate:listtypeString:isEmptyBoolean:filtersString:createdbyString:updatedbyString:allowDatasource:allowDatasource_boolean:score:count:items:)"))) __attribute__((objc_designated_initializer));
 - (instancetype)init __attribute__((swift_name("init()"))) __attribute__((objc_designated_initializer)) __attribute__((unavailable));
 + (instancetype)new __attribute__((unavailable));
+- (instancetype)initWithSeen0:(int32_t)seen0 isPrefetch:(BOOL)isPrefetch serializationConstructorMarker:(id _Nullable)serializationConstructorMarker __attribute__((swift_name("init(seen0:isPrefetch:serializationConstructorMarker:)"))) __attribute__((objc_designated_initializer)) __attribute__((unavailable));
 @property (class, readonly, getter=companion) BbnativesharedMediaClipListCompanion *companion __attribute__((swift_name("companion")));
-- (NSString * _Nullable)component1 __attribute__((swift_name("component1()"))) __attribute__((deprecated("use corresponding property instead")));
-- (NSString * _Nullable)component10 __attribute__((swift_name("component10()"))) __attribute__((deprecated("use corresponding property instead")));
-- (NSString * _Nullable)component11 __attribute__((swift_name("component11()"))) __attribute__((deprecated("use corresponding property instead")));
-- (NSString * _Nullable)component12 __attribute__((swift_name("component12()"))) __attribute__((deprecated("use corresponding property instead")));
-- (NSString * _Nullable)component13 __attribute__((swift_name("component13()"))) __attribute__((deprecated("use corresponding property instead")));
-- (NSString * _Nullable)component14 __attribute__((swift_name("component14()"))) __attribute__((deprecated("use corresponding property instead")));
-- (NSString * _Nullable)component15 __attribute__((swift_name("component15()"))) __attribute__((deprecated("use corresponding property instead")));
-- (BbnativesharedBoolean * _Nullable)component16 __attribute__((swift_name("component16()"))) __attribute__((deprecated("use corresponding property instead")));
-- (NSString * _Nullable)component17 __attribute__((swift_name("component17()"))) __attribute__((deprecated("use corresponding property instead")));
-- (NSString * _Nullable)component18 __attribute__((swift_name("component18()"))) __attribute__((deprecated("use corresponding property instead")));
-- (NSString * _Nullable)component19 __attribute__((swift_name("component19()"))) __attribute__((deprecated("use corresponding property instead")));
-- (NSString * _Nullable)component2 __attribute__((swift_name("component2()"))) __attribute__((deprecated("use corresponding property instead")));
-- (NSString * _Nullable)component20 __attribute__((swift_name("component20()"))) __attribute__((deprecated("use corresponding property instead")));
-- (BbnativesharedBoolean * _Nullable)component21 __attribute__((swift_name("component21()"))) __attribute__((deprecated("use corresponding property instead")));
-- (BbnativesharedDouble * _Nullable)component22 __attribute__((swift_name("component22()"))) __attribute__((deprecated("use corresponding property instead")));
-- (BbnativesharedLong * _Nullable)component23 __attribute__((swift_name("component23()"))) __attribute__((deprecated("use corresponding property instead")));
-- (NSArray<BbnativesharedContentItem *> * _Nullable)component24 __attribute__((swift_name("component24()"))) __attribute__((deprecated("use corresponding property instead")));
-- (NSString * _Nullable)component3 __attribute__((swift_name("component3()"))) __attribute__((deprecated("use corresponding property instead")));
-- (BbnativesharedLong * _Nullable)component4 __attribute__((swift_name("component4()"))) __attribute__((deprecated("use corresponding property instead")));
-- (BbnativesharedLong * _Nullable)component5 __attribute__((swift_name("component5()"))) __attribute__((deprecated("use corresponding property instead")));
-- (NSString * _Nullable)component6 __attribute__((swift_name("component6()"))) __attribute__((deprecated("use corresponding property instead")));
-- (NSString * _Nullable)component7 __attribute__((swift_name("component7()"))) __attribute__((deprecated("use corresponding property instead")));
-- (NSArray<NSString *> * _Nullable)component8 __attribute__((swift_name("component8()"))) __attribute__((deprecated("use corresponding property instead")));
-- (NSString * _Nullable)component9 __attribute__((swift_name("component9()"))) __attribute__((deprecated("use corresponding property instead")));
 - (BbnativesharedMediaClipList *)doCopyId:(NSString * _Nullable)id title:(NSString * _Nullable)title deeplink:(NSString * _Nullable)deeplink numfound:(BbnativesharedLong * _Nullable)numfound offset:(BbnativesharedLong * _Nullable)offset parentid:(NSString * _Nullable)parentid status:(NSString * _Nullable)status publication:(NSArray<NSString *> * _Nullable)publication parentpublicationid:(NSString * _Nullable)parentpublicationid mediatype:(NSString * _Nullable)mediatype usetype:(NSString * _Nullable)usetype modifieddate:(NSString * _Nullable)modifieddate createddate:(NSString * _Nullable)createddate publishedDate:(NSString * _Nullable)publishedDate listtypeString:(NSString * _Nullable)listtypeString isEmptyBoolean:(BbnativesharedBoolean * _Nullable)isEmptyBoolean filtersString:(NSString * _Nullable)filtersString createdbyString:(NSString * _Nullable)createdbyString updatedbyString:(NSString * _Nullable)updatedbyString allowDatasource:(NSString * _Nullable)allowDatasource allowDatasource_boolean:(BbnativesharedBoolean * _Nullable)allowDatasource_boolean score:(BbnativesharedDouble * _Nullable)score count:(BbnativesharedLong * _Nullable)count items:(NSArray<BbnativesharedContentItem *> * _Nullable)items __attribute__((swift_name("doCopy(id:title:deeplink:numfound:offset:parentid:status:publication:parentpublicationid:mediatype:usetype:modifieddate:createddate:publishedDate:listtypeString:isEmptyBoolean:filtersString:createdbyString:updatedbyString:allowDatasource:allowDatasource_boolean:score:count:items:)")));
 - (BOOL)isEqual:(id _Nullable)other __attribute__((swift_name("isEqual(_:)")));
 - (NSUInteger)hash __attribute__((swift_name("hash()")));
@@ -2008,8 +1849,6 @@ __attribute__((swift_name("Parameter")))
 @interface BbnativesharedParameter : BbnativesharedBase
 - (instancetype)initWithName:(NSString * _Nullable)name value:(NSString * _Nullable)value __attribute__((swift_name("init(name:value:)"))) __attribute__((objc_designated_initializer));
 @property (class, readonly, getter=companion) BbnativesharedParameterCompanion *companion __attribute__((swift_name("companion")));
-- (NSString * _Nullable)component1 __attribute__((swift_name("component1()"))) __attribute__((deprecated("use corresponding property instead")));
-- (NSString * _Nullable)component2 __attribute__((swift_name("component2()"))) __attribute__((deprecated("use corresponding property instead")));
 - (BbnativesharedParameter *)doCopyName:(NSString * _Nullable)name value:(NSString * _Nullable)value __attribute__((swift_name("doCopy(name:value:)")));
 - (BOOL)isEqual:(id _Nullable)other __attribute__((swift_name("isEqual(_:)")));
 - (NSUInteger)hash __attribute__((swift_name("hash()")));
@@ -2038,11 +1877,6 @@ __attribute__((swift_name("Player")))
 @interface BbnativesharedPlayer : BbnativesharedBase
 - (instancetype)initWithId:(NSString * _Nullable)id name:(NSString * _Nullable)name type:(NSString * _Nullable)type src:(NSString * _Nullable)src updateddate:(NSString * _Nullable)updateddate __attribute__((swift_name("init(id:name:type:src:updateddate:)"))) __attribute__((objc_designated_initializer));
 @property (class, readonly, getter=companion) BbnativesharedPlayerCompanion *companion __attribute__((swift_name("companion")));
-- (NSString * _Nullable)component1 __attribute__((swift_name("component1()"))) __attribute__((deprecated("use corresponding property instead")));
-- (NSString * _Nullable)component2 __attribute__((swift_name("component2()"))) __attribute__((deprecated("use corresponding property instead")));
-- (NSString * _Nullable)component3 __attribute__((swift_name("component3()"))) __attribute__((deprecated("use corresponding property instead")));
-- (NSString * _Nullable)component4 __attribute__((swift_name("component4()"))) __attribute__((deprecated("use corresponding property instead")));
-- (NSString * _Nullable)component5 __attribute__((swift_name("component5()"))) __attribute__((deprecated("use corresponding property instead")));
 - (BbnativesharedPlayer *)doCopyId:(NSString * _Nullable)id name:(NSString * _Nullable)name type:(NSString * _Nullable)type src:(NSString * _Nullable)src updateddate:(NSString * _Nullable)updateddate __attribute__((swift_name("doCopy(id:name:type:src:updateddate:)")));
 - (BOOL)isEqual:(id _Nullable)other __attribute__((swift_name("isEqual(_:)")));
 - (NSUInteger)hash __attribute__((swift_name("hash()")));
@@ -2075,8 +1909,6 @@ __attribute__((swift_name("PlayerSettings")))
 - (instancetype)initWithPlayout:(NSString *)playout __attribute__((swift_name("init(playout:)"))) __attribute__((objc_designated_initializer));
 - (instancetype)initWithPlayout:(NSString *)playout autoPlay:(BOOL)autoPlay __attribute__((swift_name("init(playout:autoPlay:)"))) __attribute__((objc_designated_initializer));
 @property (class, readonly, getter=companion) BbnativesharedPlayerSettingsCompanion *companion __attribute__((swift_name("companion")));
-- (NSString *)component1 __attribute__((swift_name("component1()"))) __attribute__((deprecated("use corresponding property instead")));
-- (BOOL)component2 __attribute__((swift_name("component2()"))) __attribute__((deprecated("use corresponding property instead")));
 - (BbnativesharedPlayerSettings *)doCopyPlayout:(NSString *)playout autoPlay:(BOOL)autoPlay __attribute__((swift_name("doCopy(playout:autoPlay:)")));
 - (BOOL)isEqual:(id _Nullable)other __attribute__((swift_name("isEqual(_:)")));
 - (NSUInteger)hash __attribute__((swift_name("hash()")));
@@ -2105,217 +1937,6 @@ __attribute__((swift_name("Playout")))
 @interface BbnativesharedPlayout : BbnativesharedBase
 - (instancetype)initWithId:(NSString * _Nullable)id main:(NSString * _Nullable)main type:(NSString * _Nullable)type name:(NSString * _Nullable)name status:(NSString * _Nullable)status createddate:(NSString * _Nullable)createddate updateddate:(NSString * _Nullable)updateddate label:(NSString * _Nullable)label publication:(NSString * _Nullable)publication player:(BbnativesharedPlayer * _Nullable)player playerid:(NSString * _Nullable)playerid centerButtonType:(NSString * _Nullable)centerButtonType cornerRadius:(NSString * _Nullable)cornerRadius responsiveSizing:(NSString * _Nullable)responsiveSizing aspectRatio:(NSString * _Nullable)aspectRatio width:(NSString * _Nullable)width height:(NSString * _Nullable)height autoHeight:(NSString * _Nullable)autoHeight alphaControlBar:(NSString * _Nullable)alphaControlBar skin_backgroundColor:(NSString * _Nullable)skin_backgroundColor skin_foregroundColor:(NSString * _Nullable)skin_foregroundColor skin_widgetColor:(NSString * _Nullable)skin_widgetColor bgColor:(NSString * _Nullable)bgColor logoId:(NSString * _Nullable)logoId logoAlign:(NSString * _Nullable)logoAlign logoClickURL:(NSString * _Nullable)logoClickURL controlBar:(NSString * _Nullable)controlBar controlBarPlacement:(NSString * _Nullable)controlBarPlacement timeDisplay:(NSString * _Nullable)timeDisplay timeLine:(NSString * _Nullable)timeLine muteButton:(NSString * _Nullable)muteButton volume:(NSString * _Nullable)volume volumeOrientation:(NSString * _Nullable)volumeOrientation languageSelect:(NSString * _Nullable)languageSelect qualitySelector:(NSString * _Nullable)qualitySelector playbackRateSelector:(NSString * _Nullable)playbackRateSelector fullScreen:(NSString * _Nullable)fullScreen shareButton:(NSString * _Nullable)shareButton shareButtonPause:(NSString * _Nullable)shareButtonPause shareButtonEnd:(NSString * _Nullable)shareButtonEnd shareButtonEmbedCode:(NSString * _Nullable)shareButtonEmbedCode shareButtonEmail:(NSString * _Nullable)shareButtonEmail shareButtonFacebook:(NSString * _Nullable)shareButtonFacebook shareButtonLinkedIn:(NSString * _Nullable)shareButtonLinkedIn shareButtonPinterest:(NSString * _Nullable)shareButtonPinterest shareButtonTwitter:(NSString * _Nullable)shareButtonTwitter shareButtonWhatsApp:(NSString * _Nullable)shareButtonWhatsApp castButton:(NSString * _Nullable)castButton showBigPlayButton:(NSString * _Nullable)showBigPlayButton showBigReplayButton:(NSString * _Nullable)showBigReplayButton title:(NSString * _Nullable)title date:(NSString * _Nullable)date authorCopyright:(NSString * _Nullable)authorCopyright authorCopyrightAlign:(NSString * _Nullable)authorCopyrightAlign authorCopyrightPrefixText:(NSString * _Nullable)authorCopyrightPrefixText autoPlayNext:(NSString * _Nullable)autoPlayNext relatedItems:(NSString * _Nullable)relatedItems relatedItemsPause:(NSString * _Nullable)relatedItemsPause useDeeplinkForRelatedItems:(NSString * _Nullable)useDeeplinkForRelatedItems useDeeplinkForRelatedItemsPause:(NSString * _Nullable)useDeeplinkForRelatedItemsPause exitscreenItemsListId:(NSString * _Nullable)exitscreenItemsListId randomizeRelatedItems:(NSString * _Nullable)randomizeRelatedItems useDeeplinkForFacebook:(NSString * _Nullable)useDeeplinkForFacebook shareTwitterText:(NSString * _Nullable)shareTwitterText sharePlayout:(NSString * _Nullable)sharePlayout skinBehaviour:(NSString * _Nullable)skinBehaviour skinOnTimeline:(NSString * _Nullable)skinOnTimeline nativeControls:(NSString * _Nullable)nativeControls youTubeHosting:(NSString * _Nullable)youTubeHosting youTubeSkinInMainPhase:(NSString * _Nullable)youTubeSkinInMainPhase forceNativeFullscreen:(NSString * _Nullable)forceNativeFullscreen preferHD:(NSString * _Nullable)preferHD nedStatLoggerUrl:(NSString * _Nullable)nedStatLoggerUrl googleAnalyticsId:(NSString * _Nullable)googleAnalyticsId piwikUrl:(NSString * _Nullable)piwikUrl piwikSiteId:(NSString * _Nullable)piwikSiteId adobeAnalyticsTrackingServer:(NSString * _Nullable)adobeAnalyticsTrackingServer adobeAnalyticsMcorgID:(NSString * _Nullable)adobeAnalyticsMcorgID adobeAnalyticsRsID:(NSString * _Nullable)adobeAnalyticsRsID adobeAnalyticsLegacy:(NSString * _Nullable)adobeAnalyticsLegacy disableCookies:(NSString * _Nullable)disableCookies disableContextMenuNavigate:(NSString * _Nullable)disableContextMenuNavigate playerSignature:(NSString * _Nullable)playerSignature playerSignatureLink:(NSString * _Nullable)playerSignatureLink autoPlay:(NSString * _Nullable)autoPlay autoMute:(NSString * _Nullable)autoMute autoMuteIfNeededForAutoPlay:(NSString * _Nullable)autoMuteIfNeededForAutoPlay autoLoop:(NSString * _Nullable)autoLoop floatPlayer:(NSString * _Nullable)floatPlayer interactivityInView:(NSString * _Nullable)interactivityInView interactivityOutView:(NSString * _Nullable)interactivityOutView inviewMargin:(NSString * _Nullable)inviewMargin textAbovePlayer:(NSString * _Nullable)textAbovePlayer textCommercialSkip:(NSString * _Nullable)textCommercialSkip startCollapsed:(NSString * _Nullable)startCollapsed playInOverlay:(NSString * _Nullable)playInOverlay hidePlayerOnEnd:(NSString * _Nullable)hidePlayerOnEnd waitForApproval:(NSString * _Nullable)waitForApproval interactivityMouseIn:(NSString * _Nullable)interactivityMouseIn interactivityMouseOut:(NSString * _Nullable)interactivityMouseOut interactivityOnClick:(NSString * _Nullable)interactivityOnClick clickURL:(NSString * _Nullable)clickURL nsiNoAutoPlay:(NSString * _Nullable)nsiNoAutoPlay nsiNoPlayer:(NSString * _Nullable)nsiNoPlayer placementOption:(NSString * _Nullable)placementOption placementDOMSelector:(NSString * _Nullable)placementDOMSelector iframeBreakout:(NSString * _Nullable)iframeBreakout clearBothOption:(NSString * _Nullable)clearBothOption forceInview:(NSString * _Nullable)forceInview customCode:(NSString * _Nullable)customCode preferFlashPlayback:(NSString * _Nullable)preferFlashPlayback preloadMainroll:(NSString * _Nullable)preloadMainroll disableHtml5VPAID:(NSString * _Nullable)disableHtml5VPAID enableHtml5VPAID:(NSString * _Nullable)enableHtml5VPAID commercialPauseButton:(NSString * _Nullable)commercialPauseButton commercialMuteButton:(NSString * _Nullable)commercialMuteButton commercialAdIcon:(NSString * _Nullable)commercialAdIcon commercialProgressBar:(NSString * _Nullable)commercialProgressBar commercialProgressBarColor:(NSString * _Nullable)commercialProgressBarColor commercials:(NSString * _Nullable)commercials textCommercialTimeRemaining:(NSString * _Nullable)textCommercialTimeRemaining commercialBehaviour:(NSString * _Nullable)commercialBehaviour minClipDurationPreroll:(NSString * _Nullable)minClipDurationPreroll minClipDurationPostroll:(NSString * _Nullable)minClipDurationPostroll allowBBIma:(NSString * _Nullable)allowBBIma fitmode:(BbnativesharedFitMode * _Nullable)fitmode viewpageOverrideDimensions:(NSString * _Nullable)viewpageOverrideDimensions viewpageHideTitles:(NSString * _Nullable)viewpageHideTitles viewpageAlignment:(NSString * _Nullable)viewpageAlignment viewpageBackgroundColor:(NSString * _Nullable)viewpageBackgroundColor viewpageColor:(NSString * _Nullable)viewpageColor viewpageBackgroundClipID:(NSString * _Nullable)viewpageBackgroundClipID viewpageBackgroundPosition:(NSString * _Nullable)viewpageBackgroundPosition viewpageBackgroundSize:(NSString * _Nullable)viewpageBackgroundSize viewpageBackgroundRepeat:(NSString * _Nullable)viewpageBackgroundRepeat viewpageLogo1ClipID:(NSString * _Nullable)viewpageLogo1ClipID viewpageLogo1Position:(NSString * _Nullable)viewpageLogo1Position viewpageLogo2ClipID:(NSString * _Nullable)viewpageLogo2ClipID viewpageLogo2Position:(NSString * _Nullable)viewpageLogo2Position viewpageLogo3ClipID:(NSString * _Nullable)viewpageLogo3ClipID viewpageLogo3Position:(NSString * _Nullable)viewpageLogo3Position viewpageLogo4ClipID:(NSString * _Nullable)viewpageLogo4ClipID viewpageLogo4Position:(NSString * _Nullable)viewpageLogo4Position noStats:(NSString * _Nullable)noStats forceAndroidNativeVideo:(NSString * _Nullable)forceAndroidNativeVideo forceIOSNativeVideo:(NSString * _Nullable)forceIOSNativeVideo use2018Skin:(NSString * _Nullable)use2018Skin useThumbsFromMetadata:(NSString * _Nullable)useThumbsFromMetadata audioTrackSelect:(NSString * _Nullable)audioTrackSelect shareText:(NSString * _Nullable)shareText shareButtonDirectLink:(NSString * _Nullable)shareButtonDirectLink googleAnalyticsCustomVars:(NSString * _Nullable)googleAnalyticsCustomVars supportIABConsent:(NSString * _Nullable)supportIABConsent restrictionNpaOnly:(NSString * _Nullable)restrictionNpaOnly restrictionNpcOnly:(NSString * _Nullable)restrictionNpcOnly defaultSubtitle:(NSString * _Nullable)defaultSubtitle defaultSubtitleOnlyIfMuted:(NSString * _Nullable)defaultSubtitleOnlyIfMuted defaultAudioTrack:(NSString * _Nullable)defaultAudioTrack forceCanAutoPlay:(NSString * _Nullable)forceCanAutoPlay avoidMutedAutoplay:(NSString * _Nullable)avoidMutedAutoplay stickyMode:(NSString * _Nullable)stickyMode disableKeyboardControls:(NSString * _Nullable)disableKeyboardControls taggingDisabled:(NSString * _Nullable)taggingDisabled skipOffset:(NSString * _Nullable)skipOffset skipCounterText:(NSString * _Nullable)skipCounterText skipButtonText:(NSString * _Nullable)skipButtonText blockInsecureVPAID:(NSString * _Nullable)blockInsecureVPAID shareButtonGooglePlus:(NSString * _Nullable)shareButtonGooglePlus timelineId:(NSString * _Nullable)timelineId templateId:(NSString * _Nullable)templateId adunits:(NSArray<BbnativesharedKotlinx_serialization_jsonJsonElement *> * _Nullable)adunits hasAdunits:(BbnativesharedBoolean * _Nullable)hasAdunits adunitsPreroll:(NSArray<BbnativesharedAdUnit *> * _Nullable)adunitsPreroll ignoreSingleMediaResource:(NSString * _Nullable)ignoreSingleMediaResource ignoreProjectMetadata:(NSString * _Nullable)ignoreProjectMetadata noPosterInExitPhase:(NSString * _Nullable)noPosterInExitPhase logProgressAsQuartiles:(NSString * _Nullable)logProgressAsQuartiles autoPauseAfterPrePhase:(NSString * _Nullable)autoPauseAfterPrePhase autoPlayOnlyWithPrerollAd:(NSString * _Nullable)autoPlayOnlyWithPrerollAd showOnlyWhenPrerollAvailable:(NSString * _Nullable)showOnlyWhenPrerollAvailable showBigPauseButtons:(NSString * _Nullable)showBigPauseButtons titlePause:(NSString * _Nullable)titlePause authorCopyrightPause:(NSString * _Nullable)authorCopyrightPause authorCopyrightAlignPause:(NSString * _Nullable)authorCopyrightAlignPause authorCopyrightPrefixTextPause:(NSString * _Nullable)authorCopyrightPrefixTextPause showStartDuration:(NSString * _Nullable)showStartDuration disableMovingThumbnail:(NSString * _Nullable)disableMovingThumbnail shareButtonHover:(NSString * _Nullable)shareButtonHover showBigHoverButtons:(NSString * _Nullable)showBigHoverButtons titleHover:(NSString * _Nullable)titleHover authorCopyrightHover:(NSString * _Nullable)authorCopyrightHover titleEnd:(NSString * _Nullable)titleEnd authorCopyrightEnd:(NSString * _Nullable)authorCopyrightEnd softEmbargoCustomPosterClipId:(NSString * _Nullable)softEmbargoCustomPosterClipId softEmbargoFontColor:(NSString * _Nullable)softEmbargoFontColor softEmbargoHasCustomPoster:(NSString * _Nullable)softEmbargoHasCustomPoster softEmbargoText:(NSString * _Nullable)softEmbargoText softEmbargoTimerHidden:(NSString * _Nullable)softEmbargoTimerHidden adsystem_buid:(NSString * _Nullable)adsystem_buid adsystem_rdid:(NSString * _Nullable)adsystem_rdid adsystem_idtype:(NSString * _Nullable)adsystem_idtype adsystem_is_lat:(NSString * _Nullable)adsystem_is_lat swipeDirection:(NSString * _Nullable)swipeDirection hideSwipeControls:(NSString * _Nullable)hideSwipeControls descriptionShowHide:(NSString * _Nullable)descriptionShowHide showPlayButton:(NSString * _Nullable)showPlayButton autoLoopClip:(NSString * _Nullable)autoLoopClip shortsId:(NSString * _Nullable)shortsId adunitId:(NSString * _Nullable)adunitId clipAdInterval:(NSString * _Nullable)clipAdInterval assetPreloadWindow:(NSString * _Nullable)assetPreloadWindow __attribute__((swift_name("init(id:main:type:name:status:createddate:updateddate:label:publication:player:playerid:centerButtonType:cornerRadius:responsiveSizing:aspectRatio:width:height:autoHeight:alphaControlBar:skin_backgroundColor:skin_foregroundColor:skin_widgetColor:bgColor:logoId:logoAlign:logoClickURL:controlBar:controlBarPlacement:timeDisplay:timeLine:muteButton:volume:volumeOrientation:languageSelect:qualitySelector:playbackRateSelector:fullScreen:shareButton:shareButtonPause:shareButtonEnd:shareButtonEmbedCode:shareButtonEmail:shareButtonFacebook:shareButtonLinkedIn:shareButtonPinterest:shareButtonTwitter:shareButtonWhatsApp:castButton:showBigPlayButton:showBigReplayButton:title:date:authorCopyright:authorCopyrightAlign:authorCopyrightPrefixText:autoPlayNext:relatedItems:relatedItemsPause:useDeeplinkForRelatedItems:useDeeplinkForRelatedItemsPause:exitscreenItemsListId:randomizeRelatedItems:useDeeplinkForFacebook:shareTwitterText:sharePlayout:skinBehaviour:skinOnTimeline:nativeControls:youTubeHosting:youTubeSkinInMainPhase:forceNativeFullscreen:preferHD:nedStatLoggerUrl:googleAnalyticsId:piwikUrl:piwikSiteId:adobeAnalyticsTrackingServer:adobeAnalyticsMcorgID:adobeAnalyticsRsID:adobeAnalyticsLegacy:disableCookies:disableContextMenuNavigate:playerSignature:playerSignatureLink:autoPlay:autoMute:autoMuteIfNeededForAutoPlay:autoLoop:floatPlayer:interactivityInView:interactivityOutView:inviewMargin:textAbovePlayer:textCommercialSkip:startCollapsed:playInOverlay:hidePlayerOnEnd:waitForApproval:interactivityMouseIn:interactivityMouseOut:interactivityOnClick:clickURL:nsiNoAutoPlay:nsiNoPlayer:placementOption:placementDOMSelector:iframeBreakout:clearBothOption:forceInview:customCode:preferFlashPlayback:preloadMainroll:disableHtml5VPAID:enableHtml5VPAID:commercialPauseButton:commercialMuteButton:commercialAdIcon:commercialProgressBar:commercialProgressBarColor:commercials:textCommercialTimeRemaining:commercialBehaviour:minClipDurationPreroll:minClipDurationPostroll:allowBBIma:fitmode:viewpageOverrideDimensions:viewpageHideTitles:viewpageAlignment:viewpageBackgroundColor:viewpageColor:viewpageBackgroundClipID:viewpageBackgroundPosition:viewpageBackgroundSize:viewpageBackgroundRepeat:viewpageLogo1ClipID:viewpageLogo1Position:viewpageLogo2ClipID:viewpageLogo2Position:viewpageLogo3ClipID:viewpageLogo3Position:viewpageLogo4ClipID:viewpageLogo4Position:noStats:forceAndroidNativeVideo:forceIOSNativeVideo:use2018Skin:useThumbsFromMetadata:audioTrackSelect:shareText:shareButtonDirectLink:googleAnalyticsCustomVars:supportIABConsent:restrictionNpaOnly:restrictionNpcOnly:defaultSubtitle:defaultSubtitleOnlyIfMuted:defaultAudioTrack:forceCanAutoPlay:avoidMutedAutoplay:stickyMode:disableKeyboardControls:taggingDisabled:skipOffset:skipCounterText:skipButtonText:blockInsecureVPAID:shareButtonGooglePlus:timelineId:templateId:adunits:hasAdunits:adunitsPreroll:ignoreSingleMediaResource:ignoreProjectMetadata:noPosterInExitPhase:logProgressAsQuartiles:autoPauseAfterPrePhase:autoPlayOnlyWithPrerollAd:showOnlyWhenPrerollAvailable:showBigPauseButtons:titlePause:authorCopyrightPause:authorCopyrightAlignPause:authorCopyrightPrefixTextPause:showStartDuration:disableMovingThumbnail:shareButtonHover:showBigHoverButtons:titleHover:authorCopyrightHover:titleEnd:authorCopyrightEnd:softEmbargoCustomPosterClipId:softEmbargoFontColor:softEmbargoHasCustomPoster:softEmbargoText:softEmbargoTimerHidden:adsystem_buid:adsystem_rdid:adsystem_idtype:adsystem_is_lat:swipeDirection:hideSwipeControls:descriptionShowHide:showPlayButton:autoLoopClip:shortsId:adunitId:clipAdInterval:assetPreloadWindow:)"))) __attribute__((objc_designated_initializer));
 @property (class, readonly, getter=companion) BbnativesharedPlayoutCompanion *companion __attribute__((swift_name("companion")));
-- (NSString * _Nullable)component1 __attribute__((swift_name("component1()"))) __attribute__((deprecated("use corresponding property instead")));
-- (BbnativesharedPlayer * _Nullable)component10 __attribute__((swift_name("component10()"))) __attribute__((deprecated("use corresponding property instead")));
-- (NSString * _Nullable)component100 __attribute__((swift_name("component100()"))) __attribute__((deprecated("use corresponding property instead")));
-- (NSString * _Nullable)component101 __attribute__((swift_name("component101()"))) __attribute__((deprecated("use corresponding property instead")));
-- (NSString * _Nullable)component102 __attribute__((swift_name("component102()"))) __attribute__((deprecated("use corresponding property instead")));
-- (NSString * _Nullable)component103 __attribute__((swift_name("component103()"))) __attribute__((deprecated("use corresponding property instead")));
-- (NSString * _Nullable)component104 __attribute__((swift_name("component104()"))) __attribute__((deprecated("use corresponding property instead")));
-- (NSString * _Nullable)component105 __attribute__((swift_name("component105()"))) __attribute__((deprecated("use corresponding property instead")));
-- (NSString * _Nullable)component106 __attribute__((swift_name("component106()"))) __attribute__((deprecated("use corresponding property instead")));
-- (NSString * _Nullable)component107 __attribute__((swift_name("component107()"))) __attribute__((deprecated("use corresponding property instead")));
-- (NSString * _Nullable)component108 __attribute__((swift_name("component108()"))) __attribute__((deprecated("use corresponding property instead")));
-- (NSString * _Nullable)component109 __attribute__((swift_name("component109()"))) __attribute__((deprecated("use corresponding property instead")));
-- (NSString * _Nullable)component11 __attribute__((swift_name("component11()"))) __attribute__((deprecated("use corresponding property instead")));
-- (NSString * _Nullable)component110 __attribute__((swift_name("component110()"))) __attribute__((deprecated("use corresponding property instead")));
-- (NSString * _Nullable)component111 __attribute__((swift_name("component111()"))) __attribute__((deprecated("use corresponding property instead")));
-- (NSString * _Nullable)component112 __attribute__((swift_name("component112()"))) __attribute__((deprecated("use corresponding property instead")));
-- (NSString * _Nullable)component113 __attribute__((swift_name("component113()"))) __attribute__((deprecated("use corresponding property instead")));
-- (NSString * _Nullable)component114 __attribute__((swift_name("component114()"))) __attribute__((deprecated("use corresponding property instead")));
-- (NSString * _Nullable)component115 __attribute__((swift_name("component115()"))) __attribute__((deprecated("use corresponding property instead")));
-- (NSString * _Nullable)component116 __attribute__((swift_name("component116()"))) __attribute__((deprecated("use corresponding property instead")));
-- (NSString * _Nullable)component117 __attribute__((swift_name("component117()"))) __attribute__((deprecated("use corresponding property instead")));
-- (NSString * _Nullable)component118 __attribute__((swift_name("component118()"))) __attribute__((deprecated("use corresponding property instead")));
-- (NSString * _Nullable)component119 __attribute__((swift_name("component119()"))) __attribute__((deprecated("use corresponding property instead")));
-- (NSString * _Nullable)component12 __attribute__((swift_name("component12()"))) __attribute__((deprecated("use corresponding property instead")));
-- (NSString * _Nullable)component120 __attribute__((swift_name("component120()"))) __attribute__((deprecated("use corresponding property instead")));
-- (NSString * _Nullable)component121 __attribute__((swift_name("component121()"))) __attribute__((deprecated("use corresponding property instead")));
-- (NSString * _Nullable)component122 __attribute__((swift_name("component122()"))) __attribute__((deprecated("use corresponding property instead")));
-- (NSString * _Nullable)component123 __attribute__((swift_name("component123()"))) __attribute__((deprecated("use corresponding property instead")));
-- (NSString * _Nullable)component124 __attribute__((swift_name("component124()"))) __attribute__((deprecated("use corresponding property instead")));
-- (NSString * _Nullable)component125 __attribute__((swift_name("component125()"))) __attribute__((deprecated("use corresponding property instead")));
-- (BbnativesharedFitMode * _Nullable)component126 __attribute__((swift_name("component126()"))) __attribute__((deprecated("use corresponding property instead")));
-- (NSString * _Nullable)component127 __attribute__((swift_name("component127()"))) __attribute__((deprecated("use corresponding property instead")));
-- (NSString * _Nullable)component128 __attribute__((swift_name("component128()"))) __attribute__((deprecated("use corresponding property instead")));
-- (NSString * _Nullable)component129 __attribute__((swift_name("component129()"))) __attribute__((deprecated("use corresponding property instead")));
-- (NSString * _Nullable)component13 __attribute__((swift_name("component13()"))) __attribute__((deprecated("use corresponding property instead")));
-- (NSString * _Nullable)component130 __attribute__((swift_name("component130()"))) __attribute__((deprecated("use corresponding property instead")));
-- (NSString * _Nullable)component131 __attribute__((swift_name("component131()"))) __attribute__((deprecated("use corresponding property instead")));
-- (NSString * _Nullable)component132 __attribute__((swift_name("component132()"))) __attribute__((deprecated("use corresponding property instead")));
-- (NSString * _Nullable)component133 __attribute__((swift_name("component133()"))) __attribute__((deprecated("use corresponding property instead")));
-- (NSString * _Nullable)component134 __attribute__((swift_name("component134()"))) __attribute__((deprecated("use corresponding property instead")));
-- (NSString * _Nullable)component135 __attribute__((swift_name("component135()"))) __attribute__((deprecated("use corresponding property instead")));
-- (NSString * _Nullable)component136 __attribute__((swift_name("component136()"))) __attribute__((deprecated("use corresponding property instead")));
-- (NSString * _Nullable)component137 __attribute__((swift_name("component137()"))) __attribute__((deprecated("use corresponding property instead")));
-- (NSString * _Nullable)component138 __attribute__((swift_name("component138()"))) __attribute__((deprecated("use corresponding property instead")));
-- (NSString * _Nullable)component139 __attribute__((swift_name("component139()"))) __attribute__((deprecated("use corresponding property instead")));
-- (NSString * _Nullable)component14 __attribute__((swift_name("component14()"))) __attribute__((deprecated("use corresponding property instead")));
-- (NSString * _Nullable)component140 __attribute__((swift_name("component140()"))) __attribute__((deprecated("use corresponding property instead")));
-- (NSString * _Nullable)component141 __attribute__((swift_name("component141()"))) __attribute__((deprecated("use corresponding property instead")));
-- (NSString * _Nullable)component142 __attribute__((swift_name("component142()"))) __attribute__((deprecated("use corresponding property instead")));
-- (NSString * _Nullable)component143 __attribute__((swift_name("component143()"))) __attribute__((deprecated("use corresponding property instead")));
-- (NSString * _Nullable)component144 __attribute__((swift_name("component144()"))) __attribute__((deprecated("use corresponding property instead")));
-- (NSString * _Nullable)component145 __attribute__((swift_name("component145()"))) __attribute__((deprecated("use corresponding property instead")));
-- (NSString * _Nullable)component146 __attribute__((swift_name("component146()"))) __attribute__((deprecated("use corresponding property instead")));
-- (NSString * _Nullable)component147 __attribute__((swift_name("component147()"))) __attribute__((deprecated("use corresponding property instead")));
-- (NSString * _Nullable)component148 __attribute__((swift_name("component148()"))) __attribute__((deprecated("use corresponding property instead")));
-- (NSString * _Nullable)component149 __attribute__((swift_name("component149()"))) __attribute__((deprecated("use corresponding property instead")));
-- (NSString * _Nullable)component15 __attribute__((swift_name("component15()"))) __attribute__((deprecated("use corresponding property instead")));
-- (NSString * _Nullable)component150 __attribute__((swift_name("component150()"))) __attribute__((deprecated("use corresponding property instead")));
-- (NSString * _Nullable)component151 __attribute__((swift_name("component151()"))) __attribute__((deprecated("use corresponding property instead")));
-- (NSString * _Nullable)component152 __attribute__((swift_name("component152()"))) __attribute__((deprecated("use corresponding property instead")));
-- (NSString * _Nullable)component153 __attribute__((swift_name("component153()"))) __attribute__((deprecated("use corresponding property instead")));
-- (NSString * _Nullable)component154 __attribute__((swift_name("component154()"))) __attribute__((deprecated("use corresponding property instead")));
-- (NSString * _Nullable)component155 __attribute__((swift_name("component155()"))) __attribute__((deprecated("use corresponding property instead")));
-- (NSString * _Nullable)component156 __attribute__((swift_name("component156()"))) __attribute__((deprecated("use corresponding property instead")));
-- (NSString * _Nullable)component157 __attribute__((swift_name("component157()"))) __attribute__((deprecated("use corresponding property instead")));
-- (NSString * _Nullable)component158 __attribute__((swift_name("component158()"))) __attribute__((deprecated("use corresponding property instead")));
-- (NSString * _Nullable)component159 __attribute__((swift_name("component159()"))) __attribute__((deprecated("use corresponding property instead")));
-- (NSString * _Nullable)component16 __attribute__((swift_name("component16()"))) __attribute__((deprecated("use corresponding property instead")));
-- (NSString * _Nullable)component160 __attribute__((swift_name("component160()"))) __attribute__((deprecated("use corresponding property instead")));
-- (NSString * _Nullable)component161 __attribute__((swift_name("component161()"))) __attribute__((deprecated("use corresponding property instead")));
-- (NSString * _Nullable)component162 __attribute__((swift_name("component162()"))) __attribute__((deprecated("use corresponding property instead")));
-- (NSString * _Nullable)component163 __attribute__((swift_name("component163()"))) __attribute__((deprecated("use corresponding property instead")));
-- (NSString * _Nullable)component164 __attribute__((swift_name("component164()"))) __attribute__((deprecated("use corresponding property instead")));
-- (NSString * _Nullable)component165 __attribute__((swift_name("component165()"))) __attribute__((deprecated("use corresponding property instead")));
-- (NSString * _Nullable)component166 __attribute__((swift_name("component166()"))) __attribute__((deprecated("use corresponding property instead")));
-- (NSString * _Nullable)component167 __attribute__((swift_name("component167()"))) __attribute__((deprecated("use corresponding property instead")));
-- (NSString * _Nullable)component168 __attribute__((swift_name("component168()"))) __attribute__((deprecated("use corresponding property instead")));
-- (NSString * _Nullable)component169 __attribute__((swift_name("component169()"))) __attribute__((deprecated("use corresponding property instead")));
-- (NSString * _Nullable)component17 __attribute__((swift_name("component17()"))) __attribute__((deprecated("use corresponding property instead")));
-- (NSString * _Nullable)component170 __attribute__((swift_name("component170()"))) __attribute__((deprecated("use corresponding property instead")));
-- (NSArray<BbnativesharedKotlinx_serialization_jsonJsonElement *> * _Nullable)component171 __attribute__((swift_name("component171()"))) __attribute__((deprecated("use corresponding property instead")));
-- (BbnativesharedBoolean * _Nullable)component172 __attribute__((swift_name("component172()"))) __attribute__((deprecated("use corresponding property instead")));
-- (NSArray<BbnativesharedAdUnit *> * _Nullable)component173 __attribute__((swift_name("component173()"))) __attribute__((deprecated("use corresponding property instead")));
-- (NSString * _Nullable)component174 __attribute__((swift_name("component174()"))) __attribute__((deprecated("use corresponding property instead")));
-- (NSString * _Nullable)component175 __attribute__((swift_name("component175()"))) __attribute__((deprecated("use corresponding property instead")));
-- (NSString * _Nullable)component176 __attribute__((swift_name("component176()"))) __attribute__((deprecated("use corresponding property instead")));
-- (NSString * _Nullable)component177 __attribute__((swift_name("component177()"))) __attribute__((deprecated("use corresponding property instead")));
-- (NSString * _Nullable)component178 __attribute__((swift_name("component178()"))) __attribute__((deprecated("use corresponding property instead")));
-- (NSString * _Nullable)component179 __attribute__((swift_name("component179()"))) __attribute__((deprecated("use corresponding property instead")));
-- (NSString * _Nullable)component18 __attribute__((swift_name("component18()"))) __attribute__((deprecated("use corresponding property instead")));
-- (NSString * _Nullable)component180 __attribute__((swift_name("component180()"))) __attribute__((deprecated("use corresponding property instead")));
-- (NSString * _Nullable)component181 __attribute__((swift_name("component181()"))) __attribute__((deprecated("use corresponding property instead")));
-- (NSString * _Nullable)component182 __attribute__((swift_name("component182()"))) __attribute__((deprecated("use corresponding property instead")));
-- (NSString * _Nullable)component183 __attribute__((swift_name("component183()"))) __attribute__((deprecated("use corresponding property instead")));
-- (NSString * _Nullable)component184 __attribute__((swift_name("component184()"))) __attribute__((deprecated("use corresponding property instead")));
-- (NSString * _Nullable)component185 __attribute__((swift_name("component185()"))) __attribute__((deprecated("use corresponding property instead")));
-- (NSString * _Nullable)component186 __attribute__((swift_name("component186()"))) __attribute__((deprecated("use corresponding property instead")));
-- (NSString * _Nullable)component187 __attribute__((swift_name("component187()"))) __attribute__((deprecated("use corresponding property instead")));
-- (NSString * _Nullable)component188 __attribute__((swift_name("component188()"))) __attribute__((deprecated("use corresponding property instead")));
-- (NSString * _Nullable)component189 __attribute__((swift_name("component189()"))) __attribute__((deprecated("use corresponding property instead")));
-- (NSString * _Nullable)component19 __attribute__((swift_name("component19()"))) __attribute__((deprecated("use corresponding property instead")));
-- (NSString * _Nullable)component190 __attribute__((swift_name("component190()"))) __attribute__((deprecated("use corresponding property instead")));
-- (NSString * _Nullable)component191 __attribute__((swift_name("component191()"))) __attribute__((deprecated("use corresponding property instead")));
-- (NSString * _Nullable)component192 __attribute__((swift_name("component192()"))) __attribute__((deprecated("use corresponding property instead")));
-- (NSString * _Nullable)component193 __attribute__((swift_name("component193()"))) __attribute__((deprecated("use corresponding property instead")));
-- (NSString * _Nullable)component194 __attribute__((swift_name("component194()"))) __attribute__((deprecated("use corresponding property instead")));
-- (NSString * _Nullable)component195 __attribute__((swift_name("component195()"))) __attribute__((deprecated("use corresponding property instead")));
-- (NSString * _Nullable)component196 __attribute__((swift_name("component196()"))) __attribute__((deprecated("use corresponding property instead")));
-- (NSString * _Nullable)component197 __attribute__((swift_name("component197()"))) __attribute__((deprecated("use corresponding property instead")));
-- (NSString * _Nullable)component198 __attribute__((swift_name("component198()"))) __attribute__((deprecated("use corresponding property instead")));
-- (NSString * _Nullable)component199 __attribute__((swift_name("component199()"))) __attribute__((deprecated("use corresponding property instead")));
-- (NSString * _Nullable)component2 __attribute__((swift_name("component2()"))) __attribute__((deprecated("use corresponding property instead")));
-- (NSString * _Nullable)component20 __attribute__((swift_name("component20()"))) __attribute__((deprecated("use corresponding property instead")));
-- (NSString * _Nullable)component200 __attribute__((swift_name("component200()"))) __attribute__((deprecated("use corresponding property instead")));
-- (NSString * _Nullable)component201 __attribute__((swift_name("component201()"))) __attribute__((deprecated("use corresponding property instead")));
-- (NSString * _Nullable)component202 __attribute__((swift_name("component202()"))) __attribute__((deprecated("use corresponding property instead")));
-- (NSString * _Nullable)component203 __attribute__((swift_name("component203()"))) __attribute__((deprecated("use corresponding property instead")));
-- (NSString * _Nullable)component204 __attribute__((swift_name("component204()"))) __attribute__((deprecated("use corresponding property instead")));
-- (NSString * _Nullable)component205 __attribute__((swift_name("component205()"))) __attribute__((deprecated("use corresponding property instead")));
-- (NSString * _Nullable)component206 __attribute__((swift_name("component206()"))) __attribute__((deprecated("use corresponding property instead")));
-- (NSString * _Nullable)component207 __attribute__((swift_name("component207()"))) __attribute__((deprecated("use corresponding property instead")));
-- (NSString * _Nullable)component208 __attribute__((swift_name("component208()"))) __attribute__((deprecated("use corresponding property instead")));
-- (NSString * _Nullable)component209 __attribute__((swift_name("component209()"))) __attribute__((deprecated("use corresponding property instead")));
-- (NSString * _Nullable)component21 __attribute__((swift_name("component21()"))) __attribute__((deprecated("use corresponding property instead")));
-- (NSString * _Nullable)component210 __attribute__((swift_name("component210()"))) __attribute__((deprecated("use corresponding property instead")));
-- (NSString * _Nullable)component211 __attribute__((swift_name("component211()"))) __attribute__((deprecated("use corresponding property instead")));
-- (NSString * _Nullable)component22 __attribute__((swift_name("component22()"))) __attribute__((deprecated("use corresponding property instead")));
-- (NSString * _Nullable)component23 __attribute__((swift_name("component23()"))) __attribute__((deprecated("use corresponding property instead")));
-- (NSString * _Nullable)component24 __attribute__((swift_name("component24()"))) __attribute__((deprecated("use corresponding property instead")));
-- (NSString * _Nullable)component25 __attribute__((swift_name("component25()"))) __attribute__((deprecated("use corresponding property instead")));
-- (NSString * _Nullable)component26 __attribute__((swift_name("component26()"))) __attribute__((deprecated("use corresponding property instead")));
-- (NSString * _Nullable)component27 __attribute__((swift_name("component27()"))) __attribute__((deprecated("use corresponding property instead")));
-- (NSString * _Nullable)component28 __attribute__((swift_name("component28()"))) __attribute__((deprecated("use corresponding property instead")));
-- (NSString * _Nullable)component29 __attribute__((swift_name("component29()"))) __attribute__((deprecated("use corresponding property instead")));
-- (NSString * _Nullable)component3 __attribute__((swift_name("component3()"))) __attribute__((deprecated("use corresponding property instead")));
-- (NSString * _Nullable)component30 __attribute__((swift_name("component30()"))) __attribute__((deprecated("use corresponding property instead")));
-- (NSString * _Nullable)component31 __attribute__((swift_name("component31()"))) __attribute__((deprecated("use corresponding property instead")));
-- (NSString * _Nullable)component32 __attribute__((swift_name("component32()"))) __attribute__((deprecated("use corresponding property instead")));
-- (NSString * _Nullable)component33 __attribute__((swift_name("component33()"))) __attribute__((deprecated("use corresponding property instead")));
-- (NSString * _Nullable)component34 __attribute__((swift_name("component34()"))) __attribute__((deprecated("use corresponding property instead")));
-- (NSString * _Nullable)component35 __attribute__((swift_name("component35()"))) __attribute__((deprecated("use corresponding property instead")));
-- (NSString * _Nullable)component36 __attribute__((swift_name("component36()"))) __attribute__((deprecated("use corresponding property instead")));
-- (NSString * _Nullable)component37 __attribute__((swift_name("component37()"))) __attribute__((deprecated("use corresponding property instead")));
-- (NSString * _Nullable)component38 __attribute__((swift_name("component38()"))) __attribute__((deprecated("use corresponding property instead")));
-- (NSString * _Nullable)component39 __attribute__((swift_name("component39()"))) __attribute__((deprecated("use corresponding property instead")));
-- (NSString * _Nullable)component4 __attribute__((swift_name("component4()"))) __attribute__((deprecated("use corresponding property instead")));
-- (NSString * _Nullable)component40 __attribute__((swift_name("component40()"))) __attribute__((deprecated("use corresponding property instead")));
-- (NSString * _Nullable)component41 __attribute__((swift_name("component41()"))) __attribute__((deprecated("use corresponding property instead")));
-- (NSString * _Nullable)component42 __attribute__((swift_name("component42()"))) __attribute__((deprecated("use corresponding property instead")));
-- (NSString * _Nullable)component43 __attribute__((swift_name("component43()"))) __attribute__((deprecated("use corresponding property instead")));
-- (NSString * _Nullable)component44 __attribute__((swift_name("component44()"))) __attribute__((deprecated("use corresponding property instead")));
-- (NSString * _Nullable)component45 __attribute__((swift_name("component45()"))) __attribute__((deprecated("use corresponding property instead")));
-- (NSString * _Nullable)component46 __attribute__((swift_name("component46()"))) __attribute__((deprecated("use corresponding property instead")));
-- (NSString * _Nullable)component47 __attribute__((swift_name("component47()"))) __attribute__((deprecated("use corresponding property instead")));
-- (NSString * _Nullable)component48 __attribute__((swift_name("component48()"))) __attribute__((deprecated("use corresponding property instead")));
-- (NSString * _Nullable)component49 __attribute__((swift_name("component49()"))) __attribute__((deprecated("use corresponding property instead")));
-- (NSString * _Nullable)component5 __attribute__((swift_name("component5()"))) __attribute__((deprecated("use corresponding property instead")));
-- (NSString * _Nullable)component50 __attribute__((swift_name("component50()"))) __attribute__((deprecated("use corresponding property instead")));
-- (NSString * _Nullable)component51 __attribute__((swift_name("component51()"))) __attribute__((deprecated("use corresponding property instead")));
-- (NSString * _Nullable)component52 __attribute__((swift_name("component52()"))) __attribute__((deprecated("use corresponding property instead")));
-- (NSString * _Nullable)component53 __attribute__((swift_name("component53()"))) __attribute__((deprecated("use corresponding property instead")));
-- (NSString * _Nullable)component54 __attribute__((swift_name("component54()"))) __attribute__((deprecated("use corresponding property instead")));
-- (NSString * _Nullable)component55 __attribute__((swift_name("component55()"))) __attribute__((deprecated("use corresponding property instead")));
-- (NSString * _Nullable)component56 __attribute__((swift_name("component56()"))) __attribute__((deprecated("use corresponding property instead")));
-- (NSString * _Nullable)component57 __attribute__((swift_name("component57()"))) __attribute__((deprecated("use corresponding property instead")));
-- (NSString * _Nullable)component58 __attribute__((swift_name("component58()"))) __attribute__((deprecated("use corresponding property instead")));
-- (NSString * _Nullable)component59 __attribute__((swift_name("component59()"))) __attribute__((deprecated("use corresponding property instead")));
-- (NSString * _Nullable)component6 __attribute__((swift_name("component6()"))) __attribute__((deprecated("use corresponding property instead")));
-- (NSString * _Nullable)component60 __attribute__((swift_name("component60()"))) __attribute__((deprecated("use corresponding property instead")));
-- (NSString * _Nullable)component61 __attribute__((swift_name("component61()"))) __attribute__((deprecated("use corresponding property instead")));
-- (NSString * _Nullable)component62 __attribute__((swift_name("component62()"))) __attribute__((deprecated("use corresponding property instead")));
-- (NSString * _Nullable)component63 __attribute__((swift_name("component63()"))) __attribute__((deprecated("use corresponding property instead")));
-- (NSString * _Nullable)component64 __attribute__((swift_name("component64()"))) __attribute__((deprecated("use corresponding property instead")));
-- (NSString * _Nullable)component65 __attribute__((swift_name("component65()"))) __attribute__((deprecated("use corresponding property instead")));
-- (NSString * _Nullable)component66 __attribute__((swift_name("component66()"))) __attribute__((deprecated("use corresponding property instead")));
-- (NSString * _Nullable)component67 __attribute__((swift_name("component67()"))) __attribute__((deprecated("use corresponding property instead")));
-- (NSString * _Nullable)component68 __attribute__((swift_name("component68()"))) __attribute__((deprecated("use corresponding property instead")));
-- (NSString * _Nullable)component69 __attribute__((swift_name("component69()"))) __attribute__((deprecated("use corresponding property instead")));
-- (NSString * _Nullable)component7 __attribute__((swift_name("component7()"))) __attribute__((deprecated("use corresponding property instead")));
-- (NSString * _Nullable)component70 __attribute__((swift_name("component70()"))) __attribute__((deprecated("use corresponding property instead")));
-- (NSString * _Nullable)component71 __attribute__((swift_name("component71()"))) __attribute__((deprecated("use corresponding property instead")));
-- (NSString * _Nullable)component72 __attribute__((swift_name("component72()"))) __attribute__((deprecated("use corresponding property instead")));
-- (NSString * _Nullable)component73 __attribute__((swift_name("component73()"))) __attribute__((deprecated("use corresponding property instead")));
-- (NSString * _Nullable)component74 __attribute__((swift_name("component74()"))) __attribute__((deprecated("use corresponding property instead")));
-- (NSString * _Nullable)component75 __attribute__((swift_name("component75()"))) __attribute__((deprecated("use corresponding property instead")));
-- (NSString * _Nullable)component76 __attribute__((swift_name("component76()"))) __attribute__((deprecated("use corresponding property instead")));
-- (NSString * _Nullable)component77 __attribute__((swift_name("component77()"))) __attribute__((deprecated("use corresponding property instead")));
-- (NSString * _Nullable)component78 __attribute__((swift_name("component78()"))) __attribute__((deprecated("use corresponding property instead")));
-- (NSString * _Nullable)component79 __attribute__((swift_name("component79()"))) __attribute__((deprecated("use corresponding property instead")));
-- (NSString * _Nullable)component8 __attribute__((swift_name("component8()"))) __attribute__((deprecated("use corresponding property instead")));
-- (NSString * _Nullable)component80 __attribute__((swift_name("component80()"))) __attribute__((deprecated("use corresponding property instead")));
-- (NSString * _Nullable)component81 __attribute__((swift_name("component81()"))) __attribute__((deprecated("use corresponding property instead")));
-- (NSString * _Nullable)component82 __attribute__((swift_name("component82()"))) __attribute__((deprecated("use corresponding property instead")));
-- (NSString * _Nullable)component83 __attribute__((swift_name("component83()"))) __attribute__((deprecated("use corresponding property instead")));
-- (NSString * _Nullable)component84 __attribute__((swift_name("component84()"))) __attribute__((deprecated("use corresponding property instead")));
-- (NSString * _Nullable)component85 __attribute__((swift_name("component85()"))) __attribute__((deprecated("use corresponding property instead")));
-- (NSString * _Nullable)component86 __attribute__((swift_name("component86()"))) __attribute__((deprecated("use corresponding property instead")));
-- (NSString * _Nullable)component87 __attribute__((swift_name("component87()"))) __attribute__((deprecated("use corresponding property instead")));
-- (NSString * _Nullable)component88 __attribute__((swift_name("component88()"))) __attribute__((deprecated("use corresponding property instead")));
-- (NSString * _Nullable)component89 __attribute__((swift_name("component89()"))) __attribute__((deprecated("use corresponding property instead")));
-- (NSString * _Nullable)component9 __attribute__((swift_name("component9()"))) __attribute__((deprecated("use corresponding property instead")));
-- (NSString * _Nullable)component90 __attribute__((swift_name("component90()"))) __attribute__((deprecated("use corresponding property instead")));
-- (NSString * _Nullable)component91 __attribute__((swift_name("component91()"))) __attribute__((deprecated("use corresponding property instead")));
-- (NSString * _Nullable)component92 __attribute__((swift_name("component92()"))) __attribute__((deprecated("use corresponding property instead")));
-- (NSString * _Nullable)component93 __attribute__((swift_name("component93()"))) __attribute__((deprecated("use corresponding property instead")));
-- (NSString * _Nullable)component94 __attribute__((swift_name("component94()"))) __attribute__((deprecated("use corresponding property instead")));
-- (NSString * _Nullable)component95 __attribute__((swift_name("component95()"))) __attribute__((deprecated("use corresponding property instead")));
-- (NSString * _Nullable)component96 __attribute__((swift_name("component96()"))) __attribute__((deprecated("use corresponding property instead")));
-- (NSString * _Nullable)component97 __attribute__((swift_name("component97()"))) __attribute__((deprecated("use corresponding property instead")));
-- (NSString * _Nullable)component98 __attribute__((swift_name("component98()"))) __attribute__((deprecated("use corresponding property instead")));
-- (NSString * _Nullable)component99 __attribute__((swift_name("component99()"))) __attribute__((deprecated("use corresponding property instead")));
 - (BbnativesharedPlayout *)doCopyId:(NSString * _Nullable)id main:(NSString * _Nullable)main type:(NSString * _Nullable)type name:(NSString * _Nullable)name status:(NSString * _Nullable)status createddate:(NSString * _Nullable)createddate updateddate:(NSString * _Nullable)updateddate label:(NSString * _Nullable)label publication:(NSString * _Nullable)publication player:(BbnativesharedPlayer * _Nullable)player playerid:(NSString * _Nullable)playerid centerButtonType:(NSString * _Nullable)centerButtonType cornerRadius:(NSString * _Nullable)cornerRadius responsiveSizing:(NSString * _Nullable)responsiveSizing aspectRatio:(NSString * _Nullable)aspectRatio width:(NSString * _Nullable)width height:(NSString * _Nullable)height autoHeight:(NSString * _Nullable)autoHeight alphaControlBar:(NSString * _Nullable)alphaControlBar skin_backgroundColor:(NSString * _Nullable)skin_backgroundColor skin_foregroundColor:(NSString * _Nullable)skin_foregroundColor skin_widgetColor:(NSString * _Nullable)skin_widgetColor bgColor:(NSString * _Nullable)bgColor logoId:(NSString * _Nullable)logoId logoAlign:(NSString * _Nullable)logoAlign logoClickURL:(NSString * _Nullable)logoClickURL controlBar:(NSString * _Nullable)controlBar controlBarPlacement:(NSString * _Nullable)controlBarPlacement timeDisplay:(NSString * _Nullable)timeDisplay timeLine:(NSString * _Nullable)timeLine muteButton:(NSString * _Nullable)muteButton volume:(NSString * _Nullable)volume volumeOrientation:(NSString * _Nullable)volumeOrientation languageSelect:(NSString * _Nullable)languageSelect qualitySelector:(NSString * _Nullable)qualitySelector playbackRateSelector:(NSString * _Nullable)playbackRateSelector fullScreen:(NSString * _Nullable)fullScreen shareButton:(NSString * _Nullable)shareButton shareButtonPause:(NSString * _Nullable)shareButtonPause shareButtonEnd:(NSString * _Nullable)shareButtonEnd shareButtonEmbedCode:(NSString * _Nullable)shareButtonEmbedCode shareButtonEmail:(NSString * _Nullable)shareButtonEmail shareButtonFacebook:(NSString * _Nullable)shareButtonFacebook shareButtonLinkedIn:(NSString * _Nullable)shareButtonLinkedIn shareButtonPinterest:(NSString * _Nullable)shareButtonPinterest shareButtonTwitter:(NSString * _Nullable)shareButtonTwitter shareButtonWhatsApp:(NSString * _Nullable)shareButtonWhatsApp castButton:(NSString * _Nullable)castButton showBigPlayButton:(NSString * _Nullable)showBigPlayButton showBigReplayButton:(NSString * _Nullable)showBigReplayButton title:(NSString * _Nullable)title date:(NSString * _Nullable)date authorCopyright:(NSString * _Nullable)authorCopyright authorCopyrightAlign:(NSString * _Nullable)authorCopyrightAlign authorCopyrightPrefixText:(NSString * _Nullable)authorCopyrightPrefixText autoPlayNext:(NSString * _Nullable)autoPlayNext relatedItems:(NSString * _Nullable)relatedItems relatedItemsPause:(NSString * _Nullable)relatedItemsPause useDeeplinkForRelatedItems:(NSString * _Nullable)useDeeplinkForRelatedItems useDeeplinkForRelatedItemsPause:(NSString * _Nullable)useDeeplinkForRelatedItemsPause exitscreenItemsListId:(NSString * _Nullable)exitscreenItemsListId randomizeRelatedItems:(NSString * _Nullable)randomizeRelatedItems useDeeplinkForFacebook:(NSString * _Nullable)useDeeplinkForFacebook shareTwitterText:(NSString * _Nullable)shareTwitterText sharePlayout:(NSString * _Nullable)sharePlayout skinBehaviour:(NSString * _Nullable)skinBehaviour skinOnTimeline:(NSString * _Nullable)skinOnTimeline nativeControls:(NSString * _Nullable)nativeControls youTubeHosting:(NSString * _Nullable)youTubeHosting youTubeSkinInMainPhase:(NSString * _Nullable)youTubeSkinInMainPhase forceNativeFullscreen:(NSString * _Nullable)forceNativeFullscreen preferHD:(NSString * _Nullable)preferHD nedStatLoggerUrl:(NSString * _Nullable)nedStatLoggerUrl googleAnalyticsId:(NSString * _Nullable)googleAnalyticsId piwikUrl:(NSString * _Nullable)piwikUrl piwikSiteId:(NSString * _Nullable)piwikSiteId adobeAnalyticsTrackingServer:(NSString * _Nullable)adobeAnalyticsTrackingServer adobeAnalyticsMcorgID:(NSString * _Nullable)adobeAnalyticsMcorgID adobeAnalyticsRsID:(NSString * _Nullable)adobeAnalyticsRsID adobeAnalyticsLegacy:(NSString * _Nullable)adobeAnalyticsLegacy disableCookies:(NSString * _Nullable)disableCookies disableContextMenuNavigate:(NSString * _Nullable)disableContextMenuNavigate playerSignature:(NSString * _Nullable)playerSignature playerSignatureLink:(NSString * _Nullable)playerSignatureLink autoPlay:(NSString * _Nullable)autoPlay autoMute:(NSString * _Nullable)autoMute autoMuteIfNeededForAutoPlay:(NSString * _Nullable)autoMuteIfNeededForAutoPlay autoLoop:(NSString * _Nullable)autoLoop floatPlayer:(NSString * _Nullable)floatPlayer interactivityInView:(NSString * _Nullable)interactivityInView interactivityOutView:(NSString * _Nullable)interactivityOutView inviewMargin:(NSString * _Nullable)inviewMargin textAbovePlayer:(NSString * _Nullable)textAbovePlayer textCommercialSkip:(NSString * _Nullable)textCommercialSkip startCollapsed:(NSString * _Nullable)startCollapsed playInOverlay:(NSString * _Nullable)playInOverlay hidePlayerOnEnd:(NSString * _Nullable)hidePlayerOnEnd waitForApproval:(NSString * _Nullable)waitForApproval interactivityMouseIn:(NSString * _Nullable)interactivityMouseIn interactivityMouseOut:(NSString * _Nullable)interactivityMouseOut interactivityOnClick:(NSString * _Nullable)interactivityOnClick clickURL:(NSString * _Nullable)clickURL nsiNoAutoPlay:(NSString * _Nullable)nsiNoAutoPlay nsiNoPlayer:(NSString * _Nullable)nsiNoPlayer placementOption:(NSString * _Nullable)placementOption placementDOMSelector:(NSString * _Nullable)placementDOMSelector iframeBreakout:(NSString * _Nullable)iframeBreakout clearBothOption:(NSString * _Nullable)clearBothOption forceInview:(NSString * _Nullable)forceInview customCode:(NSString * _Nullable)customCode preferFlashPlayback:(NSString * _Nullable)preferFlashPlayback preloadMainroll:(NSString * _Nullable)preloadMainroll disableHtml5VPAID:(NSString * _Nullable)disableHtml5VPAID enableHtml5VPAID:(NSString * _Nullable)enableHtml5VPAID commercialPauseButton:(NSString * _Nullable)commercialPauseButton commercialMuteButton:(NSString * _Nullable)commercialMuteButton commercialAdIcon:(NSString * _Nullable)commercialAdIcon commercialProgressBar:(NSString * _Nullable)commercialProgressBar commercialProgressBarColor:(NSString * _Nullable)commercialProgressBarColor commercials:(NSString * _Nullable)commercials textCommercialTimeRemaining:(NSString * _Nullable)textCommercialTimeRemaining commercialBehaviour:(NSString * _Nullable)commercialBehaviour minClipDurationPreroll:(NSString * _Nullable)minClipDurationPreroll minClipDurationPostroll:(NSString * _Nullable)minClipDurationPostroll allowBBIma:(NSString * _Nullable)allowBBIma fitmode:(BbnativesharedFitMode * _Nullable)fitmode viewpageOverrideDimensions:(NSString * _Nullable)viewpageOverrideDimensions viewpageHideTitles:(NSString * _Nullable)viewpageHideTitles viewpageAlignment:(NSString * _Nullable)viewpageAlignment viewpageBackgroundColor:(NSString * _Nullable)viewpageBackgroundColor viewpageColor:(NSString * _Nullable)viewpageColor viewpageBackgroundClipID:(NSString * _Nullable)viewpageBackgroundClipID viewpageBackgroundPosition:(NSString * _Nullable)viewpageBackgroundPosition viewpageBackgroundSize:(NSString * _Nullable)viewpageBackgroundSize viewpageBackgroundRepeat:(NSString * _Nullable)viewpageBackgroundRepeat viewpageLogo1ClipID:(NSString * _Nullable)viewpageLogo1ClipID viewpageLogo1Position:(NSString * _Nullable)viewpageLogo1Position viewpageLogo2ClipID:(NSString * _Nullable)viewpageLogo2ClipID viewpageLogo2Position:(NSString * _Nullable)viewpageLogo2Position viewpageLogo3ClipID:(NSString * _Nullable)viewpageLogo3ClipID viewpageLogo3Position:(NSString * _Nullable)viewpageLogo3Position viewpageLogo4ClipID:(NSString * _Nullable)viewpageLogo4ClipID viewpageLogo4Position:(NSString * _Nullable)viewpageLogo4Position noStats:(NSString * _Nullable)noStats forceAndroidNativeVideo:(NSString * _Nullable)forceAndroidNativeVideo forceIOSNativeVideo:(NSString * _Nullable)forceIOSNativeVideo use2018Skin:(NSString * _Nullable)use2018Skin useThumbsFromMetadata:(NSString * _Nullable)useThumbsFromMetadata audioTrackSelect:(NSString * _Nullable)audioTrackSelect shareText:(NSString * _Nullable)shareText shareButtonDirectLink:(NSString * _Nullable)shareButtonDirectLink googleAnalyticsCustomVars:(NSString * _Nullable)googleAnalyticsCustomVars supportIABConsent:(NSString * _Nullable)supportIABConsent restrictionNpaOnly:(NSString * _Nullable)restrictionNpaOnly restrictionNpcOnly:(NSString * _Nullable)restrictionNpcOnly defaultSubtitle:(NSString * _Nullable)defaultSubtitle defaultSubtitleOnlyIfMuted:(NSString * _Nullable)defaultSubtitleOnlyIfMuted defaultAudioTrack:(NSString * _Nullable)defaultAudioTrack forceCanAutoPlay:(NSString * _Nullable)forceCanAutoPlay avoidMutedAutoplay:(NSString * _Nullable)avoidMutedAutoplay stickyMode:(NSString * _Nullable)stickyMode disableKeyboardControls:(NSString * _Nullable)disableKeyboardControls taggingDisabled:(NSString * _Nullable)taggingDisabled skipOffset:(NSString * _Nullable)skipOffset skipCounterText:(NSString * _Nullable)skipCounterText skipButtonText:(NSString * _Nullable)skipButtonText blockInsecureVPAID:(NSString * _Nullable)blockInsecureVPAID shareButtonGooglePlus:(NSString * _Nullable)shareButtonGooglePlus timelineId:(NSString * _Nullable)timelineId templateId:(NSString * _Nullable)templateId adunits:(NSArray<BbnativesharedKotlinx_serialization_jsonJsonElement *> * _Nullable)adunits hasAdunits:(BbnativesharedBoolean * _Nullable)hasAdunits adunitsPreroll:(NSArray<BbnativesharedAdUnit *> * _Nullable)adunitsPreroll ignoreSingleMediaResource:(NSString * _Nullable)ignoreSingleMediaResource ignoreProjectMetadata:(NSString * _Nullable)ignoreProjectMetadata noPosterInExitPhase:(NSString * _Nullable)noPosterInExitPhase logProgressAsQuartiles:(NSString * _Nullable)logProgressAsQuartiles autoPauseAfterPrePhase:(NSString * _Nullable)autoPauseAfterPrePhase autoPlayOnlyWithPrerollAd:(NSString * _Nullable)autoPlayOnlyWithPrerollAd showOnlyWhenPrerollAvailable:(NSString * _Nullable)showOnlyWhenPrerollAvailable showBigPauseButtons:(NSString * _Nullable)showBigPauseButtons titlePause:(NSString * _Nullable)titlePause authorCopyrightPause:(NSString * _Nullable)authorCopyrightPause authorCopyrightAlignPause:(NSString * _Nullable)authorCopyrightAlignPause authorCopyrightPrefixTextPause:(NSString * _Nullable)authorCopyrightPrefixTextPause showStartDuration:(NSString * _Nullable)showStartDuration disableMovingThumbnail:(NSString * _Nullable)disableMovingThumbnail shareButtonHover:(NSString * _Nullable)shareButtonHover showBigHoverButtons:(NSString * _Nullable)showBigHoverButtons titleHover:(NSString * _Nullable)titleHover authorCopyrightHover:(NSString * _Nullable)authorCopyrightHover titleEnd:(NSString * _Nullable)titleEnd authorCopyrightEnd:(NSString * _Nullable)authorCopyrightEnd softEmbargoCustomPosterClipId:(NSString * _Nullable)softEmbargoCustomPosterClipId softEmbargoFontColor:(NSString * _Nullable)softEmbargoFontColor softEmbargoHasCustomPoster:(NSString * _Nullable)softEmbargoHasCustomPoster softEmbargoText:(NSString * _Nullable)softEmbargoText softEmbargoTimerHidden:(NSString * _Nullable)softEmbargoTimerHidden adsystem_buid:(NSString * _Nullable)adsystem_buid adsystem_rdid:(NSString * _Nullable)adsystem_rdid adsystem_idtype:(NSString * _Nullable)adsystem_idtype adsystem_is_lat:(NSString * _Nullable)adsystem_is_lat swipeDirection:(NSString * _Nullable)swipeDirection hideSwipeControls:(NSString * _Nullable)hideSwipeControls descriptionShowHide:(NSString * _Nullable)descriptionShowHide showPlayButton:(NSString * _Nullable)showPlayButton autoLoopClip:(NSString * _Nullable)autoLoopClip shortsId:(NSString * _Nullable)shortsId adunitId:(NSString * _Nullable)adunitId clipAdInterval:(NSString * _Nullable)clipAdInterval assetPreloadWindow:(NSString * _Nullable)assetPreloadWindow __attribute__((swift_name("doCopy(id:main:type:name:status:createddate:updateddate:label:publication:player:playerid:centerButtonType:cornerRadius:responsiveSizing:aspectRatio:width:height:autoHeight:alphaControlBar:skin_backgroundColor:skin_foregroundColor:skin_widgetColor:bgColor:logoId:logoAlign:logoClickURL:controlBar:controlBarPlacement:timeDisplay:timeLine:muteButton:volume:volumeOrientation:languageSelect:qualitySelector:playbackRateSelector:fullScreen:shareButton:shareButtonPause:shareButtonEnd:shareButtonEmbedCode:shareButtonEmail:shareButtonFacebook:shareButtonLinkedIn:shareButtonPinterest:shareButtonTwitter:shareButtonWhatsApp:castButton:showBigPlayButton:showBigReplayButton:title:date:authorCopyright:authorCopyrightAlign:authorCopyrightPrefixText:autoPlayNext:relatedItems:relatedItemsPause:useDeeplinkForRelatedItems:useDeeplinkForRelatedItemsPause:exitscreenItemsListId:randomizeRelatedItems:useDeeplinkForFacebook:shareTwitterText:sharePlayout:skinBehaviour:skinOnTimeline:nativeControls:youTubeHosting:youTubeSkinInMainPhase:forceNativeFullscreen:preferHD:nedStatLoggerUrl:googleAnalyticsId:piwikUrl:piwikSiteId:adobeAnalyticsTrackingServer:adobeAnalyticsMcorgID:adobeAnalyticsRsID:adobeAnalyticsLegacy:disableCookies:disableContextMenuNavigate:playerSignature:playerSignatureLink:autoPlay:autoMute:autoMuteIfNeededForAutoPlay:autoLoop:floatPlayer:interactivityInView:interactivityOutView:inviewMargin:textAbovePlayer:textCommercialSkip:startCollapsed:playInOverlay:hidePlayerOnEnd:waitForApproval:interactivityMouseIn:interactivityMouseOut:interactivityOnClick:clickURL:nsiNoAutoPlay:nsiNoPlayer:placementOption:placementDOMSelector:iframeBreakout:clearBothOption:forceInview:customCode:preferFlashPlayback:preloadMainroll:disableHtml5VPAID:enableHtml5VPAID:commercialPauseButton:commercialMuteButton:commercialAdIcon:commercialProgressBar:commercialProgressBarColor:commercials:textCommercialTimeRemaining:commercialBehaviour:minClipDurationPreroll:minClipDurationPostroll:allowBBIma:fitmode:viewpageOverrideDimensions:viewpageHideTitles:viewpageAlignment:viewpageBackgroundColor:viewpageColor:viewpageBackgroundClipID:viewpageBackgroundPosition:viewpageBackgroundSize:viewpageBackgroundRepeat:viewpageLogo1ClipID:viewpageLogo1Position:viewpageLogo2ClipID:viewpageLogo2Position:viewpageLogo3ClipID:viewpageLogo3Position:viewpageLogo4ClipID:viewpageLogo4Position:noStats:forceAndroidNativeVideo:forceIOSNativeVideo:use2018Skin:useThumbsFromMetadata:audioTrackSelect:shareText:shareButtonDirectLink:googleAnalyticsCustomVars:supportIABConsent:restrictionNpaOnly:restrictionNpcOnly:defaultSubtitle:defaultSubtitleOnlyIfMuted:defaultAudioTrack:forceCanAutoPlay:avoidMutedAutoplay:stickyMode:disableKeyboardControls:taggingDisabled:skipOffset:skipCounterText:skipButtonText:blockInsecureVPAID:shareButtonGooglePlus:timelineId:templateId:adunits:hasAdunits:adunitsPreroll:ignoreSingleMediaResource:ignoreProjectMetadata:noPosterInExitPhase:logProgressAsQuartiles:autoPauseAfterPrePhase:autoPlayOnlyWithPrerollAd:showOnlyWhenPrerollAvailable:showBigPauseButtons:titlePause:authorCopyrightPause:authorCopyrightAlignPause:authorCopyrightPrefixTextPause:showStartDuration:disableMovingThumbnail:shareButtonHover:showBigHoverButtons:titleHover:authorCopyrightHover:titleEnd:authorCopyrightEnd:softEmbargoCustomPosterClipId:softEmbargoFontColor:softEmbargoHasCustomPoster:softEmbargoText:softEmbargoTimerHidden:adsystem_buid:adsystem_rdid:adsystem_idtype:adsystem_is_lat:swipeDirection:hideSwipeControls:descriptionShowHide:showPlayButton:autoLoopClip:shortsId:adunitId:clipAdInterval:assetPreloadWindow:)")));
 - (BOOL)isEqual:(id _Nullable)other __attribute__((swift_name("isEqual(_:)")));
 - (NSUInteger)hash __attribute__((swift_name("hash()")));
@@ -2553,11 +2174,6 @@ __attribute__((swift_name("Procedure")))
 @interface BbnativesharedProcedure : BbnativesharedBase
 - (instancetype)initWithId:(NSString * _Nullable)id condition:(BbnativesharedCondition * _Nullable)condition actions:(NSArray<BbnativesharedAction *> * _Nullable)actions elseActions:(NSArray<BbnativesharedKotlinx_serialization_jsonJsonElement *> * _Nullable)elseActions type:(NSString * _Nullable)type __attribute__((swift_name("init(id:condition:actions:elseActions:type:)"))) __attribute__((objc_designated_initializer));
 @property (class, readonly, getter=companion) BbnativesharedProcedureCompanion *companion __attribute__((swift_name("companion")));
-- (NSString * _Nullable)component1 __attribute__((swift_name("component1()"))) __attribute__((deprecated("use corresponding property instead")));
-- (BbnativesharedCondition * _Nullable)component2 __attribute__((swift_name("component2()"))) __attribute__((deprecated("use corresponding property instead")));
-- (NSArray<BbnativesharedAction *> * _Nullable)component3 __attribute__((swift_name("component3()"))) __attribute__((deprecated("use corresponding property instead")));
-- (NSArray<BbnativesharedKotlinx_serialization_jsonJsonElement *> * _Nullable)component4 __attribute__((swift_name("component4()"))) __attribute__((deprecated("use corresponding property instead")));
-- (NSString * _Nullable)component5 __attribute__((swift_name("component5()"))) __attribute__((deprecated("use corresponding property instead")));
 - (BbnativesharedProcedure *)doCopyId:(NSString * _Nullable)id condition:(BbnativesharedCondition * _Nullable)condition actions:(NSArray<BbnativesharedAction *> * _Nullable)actions elseActions:(NSArray<BbnativesharedKotlinx_serialization_jsonJsonElement *> * _Nullable)elseActions type:(NSString * _Nullable)type __attribute__((swift_name("doCopy(id:condition:actions:elseActions:type:)")));
 - (BOOL)isEqual:(id _Nullable)other __attribute__((swift_name("isEqual(_:)")));
 - (NSUInteger)hash __attribute__((swift_name("hash()")));
@@ -2591,38 +2207,8 @@ __attribute__((swift_name("Project")))
 - (instancetype)initWithId:(NSString * _Nullable)id title:(NSString * _Nullable)title deeplink:(NSString * _Nullable)deeplink status:(NSString * _Nullable)status createddate:(NSString * _Nullable)createddate thumbnails:(NSArray<BbnativesharedThumbnail *> * _Nullable)thumbnails name:(NSString * _Nullable)name createdBy:(NSString * _Nullable)createdBy updateddate:(NSString * _Nullable)updateddate updatedBy:(NSString * _Nullable)updatedBy subtype:(NSString * _Nullable)subtype cat:(NSArray<NSString *> * _Nullable)cat clipCount:(BbnativesharedLong * _Nullable)clipCount publisheddate:(NSString * _Nullable)publisheddate useGaplessPlayback:(BbnativesharedBoolean * _Nullable)useGaplessPlayback distribution:(NSString * _Nullable)distribution goal:(NSString * _Nullable)goal useGaplessMetadata:(BbnativesharedBoolean * _Nullable)useGaplessMetadata useThumbsFromMetadata:(NSString * _Nullable)useThumbsFromMetadata noIntroClip:(BbnativesharedBoolean * _Nullable)noIntroClip analysis:(NSString * _Nullable)analysis description:(NSString * _Nullable)description author:(NSString * _Nullable)author copyright:(NSString * _Nullable)copyright transcript:(NSString * _Nullable)transcript label:(NSString * _Nullable)label chapters:(NSArray<BbnativesharedChapter *> * _Nullable)chapters timelineId:(NSString * _Nullable)timelineId timelines:(NSArray<BbnativesharedTimeline *> * _Nullable)timelines mainMediaClipId:(NSString * _Nullable)mainMediaClipId mainMediaClipData:(BbnativesharedMediaClip * _Nullable)mainMediaClipData __attribute__((swift_name("init(id:title:deeplink:status:createddate:thumbnails:name:createdBy:updateddate:updatedBy:subtype:cat:clipCount:publisheddate:useGaplessPlayback:distribution:goal:useGaplessMetadata:useThumbsFromMetadata:noIntroClip:analysis:description:author:copyright:transcript:label:chapters:timelineId:timelines:mainMediaClipId:mainMediaClipData:)"))) __attribute__((objc_designated_initializer));
 - (instancetype)init __attribute__((swift_name("init()"))) __attribute__((objc_designated_initializer)) __attribute__((unavailable));
 + (instancetype)new __attribute__((unavailable));
+- (instancetype)initWithSeen0:(int32_t)seen0 isPrefetch:(BOOL)isPrefetch serializationConstructorMarker:(id _Nullable)serializationConstructorMarker __attribute__((swift_name("init(seen0:isPrefetch:serializationConstructorMarker:)"))) __attribute__((objc_designated_initializer)) __attribute__((unavailable));
 @property (class, readonly, getter=companion) BbnativesharedProjectCompanion *companion __attribute__((swift_name("companion")));
-- (NSString * _Nullable)component1 __attribute__((swift_name("component1()"))) __attribute__((deprecated("use corresponding property instead")));
-- (NSString * _Nullable)component10 __attribute__((swift_name("component10()"))) __attribute__((deprecated("use corresponding property instead")));
-- (NSString * _Nullable)component11 __attribute__((swift_name("component11()"))) __attribute__((deprecated("use corresponding property instead")));
-- (NSArray<NSString *> * _Nullable)component12 __attribute__((swift_name("component12()"))) __attribute__((deprecated("use corresponding property instead")));
-- (BbnativesharedLong * _Nullable)component13 __attribute__((swift_name("component13()"))) __attribute__((deprecated("use corresponding property instead")));
-- (NSString * _Nullable)component14 __attribute__((swift_name("component14()"))) __attribute__((deprecated("use corresponding property instead")));
-- (BbnativesharedBoolean * _Nullable)component15 __attribute__((swift_name("component15()"))) __attribute__((deprecated("use corresponding property instead")));
-- (NSString * _Nullable)component16 __attribute__((swift_name("component16()"))) __attribute__((deprecated("use corresponding property instead")));
-- (NSString * _Nullable)component17 __attribute__((swift_name("component17()"))) __attribute__((deprecated("use corresponding property instead")));
-- (BbnativesharedBoolean * _Nullable)component18 __attribute__((swift_name("component18()"))) __attribute__((deprecated("use corresponding property instead")));
-- (NSString * _Nullable)component19 __attribute__((swift_name("component19()"))) __attribute__((deprecated("use corresponding property instead")));
-- (NSString * _Nullable)component2 __attribute__((swift_name("component2()"))) __attribute__((deprecated("use corresponding property instead")));
-- (BbnativesharedBoolean * _Nullable)component20 __attribute__((swift_name("component20()"))) __attribute__((deprecated("use corresponding property instead")));
-- (NSString * _Nullable)component21 __attribute__((swift_name("component21()"))) __attribute__((deprecated("use corresponding property instead")));
-- (NSString * _Nullable)component22 __attribute__((swift_name("component22()"))) __attribute__((deprecated("use corresponding property instead")));
-- (NSString * _Nullable)component23 __attribute__((swift_name("component23()"))) __attribute__((deprecated("use corresponding property instead")));
-- (NSString * _Nullable)component24 __attribute__((swift_name("component24()"))) __attribute__((deprecated("use corresponding property instead")));
-- (NSString * _Nullable)component25 __attribute__((swift_name("component25()"))) __attribute__((deprecated("use corresponding property instead")));
-- (NSString * _Nullable)component26 __attribute__((swift_name("component26()"))) __attribute__((deprecated("use corresponding property instead")));
-- (NSArray<BbnativesharedChapter *> * _Nullable)component27 __attribute__((swift_name("component27()"))) __attribute__((deprecated("use corresponding property instead")));
-- (NSString * _Nullable)component28 __attribute__((swift_name("component28()"))) __attribute__((deprecated("use corresponding property instead")));
-- (NSArray<BbnativesharedTimeline *> * _Nullable)component29 __attribute__((swift_name("component29()"))) __attribute__((deprecated("use corresponding property instead")));
-- (NSString * _Nullable)component3 __attribute__((swift_name("component3()"))) __attribute__((deprecated("use corresponding property instead")));
-- (NSString * _Nullable)component30 __attribute__((swift_name("component30()"))) __attribute__((deprecated("use corresponding property instead")));
-- (BbnativesharedMediaClip * _Nullable)component31 __attribute__((swift_name("component31()"))) __attribute__((deprecated("use corresponding property instead")));
-- (NSString * _Nullable)component4 __attribute__((swift_name("component4()"))) __attribute__((deprecated("use corresponding property instead")));
-- (NSString * _Nullable)component5 __attribute__((swift_name("component5()"))) __attribute__((deprecated("use corresponding property instead")));
-- (NSArray<BbnativesharedThumbnail *> * _Nullable)component6 __attribute__((swift_name("component6()"))) __attribute__((deprecated("use corresponding property instead")));
-- (NSString * _Nullable)component7 __attribute__((swift_name("component7()"))) __attribute__((deprecated("use corresponding property instead")));
-- (NSString * _Nullable)component8 __attribute__((swift_name("component8()"))) __attribute__((deprecated("use corresponding property instead")));
-- (NSString * _Nullable)component9 __attribute__((swift_name("component9()"))) __attribute__((deprecated("use corresponding property instead")));
 - (BbnativesharedProject *)doCopyId:(NSString * _Nullable)id title:(NSString * _Nullable)title deeplink:(NSString * _Nullable)deeplink status:(NSString * _Nullable)status createddate:(NSString * _Nullable)createddate thumbnails:(NSArray<BbnativesharedThumbnail *> * _Nullable)thumbnails name:(NSString * _Nullable)name createdBy:(NSString * _Nullable)createdBy updateddate:(NSString * _Nullable)updateddate updatedBy:(NSString * _Nullable)updatedBy subtype:(NSString * _Nullable)subtype cat:(NSArray<NSString *> * _Nullable)cat clipCount:(BbnativesharedLong * _Nullable)clipCount publisheddate:(NSString * _Nullable)publisheddate useGaplessPlayback:(BbnativesharedBoolean * _Nullable)useGaplessPlayback distribution:(NSString * _Nullable)distribution goal:(NSString * _Nullable)goal useGaplessMetadata:(BbnativesharedBoolean * _Nullable)useGaplessMetadata useThumbsFromMetadata:(NSString * _Nullable)useThumbsFromMetadata noIntroClip:(BbnativesharedBoolean * _Nullable)noIntroClip analysis:(NSString * _Nullable)analysis description:(NSString * _Nullable)description author:(NSString * _Nullable)author copyright:(NSString * _Nullable)copyright transcript:(NSString * _Nullable)transcript label:(NSString * _Nullable)label chapters:(NSArray<BbnativesharedChapter *> * _Nullable)chapters timelineId:(NSString * _Nullable)timelineId timelines:(NSArray<BbnativesharedTimeline *> * _Nullable)timelines mainMediaClipId:(NSString * _Nullable)mainMediaClipId mainMediaClipData:(BbnativesharedMediaClip * _Nullable)mainMediaClipData __attribute__((swift_name("doCopy(id:title:deeplink:status:createddate:thumbnails:name:createdBy:updateddate:updatedBy:subtype:cat:clipCount:publisheddate:useGaplessPlayback:distribution:goal:useGaplessMetadata:useThumbsFromMetadata:noIntroClip:analysis:description:author:copyright:transcript:label:chapters:timelineId:timelines:mainMediaClipId:mainMediaClipData:)")));
 - (BOOL)isEqual:(id _Nullable)other __attribute__((swift_name("isEqual(_:)")));
 - (NSUInteger)hash __attribute__((swift_name("hash()")));
@@ -2681,40 +2267,6 @@ __attribute__((swift_name("Publication")))
 - (instancetype)initWithId:(NSString *)id name:(NSString *)name status:(NSString *)status __attribute__((swift_name("init(id:name:status:)"))) __attribute__((objc_designated_initializer));
 - (instancetype)initWithId:(NSString * _Nullable)id name:(NSString * _Nullable)name status:(NSString * _Nullable)status type:(NSString * _Nullable)type publisherid:(NSString * _Nullable)publisherid label:(NSString * _Nullable)label baseurl:(NSString * _Nullable)baseurl baseuri:(NSString * _Nullable)baseuri sourcepath:(NSString * _Nullable)sourcepath text:(NSString * _Nullable)text bidadapters:(NSString * _Nullable)bidadapters usePreferredPlayMode:(NSString * _Nullable)usePreferredPlayMode useThumbsFromMetadata:(NSString * _Nullable)useThumbsFromMetadata embedAsync:(NSString * _Nullable)embedAsync avoidPreload:(NSString * _Nullable)avoidPreload avoidMediaManager:(NSString * _Nullable)avoidMediaManager avoidAndroidNativeHLS:(NSString * _Nullable)avoidAndroidNativeHLS serverUploadScript:(NSString * _Nullable)serverUploadScript statsserver:(NSString * _Nullable)statsserver statspublication:(NSString * _Nullable)statspublication playoutURL:(NSString * _Nullable)playoutURL defaultMediaAssetPath:(NSString * _Nullable)defaultMediaAssetPath contextMenuLink:(NSString * _Nullable)contextMenuLink streamingMediaAssetPath:(NSString * _Nullable)streamingMediaAssetPath rtmphost:(NSString * _Nullable)rtmphost publicationLabel:(NSString * _Nullable)publicationLabel streamingMediaAssetPathTimeline:(NSString * _Nullable)streamingMediaAssetPathTimeline mobileMediaAssetPath:(NSString * _Nullable)mobileMediaAssetPath providerURL:(NSString * _Nullable)providerURL secureMediaAssetPath:(NSString * _Nullable)secureMediaAssetPath timeZone:(NSString * _Nullable)timeZone liveMediaAssetPath:(NSString * _Nullable)liveMediaAssetPath enableChat:(NSString * _Nullable)enableChat wsChatEndpoint:(NSString * _Nullable)wsChatEndpoint __attribute__((swift_name("init(id:name:status:type:publisherid:label:baseurl:baseuri:sourcepath:text:bidadapters:usePreferredPlayMode:useThumbsFromMetadata:embedAsync:avoidPreload:avoidMediaManager:avoidAndroidNativeHLS:serverUploadScript:statsserver:statspublication:playoutURL:defaultMediaAssetPath:contextMenuLink:streamingMediaAssetPath:rtmphost:publicationLabel:streamingMediaAssetPathTimeline:mobileMediaAssetPath:providerURL:secureMediaAssetPath:timeZone:liveMediaAssetPath:enableChat:wsChatEndpoint:)"))) __attribute__((objc_designated_initializer));
 @property (class, readonly, getter=companion) BbnativesharedPublicationCompanion *companion __attribute__((swift_name("companion")));
-- (NSString * _Nullable)component1 __attribute__((swift_name("component1()"))) __attribute__((deprecated("use corresponding property instead")));
-- (NSString * _Nullable)component10 __attribute__((swift_name("component10()"))) __attribute__((deprecated("use corresponding property instead")));
-- (NSString * _Nullable)component11 __attribute__((swift_name("component11()"))) __attribute__((deprecated("use corresponding property instead")));
-- (NSString * _Nullable)component12 __attribute__((swift_name("component12()"))) __attribute__((deprecated("use corresponding property instead")));
-- (NSString * _Nullable)component13 __attribute__((swift_name("component13()"))) __attribute__((deprecated("use corresponding property instead")));
-- (NSString * _Nullable)component14 __attribute__((swift_name("component14()"))) __attribute__((deprecated("use corresponding property instead")));
-- (NSString * _Nullable)component15 __attribute__((swift_name("component15()"))) __attribute__((deprecated("use corresponding property instead")));
-- (NSString * _Nullable)component16 __attribute__((swift_name("component16()"))) __attribute__((deprecated("use corresponding property instead")));
-- (NSString * _Nullable)component17 __attribute__((swift_name("component17()"))) __attribute__((deprecated("use corresponding property instead")));
-- (NSString * _Nullable)component18 __attribute__((swift_name("component18()"))) __attribute__((deprecated("use corresponding property instead")));
-- (NSString * _Nullable)component19 __attribute__((swift_name("component19()"))) __attribute__((deprecated("use corresponding property instead")));
-- (NSString * _Nullable)component2 __attribute__((swift_name("component2()"))) __attribute__((deprecated("use corresponding property instead")));
-- (NSString * _Nullable)component20 __attribute__((swift_name("component20()"))) __attribute__((deprecated("use corresponding property instead")));
-- (NSString * _Nullable)component21 __attribute__((swift_name("component21()"))) __attribute__((deprecated("use corresponding property instead")));
-- (NSString * _Nullable)component22 __attribute__((swift_name("component22()"))) __attribute__((deprecated("use corresponding property instead")));
-- (NSString * _Nullable)component23 __attribute__((swift_name("component23()"))) __attribute__((deprecated("use corresponding property instead")));
-- (NSString * _Nullable)component24 __attribute__((swift_name("component24()"))) __attribute__((deprecated("use corresponding property instead")));
-- (NSString * _Nullable)component25 __attribute__((swift_name("component25()"))) __attribute__((deprecated("use corresponding property instead")));
-- (NSString * _Nullable)component26 __attribute__((swift_name("component26()"))) __attribute__((deprecated("use corresponding property instead")));
-- (NSString * _Nullable)component27 __attribute__((swift_name("component27()"))) __attribute__((deprecated("use corresponding property instead")));
-- (NSString * _Nullable)component28 __attribute__((swift_name("component28()"))) __attribute__((deprecated("use corresponding property instead")));
-- (NSString * _Nullable)component29 __attribute__((swift_name("component29()"))) __attribute__((deprecated("use corresponding property instead")));
-- (NSString * _Nullable)component3 __attribute__((swift_name("component3()"))) __attribute__((deprecated("use corresponding property instead")));
-- (NSString * _Nullable)component30 __attribute__((swift_name("component30()"))) __attribute__((deprecated("use corresponding property instead")));
-- (NSString * _Nullable)component31 __attribute__((swift_name("component31()"))) __attribute__((deprecated("use corresponding property instead")));
-- (NSString * _Nullable)component32 __attribute__((swift_name("component32()"))) __attribute__((deprecated("use corresponding property instead")));
-- (NSString * _Nullable)component33 __attribute__((swift_name("component33()"))) __attribute__((deprecated("use corresponding property instead")));
-- (NSString * _Nullable)component34 __attribute__((swift_name("component34()"))) __attribute__((deprecated("use corresponding property instead")));
-- (NSString * _Nullable)component4 __attribute__((swift_name("component4()"))) __attribute__((deprecated("use corresponding property instead")));
-- (NSString * _Nullable)component5 __attribute__((swift_name("component5()"))) __attribute__((deprecated("use corresponding property instead")));
-- (NSString * _Nullable)component6 __attribute__((swift_name("component6()"))) __attribute__((deprecated("use corresponding property instead")));
-- (NSString * _Nullable)component7 __attribute__((swift_name("component7()"))) __attribute__((deprecated("use corresponding property instead")));
-- (NSString * _Nullable)component8 __attribute__((swift_name("component8()"))) __attribute__((deprecated("use corresponding property instead")));
-- (NSString * _Nullable)component9 __attribute__((swift_name("component9()"))) __attribute__((deprecated("use corresponding property instead")));
 - (BbnativesharedPublication *)doCopyId:(NSString * _Nullable)id name:(NSString * _Nullable)name status:(NSString * _Nullable)status type:(NSString * _Nullable)type publisherid:(NSString * _Nullable)publisherid label:(NSString * _Nullable)label baseurl:(NSString * _Nullable)baseurl baseuri:(NSString * _Nullable)baseuri sourcepath:(NSString * _Nullable)sourcepath text:(NSString * _Nullable)text bidadapters:(NSString * _Nullable)bidadapters usePreferredPlayMode:(NSString * _Nullable)usePreferredPlayMode useThumbsFromMetadata:(NSString * _Nullable)useThumbsFromMetadata embedAsync:(NSString * _Nullable)embedAsync avoidPreload:(NSString * _Nullable)avoidPreload avoidMediaManager:(NSString * _Nullable)avoidMediaManager avoidAndroidNativeHLS:(NSString * _Nullable)avoidAndroidNativeHLS serverUploadScript:(NSString * _Nullable)serverUploadScript statsserver:(NSString * _Nullable)statsserver statspublication:(NSString * _Nullable)statspublication playoutURL:(NSString * _Nullable)playoutURL defaultMediaAssetPath:(NSString * _Nullable)defaultMediaAssetPath contextMenuLink:(NSString * _Nullable)contextMenuLink streamingMediaAssetPath:(NSString * _Nullable)streamingMediaAssetPath rtmphost:(NSString * _Nullable)rtmphost publicationLabel:(NSString * _Nullable)publicationLabel streamingMediaAssetPathTimeline:(NSString * _Nullable)streamingMediaAssetPathTimeline mobileMediaAssetPath:(NSString * _Nullable)mobileMediaAssetPath providerURL:(NSString * _Nullable)providerURL secureMediaAssetPath:(NSString * _Nullable)secureMediaAssetPath timeZone:(NSString * _Nullable)timeZone liveMediaAssetPath:(NSString * _Nullable)liveMediaAssetPath enableChat:(NSString * _Nullable)enableChat wsChatEndpoint:(NSString * _Nullable)wsChatEndpoint __attribute__((swift_name("doCopy(id:name:status:type:publisherid:label:baseurl:baseuri:sourcepath:text:bidadapters:usePreferredPlayMode:useThumbsFromMetadata:embedAsync:avoidPreload:avoidMediaManager:avoidAndroidNativeHLS:serverUploadScript:statsserver:statspublication:playoutURL:defaultMediaAssetPath:contextMenuLink:streamingMediaAssetPath:rtmphost:publicationLabel:streamingMediaAssetPathTimeline:mobileMediaAssetPath:providerURL:secureMediaAssetPath:timeZone:liveMediaAssetPath:enableChat:wsChatEndpoint:)")));
 - (BOOL)isEqual:(id _Nullable)other __attribute__((swift_name("isEqual(_:)")));
 - (NSUInteger)hash __attribute__((swift_name("hash()")));
@@ -2769,14 +2321,6 @@ __attribute__((objc_subclassing_restricted))
 __attribute__((swift_name("Quality")))
 @interface BbnativesharedQuality : BbnativesharedBase
 - (instancetype)initWithId:(NSString * _Nullable)id index:(BbnativesharedInt * _Nullable)index label:(NSString * _Nullable)label isSelected:(BbnativesharedBoolean * _Nullable)isSelected mimeType:(NSString * _Nullable)mimeType origId:(NSString * _Nullable)origId bitrate:(int32_t)bitrate height:(int32_t)height __attribute__((swift_name("init(id:index:label:isSelected:mimeType:origId:bitrate:height:)"))) __attribute__((objc_designated_initializer));
-- (NSString * _Nullable)component1 __attribute__((swift_name("component1()"))) __attribute__((deprecated("use corresponding property instead")));
-- (BbnativesharedInt * _Nullable)component2 __attribute__((swift_name("component2()"))) __attribute__((deprecated("use corresponding property instead")));
-- (NSString * _Nullable)component3 __attribute__((swift_name("component3()"))) __attribute__((deprecated("use corresponding property instead")));
-- (BbnativesharedBoolean * _Nullable)component4 __attribute__((swift_name("component4()"))) __attribute__((deprecated("use corresponding property instead")));
-- (NSString * _Nullable)component5 __attribute__((swift_name("component5()"))) __attribute__((deprecated("use corresponding property instead")));
-- (NSString * _Nullable)component6 __attribute__((swift_name("component6()"))) __attribute__((deprecated("use corresponding property instead")));
-- (int32_t)component7 __attribute__((swift_name("component7()"))) __attribute__((deprecated("use corresponding property instead")));
-- (int32_t)component8 __attribute__((swift_name("component8()"))) __attribute__((deprecated("use corresponding property instead")));
 - (BbnativesharedQuality *)doCopyId:(NSString * _Nullable)id index:(BbnativesharedInt * _Nullable)index label:(NSString * _Nullable)label isSelected:(BbnativesharedBoolean * _Nullable)isSelected mimeType:(NSString * _Nullable)mimeType origId:(NSString * _Nullable)origId bitrate:(int32_t)bitrate height:(int32_t)height __attribute__((swift_name("doCopy(id:index:label:isSelected:mimeType:origId:bitrate:height:)")));
 - (BOOL)isEqual:(id _Nullable)other __attribute__((swift_name("isEqual(_:)")));
 - (NSUInteger)hash __attribute__((swift_name("hash()")));
@@ -2801,10 +2345,6 @@ __attribute__((swift_name("RequestParams")))
 @interface BbnativesharedRequestParams : BbnativesharedBase
 - (instancetype)initWithMode:(NSString * _Nullable)mode playoutlabel:(NSString * _Nullable)playoutlabel contentindicator:(NSString * _Nullable)contentindicator contentid:(NSString * _Nullable)contentid __attribute__((swift_name("init(mode:playoutlabel:contentindicator:contentid:)"))) __attribute__((objc_designated_initializer));
 @property (class, readonly, getter=companion) BbnativesharedRequestParamsCompanion *companion __attribute__((swift_name("companion")));
-- (NSString * _Nullable)component1 __attribute__((swift_name("component1()"))) __attribute__((deprecated("use corresponding property instead")));
-- (NSString * _Nullable)component2 __attribute__((swift_name("component2()"))) __attribute__((deprecated("use corresponding property instead")));
-- (NSString * _Nullable)component3 __attribute__((swift_name("component3()"))) __attribute__((deprecated("use corresponding property instead")));
-- (NSString * _Nullable)component4 __attribute__((swift_name("component4()"))) __attribute__((deprecated("use corresponding property instead")));
 - (BbnativesharedRequestParams *)doCopyMode:(NSString * _Nullable)mode playoutlabel:(NSString * _Nullable)playoutlabel contentindicator:(NSString * _Nullable)contentindicator contentid:(NSString * _Nullable)contentid __attribute__((swift_name("doCopy(mode:playoutlabel:contentindicator:contentid:)")));
 - (BOOL)isEqual:(id _Nullable)other __attribute__((swift_name("isEqual(_:)")));
 - (NSUInteger)hash __attribute__((swift_name("hash()")));
@@ -2835,11 +2375,6 @@ __attribute__((swift_name("Step")))
 @interface BbnativesharedStep : BbnativesharedBase
 - (instancetype)initWithId:(NSString * _Nullable)id mediaClipId:(NSString * _Nullable)mediaClipId isStart:(BbnativesharedBoolean * _Nullable)isStart entityType:(NSString * _Nullable)entityType entityId:(NSString * _Nullable)entityId __attribute__((swift_name("init(id:mediaClipId:isStart:entityType:entityId:)"))) __attribute__((objc_designated_initializer));
 @property (class, readonly, getter=companion) BbnativesharedStepCompanion *companion __attribute__((swift_name("companion")));
-- (NSString * _Nullable)component1 __attribute__((swift_name("component1()"))) __attribute__((deprecated("use corresponding property instead")));
-- (NSString * _Nullable)component2 __attribute__((swift_name("component2()"))) __attribute__((deprecated("use corresponding property instead")));
-- (BbnativesharedBoolean * _Nullable)component3 __attribute__((swift_name("component3()"))) __attribute__((deprecated("use corresponding property instead")));
-- (NSString * _Nullable)component4 __attribute__((swift_name("component4()"))) __attribute__((deprecated("use corresponding property instead")));
-- (NSString * _Nullable)component5 __attribute__((swift_name("component5()"))) __attribute__((deprecated("use corresponding property instead")));
 - (BbnativesharedStep *)doCopyId:(NSString * _Nullable)id mediaClipId:(NSString * _Nullable)mediaClipId isStart:(BbnativesharedBoolean * _Nullable)isStart entityType:(NSString * _Nullable)entityType entityId:(NSString * _Nullable)entityId __attribute__((swift_name("doCopy(id:mediaClipId:isStart:entityType:entityId:)")));
 - (BOOL)isEqual:(id _Nullable)other __attribute__((swift_name("isEqual(_:)")));
 - (NSUInteger)hash __attribute__((swift_name("hash()")));
@@ -2871,14 +2406,6 @@ __attribute__((swift_name("Subtitle")))
 @interface BbnativesharedSubtitle : BbnativesharedBase
 - (instancetype)initWithLanguageid:(NSString * _Nullable)languageid languagename:(NSString * _Nullable)languagename id:(NSString * _Nullable)id name:(NSString * _Nullable)name default:(NSString * _Nullable)default_ isocode:(NSString * _Nullable)isocode status:(NSString * _Nullable)status isSelected:(BbnativesharedBoolean * _Nullable)isSelected __attribute__((swift_name("init(languageid:languagename:id:name:default:isocode:status:isSelected:)"))) __attribute__((objc_designated_initializer));
 @property (class, readonly, getter=companion) BbnativesharedSubtitleCompanion *companion __attribute__((swift_name("companion")));
-- (NSString * _Nullable)component1 __attribute__((swift_name("component1()"))) __attribute__((deprecated("use corresponding property instead")));
-- (NSString * _Nullable)component2 __attribute__((swift_name("component2()"))) __attribute__((deprecated("use corresponding property instead")));
-- (NSString * _Nullable)component3 __attribute__((swift_name("component3()"))) __attribute__((deprecated("use corresponding property instead")));
-- (NSString * _Nullable)component4 __attribute__((swift_name("component4()"))) __attribute__((deprecated("use corresponding property instead")));
-- (NSString * _Nullable)component5 __attribute__((swift_name("component5()"))) __attribute__((deprecated("use corresponding property instead")));
-- (NSString * _Nullable)component6 __attribute__((swift_name("component6()"))) __attribute__((deprecated("use corresponding property instead")));
-- (NSString * _Nullable)component7 __attribute__((swift_name("component7()"))) __attribute__((deprecated("use corresponding property instead")));
-- (BbnativesharedBoolean * _Nullable)component8 __attribute__((swift_name("component8()"))) __attribute__((deprecated("use corresponding property instead")));
 - (BbnativesharedSubtitle *)doCopyLanguageid:(NSString * _Nullable)languageid languagename:(NSString * _Nullable)languagename id:(NSString * _Nullable)id name:(NSString * _Nullable)name default:(NSString * _Nullable)default_ isocode:(NSString * _Nullable)isocode status:(NSString * _Nullable)status isSelected:(BbnativesharedBoolean * _Nullable)isSelected __attribute__((swift_name("doCopy(languageid:languagename:id:name:default:isocode:status:isSelected:)")));
 - (BOOL)isEqual:(id _Nullable)other __attribute__((swift_name("isEqual(_:)")));
 - (NSUInteger)hash __attribute__((swift_name("hash()")));
@@ -2913,10 +2440,6 @@ __attribute__((swift_name("Thumbnail")))
 @interface BbnativesharedThumbnail : BbnativesharedBase
 - (instancetype)initWithSrc:(NSString * _Nullable)src width:(NSString * _Nullable)width height:(NSString * _Nullable)height main:(BbnativesharedBoolean * _Nullable)main __attribute__((swift_name("init(src:width:height:main:)"))) __attribute__((objc_designated_initializer));
 @property (class, readonly, getter=companion) BbnativesharedThumbnailCompanion *companion __attribute__((swift_name("companion")));
-- (NSString * _Nullable)component1 __attribute__((swift_name("component1()"))) __attribute__((deprecated("use corresponding property instead")));
-- (NSString * _Nullable)component2 __attribute__((swift_name("component2()"))) __attribute__((deprecated("use corresponding property instead")));
-- (NSString * _Nullable)component3 __attribute__((swift_name("component3()"))) __attribute__((deprecated("use corresponding property instead")));
-- (BbnativesharedBoolean * _Nullable)component4 __attribute__((swift_name("component4()"))) __attribute__((deprecated("use corresponding property instead")));
 - (BbnativesharedThumbnail *)doCopySrc:(NSString * _Nullable)src width:(NSString * _Nullable)width height:(NSString * _Nullable)height main:(BbnativesharedBoolean * _Nullable)main __attribute__((swift_name("doCopy(src:width:height:main:)")));
 - (BOOL)isEqual:(id _Nullable)other __attribute__((swift_name("isEqual(_:)")));
 - (NSUInteger)hash __attribute__((swift_name("hash()")));
@@ -2947,7 +2470,6 @@ __attribute__((swift_name("Timeline")))
 @interface BbnativesharedTimeline : BbnativesharedBase
 - (instancetype)initWithId:(NSString * _Nullable)id __attribute__((swift_name("init(id:)"))) __attribute__((objc_designated_initializer));
 @property (class, readonly, getter=companion) BbnativesharedTimelineCompanion *companion __attribute__((swift_name("companion")));
-- (NSString * _Nullable)component1 __attribute__((swift_name("component1()"))) __attribute__((deprecated("use corresponding property instead")));
 - (BbnativesharedTimeline *)doCopyId:(NSString * _Nullable)id __attribute__((swift_name("doCopy(id:)")));
 - (BOOL)isEqual:(id _Nullable)other __attribute__((swift_name("isEqual(_:)")));
 - (NSUInteger)hash __attribute__((swift_name("hash()")));
@@ -2975,7 +2497,6 @@ __attribute__((swift_name("TypedObject")))
 @interface BbnativesharedTypedObject : BbnativesharedBase
 - (instancetype)initWithType:(NSString * _Nullable)type __attribute__((swift_name("init(type:)"))) __attribute__((objc_designated_initializer));
 @property (class, readonly, getter=companion) BbnativesharedTypedObjectCompanion *companion __attribute__((swift_name("companion")));
-- (NSString * _Nullable)component1 __attribute__((swift_name("component1()"))) __attribute__((deprecated("use corresponding property instead")));
 - (BbnativesharedTypedObject *)doCopyType:(NSString * _Nullable)type __attribute__((swift_name("doCopy(type:)")));
 - (BOOL)isEqual:(id _Nullable)other __attribute__((swift_name("isEqual(_:)")));
 - (NSUInteger)hash __attribute__((swift_name("hash()")));
@@ -3003,8 +2524,6 @@ __attribute__((swift_name("VersioningData")))
 @interface BbnativesharedVersioningData : BbnativesharedBase
 - (instancetype)initWithTimelineVersion:(NSString * _Nullable)timelineVersion state:(NSString * _Nullable)state __attribute__((swift_name("init(timelineVersion:state:)"))) __attribute__((objc_designated_initializer));
 @property (class, readonly, getter=companion) BbnativesharedVersioningDataCompanion *companion __attribute__((swift_name("companion")));
-- (NSString * _Nullable)component1 __attribute__((swift_name("component1()"))) __attribute__((deprecated("use corresponding property instead")));
-- (NSString * _Nullable)component2 __attribute__((swift_name("component2()"))) __attribute__((deprecated("use corresponding property instead")));
 - (BbnativesharedVersioningData *)doCopyTimelineVersion:(NSString * _Nullable)timelineVersion state:(NSString * _Nullable)state __attribute__((swift_name("doCopy(timelineVersion:state:)")));
 - (BOOL)isEqual:(id _Nullable)other __attribute__((swift_name("isEqual(_:)")));
 - (NSUInteger)hash __attribute__((swift_name("hash()")));
@@ -3021,110 +2540,6 @@ __attribute__((swift_name("VersioningData.Companion")))
 + (instancetype)companion __attribute__((swift_name("init()")));
 @property (class, readonly, getter=shared) BbnativesharedVersioningDataCompanion *shared __attribute__((swift_name("shared")));
 - (id<BbnativesharedKotlinx_serialization_coreKSerializer>)serializer __attribute__((swift_name("serializer()")));
-@end
-
-__attribute__((swift_name("Kotlinx_coroutines_coreCoroutineScope")))
-@protocol BbnativesharedKotlinx_coroutines_coreCoroutineScope
-@required
-@property (readonly) id<BbnativesharedKotlinCoroutineContext> coroutineContext __attribute__((swift_name("coroutineContext")));
-@end
-
-__attribute__((swift_name("BlueBillywigLogger")))
-@interface BbnativesharedBlueBillywigLogger : BbnativesharedBase <BbnativesharedEventListenerInterface, BbnativesharedKotlinx_coroutines_coreCoroutineScope>
-- (instancetype)initWithEventBus:(id<BbnativesharedEventBusInterface> _Nullable)eventBus network:(id<BbnativesharedNetworkInterface> _Nullable)network __attribute__((swift_name("init(eventBus:network:)"))) __attribute__((objc_designated_initializer));
-- (instancetype)initWithEventBus:(id<BbnativesharedEventBusInterface> _Nullable)eventBus network:(id<BbnativesharedNetworkInterface> _Nullable)network mainDispatcher:(BbnativesharedKotlinx_coroutines_coreCoroutineDispatcher *)mainDispatcher __attribute__((swift_name("init(eventBus:network:mainDispatcher:)"))) __attribute__((objc_designated_initializer));
-@property (class, readonly, getter=companion) BbnativesharedBlueBillywigLoggerCompanion *companion __attribute__((swift_name("companion")));
-- (void)__destruct __attribute__((swift_name("__destruct()")));
-- (void)disable __attribute__((swift_name("disable()")));
-- (void)enable __attribute__((swift_name("enable()")));
-- (void)handleAutoPause __attribute__((swift_name("handleAutoPause()")));
-- (void)ingestOptsOpts:(BbnativesharedEmbedObject * _Nullable)opts __attribute__((swift_name("ingestOpts(opts:)")));
-- (void)logMediaClipEventEvent:(NSString *)event aux:(NSDictionary<NSString *, NSString *> *)aux __attribute__((swift_name("logMediaClipEvent(event:aux:)")));
-- (void)onClipDataLoadedEventType:(BbnativesharedEventName *)eventType payload:(NSDictionary<NSString *, id> * _Nullable)payload __attribute__((swift_name("onClipDataLoaded(eventType:payload:)")));
-- (void)onEventEventType:(BbnativesharedEventName *)eventType data:(NSDictionary<NSString *, id> * _Nullable)data __attribute__((swift_name("onEvent(eventType:data:)")));
-@property BbnativesharedMutableDictionary<NSString *, id<BbnativesharedKotlinx_coroutines_coreMutableStateFlow>> *_debouncedEventListMap __attribute__((swift_name("_debouncedEventListMap")));
-@property NSMutableArray<BbnativesharedMutableDictionary<NSString *, NSString *> *> *_enabledQueue __attribute__((swift_name("_enabledQueue")));
-@property (readonly) id<BbnativesharedKotlinCoroutineContext> coroutineContext __attribute__((swift_name("coroutineContext")));
-@property id<BbnativesharedEventBusInterface> _Nullable eventBus __attribute__((swift_name("eventBus")));
-@property (readonly) id<BbnativesharedKotlinx_coroutines_coreCompletableJob> job __attribute__((swift_name("job")));
-@end
-
-__attribute__((objc_subclassing_restricted))
-__attribute__((swift_name("BlueBillywigLogger.Companion")))
-@interface BbnativesharedBlueBillywigLoggerCompanion : BbnativesharedBase
-+ (instancetype)alloc __attribute__((unavailable));
-+ (instancetype)allocWithZone:(struct _NSZone *)zone __attribute__((unavailable));
-+ (instancetype)companion __attribute__((swift_name("init()")));
-@property (class, readonly, getter=shared) BbnativesharedBlueBillywigLoggerCompanion *shared __attribute__((swift_name("shared")));
-@property (readonly) NSString *TAG __attribute__((swift_name("TAG")));
-@end
-
-__attribute__((objc_subclassing_restricted))
-__attribute__((swift_name("CustomStatistics")))
-@interface BbnativesharedCustomStatistics : BbnativesharedBase
-- (instancetype)init __attribute__((swift_name("init()"))) __attribute__((objc_designated_initializer));
-+ (instancetype)new __attribute__((availability(swift, unavailable, message="use object initializers instead")));
-- (void)__destruct __attribute__((swift_name("__destruct()")));
-- (void)sendIdent:(NSString *)ident ev:(NSString *)ev aux:(NSDictionary<NSString *, NSString *> *)aux __attribute__((swift_name("send(ident:ev:aux:)")));
-@property id<BbnativesharedEventBusInterface> _Nullable eventBus __attribute__((swift_name("eventBus")));
-@end
-
-__attribute__((objc_subclassing_restricted))
-__attribute__((swift_name("ContentLoader")))
-@interface BbnativesharedContentLoader : BbnativesharedBase
-- (instancetype)init __attribute__((swift_name("init()"))) __attribute__((objc_designated_initializer));
-+ (instancetype)new __attribute__((availability(swift, unavailable, message="use object initializers instead")));
-@property (class, readonly, getter=companion) BbnativesharedContentLoaderCompanion *companion __attribute__((swift_name("companion")));
-- (void)__destruct __attribute__((swift_name("__destruct()")));
-- (void)getContentFromJsonUrlJsonUrl:(NSString *)jsonUrl onSuccess:(void (^)(id<BbnativesharedContentItemInterface>))onSuccess onFailure:(void (^)(BbnativesharedKotlinException *))onFailure __attribute__((swift_name("getContentFromJsonUrl(jsonUrl:onSuccess:onFailure:)")));
-- (void)getJsonStringFromUrlJsonUrl:(NSString *)jsonUrl onSuccess:(void (^)(NSString *))onSuccess onFailure:(void (^)(BbnativesharedKotlinException *))onFailure __attribute__((swift_name("getJsonStringFromUrl(jsonUrl:onSuccess:onFailure:)")));
-- (void)getObjectFromJsonUrlJsonUrl:(NSString *)jsonUrl onSuccess:(void (^)(id _Nullable))onSuccess onFailure:(void (^)(BbnativesharedKotlinException *))onFailure __attribute__((swift_name("getObjectFromJsonUrl(jsonUrl:onSuccess:onFailure:)")));
-@property (readonly) id<BbnativesharedKotlinx_coroutines_coreCoroutineScope> mainScope __attribute__((swift_name("mainScope")));
-@property id<BbnativesharedNetworkInterface> _Nullable network __attribute__((swift_name("network")));
-@end
-
-__attribute__((objc_subclassing_restricted))
-__attribute__((swift_name("ContentLoader.Companion")))
-@interface BbnativesharedContentLoaderCompanion : BbnativesharedBase
-+ (instancetype)alloc __attribute__((unavailable));
-+ (instancetype)allocWithZone:(struct _NSZone *)zone __attribute__((unavailable));
-+ (instancetype)companion __attribute__((swift_name("init()")));
-@property (class, readonly, getter=shared) BbnativesharedContentLoaderCompanion *shared __attribute__((swift_name("shared")));
-- (NSString *)fixDataInconsistenciesDataString:(NSString *)dataString __attribute__((swift_name("fixDataInconsistencies(dataString:)")));
-- (BbnativesharedMediaClip * _Nullable)parseMediaClipJsonString:(NSString *)jsonString __attribute__((swift_name("parseMediaClip(jsonString:)")));
-- (BbnativesharedMediaClipList * _Nullable)parseMediaClipListJsonString:(NSString *)jsonString __attribute__((swift_name("parseMediaClipList(jsonString:)")));
-- (BbnativesharedProject * _Nullable)parseProjectJsonString:(NSString *)jsonString __attribute__((swift_name("parseProject(jsonString:)")));
-@end
-
-__attribute__((objc_subclassing_restricted))
-__attribute__((swift_name("Language")))
-@interface BbnativesharedLanguage : BbnativesharedBase
-- (instancetype)initWithIso:(NSString * _Nullable)iso translations:(BbnativesharedMutableDictionary<NSString *, NSString *> *)translations __attribute__((swift_name("init(iso:translations:)"))) __attribute__((objc_designated_initializer));
-- (NSString * _Nullable)component1 __attribute__((swift_name("component1()"))) __attribute__((deprecated("use corresponding property instead")));
-- (BbnativesharedMutableDictionary<NSString *, NSString *> *)component2 __attribute__((swift_name("component2()"))) __attribute__((deprecated("use corresponding property instead")));
-- (BbnativesharedLanguage *)doCopyIso:(NSString * _Nullable)iso translations:(BbnativesharedMutableDictionary<NSString *, NSString *> *)translations __attribute__((swift_name("doCopy(iso:translations:)")));
-- (BOOL)isEqual:(id _Nullable)other __attribute__((swift_name("isEqual(_:)")));
-- (NSUInteger)hash __attribute__((swift_name("hash()")));
-- (NSString *)description __attribute__((swift_name("description()")));
-@property NSString * _Nullable iso __attribute__((swift_name("iso")));
-@property BbnativesharedMutableDictionary<NSString *, NSString *> *translations __attribute__((swift_name("translations")));
-@end
-
-__attribute__((objc_subclassing_restricted))
-__attribute__((swift_name("Languages")))
-@interface BbnativesharedLanguages : BbnativesharedBase
-@property (class, readonly, getter=companion) BbnativesharedLanguagesCompanion *companion __attribute__((swift_name("companion")));
-- (NSString *)translateIso:(NSString *)iso text:(NSString *)text __attribute__((swift_name("translate(iso:text:)")));
-@end
-
-__attribute__((objc_subclassing_restricted))
-__attribute__((swift_name("Languages.Companion")))
-@interface BbnativesharedLanguagesCompanion : BbnativesharedBase
-+ (instancetype)alloc __attribute__((unavailable));
-+ (instancetype)allocWithZone:(struct _NSZone *)zone __attribute__((unavailable));
-+ (instancetype)companion __attribute__((swift_name("init()")));
-@property (class, readonly, getter=shared) BbnativesharedLanguagesCompanion *shared __attribute__((swift_name("shared")));
-@property (readonly) BbnativesharedLanguages *instance __attribute__((swift_name("instance")));
 @end
 
 __attribute__((objc_subclassing_restricted))
@@ -3154,6 +2569,35 @@ __attribute__((swift_name("Kotlinx_datetimeInstant")))
 @property (readonly) int32_t nanosecondsOfSecond __attribute__((swift_name("nanosecondsOfSecond")));
 @end
 
+__attribute__((swift_name("KotlinThrowable")))
+@interface BbnativesharedKotlinThrowable : BbnativesharedBase
+- (instancetype)init __attribute__((swift_name("init()"))) __attribute__((objc_designated_initializer));
++ (instancetype)new __attribute__((availability(swift, unavailable, message="use object initializers instead")));
+- (instancetype)initWithMessage:(NSString * _Nullable)message __attribute__((swift_name("init(message:)"))) __attribute__((objc_designated_initializer));
+- (instancetype)initWithCause:(BbnativesharedKotlinThrowable * _Nullable)cause __attribute__((swift_name("init(cause:)"))) __attribute__((objc_designated_initializer));
+- (instancetype)initWithMessage:(NSString * _Nullable)message cause:(BbnativesharedKotlinThrowable * _Nullable)cause __attribute__((swift_name("init(message:cause:)"))) __attribute__((objc_designated_initializer));
+
+/**
+ * @note annotations
+ *   kotlin.experimental.ExperimentalNativeApi
+*/
+- (BbnativesharedKotlinArray<NSString *> *)getStackTrace __attribute__((swift_name("getStackTrace()")));
+- (void)printStackTrace __attribute__((swift_name("printStackTrace()")));
+- (NSString *)description __attribute__((swift_name("description()")));
+@property (readonly) BbnativesharedKotlinThrowable * _Nullable cause __attribute__((swift_name("cause")));
+@property (readonly) NSString * _Nullable message __attribute__((swift_name("message")));
+- (NSError *)asError __attribute__((swift_name("asError()")));
+@end
+
+__attribute__((swift_name("KotlinException")))
+@interface BbnativesharedKotlinException : BbnativesharedKotlinThrowable
+- (instancetype)init __attribute__((swift_name("init()"))) __attribute__((objc_designated_initializer));
++ (instancetype)new __attribute__((availability(swift, unavailable, message="use object initializers instead")));
+- (instancetype)initWithMessage:(NSString * _Nullable)message __attribute__((swift_name("init(message:)"))) __attribute__((objc_designated_initializer));
+- (instancetype)initWithCause:(BbnativesharedKotlinThrowable * _Nullable)cause __attribute__((swift_name("init(cause:)"))) __attribute__((objc_designated_initializer));
+- (instancetype)initWithMessage:(NSString * _Nullable)message cause:(BbnativesharedKotlinThrowable * _Nullable)cause __attribute__((swift_name("init(message:cause:)"))) __attribute__((objc_designated_initializer));
+@end
+
 __attribute__((objc_subclassing_restricted))
 __attribute__((swift_name("KotlinEnumCompanion")))
 @interface BbnativesharedKotlinEnumCompanion : BbnativesharedBase
@@ -3173,35 +2617,6 @@ __attribute__((swift_name("KotlinArray")))
 - (id<BbnativesharedKotlinIterator>)iterator __attribute__((swift_name("iterator()")));
 - (void)setIndex:(int32_t)index value:(T _Nullable)value __attribute__((swift_name("set(index:value:)")));
 @property (readonly) int32_t size __attribute__((swift_name("size")));
-@end
-
-__attribute__((swift_name("Kotlinx_serialization_coreSerializationStrategy")))
-@protocol BbnativesharedKotlinx_serialization_coreSerializationStrategy
-@required
-- (void)serializeEncoder:(id<BbnativesharedKotlinx_serialization_coreEncoder>)encoder value:(id _Nullable)value __attribute__((swift_name("serialize(encoder:value:)")));
-@property (readonly) id<BbnativesharedKotlinx_serialization_coreSerialDescriptor> descriptor __attribute__((swift_name("descriptor")));
-@end
-
-__attribute__((swift_name("Kotlinx_serialization_coreDeserializationStrategy")))
-@protocol BbnativesharedKotlinx_serialization_coreDeserializationStrategy
-@required
-- (id _Nullable)deserializeDecoder:(id<BbnativesharedKotlinx_serialization_coreDecoder>)decoder __attribute__((swift_name("deserialize(decoder:)")));
-@property (readonly) id<BbnativesharedKotlinx_serialization_coreSerialDescriptor> descriptor __attribute__((swift_name("descriptor")));
-@end
-
-__attribute__((swift_name("Kotlinx_serialization_coreKSerializer")))
-@protocol BbnativesharedKotlinx_serialization_coreKSerializer <BbnativesharedKotlinx_serialization_coreSerializationStrategy, BbnativesharedKotlinx_serialization_coreDeserializationStrategy>
-@required
-@end
-
-
-/**
- * @note annotations
- *   kotlinx.serialization.Serializable(with=NormalClass(value=kotlinx/serialization/json/JsonElementSerializer))
-*/
-__attribute__((swift_name("Kotlinx_serialization_jsonJsonElement")))
-@interface BbnativesharedKotlinx_serialization_jsonJsonElement : BbnativesharedBase
-@property (class, readonly, getter=companion) BbnativesharedKotlinx_serialization_jsonJsonElementCompanion *companion __attribute__((swift_name("companion")));
 @end
 
 
@@ -3318,8 +2733,8 @@ __attribute__((swift_name("Kotlinx_coroutines_coreMutableSharedFlow")))
 __attribute__((swift_name("Kotlinx_coroutines_coreMutableStateFlow")))
 @protocol BbnativesharedKotlinx_coroutines_coreMutableStateFlow <BbnativesharedKotlinx_coroutines_coreStateFlow, BbnativesharedKotlinx_coroutines_coreMutableSharedFlow>
 @required
-- (BOOL)compareAndSetExpect:(id _Nullable)expect update:(id _Nullable)update __attribute__((swift_name("compareAndSet(expect:update:)")));
 - (void)setValue:(id _Nullable)value __attribute__((swift_name("setValue(_:)")));
+- (BOOL)compareAndSetExpect:(id _Nullable)expect update:(id _Nullable)update __attribute__((swift_name("compareAndSet(expect:update:)")));
 @end
 
 __attribute__((swift_name("Kotlinx_coroutines_coreJob")))
@@ -3328,8 +2743,8 @@ __attribute__((swift_name("Kotlinx_coroutines_coreJob")))
 - (id<BbnativesharedKotlinx_coroutines_coreChildHandle>)attachChildChild:(id<BbnativesharedKotlinx_coroutines_coreChildJob>)child __attribute__((swift_name("attachChild(child:)")));
 - (void)cancelCause:(BbnativesharedKotlinCancellationException * _Nullable)cause __attribute__((swift_name("cancel(cause:)")));
 - (BbnativesharedKotlinCancellationException *)getCancellationException __attribute__((swift_name("getCancellationException()")));
-- (id<BbnativesharedKotlinx_coroutines_coreDisposableHandle>)invokeOnCompletionOnCancelling:(BOOL)onCancelling invokeImmediately:(BOOL)invokeImmediately handler:(void (^)(BbnativesharedKotlinThrowable * _Nullable))handler __attribute__((swift_name("invokeOnCompletion(onCancelling:invokeImmediately:handler:)")));
 - (id<BbnativesharedKotlinx_coroutines_coreDisposableHandle>)invokeOnCompletionHandler:(void (^)(BbnativesharedKotlinThrowable * _Nullable))handler __attribute__((swift_name("invokeOnCompletion(handler:)")));
+- (id<BbnativesharedKotlinx_coroutines_coreDisposableHandle>)invokeOnCompletionOnCancelling:(BOOL)onCancelling invokeImmediately:(BOOL)invokeImmediately handler:(void (^)(BbnativesharedKotlinThrowable * _Nullable))handler __attribute__((swift_name("invokeOnCompletion(onCancelling:invokeImmediately:handler:)")));
 
 /**
  * @note This method converts instances of CancellationException to errors.
@@ -3352,28 +2767,33 @@ __attribute__((swift_name("Kotlinx_coroutines_coreCompletableJob")))
 - (BOOL)completeExceptionallyException:(BbnativesharedKotlinThrowable *)exception __attribute__((swift_name("completeExceptionally(exception:)")));
 @end
 
-__attribute__((swift_name("KotlinThrowable")))
-@interface BbnativesharedKotlinThrowable : BbnativesharedBase
-- (instancetype)initWithMessage:(NSString * _Nullable)message __attribute__((swift_name("init(message:)"))) __attribute__((objc_designated_initializer));
-- (instancetype)initWithCause:(BbnativesharedKotlinThrowable * _Nullable)cause __attribute__((swift_name("init(cause:)"))) __attribute__((objc_designated_initializer));
-- (instancetype)init __attribute__((swift_name("init()"))) __attribute__((objc_designated_initializer));
-+ (instancetype)new __attribute__((availability(swift, unavailable, message="use object initializers instead")));
-- (instancetype)initWithMessage:(NSString * _Nullable)message cause:(BbnativesharedKotlinThrowable * _Nullable)cause __attribute__((swift_name("init(message:cause:)"))) __attribute__((objc_designated_initializer));
-- (BbnativesharedKotlinArray<NSString *> *)getStackTrace __attribute__((swift_name("getStackTrace()")));
-- (void)printStackTrace __attribute__((swift_name("printStackTrace()")));
-- (NSString *)description __attribute__((swift_name("description()")));
-@property (readonly) BbnativesharedKotlinThrowable * _Nullable cause __attribute__((swift_name("cause")));
-@property (readonly) NSString * _Nullable message __attribute__((swift_name("message")));
-- (NSError *)asError __attribute__((swift_name("asError()")));
+__attribute__((swift_name("Kotlinx_serialization_coreSerializationStrategy")))
+@protocol BbnativesharedKotlinx_serialization_coreSerializationStrategy
+@required
+- (void)serializeEncoder:(id<BbnativesharedKotlinx_serialization_coreEncoder>)encoder value:(id _Nullable)value __attribute__((swift_name("serialize(encoder:value:)")));
+@property (readonly) id<BbnativesharedKotlinx_serialization_coreSerialDescriptor> descriptor __attribute__((swift_name("descriptor")));
 @end
 
-__attribute__((swift_name("KotlinException")))
-@interface BbnativesharedKotlinException : BbnativesharedKotlinThrowable
-- (instancetype)init __attribute__((swift_name("init()"))) __attribute__((objc_designated_initializer));
-+ (instancetype)new __attribute__((availability(swift, unavailable, message="use object initializers instead")));
-- (instancetype)initWithMessage:(NSString * _Nullable)message __attribute__((swift_name("init(message:)"))) __attribute__((objc_designated_initializer));
-- (instancetype)initWithMessage:(NSString * _Nullable)message cause:(BbnativesharedKotlinThrowable * _Nullable)cause __attribute__((swift_name("init(message:cause:)"))) __attribute__((objc_designated_initializer));
-- (instancetype)initWithCause:(BbnativesharedKotlinThrowable * _Nullable)cause __attribute__((swift_name("init(cause:)"))) __attribute__((objc_designated_initializer));
+__attribute__((swift_name("Kotlinx_serialization_coreDeserializationStrategy")))
+@protocol BbnativesharedKotlinx_serialization_coreDeserializationStrategy
+@required
+- (id _Nullable)deserializeDecoder:(id<BbnativesharedKotlinx_serialization_coreDecoder>)decoder __attribute__((swift_name("deserialize(decoder:)")));
+@property (readonly) id<BbnativesharedKotlinx_serialization_coreSerialDescriptor> descriptor __attribute__((swift_name("descriptor")));
+@end
+
+__attribute__((swift_name("Kotlinx_serialization_coreKSerializer")))
+@protocol BbnativesharedKotlinx_serialization_coreKSerializer <BbnativesharedKotlinx_serialization_coreSerializationStrategy, BbnativesharedKotlinx_serialization_coreDeserializationStrategy>
+@required
+@end
+
+
+/**
+ * @note annotations
+ *   kotlinx.serialization.Serializable(with=NormalClass(value=kotlinx/serialization/json/JsonElementSerializer))
+*/
+__attribute__((swift_name("Kotlinx_serialization_jsonJsonElement")))
+@interface BbnativesharedKotlinx_serialization_jsonJsonElement : BbnativesharedBase
+@property (class, readonly, getter=companion) BbnativesharedKotlinx_serialization_jsonJsonElementCompanion *companion __attribute__((swift_name("companion")));
 @end
 
 __attribute__((swift_name("Kotlinx_serialization_coreSerializersModule")))
@@ -3426,6 +2846,118 @@ __attribute__((swift_name("KotlinIterator")))
 @required
 - (BOOL)hasNext __attribute__((swift_name("hasNext()")));
 - (id _Nullable)next __attribute__((swift_name("next()")));
+@end
+
+__attribute__((swift_name("KotlinCoroutineContextKey")))
+@protocol BbnativesharedKotlinCoroutineContextKey
+@required
+@end
+
+
+/**
+ * @note annotations
+ *   kotlin.SinceKotlin(version="1.3")
+*/
+__attribute__((swift_name("KotlinContinuation")))
+@protocol BbnativesharedKotlinContinuation
+@required
+- (void)resumeWithResult:(id _Nullable)result __attribute__((swift_name("resumeWith(result:)")));
+@property (readonly) id<BbnativesharedKotlinCoroutineContext> context __attribute__((swift_name("context")));
+@end
+
+
+/**
+ * @note annotations
+ *   kotlin.SinceKotlin(version="1.3")
+ *   kotlin.ExperimentalStdlibApi
+*/
+__attribute__((swift_name("KotlinAbstractCoroutineContextKey")))
+@interface BbnativesharedKotlinAbstractCoroutineContextKey<B, E> : BbnativesharedBase <BbnativesharedKotlinCoroutineContextKey>
+- (instancetype)initWithBaseKey:(id<BbnativesharedKotlinCoroutineContextKey>)baseKey safeCast:(E _Nullable (^)(id<BbnativesharedKotlinCoroutineContextElement>))safeCast __attribute__((swift_name("init(baseKey:safeCast:)"))) __attribute__((objc_designated_initializer));
+@end
+
+
+/**
+ * @note annotations
+ *   kotlin.ExperimentalStdlibApi
+*/
+__attribute__((objc_subclassing_restricted))
+__attribute__((swift_name("Kotlinx_coroutines_coreCoroutineDispatcher.Key")))
+@interface BbnativesharedKotlinx_coroutines_coreCoroutineDispatcherKey : BbnativesharedKotlinAbstractCoroutineContextKey<id<BbnativesharedKotlinContinuationInterceptor>, BbnativesharedKotlinx_coroutines_coreCoroutineDispatcher *>
++ (instancetype)alloc __attribute__((unavailable));
++ (instancetype)allocWithZone:(struct _NSZone *)zone __attribute__((unavailable));
+- (instancetype)initWithBaseKey:(id<BbnativesharedKotlinCoroutineContextKey>)baseKey safeCast:(id<BbnativesharedKotlinCoroutineContextElement> _Nullable (^)(id<BbnativesharedKotlinCoroutineContextElement>))safeCast __attribute__((swift_name("init(baseKey:safeCast:)"))) __attribute__((objc_designated_initializer)) __attribute__((unavailable));
++ (instancetype)key __attribute__((swift_name("init()")));
+@property (class, readonly, getter=shared) BbnativesharedKotlinx_coroutines_coreCoroutineDispatcherKey *shared __attribute__((swift_name("shared")));
+@end
+
+__attribute__((swift_name("Kotlinx_coroutines_coreRunnable")))
+@protocol BbnativesharedKotlinx_coroutines_coreRunnable
+@required
+- (void)run __attribute__((swift_name("run()")));
+@end
+
+__attribute__((swift_name("KotlinRuntimeException")))
+@interface BbnativesharedKotlinRuntimeException : BbnativesharedKotlinException
+- (instancetype)init __attribute__((swift_name("init()"))) __attribute__((objc_designated_initializer));
++ (instancetype)new __attribute__((availability(swift, unavailable, message="use object initializers instead")));
+- (instancetype)initWithMessage:(NSString * _Nullable)message __attribute__((swift_name("init(message:)"))) __attribute__((objc_designated_initializer));
+- (instancetype)initWithCause:(BbnativesharedKotlinThrowable * _Nullable)cause __attribute__((swift_name("init(cause:)"))) __attribute__((objc_designated_initializer));
+- (instancetype)initWithMessage:(NSString * _Nullable)message cause:(BbnativesharedKotlinThrowable * _Nullable)cause __attribute__((swift_name("init(message:cause:)"))) __attribute__((objc_designated_initializer));
+@end
+
+__attribute__((swift_name("KotlinIllegalStateException")))
+@interface BbnativesharedKotlinIllegalStateException : BbnativesharedKotlinRuntimeException
+- (instancetype)init __attribute__((swift_name("init()"))) __attribute__((objc_designated_initializer));
++ (instancetype)new __attribute__((availability(swift, unavailable, message="use object initializers instead")));
+- (instancetype)initWithMessage:(NSString * _Nullable)message __attribute__((swift_name("init(message:)"))) __attribute__((objc_designated_initializer));
+- (instancetype)initWithCause:(BbnativesharedKotlinThrowable * _Nullable)cause __attribute__((swift_name("init(cause:)"))) __attribute__((objc_designated_initializer));
+- (instancetype)initWithMessage:(NSString * _Nullable)message cause:(BbnativesharedKotlinThrowable * _Nullable)cause __attribute__((swift_name("init(message:cause:)"))) __attribute__((objc_designated_initializer));
+@end
+
+
+/**
+ * @note annotations
+ *   kotlin.SinceKotlin(version="1.4")
+*/
+__attribute__((swift_name("KotlinCancellationException")))
+@interface BbnativesharedKotlinCancellationException : BbnativesharedKotlinIllegalStateException
+- (instancetype)init __attribute__((swift_name("init()"))) __attribute__((objc_designated_initializer));
++ (instancetype)new __attribute__((availability(swift, unavailable, message="use object initializers instead")));
+- (instancetype)initWithMessage:(NSString * _Nullable)message __attribute__((swift_name("init(message:)"))) __attribute__((objc_designated_initializer));
+- (instancetype)initWithCause:(BbnativesharedKotlinThrowable * _Nullable)cause __attribute__((swift_name("init(cause:)"))) __attribute__((objc_designated_initializer));
+- (instancetype)initWithMessage:(NSString * _Nullable)message cause:(BbnativesharedKotlinThrowable * _Nullable)cause __attribute__((swift_name("init(message:cause:)"))) __attribute__((objc_designated_initializer));
+@end
+
+__attribute__((swift_name("Kotlinx_coroutines_coreDisposableHandle")))
+@protocol BbnativesharedKotlinx_coroutines_coreDisposableHandle
+@required
+- (void)dispose __attribute__((swift_name("dispose()")));
+@end
+
+__attribute__((swift_name("Kotlinx_coroutines_coreChildHandle")))
+@protocol BbnativesharedKotlinx_coroutines_coreChildHandle <BbnativesharedKotlinx_coroutines_coreDisposableHandle>
+@required
+- (BOOL)childCancelledCause:(BbnativesharedKotlinThrowable *)cause __attribute__((swift_name("childCancelled(cause:)")));
+@property (readonly) id<BbnativesharedKotlinx_coroutines_coreJob> _Nullable parent __attribute__((swift_name("parent")));
+@end
+
+__attribute__((swift_name("Kotlinx_coroutines_coreChildJob")))
+@protocol BbnativesharedKotlinx_coroutines_coreChildJob <BbnativesharedKotlinx_coroutines_coreJob>
+@required
+- (void)parentCancelledParentJob:(id<BbnativesharedKotlinx_coroutines_coreParentJob>)parentJob __attribute__((swift_name("parentCancelled(parentJob:)")));
+@end
+
+__attribute__((swift_name("KotlinSequence")))
+@protocol BbnativesharedKotlinSequence
+@required
+- (id<BbnativesharedKotlinIterator>)iterator __attribute__((swift_name("iterator()")));
+@end
+
+__attribute__((swift_name("Kotlinx_coroutines_coreSelectClause0")))
+@protocol BbnativesharedKotlinx_coroutines_coreSelectClause0
+@required
+- (void)registerSelectClause0Select:(id<BbnativesharedKotlinx_coroutines_coreSelectInstance>)select block:(id<BbnativesharedKotlinSuspendFunction0>)block __attribute__((swift_name("registerSelectClause0(select:block:)")));
 @end
 
 __attribute__((swift_name("Kotlinx_serialization_coreEncoder")))
@@ -3579,118 +3111,6 @@ __attribute__((swift_name("Kotlinx_serialization_jsonJsonElement.Companion")))
 - (id<BbnativesharedKotlinx_serialization_coreKSerializer>)serializer __attribute__((swift_name("serializer()")));
 @end
 
-__attribute__((swift_name("KotlinCoroutineContextKey")))
-@protocol BbnativesharedKotlinCoroutineContextKey
-@required
-@end
-
-
-/**
- * @note annotations
- *   kotlin.SinceKotlin(version="1.3")
-*/
-__attribute__((swift_name("KotlinContinuation")))
-@protocol BbnativesharedKotlinContinuation
-@required
-- (void)resumeWithResult:(id _Nullable)result __attribute__((swift_name("resumeWith(result:)")));
-@property (readonly) id<BbnativesharedKotlinCoroutineContext> context __attribute__((swift_name("context")));
-@end
-
-
-/**
- * @note annotations
- *   kotlin.SinceKotlin(version="1.3")
- *   kotlin.ExperimentalStdlibApi
-*/
-__attribute__((swift_name("KotlinAbstractCoroutineContextKey")))
-@interface BbnativesharedKotlinAbstractCoroutineContextKey<B, E> : BbnativesharedBase <BbnativesharedKotlinCoroutineContextKey>
-- (instancetype)initWithBaseKey:(id<BbnativesharedKotlinCoroutineContextKey>)baseKey safeCast:(E _Nullable (^)(id<BbnativesharedKotlinCoroutineContextElement>))safeCast __attribute__((swift_name("init(baseKey:safeCast:)"))) __attribute__((objc_designated_initializer));
-@end
-
-
-/**
- * @note annotations
- *   kotlin.ExperimentalStdlibApi
-*/
-__attribute__((objc_subclassing_restricted))
-__attribute__((swift_name("Kotlinx_coroutines_coreCoroutineDispatcher.Key")))
-@interface BbnativesharedKotlinx_coroutines_coreCoroutineDispatcherKey : BbnativesharedKotlinAbstractCoroutineContextKey<id<BbnativesharedKotlinContinuationInterceptor>, BbnativesharedKotlinx_coroutines_coreCoroutineDispatcher *>
-+ (instancetype)alloc __attribute__((unavailable));
-+ (instancetype)allocWithZone:(struct _NSZone *)zone __attribute__((unavailable));
-- (instancetype)initWithBaseKey:(id<BbnativesharedKotlinCoroutineContextKey>)baseKey safeCast:(id<BbnativesharedKotlinCoroutineContextElement> _Nullable (^)(id<BbnativesharedKotlinCoroutineContextElement>))safeCast __attribute__((swift_name("init(baseKey:safeCast:)"))) __attribute__((objc_designated_initializer)) __attribute__((unavailable));
-+ (instancetype)key __attribute__((swift_name("init()")));
-@property (class, readonly, getter=shared) BbnativesharedKotlinx_coroutines_coreCoroutineDispatcherKey *shared __attribute__((swift_name("shared")));
-@end
-
-__attribute__((swift_name("Kotlinx_coroutines_coreRunnable")))
-@protocol BbnativesharedKotlinx_coroutines_coreRunnable
-@required
-- (void)run __attribute__((swift_name("run()")));
-@end
-
-__attribute__((swift_name("KotlinRuntimeException")))
-@interface BbnativesharedKotlinRuntimeException : BbnativesharedKotlinException
-- (instancetype)init __attribute__((swift_name("init()"))) __attribute__((objc_designated_initializer));
-+ (instancetype)new __attribute__((availability(swift, unavailable, message="use object initializers instead")));
-- (instancetype)initWithMessage:(NSString * _Nullable)message __attribute__((swift_name("init(message:)"))) __attribute__((objc_designated_initializer));
-- (instancetype)initWithMessage:(NSString * _Nullable)message cause:(BbnativesharedKotlinThrowable * _Nullable)cause __attribute__((swift_name("init(message:cause:)"))) __attribute__((objc_designated_initializer));
-- (instancetype)initWithCause:(BbnativesharedKotlinThrowable * _Nullable)cause __attribute__((swift_name("init(cause:)"))) __attribute__((objc_designated_initializer));
-@end
-
-__attribute__((swift_name("KotlinIllegalStateException")))
-@interface BbnativesharedKotlinIllegalStateException : BbnativesharedKotlinRuntimeException
-- (instancetype)init __attribute__((swift_name("init()"))) __attribute__((objc_designated_initializer));
-+ (instancetype)new __attribute__((availability(swift, unavailable, message="use object initializers instead")));
-- (instancetype)initWithMessage:(NSString * _Nullable)message __attribute__((swift_name("init(message:)"))) __attribute__((objc_designated_initializer));
-- (instancetype)initWithMessage:(NSString * _Nullable)message cause:(BbnativesharedKotlinThrowable * _Nullable)cause __attribute__((swift_name("init(message:cause:)"))) __attribute__((objc_designated_initializer));
-- (instancetype)initWithCause:(BbnativesharedKotlinThrowable * _Nullable)cause __attribute__((swift_name("init(cause:)"))) __attribute__((objc_designated_initializer));
-@end
-
-
-/**
- * @note annotations
- *   kotlin.SinceKotlin(version="1.4")
-*/
-__attribute__((swift_name("KotlinCancellationException")))
-@interface BbnativesharedKotlinCancellationException : BbnativesharedKotlinIllegalStateException
-- (instancetype)init __attribute__((swift_name("init()"))) __attribute__((objc_designated_initializer));
-+ (instancetype)new __attribute__((availability(swift, unavailable, message="use object initializers instead")));
-- (instancetype)initWithMessage:(NSString * _Nullable)message __attribute__((swift_name("init(message:)"))) __attribute__((objc_designated_initializer));
-- (instancetype)initWithMessage:(NSString * _Nullable)message cause:(BbnativesharedKotlinThrowable * _Nullable)cause __attribute__((swift_name("init(message:cause:)"))) __attribute__((objc_designated_initializer));
-- (instancetype)initWithCause:(BbnativesharedKotlinThrowable * _Nullable)cause __attribute__((swift_name("init(cause:)"))) __attribute__((objc_designated_initializer));
-@end
-
-__attribute__((swift_name("Kotlinx_coroutines_coreDisposableHandle")))
-@protocol BbnativesharedKotlinx_coroutines_coreDisposableHandle
-@required
-- (void)dispose __attribute__((swift_name("dispose()")));
-@end
-
-__attribute__((swift_name("Kotlinx_coroutines_coreChildHandle")))
-@protocol BbnativesharedKotlinx_coroutines_coreChildHandle <BbnativesharedKotlinx_coroutines_coreDisposableHandle>
-@required
-- (BOOL)childCancelledCause:(BbnativesharedKotlinThrowable *)cause __attribute__((swift_name("childCancelled(cause:)")));
-@property (readonly) id<BbnativesharedKotlinx_coroutines_coreJob> _Nullable parent __attribute__((swift_name("parent")));
-@end
-
-__attribute__((swift_name("Kotlinx_coroutines_coreChildJob")))
-@protocol BbnativesharedKotlinx_coroutines_coreChildJob <BbnativesharedKotlinx_coroutines_coreJob>
-@required
-- (void)parentCancelledParentJob:(id<BbnativesharedKotlinx_coroutines_coreParentJob>)parentJob __attribute__((swift_name("parentCancelled(parentJob:)")));
-@end
-
-__attribute__((swift_name("KotlinSequence")))
-@protocol BbnativesharedKotlinSequence
-@required
-- (id<BbnativesharedKotlinIterator>)iterator __attribute__((swift_name("iterator()")));
-@end
-
-__attribute__((swift_name("Kotlinx_coroutines_coreSelectClause0")))
-@protocol BbnativesharedKotlinx_coroutines_coreSelectClause0
-@required
-- (void)registerSelectClause0Select:(id<BbnativesharedKotlinx_coroutines_coreSelectInstance>)select block:(id<BbnativesharedKotlinSuspendFunction0>)block __attribute__((swift_name("registerSelectClause0(select:block:)")));
-@end
-
 
 /**
  * @note annotations
@@ -3748,6 +3168,40 @@ __attribute__((swift_name("KotlinKClass")))
 - (BOOL)isInstanceValue:(id _Nullable)value __attribute__((swift_name("isInstance(value:)")));
 @property (readonly) NSString * _Nullable qualifiedName __attribute__((swift_name("qualifiedName")));
 @property (readonly) NSString * _Nullable simpleName __attribute__((swift_name("simpleName")));
+@end
+
+__attribute__((swift_name("Kotlinx_coroutines_coreParentJob")))
+@protocol BbnativesharedKotlinx_coroutines_coreParentJob <BbnativesharedKotlinx_coroutines_coreJob>
+@required
+- (BbnativesharedKotlinCancellationException *)getChildJobCancellationCause __attribute__((swift_name("getChildJobCancellationCause()")));
+@end
+
+__attribute__((swift_name("Kotlinx_coroutines_coreSelectInstance")))
+@protocol BbnativesharedKotlinx_coroutines_coreSelectInstance
+@required
+- (void)disposeOnSelectHandle:(id<BbnativesharedKotlinx_coroutines_coreDisposableHandle>)handle __attribute__((swift_name("disposeOnSelect(handle:)")));
+- (id _Nullable)performAtomicTrySelectDesc:(BbnativesharedKotlinx_coroutines_coreAtomicDesc *)desc __attribute__((swift_name("performAtomicTrySelect(desc:)")));
+- (void)resumeSelectWithExceptionException:(BbnativesharedKotlinThrowable *)exception __attribute__((swift_name("resumeSelectWithException(exception:)")));
+- (BOOL)trySelect __attribute__((swift_name("trySelect()")));
+- (id _Nullable)trySelectOtherOtherOp:(BbnativesharedKotlinx_coroutines_coreLockFreeLinkedListNodePrepareOp * _Nullable)otherOp __attribute__((swift_name("trySelectOther(otherOp:)")));
+@property (readonly) id<BbnativesharedKotlinContinuation> completion __attribute__((swift_name("completion")));
+@property (readonly) BOOL isSelected __attribute__((swift_name("isSelected")));
+@end
+
+__attribute__((swift_name("KotlinFunction")))
+@protocol BbnativesharedKotlinFunction
+@required
+@end
+
+__attribute__((swift_name("KotlinSuspendFunction0")))
+@protocol BbnativesharedKotlinSuspendFunction0 <BbnativesharedKotlinFunction>
+@required
+
+/**
+ * @note This method converts instances of CancellationException to errors.
+ * Other uncaught Kotlin exceptions are fatal.
+*/
+- (void)invokeWithCompletionHandler:(void (^)(id _Nullable_result, NSError * _Nullable))completionHandler __attribute__((swift_name("invoke(completionHandler:)")));
 @end
 
 __attribute__((swift_name("Kotlinx_serialization_coreCompositeEncoder")))
@@ -3831,40 +3285,6 @@ __attribute__((swift_name("Kotlinx_serialization_coreCompositeDecoder")))
 __attribute__((objc_subclassing_restricted))
 __attribute__((swift_name("KotlinNothing")))
 @interface BbnativesharedKotlinNothing : BbnativesharedBase
-@end
-
-__attribute__((swift_name("Kotlinx_coroutines_coreParentJob")))
-@protocol BbnativesharedKotlinx_coroutines_coreParentJob <BbnativesharedKotlinx_coroutines_coreJob>
-@required
-- (BbnativesharedKotlinCancellationException *)getChildJobCancellationCause __attribute__((swift_name("getChildJobCancellationCause()")));
-@end
-
-__attribute__((swift_name("Kotlinx_coroutines_coreSelectInstance")))
-@protocol BbnativesharedKotlinx_coroutines_coreSelectInstance
-@required
-- (void)disposeOnSelectHandle:(id<BbnativesharedKotlinx_coroutines_coreDisposableHandle>)handle __attribute__((swift_name("disposeOnSelect(handle:)")));
-- (id _Nullable)performAtomicTrySelectDesc:(BbnativesharedKotlinx_coroutines_coreAtomicDesc *)desc __attribute__((swift_name("performAtomicTrySelect(desc:)")));
-- (void)resumeSelectWithExceptionException:(BbnativesharedKotlinThrowable *)exception __attribute__((swift_name("resumeSelectWithException(exception:)")));
-- (BOOL)trySelect __attribute__((swift_name("trySelect()")));
-- (id _Nullable)trySelectOtherOtherOp:(BbnativesharedKotlinx_coroutines_coreLockFreeLinkedListNodePrepareOp * _Nullable)otherOp __attribute__((swift_name("trySelectOther(otherOp:)")));
-@property (readonly) id<BbnativesharedKotlinContinuation> completion __attribute__((swift_name("completion")));
-@property (readonly) BOOL isSelected __attribute__((swift_name("isSelected")));
-@end
-
-__attribute__((swift_name("KotlinFunction")))
-@protocol BbnativesharedKotlinFunction
-@required
-@end
-
-__attribute__((swift_name("KotlinSuspendFunction0")))
-@protocol BbnativesharedKotlinSuspendFunction0 <BbnativesharedKotlinFunction>
-@required
-
-/**
- * @note This method converts instances of CancellationException to errors.
- * Other uncaught Kotlin exceptions are fatal.
-*/
-- (void)invokeWithCompletionHandler:(void (^)(id _Nullable_result, NSError * _Nullable))completionHandler __attribute__((swift_name("invoke(completionHandler:)")));
 @end
 
 __attribute__((swift_name("Kotlinx_coroutines_coreAtomicDesc")))
@@ -3972,7 +3392,15 @@ __attribute__((swift_name("Kotlinx_coroutines_coreLockFreeLinkedListNode.Abstrac
 */
 - (BbnativesharedKotlinx_coroutines_coreLockFreeLinkedListNode * _Nullable)takeAffectedNodeOp:(BbnativesharedKotlinx_coroutines_coreOpDescriptor *)op __attribute__((swift_name("takeAffectedNode(op:)")));
 - (id)updatedNextAffected:(BbnativesharedKotlinx_coroutines_coreLockFreeLinkedListNode *)affected next:(BbnativesharedKotlinx_coroutines_coreLockFreeLinkedListNode *)next __attribute__((swift_name("updatedNext(affected:next:)")));
+
+/**
+ * @note This property has protected visibility in Kotlin source and is intended only for use by subclasses.
+*/
 @property (readonly) BbnativesharedKotlinx_coroutines_coreLockFreeLinkedListNode * _Nullable affectedNode __attribute__((swift_name("affectedNode")));
+
+/**
+ * @note This property has protected visibility in Kotlin source and is intended only for use by subclasses.
+*/
 @property (readonly) BbnativesharedKotlinx_coroutines_coreLockFreeLinkedListNode * _Nullable originalNext __attribute__((swift_name("originalNext")));
 @end
 
@@ -3998,8 +3426,16 @@ __attribute__((swift_name("Kotlinx_coroutines_coreLockFreeLinkedListNodeAddLastD
 */
 - (BbnativesharedKotlinx_coroutines_coreLockFreeLinkedListNode * _Nullable)takeAffectedNodeOp:(BbnativesharedKotlinx_coroutines_coreOpDescriptor *)op __attribute__((swift_name("takeAffectedNode(op:)")));
 - (id)updatedNextAffected:(BbnativesharedKotlinx_coroutines_coreLockFreeLinkedListNode *)affected next:(BbnativesharedKotlinx_coroutines_coreLockFreeLinkedListNode *)next __attribute__((swift_name("updatedNext(affected:next:)")));
+
+/**
+ * @note This property has protected visibility in Kotlin source and is intended only for use by subclasses.
+*/
 @property (readonly) BbnativesharedKotlinx_coroutines_coreLockFreeLinkedListNode * _Nullable affectedNode __attribute__((swift_name("affectedNode")));
 @property (readonly) T node __attribute__((swift_name("node")));
+
+/**
+ * @note This property has protected visibility in Kotlin source and is intended only for use by subclasses.
+*/
 @property (readonly) BbnativesharedKotlinx_coroutines_coreLockFreeLinkedListNode *originalNext __attribute__((swift_name("originalNext")));
 @property (readonly) BbnativesharedKotlinx_coroutines_coreLockFreeLinkedListNode *queue __attribute__((swift_name("queue")));
 @end
@@ -4031,7 +3467,15 @@ __attribute__((swift_name("Kotlinx_coroutines_coreLockFreeLinkedListNodeRemoveFi
 */
 - (BbnativesharedKotlinx_coroutines_coreLockFreeLinkedListNode * _Nullable)takeAffectedNodeOp:(BbnativesharedKotlinx_coroutines_coreOpDescriptor *)op __attribute__((swift_name("takeAffectedNode(op:)")));
 - (id)updatedNextAffected:(BbnativesharedKotlinx_coroutines_coreLockFreeLinkedListNode *)affected next:(BbnativesharedKotlinx_coroutines_coreLockFreeLinkedListNode *)next __attribute__((swift_name("updatedNext(affected:next:)")));
+
+/**
+ * @note This property has protected visibility in Kotlin source and is intended only for use by subclasses.
+*/
 @property (readonly) BbnativesharedKotlinx_coroutines_coreLockFreeLinkedListNode * _Nullable affectedNode __attribute__((swift_name("affectedNode")));
+
+/**
+ * @note This property has protected visibility in Kotlin source and is intended only for use by subclasses.
+*/
 @property (readonly) BbnativesharedKotlinx_coroutines_coreLockFreeLinkedListNode * _Nullable originalNext __attribute__((swift_name("originalNext")));
 @property (readonly) BbnativesharedKotlinx_coroutines_coreLockFreeLinkedListNode *queue __attribute__((swift_name("queue")));
 @property (readonly) T _Nullable result __attribute__((swift_name("result")));
