@@ -6,9 +6,9 @@
 #import <Foundation/NSString.h>
 #import <Foundation/NSValue.h>
 
-@class BbnativesharedAction, BbnativesharedActionCompanion, BbnativesharedAdMacroHelperCompanion, BbnativesharedAdSchedulingControllerCompanion, BbnativesharedAdSchedulingData, BbnativesharedAdSchedulingDataCompanion, BbnativesharedAdUnit, BbnativesharedAdUnitCompanion, BbnativesharedAdUnitPlayout, BbnativesharedAdUnitPlayoutCompanion, BbnativesharedApiMethod, BbnativesharedApiProperty, BbnativesharedAppConfig, BbnativesharedAppConfigCompanion, BbnativesharedAudiotrack, BbnativesharedAudiotrackCompanion, BbnativesharedAutoPlayNextTimerCompanion, BbnativesharedBBModel, BbnativesharedBlueBillywigLoggerCompanion, BbnativesharedCapabilitiesCompanion, BbnativesharedChapter, BbnativesharedChapterCompanion, BbnativesharedCondition, BbnativesharedConditionCompanion, BbnativesharedContentItem, BbnativesharedContentItemCompanion, BbnativesharedContentItemFactoryCompanion, BbnativesharedContentLoaderCompanion, BbnativesharedDates, BbnativesharedDatesCompanion, BbnativesharedEmbedControllerCompanion, BbnativesharedEmbedData, BbnativesharedEmbedDataCompanion, BbnativesharedEmbedObject, BbnativesharedEmbedObjectCompanion, BbnativesharedEventHandler, BbnativesharedEventHandlerCompanion, BbnativesharedEventName, BbnativesharedFitMode, BbnativesharedHighlight, BbnativesharedHighlightCompanion, BbnativesharedInstantFactoryCompanion, BbnativesharedKotlinAbstractCoroutineContextElement, BbnativesharedKotlinAbstractCoroutineContextKey<B, E>, BbnativesharedKotlinArray<T>, BbnativesharedKotlinCancellationException, BbnativesharedKotlinEnum<E>, BbnativesharedKotlinEnumCompanion, BbnativesharedKotlinException, BbnativesharedKotlinIllegalStateException, BbnativesharedKotlinNothing, BbnativesharedKotlinRuntimeException, BbnativesharedKotlinThrowable, BbnativesharedKotlinx_coroutines_coreAtomicDesc, BbnativesharedKotlinx_coroutines_coreAtomicOp<__contravariant T>, BbnativesharedKotlinx_coroutines_coreCoroutineDispatcher, BbnativesharedKotlinx_coroutines_coreCoroutineDispatcherKey, BbnativesharedKotlinx_coroutines_coreLockFreeLinkedListNode, BbnativesharedKotlinx_coroutines_coreLockFreeLinkedListNodeAbstractAtomicDesc, BbnativesharedKotlinx_coroutines_coreLockFreeLinkedListNodeAddLastDesc<T>, BbnativesharedKotlinx_coroutines_coreLockFreeLinkedListNodePrepareOp, BbnativesharedKotlinx_coroutines_coreLockFreeLinkedListNodeRemoveFirstDesc<T>, BbnativesharedKotlinx_coroutines_coreOpDescriptor, BbnativesharedKotlinx_datetimeInstant, BbnativesharedKotlinx_datetimeInstantCompanion, BbnativesharedKotlinx_serialization_coreSerialKind, BbnativesharedKotlinx_serialization_coreSerializersModule, BbnativesharedKotlinx_serialization_jsonJsonElement, BbnativesharedKotlinx_serialization_jsonJsonElementCompanion, BbnativesharedLanguage, BbnativesharedLanguages, BbnativesharedLanguagesCompanion, BbnativesharedLineItem_, BbnativesharedLineItem_Companion, BbnativesharedLogger, BbnativesharedMasterController, BbnativesharedMasterControllerCompanion, BbnativesharedMediaAsset, BbnativesharedMediaAssetCompanion, BbnativesharedMediaClip, BbnativesharedMediaClipCompanion, BbnativesharedMediaClipList, BbnativesharedMediaClipListCompanion, BbnativesharedMsasController, BbnativesharedMsasControllerCompanion, BbnativesharedParameter, BbnativesharedParameterCompanion, BbnativesharedPhase, BbnativesharedPlatformCompanion, BbnativesharedPlayer, BbnativesharedPlayerCompanion, BbnativesharedPlayerSettings, BbnativesharedPlayerSettingsCompanion, BbnativesharedPlayout, BbnativesharedPlayoutCompanion, BbnativesharedPosType, BbnativesharedProcedure, BbnativesharedProcedureCompanion, BbnativesharedProgramController, BbnativesharedProgramControllerCompanion, BbnativesharedProject, BbnativesharedProjectCompanion, BbnativesharedPublication, BbnativesharedPublicationCompanion, BbnativesharedQuality, BbnativesharedRelatedItemsHelperCompanion, BbnativesharedRequestParams, BbnativesharedRequestParamsCompanion, BbnativesharedShortsEngineCompanion, BbnativesharedSoftEmbargoTimerCompanion, BbnativesharedState, BbnativesharedStep, BbnativesharedStepCompanion, BbnativesharedSubtitle, BbnativesharedSubtitleCompanion, BbnativesharedThumbnail, BbnativesharedThumbnailCompanion, BbnativesharedTimeline, BbnativesharedTimelineCompanion, BbnativesharedTypedObject, BbnativesharedTypedObjectCompanion, BbnativesharedVersioningData, BbnativesharedVersioningDataCompanion;
+@class BbnativesharedAction, BbnativesharedActionCompanion, BbnativesharedAdMacroHelperCompanion, BbnativesharedAdSchedulingControllerCompanion, BbnativesharedAdSchedulingData, BbnativesharedAdSchedulingDataCompanion, BbnativesharedAdUnit, BbnativesharedAdUnitCompanion, BbnativesharedAdUnitPlayout, BbnativesharedAdUnitPlayoutCompanion, BbnativesharedApiMethod, BbnativesharedApiProperty, BbnativesharedAppConfig, BbnativesharedAppConfigCompanion, BbnativesharedAudiotrack, BbnativesharedAudiotrackCompanion, BbnativesharedAutoPlayNextTimerCompanion, BbnativesharedBBModel, BbnativesharedBlueBillywigLoggerCompanion, BbnativesharedCapabilitiesCompanion, BbnativesharedChapter, BbnativesharedChapterCompanion, BbnativesharedCondition, BbnativesharedConditionCompanion, BbnativesharedContentItem, BbnativesharedContentItemCompanion, BbnativesharedContentItemFactoryCompanion, BbnativesharedContentLoaderCompanion, BbnativesharedDates, BbnativesharedDatesCompanion, BbnativesharedEmbedControllerCompanion, BbnativesharedEmbedData, BbnativesharedEmbedDataCompanion, BbnativesharedEmbedObject, BbnativesharedEmbedObjectCompanion, BbnativesharedEventHandler, BbnativesharedEventHandlerCompanion, BbnativesharedEventName, BbnativesharedFitMode, BbnativesharedHighlight, BbnativesharedHighlightCompanion, BbnativesharedInstantFactoryCompanion, BbnativesharedKotlinAbstractCoroutineContextElement, BbnativesharedKotlinAbstractCoroutineContextKey<B, E>, BbnativesharedKotlinArray<T>, BbnativesharedKotlinCancellationException, BbnativesharedKotlinEnum<E>, BbnativesharedKotlinEnumCompanion, BbnativesharedKotlinException, BbnativesharedKotlinIllegalStateException, BbnativesharedKotlinNothing, BbnativesharedKotlinRuntimeException, BbnativesharedKotlinThrowable, BbnativesharedKotlinUnit, BbnativesharedKotlinx_coroutines_coreCoroutineDispatcher, BbnativesharedKotlinx_coroutines_coreCoroutineDispatcherKey, BbnativesharedKotlinx_datetimeInstant, BbnativesharedKotlinx_datetimeInstantCompanion, BbnativesharedKotlinx_serialization_coreSerialKind, BbnativesharedKotlinx_serialization_coreSerializersModule, BbnativesharedKotlinx_serialization_jsonJsonElement, BbnativesharedKotlinx_serialization_jsonJsonElementCompanion, BbnativesharedLanguage, BbnativesharedLanguages, BbnativesharedLanguagesCompanion, BbnativesharedLineItem_, BbnativesharedLineItem_Companion, BbnativesharedLogger, BbnativesharedMasterController, BbnativesharedMasterControllerCompanion, BbnativesharedMediaAsset, BbnativesharedMediaAssetCompanion, BbnativesharedMediaClip, BbnativesharedMediaClipCompanion, BbnativesharedMediaClipList, BbnativesharedMediaClipListCompanion, BbnativesharedMsasController, BbnativesharedMsasControllerCompanion, BbnativesharedParameter, BbnativesharedParameterCompanion, BbnativesharedPhase, BbnativesharedPlatformCompanion, BbnativesharedPlayer, BbnativesharedPlayerCompanion, BbnativesharedPlayerSettings, BbnativesharedPlayerSettingsCompanion, BbnativesharedPlayout, BbnativesharedPlayoutCompanion, BbnativesharedPosType, BbnativesharedProcedure, BbnativesharedProcedureCompanion, BbnativesharedProgramController, BbnativesharedProgramControllerCompanion, BbnativesharedProject, BbnativesharedProjectCompanion, BbnativesharedPublication, BbnativesharedPublicationCompanion, BbnativesharedQuality, BbnativesharedRelatedItemsHelperCompanion, BbnativesharedRequestParams, BbnativesharedRequestParamsCompanion, BbnativesharedShortsEngineCompanion, BbnativesharedSoftEmbargoTimerCompanion, BbnativesharedState, BbnativesharedStep, BbnativesharedStepCompanion, BbnativesharedSubtitle, BbnativesharedSubtitleCompanion, BbnativesharedThumbnail, BbnativesharedThumbnailCompanion, BbnativesharedTimeline, BbnativesharedTimelineCompanion, BbnativesharedTypedObject, BbnativesharedTypedObjectCompanion, BbnativesharedVersioningData, BbnativesharedVersioningDataCompanion;
 
-@protocol BbnativesharedAdControllerInterface, BbnativesharedContentItemInterface, BbnativesharedEventBusInterface, BbnativesharedEventListenerInterface, BbnativesharedKotlinAnnotation, BbnativesharedKotlinComparable, BbnativesharedKotlinContinuation, BbnativesharedKotlinContinuationInterceptor, BbnativesharedKotlinCoroutineContext, BbnativesharedKotlinCoroutineContextElement, BbnativesharedKotlinCoroutineContextKey, BbnativesharedKotlinFunction, BbnativesharedKotlinIterator, BbnativesharedKotlinKAnnotatedElement, BbnativesharedKotlinKClass, BbnativesharedKotlinKClassifier, BbnativesharedKotlinKDeclarationContainer, BbnativesharedKotlinSequence, BbnativesharedKotlinSuspendFunction0, BbnativesharedKotlinx_coroutines_coreChildHandle, BbnativesharedKotlinx_coroutines_coreChildJob, BbnativesharedKotlinx_coroutines_coreCompletableJob, BbnativesharedKotlinx_coroutines_coreCoroutineScope, BbnativesharedKotlinx_coroutines_coreDisposableHandle, BbnativesharedKotlinx_coroutines_coreFlow, BbnativesharedKotlinx_coroutines_coreFlowCollector, BbnativesharedKotlinx_coroutines_coreJob, BbnativesharedKotlinx_coroutines_coreMutableSharedFlow, BbnativesharedKotlinx_coroutines_coreMutableStateFlow, BbnativesharedKotlinx_coroutines_coreParentJob, BbnativesharedKotlinx_coroutines_coreRunnable, BbnativesharedKotlinx_coroutines_coreSelectClause0, BbnativesharedKotlinx_coroutines_coreSelectInstance, BbnativesharedKotlinx_coroutines_coreSharedFlow, BbnativesharedKotlinx_coroutines_coreStateFlow, BbnativesharedKotlinx_serialization_coreCompositeDecoder, BbnativesharedKotlinx_serialization_coreCompositeEncoder, BbnativesharedKotlinx_serialization_coreDecoder, BbnativesharedKotlinx_serialization_coreDeserializationStrategy, BbnativesharedKotlinx_serialization_coreEncoder, BbnativesharedKotlinx_serialization_coreKSerializer, BbnativesharedKotlinx_serialization_coreSerialDescriptor, BbnativesharedKotlinx_serialization_coreSerializationStrategy, BbnativesharedKotlinx_serialization_coreSerializersModuleCollector, BbnativesharedMediaControllerInterface, BbnativesharedNetworkInterface, BbnativesharedPosterControllerInterface;
+@protocol BbnativesharedAdControllerInterface, BbnativesharedContentItemInterface, BbnativesharedEventBusInterface, BbnativesharedEventListenerInterface, BbnativesharedKotlinAnnotation, BbnativesharedKotlinComparable, BbnativesharedKotlinContinuation, BbnativesharedKotlinContinuationInterceptor, BbnativesharedKotlinCoroutineContext, BbnativesharedKotlinCoroutineContextElement, BbnativesharedKotlinCoroutineContextKey, BbnativesharedKotlinIterator, BbnativesharedKotlinKAnnotatedElement, BbnativesharedKotlinKClass, BbnativesharedKotlinKClassifier, BbnativesharedKotlinKDeclarationContainer, BbnativesharedKotlinSequence, BbnativesharedKotlinx_coroutines_coreChildHandle, BbnativesharedKotlinx_coroutines_coreChildJob, BbnativesharedKotlinx_coroutines_coreCompletableJob, BbnativesharedKotlinx_coroutines_coreCoroutineScope, BbnativesharedKotlinx_coroutines_coreDisposableHandle, BbnativesharedKotlinx_coroutines_coreFlow, BbnativesharedKotlinx_coroutines_coreFlowCollector, BbnativesharedKotlinx_coroutines_coreJob, BbnativesharedKotlinx_coroutines_coreMutableSharedFlow, BbnativesharedKotlinx_coroutines_coreMutableStateFlow, BbnativesharedKotlinx_coroutines_coreParentJob, BbnativesharedKotlinx_coroutines_coreRunnable, BbnativesharedKotlinx_coroutines_coreSelectClause, BbnativesharedKotlinx_coroutines_coreSelectClause0, BbnativesharedKotlinx_coroutines_coreSelectInstance, BbnativesharedKotlinx_coroutines_coreSharedFlow, BbnativesharedKotlinx_coroutines_coreStateFlow, BbnativesharedKotlinx_serialization_coreCompositeDecoder, BbnativesharedKotlinx_serialization_coreCompositeEncoder, BbnativesharedKotlinx_serialization_coreDecoder, BbnativesharedKotlinx_serialization_coreDeserializationStrategy, BbnativesharedKotlinx_serialization_coreEncoder, BbnativesharedKotlinx_serialization_coreKSerializer, BbnativesharedKotlinx_serialization_coreSerialDescriptor, BbnativesharedKotlinx_serialization_coreSerializationStrategy, BbnativesharedKotlinx_serialization_coreSerializersModuleCollector, BbnativesharedMediaControllerInterface, BbnativesharedNetworkInterface, BbnativesharedPosterControllerInterface;
 
 NS_ASSUME_NONNULL_BEGIN
 #pragma clang diagnostic push
@@ -666,7 +666,6 @@ __attribute__((swift_name("ApiMethod")))
 @property (class, readonly) BbnativesharedApiMethod *exitfullscreen __attribute__((swift_name("exitfullscreen")));
 @property (class, readonly) BbnativesharedApiMethod *handlewidgetevent __attribute__((swift_name("handlewidgetevent")));
 + (BbnativesharedKotlinArray<BbnativesharedApiMethod *> *)values __attribute__((swift_name("values()")));
-@property (class, readonly) NSArray<BbnativesharedApiMethod *> *entries __attribute__((swift_name("entries")));
 @end
 
 __attribute__((objc_subclassing_restricted))
@@ -690,7 +689,6 @@ __attribute__((swift_name("ApiProperty")))
 @property (class, readonly) BbnativesharedApiProperty *admediaheight __attribute__((swift_name("admediaheight")));
 @property (class, readonly) BbnativesharedApiProperty *inview __attribute__((swift_name("inview")));
 + (BbnativesharedKotlinArray<BbnativesharedApiProperty *> *)values __attribute__((swift_name("values()")));
-@property (class, readonly) NSArray<BbnativesharedApiProperty *> *entries __attribute__((swift_name("entries")));
 @end
 
 __attribute__((objc_subclassing_restricted))
@@ -834,7 +832,6 @@ __attribute__((swift_name("EventName")))
 @property (class, readonly) BbnativesharedEventName *subtitletrackchanged __attribute__((swift_name("subtitletrackchanged")));
 @property (class, readonly) BbnativesharedEventName *playbackspeedchanged __attribute__((swift_name("playbackspeedchanged")));
 + (BbnativesharedKotlinArray<BbnativesharedEventName *> *)values __attribute__((swift_name("values()")));
-@property (class, readonly) NSArray<BbnativesharedEventName *> *entries __attribute__((swift_name("entries")));
 @end
 
 __attribute__((objc_subclassing_restricted))
@@ -851,7 +848,6 @@ __attribute__((swift_name("FitMode")))
 @property (class, readonly) BbnativesharedFitMode *fitStretch __attribute__((swift_name("fitStretch")));
 @property (class, readonly) BbnativesharedFitMode *fitOverscan __attribute__((swift_name("fitOverscan")));
 + (BbnativesharedKotlinArray<BbnativesharedFitMode *> *)values __attribute__((swift_name("values()")));
-@property (class, readonly) NSArray<BbnativesharedFitMode *> *entries __attribute__((swift_name("entries")));
 @end
 
 __attribute__((objc_subclassing_restricted))
@@ -866,7 +862,6 @@ __attribute__((swift_name("Phase")))
 @property (class, readonly) BbnativesharedPhase *post __attribute__((swift_name("post")));
 @property (class, readonly) BbnativesharedPhase *exit __attribute__((swift_name("exit")));
 + (BbnativesharedKotlinArray<BbnativesharedPhase *> *)values __attribute__((swift_name("values()")));
-@property (class, readonly) NSArray<BbnativesharedPhase *> *entries __attribute__((swift_name("entries")));
 @end
 
 __attribute__((objc_subclassing_restricted))
@@ -884,7 +879,6 @@ __attribute__((swift_name("PosType")))
 @property (class, readonly) BbnativesharedPosType *postroll __attribute__((swift_name("postroll")));
 @property (class, readonly) BbnativesharedPosType *exitscreen __attribute__((swift_name("exitscreen")));
 + (BbnativesharedKotlinArray<BbnativesharedPosType *> *)values __attribute__((swift_name("values()")));
-@property (class, readonly) NSArray<BbnativesharedPosType *> *entries __attribute__((swift_name("entries")));
 @end
 
 __attribute__((objc_subclassing_restricted))
@@ -899,7 +893,6 @@ __attribute__((swift_name("State")))
 @property (class, readonly) BbnativesharedState *playing __attribute__((swift_name("playing")));
 @property (class, readonly) BbnativesharedState *error __attribute__((swift_name("error")));
 + (BbnativesharedKotlinArray<BbnativesharedState *> *)values __attribute__((swift_name("values()")));
-@property (class, readonly) NSArray<BbnativesharedState *> *entries __attribute__((swift_name("entries")));
 @end
 
 __attribute__((swift_name("AdControllerInterface")))
@@ -1246,9 +1239,9 @@ __attribute__((swift_name("AdUnitPlayout.Companion")))
 __attribute__((objc_subclassing_restricted))
 __attribute__((swift_name("AppConfig")))
 @interface BbnativesharedAppConfig : BbnativesharedBase
-- (instancetype)initWithId:(NSString * _Nullable)id type:(NSString * _Nullable)type showThumbnails:(BbnativesharedBoolean * _Nullable)showThumbnails showNextPreviousControls:(BbnativesharedBoolean * _Nullable)showNextPreviousControls subtype:(NSString * _Nullable)subtype swipeDirection:(NSString * _Nullable)swipeDirection backgroundColor:(NSString * _Nullable)backgroundColor clipAdInterval:(BbnativesharedInt * _Nullable)clipAdInterval minuteAdInterval:(BbnativesharedInt * _Nullable)minuteAdInterval listThumbnailHeight:(BbnativesharedInt * _Nullable)listThumbnailHeight showThumbnailDuration:(BbnativesharedBoolean * _Nullable)showThumbnailDuration showThumbnailTitle:(BbnativesharedBoolean * _Nullable)showThumbnailTitle thumbnailBackground:(BbnativesharedBoolean * _Nullable)thumbnailBackground cornerRadius:(BbnativesharedInt * _Nullable)cornerRadius adunitId:(NSString * _Nullable)adunitId playout:(BbnativesharedPlayout * _Nullable)playout cliplistid:(NSString * _Nullable)cliplistid __attribute__((swift_name("init(id:type:showThumbnails:showNextPreviousControls:subtype:swipeDirection:backgroundColor:clipAdInterval:minuteAdInterval:listThumbnailHeight:showThumbnailDuration:showThumbnailTitle:thumbnailBackground:cornerRadius:adunitId:playout:cliplistid:)"))) __attribute__((objc_designated_initializer));
+- (instancetype)initWithId:(NSString * _Nullable)id type:(NSString * _Nullable)type showThumbnails:(BbnativesharedBoolean * _Nullable)showThumbnails showNextPreviousControls:(BbnativesharedBoolean * _Nullable)showNextPreviousControls subtype:(NSString * _Nullable)subtype swipeDirection:(NSString * _Nullable)swipeDirection backgroundColor:(NSString * _Nullable)backgroundColor skin_foregroundColor:(NSString * _Nullable)skin_foregroundColor clipAdInterval:(BbnativesharedInt * _Nullable)clipAdInterval minuteAdInterval:(BbnativesharedInt * _Nullable)minuteAdInterval listThumbnailHeight:(BbnativesharedInt * _Nullable)listThumbnailHeight showThumbnailDuration:(BbnativesharedBoolean * _Nullable)showThumbnailDuration showThumbnailTitle:(BbnativesharedBoolean * _Nullable)showThumbnailTitle thumbnailBackground:(BbnativesharedBoolean * _Nullable)thumbnailBackground cornerRadius:(BbnativesharedInt * _Nullable)cornerRadius adunitId:(NSString * _Nullable)adunitId playout:(BbnativesharedPlayout * _Nullable)playout cliplistid:(NSString * _Nullable)cliplistid __attribute__((swift_name("init(id:type:showThumbnails:showNextPreviousControls:subtype:swipeDirection:backgroundColor:skin_foregroundColor:clipAdInterval:minuteAdInterval:listThumbnailHeight:showThumbnailDuration:showThumbnailTitle:thumbnailBackground:cornerRadius:adunitId:playout:cliplistid:)"))) __attribute__((objc_designated_initializer));
 @property (class, readonly, getter=companion) BbnativesharedAppConfigCompanion *companion __attribute__((swift_name("companion")));
-- (BbnativesharedAppConfig *)doCopyId:(NSString * _Nullable)id type:(NSString * _Nullable)type showThumbnails:(BbnativesharedBoolean * _Nullable)showThumbnails showNextPreviousControls:(BbnativesharedBoolean * _Nullable)showNextPreviousControls subtype:(NSString * _Nullable)subtype swipeDirection:(NSString * _Nullable)swipeDirection backgroundColor:(NSString * _Nullable)backgroundColor clipAdInterval:(BbnativesharedInt * _Nullable)clipAdInterval minuteAdInterval:(BbnativesharedInt * _Nullable)minuteAdInterval listThumbnailHeight:(BbnativesharedInt * _Nullable)listThumbnailHeight showThumbnailDuration:(BbnativesharedBoolean * _Nullable)showThumbnailDuration showThumbnailTitle:(BbnativesharedBoolean * _Nullable)showThumbnailTitle thumbnailBackground:(BbnativesharedBoolean * _Nullable)thumbnailBackground cornerRadius:(BbnativesharedInt * _Nullable)cornerRadius adunitId:(NSString * _Nullable)adunitId playout:(BbnativesharedPlayout * _Nullable)playout cliplistid:(NSString * _Nullable)cliplistid __attribute__((swift_name("doCopy(id:type:showThumbnails:showNextPreviousControls:subtype:swipeDirection:backgroundColor:clipAdInterval:minuteAdInterval:listThumbnailHeight:showThumbnailDuration:showThumbnailTitle:thumbnailBackground:cornerRadius:adunitId:playout:cliplistid:)")));
+- (BbnativesharedAppConfig *)doCopyId:(NSString * _Nullable)id type:(NSString * _Nullable)type showThumbnails:(BbnativesharedBoolean * _Nullable)showThumbnails showNextPreviousControls:(BbnativesharedBoolean * _Nullable)showNextPreviousControls subtype:(NSString * _Nullable)subtype swipeDirection:(NSString * _Nullable)swipeDirection backgroundColor:(NSString * _Nullable)backgroundColor skin_foregroundColor:(NSString * _Nullable)skin_foregroundColor clipAdInterval:(BbnativesharedInt * _Nullable)clipAdInterval minuteAdInterval:(BbnativesharedInt * _Nullable)minuteAdInterval listThumbnailHeight:(BbnativesharedInt * _Nullable)listThumbnailHeight showThumbnailDuration:(BbnativesharedBoolean * _Nullable)showThumbnailDuration showThumbnailTitle:(BbnativesharedBoolean * _Nullable)showThumbnailTitle thumbnailBackground:(BbnativesharedBoolean * _Nullable)thumbnailBackground cornerRadius:(BbnativesharedInt * _Nullable)cornerRadius adunitId:(NSString * _Nullable)adunitId playout:(BbnativesharedPlayout * _Nullable)playout cliplistid:(NSString * _Nullable)cliplistid __attribute__((swift_name("doCopy(id:type:showThumbnails:showNextPreviousControls:subtype:swipeDirection:backgroundColor:skin_foregroundColor:clipAdInterval:minuteAdInterval:listThumbnailHeight:showThumbnailDuration:showThumbnailTitle:thumbnailBackground:cornerRadius:adunitId:playout:cliplistid:)")));
 - (BOOL)isEqual:(id _Nullable)other __attribute__((swift_name("isEqual(_:)")));
 - (NSUInteger)hash __attribute__((swift_name("hash()")));
 - (NSString *)description __attribute__((swift_name("description()")));
@@ -1265,6 +1258,7 @@ __attribute__((swift_name("AppConfig")))
 @property (readonly) BbnativesharedBoolean * _Nullable showThumbnailDuration __attribute__((swift_name("showThumbnailDuration")));
 @property (readonly) BbnativesharedBoolean * _Nullable showThumbnailTitle __attribute__((swift_name("showThumbnailTitle")));
 @property (readonly) BbnativesharedBoolean * _Nullable showThumbnails __attribute__((swift_name("showThumbnails")));
+@property (readonly) NSString * _Nullable skin_foregroundColor __attribute__((swift_name("skin_foregroundColor")));
 @property (readonly) NSString * _Nullable subtype __attribute__((swift_name("subtype")));
 @property (readonly) NSString * _Nullable swipeDirection __attribute__((swift_name("swipeDirection")));
 @property (readonly) BbnativesharedBoolean * _Nullable thumbnailBackground __attribute__((swift_name("thumbnailBackground")));
@@ -1401,7 +1395,6 @@ __attribute__((swift_name("ContentItem")))
 @interface BbnativesharedContentItem : BbnativesharedBBModel
 - (instancetype)init __attribute__((swift_name("init()"))) __attribute__((objc_designated_initializer));
 + (instancetype)new __attribute__((availability(swift, unavailable, message="use object initializers instead")));
-- (instancetype)initWithSeen0:(int32_t)seen0 isPrefetch:(BOOL)isPrefetch serializationConstructorMarker:(id _Nullable)serializationConstructorMarker __attribute__((swift_name("init(seen0:isPrefetch:serializationConstructorMarker:)"))) __attribute__((objc_designated_initializer));
 @property (class, readonly, getter=companion) BbnativesharedContentItemCompanion *companion __attribute__((swift_name("companion")));
 @property (readonly) NSString * _Nullable id __attribute__((swift_name("id")));
 @property BOOL isPrefetch __attribute__((swift_name("isPrefetch")));
@@ -1711,7 +1704,6 @@ __attribute__((swift_name("MediaClip")))
 - (instancetype)initWithId:(NSString * _Nullable)id title:(NSString * _Nullable)title deeplink:(NSString * _Nullable)deeplink gendeeplink:(NSString * _Nullable)gendeeplink sourcetype:(NSString * _Nullable)sourcetype length:(NSString * _Nullable)length mediatype:(NSString * _Nullable)mediatype mediatype_override:(NSString * _Nullable)mediatype_override fitmode:(NSString * _Nullable)fitmode usetype:(NSString * _Nullable)usetype useThumbsFromMetadata:(NSString * _Nullable)useThumbsFromMetadata location:(NSString * _Nullable)location originalfilename:(NSString * _Nullable)originalfilename sourceid:(NSString * _Nullable)sourceid description:(NSString * _Nullable)description copyright:(NSString * _Nullable)copyright author:(NSString * _Nullable)author status:(NSString * _Nullable)status createddate:(NSString * _Nullable)createddate updateddate:(NSString * _Nullable)updateddate publisheddate:(NSString * _Nullable)publisheddate width:(BbnativesharedLong * _Nullable)width height:(BbnativesharedLong * _Nullable)height dar:(NSString * _Nullable)dar originalWidth:(BbnativesharedLong * _Nullable)originalWidth originalHeight:(BbnativesharedLong * _Nullable)originalHeight date:(BbnativesharedDates * _Nullable)date src:(NSString * _Nullable)src cat:(NSArray<NSString *> * _Nullable)cat thumbnails:(NSArray<BbnativesharedThumbnail *> * _Nullable)thumbnails movingThumbnails:(NSArray<BbnativesharedThumbnail *> * _Nullable)movingThumbnails assets:(NSArray<BbnativesharedMediaAsset *> * _Nullable)assets hasJobs:(NSString * _Nullable)hasJobs hasFailedJobs:(BbnativesharedBoolean * _Nullable)hasFailedJobs hasRunningJobs:(BbnativesharedBoolean * _Nullable)hasRunningJobs hasNewJobs:(BbnativesharedBoolean * _Nullable)hasNewJobs transcodingFinished:(BbnativesharedBoolean * _Nullable)transcodingFinished isYoutubeImport:(BbnativesharedBoolean * _Nullable)isYoutubeImport subtitles:(NSArray<BbnativesharedSubtitle *> * _Nullable)subtitles subtitletracks:(NSArray<BbnativesharedSubtitle *> * _Nullable)subtitletracks transcript:(NSString * _Nullable)transcript timelineId:(NSString * _Nullable)timelineId timelines:(NSArray<BbnativesharedTimeline *> * _Nullable)timelines audiotracks:(NSArray<BbnativesharedAudiotrack *> * _Nullable)audiotracks youtubeImportID:(NSString * _Nullable)youtubeImportID importSource:(NSString * _Nullable)importSource importURL:(NSString * _Nullable)importURL disablecommercials:(NSString * _Nullable)disablecommercials isDynamic:(NSString * _Nullable)isDynamic checkbox:(NSString * _Nullable)checkbox comment:(NSString * _Nullable)comment chapters:(NSArray<BbnativesharedChapter *> * _Nullable)chapters highlights:(NSArray<BbnativesharedHighlight *> * _Nullable)highlights softEmbargo:(NSString * _Nullable)softEmbargo isOutro:(NSString * _Nullable)isOutro projectId:(NSString * _Nullable)projectId __attribute__((swift_name("init(id:title:deeplink:gendeeplink:sourcetype:length:mediatype:mediatype_override:fitmode:usetype:useThumbsFromMetadata:location:originalfilename:sourceid:description:copyright:author:status:createddate:updateddate:publisheddate:width:height:dar:originalWidth:originalHeight:date:src:cat:thumbnails:movingThumbnails:assets:hasJobs:hasFailedJobs:hasRunningJobs:hasNewJobs:transcodingFinished:isYoutubeImport:subtitles:subtitletracks:transcript:timelineId:timelines:audiotracks:youtubeImportID:importSource:importURL:disablecommercials:isDynamic:checkbox:comment:chapters:highlights:softEmbargo:isOutro:projectId:)"))) __attribute__((objc_designated_initializer));
 - (instancetype)init __attribute__((swift_name("init()"))) __attribute__((objc_designated_initializer)) __attribute__((unavailable));
 + (instancetype)new __attribute__((unavailable));
-- (instancetype)initWithSeen0:(int32_t)seen0 isPrefetch:(BOOL)isPrefetch serializationConstructorMarker:(id _Nullable)serializationConstructorMarker __attribute__((swift_name("init(seen0:isPrefetch:serializationConstructorMarker:)"))) __attribute__((objc_designated_initializer)) __attribute__((unavailable));
 @property (class, readonly, getter=companion) BbnativesharedMediaClipCompanion *companion __attribute__((swift_name("companion")));
 - (BbnativesharedMediaClip *)doCopyId:(NSString * _Nullable)id title:(NSString * _Nullable)title deeplink:(NSString * _Nullable)deeplink gendeeplink:(NSString * _Nullable)gendeeplink sourcetype:(NSString * _Nullable)sourcetype length:(NSString * _Nullable)length mediatype:(NSString * _Nullable)mediatype mediatype_override:(NSString * _Nullable)mediatype_override fitmode:(NSString * _Nullable)fitmode usetype:(NSString * _Nullable)usetype useThumbsFromMetadata:(NSString * _Nullable)useThumbsFromMetadata location:(NSString * _Nullable)location originalfilename:(NSString * _Nullable)originalfilename sourceid:(NSString * _Nullable)sourceid description:(NSString * _Nullable)description copyright:(NSString * _Nullable)copyright author:(NSString * _Nullable)author status:(NSString * _Nullable)status createddate:(NSString * _Nullable)createddate updateddate:(NSString * _Nullable)updateddate publisheddate:(NSString * _Nullable)publisheddate width:(BbnativesharedLong * _Nullable)width height:(BbnativesharedLong * _Nullable)height dar:(NSString * _Nullable)dar originalWidth:(BbnativesharedLong * _Nullable)originalWidth originalHeight:(BbnativesharedLong * _Nullable)originalHeight date:(BbnativesharedDates * _Nullable)date src:(NSString * _Nullable)src cat:(NSArray<NSString *> * _Nullable)cat thumbnails:(NSArray<BbnativesharedThumbnail *> * _Nullable)thumbnails movingThumbnails:(NSArray<BbnativesharedThumbnail *> * _Nullable)movingThumbnails assets:(NSArray<BbnativesharedMediaAsset *> * _Nullable)assets hasJobs:(NSString * _Nullable)hasJobs hasFailedJobs:(BbnativesharedBoolean * _Nullable)hasFailedJobs hasRunningJobs:(BbnativesharedBoolean * _Nullable)hasRunningJobs hasNewJobs:(BbnativesharedBoolean * _Nullable)hasNewJobs transcodingFinished:(BbnativesharedBoolean * _Nullable)transcodingFinished isYoutubeImport:(BbnativesharedBoolean * _Nullable)isYoutubeImport subtitles:(NSArray<BbnativesharedSubtitle *> * _Nullable)subtitles subtitletracks:(NSArray<BbnativesharedSubtitle *> * _Nullable)subtitletracks transcript:(NSString * _Nullable)transcript timelineId:(NSString * _Nullable)timelineId timelines:(NSArray<BbnativesharedTimeline *> * _Nullable)timelines audiotracks:(NSArray<BbnativesharedAudiotrack *> * _Nullable)audiotracks youtubeImportID:(NSString * _Nullable)youtubeImportID importSource:(NSString * _Nullable)importSource importURL:(NSString * _Nullable)importURL disablecommercials:(NSString * _Nullable)disablecommercials isDynamic:(NSString * _Nullable)isDynamic checkbox:(NSString * _Nullable)checkbox comment:(NSString * _Nullable)comment chapters:(NSArray<BbnativesharedChapter *> * _Nullable)chapters highlights:(NSArray<BbnativesharedHighlight *> * _Nullable)highlights softEmbargo:(NSString * _Nullable)softEmbargo isOutro:(NSString * _Nullable)isOutro projectId:(NSString * _Nullable)projectId __attribute__((swift_name("doCopy(id:title:deeplink:gendeeplink:sourcetype:length:mediatype:mediatype_override:fitmode:usetype:useThumbsFromMetadata:location:originalfilename:sourceid:description:copyright:author:status:createddate:updateddate:publisheddate:width:height:dar:originalWidth:originalHeight:date:src:cat:thumbnails:movingThumbnails:assets:hasJobs:hasFailedJobs:hasRunningJobs:hasNewJobs:transcodingFinished:isYoutubeImport:subtitles:subtitletracks:transcript:timelineId:timelines:audiotracks:youtubeImportID:importSource:importURL:disablecommercials:isDynamic:checkbox:comment:chapters:highlights:softEmbargo:isOutro:projectId:)")));
 - (BOOL)isEqual:(id _Nullable)other __attribute__((swift_name("isEqual(_:)")));
@@ -1797,7 +1789,6 @@ __attribute__((swift_name("MediaClipList")))
 - (instancetype)initWithId:(NSString * _Nullable)id title:(NSString * _Nullable)title deeplink:(NSString * _Nullable)deeplink numfound:(BbnativesharedLong * _Nullable)numfound offset:(BbnativesharedLong * _Nullable)offset parentid:(NSString * _Nullable)parentid status:(NSString * _Nullable)status publication:(NSArray<NSString *> * _Nullable)publication parentpublicationid:(NSString * _Nullable)parentpublicationid mediatype:(NSString * _Nullable)mediatype usetype:(NSString * _Nullable)usetype modifieddate:(NSString * _Nullable)modifieddate createddate:(NSString * _Nullable)createddate publishedDate:(NSString * _Nullable)publishedDate listtypeString:(NSString * _Nullable)listtypeString isEmptyBoolean:(BbnativesharedBoolean * _Nullable)isEmptyBoolean filtersString:(NSString * _Nullable)filtersString createdbyString:(NSString * _Nullable)createdbyString updatedbyString:(NSString * _Nullable)updatedbyString allowDatasource:(NSString * _Nullable)allowDatasource allowDatasource_boolean:(BbnativesharedBoolean * _Nullable)allowDatasource_boolean score:(BbnativesharedDouble * _Nullable)score count:(BbnativesharedLong * _Nullable)count items:(NSArray<BbnativesharedContentItem *> * _Nullable)items __attribute__((swift_name("init(id:title:deeplink:numfound:offset:parentid:status:publication:parentpublicationid:mediatype:usetype:modifieddate:createddate:publishedDate:listtypeString:isEmptyBoolean:filtersString:createdbyString:updatedbyString:allowDatasource:allowDatasource_boolean:score:count:items:)"))) __attribute__((objc_designated_initializer));
 - (instancetype)init __attribute__((swift_name("init()"))) __attribute__((objc_designated_initializer)) __attribute__((unavailable));
 + (instancetype)new __attribute__((unavailable));
-- (instancetype)initWithSeen0:(int32_t)seen0 isPrefetch:(BOOL)isPrefetch serializationConstructorMarker:(id _Nullable)serializationConstructorMarker __attribute__((swift_name("init(seen0:isPrefetch:serializationConstructorMarker:)"))) __attribute__((objc_designated_initializer)) __attribute__((unavailable));
 @property (class, readonly, getter=companion) BbnativesharedMediaClipListCompanion *companion __attribute__((swift_name("companion")));
 - (BbnativesharedMediaClipList *)doCopyId:(NSString * _Nullable)id title:(NSString * _Nullable)title deeplink:(NSString * _Nullable)deeplink numfound:(BbnativesharedLong * _Nullable)numfound offset:(BbnativesharedLong * _Nullable)offset parentid:(NSString * _Nullable)parentid status:(NSString * _Nullable)status publication:(NSArray<NSString *> * _Nullable)publication parentpublicationid:(NSString * _Nullable)parentpublicationid mediatype:(NSString * _Nullable)mediatype usetype:(NSString * _Nullable)usetype modifieddate:(NSString * _Nullable)modifieddate createddate:(NSString * _Nullable)createddate publishedDate:(NSString * _Nullable)publishedDate listtypeString:(NSString * _Nullable)listtypeString isEmptyBoolean:(BbnativesharedBoolean * _Nullable)isEmptyBoolean filtersString:(NSString * _Nullable)filtersString createdbyString:(NSString * _Nullable)createdbyString updatedbyString:(NSString * _Nullable)updatedbyString allowDatasource:(NSString * _Nullable)allowDatasource allowDatasource_boolean:(BbnativesharedBoolean * _Nullable)allowDatasource_boolean score:(BbnativesharedDouble * _Nullable)score count:(BbnativesharedLong * _Nullable)count items:(NSArray<BbnativesharedContentItem *> * _Nullable)items __attribute__((swift_name("doCopy(id:title:deeplink:numfound:offset:parentid:status:publication:parentpublicationid:mediatype:usetype:modifieddate:createddate:publishedDate:listtypeString:isEmptyBoolean:filtersString:createdbyString:updatedbyString:allowDatasource:allowDatasource_boolean:score:count:items:)")));
 - (BOOL)isEqual:(id _Nullable)other __attribute__((swift_name("isEqual(_:)")));
@@ -2207,7 +2198,6 @@ __attribute__((swift_name("Project")))
 - (instancetype)initWithId:(NSString * _Nullable)id title:(NSString * _Nullable)title deeplink:(NSString * _Nullable)deeplink status:(NSString * _Nullable)status createddate:(NSString * _Nullable)createddate thumbnails:(NSArray<BbnativesharedThumbnail *> * _Nullable)thumbnails name:(NSString * _Nullable)name createdBy:(NSString * _Nullable)createdBy updateddate:(NSString * _Nullable)updateddate updatedBy:(NSString * _Nullable)updatedBy subtype:(NSString * _Nullable)subtype cat:(NSArray<NSString *> * _Nullable)cat clipCount:(BbnativesharedLong * _Nullable)clipCount publisheddate:(NSString * _Nullable)publisheddate useGaplessPlayback:(BbnativesharedBoolean * _Nullable)useGaplessPlayback distribution:(NSString * _Nullable)distribution goal:(NSString * _Nullable)goal useGaplessMetadata:(BbnativesharedBoolean * _Nullable)useGaplessMetadata useThumbsFromMetadata:(NSString * _Nullable)useThumbsFromMetadata noIntroClip:(BbnativesharedBoolean * _Nullable)noIntroClip analysis:(NSString * _Nullable)analysis description:(NSString * _Nullable)description author:(NSString * _Nullable)author copyright:(NSString * _Nullable)copyright transcript:(NSString * _Nullable)transcript label:(NSString * _Nullable)label chapters:(NSArray<BbnativesharedChapter *> * _Nullable)chapters timelineId:(NSString * _Nullable)timelineId timelines:(NSArray<BbnativesharedTimeline *> * _Nullable)timelines mainMediaClipId:(NSString * _Nullable)mainMediaClipId mainMediaClipData:(BbnativesharedMediaClip * _Nullable)mainMediaClipData __attribute__((swift_name("init(id:title:deeplink:status:createddate:thumbnails:name:createdBy:updateddate:updatedBy:subtype:cat:clipCount:publisheddate:useGaplessPlayback:distribution:goal:useGaplessMetadata:useThumbsFromMetadata:noIntroClip:analysis:description:author:copyright:transcript:label:chapters:timelineId:timelines:mainMediaClipId:mainMediaClipData:)"))) __attribute__((objc_designated_initializer));
 - (instancetype)init __attribute__((swift_name("init()"))) __attribute__((objc_designated_initializer)) __attribute__((unavailable));
 + (instancetype)new __attribute__((unavailable));
-- (instancetype)initWithSeen0:(int32_t)seen0 isPrefetch:(BOOL)isPrefetch serializationConstructorMarker:(id _Nullable)serializationConstructorMarker __attribute__((swift_name("init(seen0:isPrefetch:serializationConstructorMarker:)"))) __attribute__((objc_designated_initializer)) __attribute__((unavailable));
 @property (class, readonly, getter=companion) BbnativesharedProjectCompanion *companion __attribute__((swift_name("companion")));
 - (BbnativesharedProject *)doCopyId:(NSString * _Nullable)id title:(NSString * _Nullable)title deeplink:(NSString * _Nullable)deeplink status:(NSString * _Nullable)status createddate:(NSString * _Nullable)createddate thumbnails:(NSArray<BbnativesharedThumbnail *> * _Nullable)thumbnails name:(NSString * _Nullable)name createdBy:(NSString * _Nullable)createdBy updateddate:(NSString * _Nullable)updateddate updatedBy:(NSString * _Nullable)updatedBy subtype:(NSString * _Nullable)subtype cat:(NSArray<NSString *> * _Nullable)cat clipCount:(BbnativesharedLong * _Nullable)clipCount publisheddate:(NSString * _Nullable)publisheddate useGaplessPlayback:(BbnativesharedBoolean * _Nullable)useGaplessPlayback distribution:(NSString * _Nullable)distribution goal:(NSString * _Nullable)goal useGaplessMetadata:(BbnativesharedBoolean * _Nullable)useGaplessMetadata useThumbsFromMetadata:(NSString * _Nullable)useThumbsFromMetadata noIntroClip:(BbnativesharedBoolean * _Nullable)noIntroClip analysis:(NSString * _Nullable)analysis description:(NSString * _Nullable)description author:(NSString * _Nullable)author copyright:(NSString * _Nullable)copyright transcript:(NSString * _Nullable)transcript label:(NSString * _Nullable)label chapters:(NSArray<BbnativesharedChapter *> * _Nullable)chapters timelineId:(NSString * _Nullable)timelineId timelines:(NSArray<BbnativesharedTimeline *> * _Nullable)timelines mainMediaClipId:(NSString * _Nullable)mainMediaClipId mainMediaClipData:(BbnativesharedMediaClip * _Nullable)mainMediaClipData __attribute__((swift_name("doCopy(id:title:deeplink:status:createddate:thumbnails:name:createdBy:updateddate:updatedBy:subtype:cat:clipCount:publisheddate:useGaplessPlayback:distribution:goal:useGaplessMetadata:useThumbsFromMetadata:noIntroClip:analysis:description:author:copyright:transcript:label:chapters:timelineId:timelines:mainMediaClipId:mainMediaClipData:)")));
 - (BOOL)isEqual:(id _Nullable)other __attribute__((swift_name("isEqual(_:)")));
@@ -2669,15 +2659,15 @@ __attribute__((swift_name("Kotlinx_coroutines_coreCoroutineDispatcher")))
 - (instancetype)initWithKey:(id<BbnativesharedKotlinCoroutineContextKey>)key __attribute__((swift_name("init(key:)"))) __attribute__((objc_designated_initializer)) __attribute__((unavailable));
 @property (class, readonly, getter=companion) BbnativesharedKotlinx_coroutines_coreCoroutineDispatcherKey *companion __attribute__((swift_name("companion")));
 - (void)dispatchContext:(id<BbnativesharedKotlinCoroutineContext>)context block:(id<BbnativesharedKotlinx_coroutines_coreRunnable>)block __attribute__((swift_name("dispatch(context:block:)")));
-- (void)dispatchYieldContext:(id<BbnativesharedKotlinCoroutineContext>)context block:(id<BbnativesharedKotlinx_coroutines_coreRunnable>)block __attribute__((swift_name("dispatchYield(context:block:)")));
-- (id<BbnativesharedKotlinContinuation>)interceptContinuationContinuation:(id<BbnativesharedKotlinContinuation>)continuation __attribute__((swift_name("interceptContinuation(continuation:)")));
-- (BOOL)isDispatchNeededContext:(id<BbnativesharedKotlinCoroutineContext>)context __attribute__((swift_name("isDispatchNeeded(context:)")));
 
 /**
  * @note annotations
- *   kotlinx.coroutines.ExperimentalCoroutinesApi
+ *   kotlinx.coroutines.InternalCoroutinesApi
 */
-- (BbnativesharedKotlinx_coroutines_coreCoroutineDispatcher *)limitedParallelismParallelism:(int32_t)parallelism __attribute__((swift_name("limitedParallelism(parallelism:)")));
+- (void)dispatchYieldContext:(id<BbnativesharedKotlinCoroutineContext>)context block:(id<BbnativesharedKotlinx_coroutines_coreRunnable>)block __attribute__((swift_name("dispatchYield(context:block:)")));
+- (id<BbnativesharedKotlinContinuation>)interceptContinuationContinuation:(id<BbnativesharedKotlinContinuation>)continuation __attribute__((swift_name("interceptContinuation(continuation:)")));
+- (BOOL)isDispatchNeededContext:(id<BbnativesharedKotlinCoroutineContext>)context __attribute__((swift_name("isDispatchNeeded(context:)")));
+- (BbnativesharedKotlinx_coroutines_coreCoroutineDispatcher *)limitedParallelismParallelism:(int32_t)parallelism name:(NSString * _Nullable)name __attribute__((swift_name("limitedParallelism(parallelism:name:)")));
 - (BbnativesharedKotlinx_coroutines_coreCoroutineDispatcher *)plusOther:(BbnativesharedKotlinx_coroutines_coreCoroutineDispatcher *)other __attribute__((swift_name("plus(other:)"))) __attribute__((unavailable("Operator '+' on two CoroutineDispatcher objects is meaningless. CoroutineDispatcher is a coroutine context element and `+` is a set-sum operator for coroutine contexts. The dispatcher to the right of `+` just replaces the dispatcher to the left.")));
 - (void)releaseInterceptedContinuationContinuation:(id<BbnativesharedKotlinContinuation>)continuation __attribute__((swift_name("releaseInterceptedContinuation(continuation:)")));
 - (NSString *)description __attribute__((swift_name("description()")));
@@ -2740,10 +2730,25 @@ __attribute__((swift_name("Kotlinx_coroutines_coreMutableStateFlow")))
 __attribute__((swift_name("Kotlinx_coroutines_coreJob")))
 @protocol BbnativesharedKotlinx_coroutines_coreJob <BbnativesharedKotlinCoroutineContextElement>
 @required
+
+/**
+ * @note annotations
+ *   kotlinx.coroutines.InternalCoroutinesApi
+*/
 - (id<BbnativesharedKotlinx_coroutines_coreChildHandle>)attachChildChild:(id<BbnativesharedKotlinx_coroutines_coreChildJob>)child __attribute__((swift_name("attachChild(child:)")));
 - (void)cancelCause:(BbnativesharedKotlinCancellationException * _Nullable)cause __attribute__((swift_name("cancel(cause:)")));
+
+/**
+ * @note annotations
+ *   kotlinx.coroutines.InternalCoroutinesApi
+*/
 - (BbnativesharedKotlinCancellationException *)getCancellationException __attribute__((swift_name("getCancellationException()")));
 - (id<BbnativesharedKotlinx_coroutines_coreDisposableHandle>)invokeOnCompletionHandler:(void (^)(BbnativesharedKotlinThrowable * _Nullable))handler __attribute__((swift_name("invokeOnCompletion(handler:)")));
+
+/**
+ * @note annotations
+ *   kotlinx.coroutines.InternalCoroutinesApi
+*/
 - (id<BbnativesharedKotlinx_coroutines_coreDisposableHandle>)invokeOnCompletionOnCancelling:(BOOL)onCancelling invokeImmediately:(BOOL)invokeImmediately handler:(void (^)(BbnativesharedKotlinThrowable * _Nullable))handler __attribute__((swift_name("invokeOnCompletion(onCancelling:invokeImmediately:handler:)")));
 
 /**
@@ -2758,6 +2763,12 @@ __attribute__((swift_name("Kotlinx_coroutines_coreJob")))
 @property (readonly) BOOL isCancelled __attribute__((swift_name("isCancelled")));
 @property (readonly) BOOL isCompleted __attribute__((swift_name("isCompleted")));
 @property (readonly) id<BbnativesharedKotlinx_coroutines_coreSelectClause0> onJoin __attribute__((swift_name("onJoin")));
+
+/**
+ * @note annotations
+ *   kotlinx.coroutines.ExperimentalCoroutinesApi
+*/
+@property (readonly) id<BbnativesharedKotlinx_coroutines_coreJob> _Nullable parent __attribute__((swift_name("parent")));
 @end
 
 __attribute__((swift_name("Kotlinx_coroutines_coreCompletableJob")))
@@ -2935,16 +2946,41 @@ __attribute__((swift_name("Kotlinx_coroutines_coreDisposableHandle")))
 - (void)dispose __attribute__((swift_name("dispose()")));
 @end
 
+
+/**
+ * @note annotations
+ *   kotlinx.coroutines.InternalCoroutinesApi
+*/
 __attribute__((swift_name("Kotlinx_coroutines_coreChildHandle")))
 @protocol BbnativesharedKotlinx_coroutines_coreChildHandle <BbnativesharedKotlinx_coroutines_coreDisposableHandle>
 @required
+
+/**
+ * @note annotations
+ *   kotlinx.coroutines.InternalCoroutinesApi
+*/
 - (BOOL)childCancelledCause:(BbnativesharedKotlinThrowable *)cause __attribute__((swift_name("childCancelled(cause:)")));
+
+/**
+ * @note annotations
+ *   kotlinx.coroutines.InternalCoroutinesApi
+*/
 @property (readonly) id<BbnativesharedKotlinx_coroutines_coreJob> _Nullable parent __attribute__((swift_name("parent")));
 @end
 
+
+/**
+ * @note annotations
+ *   kotlinx.coroutines.InternalCoroutinesApi
+*/
 __attribute__((swift_name("Kotlinx_coroutines_coreChildJob")))
 @protocol BbnativesharedKotlinx_coroutines_coreChildJob <BbnativesharedKotlinx_coroutines_coreJob>
 @required
+
+/**
+ * @note annotations
+ *   kotlinx.coroutines.InternalCoroutinesApi
+*/
 - (void)parentCancelledParentJob:(id<BbnativesharedKotlinx_coroutines_coreParentJob>)parentJob __attribute__((swift_name("parentCancelled(parentJob:)")));
 @end
 
@@ -2954,10 +2990,23 @@ __attribute__((swift_name("KotlinSequence")))
 - (id<BbnativesharedKotlinIterator>)iterator __attribute__((swift_name("iterator()")));
 @end
 
-__attribute__((swift_name("Kotlinx_coroutines_coreSelectClause0")))
-@protocol BbnativesharedKotlinx_coroutines_coreSelectClause0
+
+/**
+ * @note annotations
+ *   kotlinx.coroutines.InternalCoroutinesApi
+*/
+__attribute__((swift_name("Kotlinx_coroutines_coreSelectClause")))
+@protocol BbnativesharedKotlinx_coroutines_coreSelectClause
 @required
-- (void)registerSelectClause0Select:(id<BbnativesharedKotlinx_coroutines_coreSelectInstance>)select block:(id<BbnativesharedKotlinSuspendFunction0>)block __attribute__((swift_name("registerSelectClause0(select:block:)")));
+@property (readonly) id clauseObject __attribute__((swift_name("clauseObject")));
+@property (readonly) BbnativesharedKotlinUnit *(^(^ _Nullable onCancellationConstructor)(id<BbnativesharedKotlinx_coroutines_coreSelectInstance>, id _Nullable, id _Nullable))(BbnativesharedKotlinThrowable *, id _Nullable, id<BbnativesharedKotlinCoroutineContext>) __attribute__((swift_name("onCancellationConstructor")));
+@property (readonly) id _Nullable (^processResFunc)(id, id _Nullable, id _Nullable) __attribute__((swift_name("processResFunc")));
+@property (readonly) void (^regFunc)(id, id<BbnativesharedKotlinx_coroutines_coreSelectInstance>, id _Nullable) __attribute__((swift_name("regFunc")));
+@end
+
+__attribute__((swift_name("Kotlinx_coroutines_coreSelectClause0")))
+@protocol BbnativesharedKotlinx_coroutines_coreSelectClause0 <BbnativesharedKotlinx_coroutines_coreSelectClause>
+@required
 @end
 
 __attribute__((swift_name("Kotlinx_serialization_coreEncoder")))
@@ -3170,38 +3219,44 @@ __attribute__((swift_name("KotlinKClass")))
 @property (readonly) NSString * _Nullable simpleName __attribute__((swift_name("simpleName")));
 @end
 
+
+/**
+ * @note annotations
+ *   kotlinx.coroutines.InternalCoroutinesApi
+*/
 __attribute__((swift_name("Kotlinx_coroutines_coreParentJob")))
 @protocol BbnativesharedKotlinx_coroutines_coreParentJob <BbnativesharedKotlinx_coroutines_coreJob>
 @required
+
+/**
+ * @note annotations
+ *   kotlinx.coroutines.InternalCoroutinesApi
+*/
 - (BbnativesharedKotlinCancellationException *)getChildJobCancellationCause __attribute__((swift_name("getChildJobCancellationCause()")));
 @end
 
+__attribute__((objc_subclassing_restricted))
+__attribute__((swift_name("KotlinUnit")))
+@interface BbnativesharedKotlinUnit : BbnativesharedBase
++ (instancetype)alloc __attribute__((unavailable));
++ (instancetype)allocWithZone:(struct _NSZone *)zone __attribute__((unavailable));
++ (instancetype)unit __attribute__((swift_name("init()")));
+@property (class, readonly, getter=shared) BbnativesharedKotlinUnit *shared __attribute__((swift_name("shared")));
+- (NSString *)description __attribute__((swift_name("description()")));
+@end
+
+
+/**
+ * @note annotations
+ *   kotlinx.coroutines.InternalCoroutinesApi
+*/
 __attribute__((swift_name("Kotlinx_coroutines_coreSelectInstance")))
 @protocol BbnativesharedKotlinx_coroutines_coreSelectInstance
 @required
-- (void)disposeOnSelectHandle:(id<BbnativesharedKotlinx_coroutines_coreDisposableHandle>)handle __attribute__((swift_name("disposeOnSelect(handle:)")));
-- (id _Nullable)performAtomicTrySelectDesc:(BbnativesharedKotlinx_coroutines_coreAtomicDesc *)desc __attribute__((swift_name("performAtomicTrySelect(desc:)")));
-- (void)resumeSelectWithExceptionException:(BbnativesharedKotlinThrowable *)exception __attribute__((swift_name("resumeSelectWithException(exception:)")));
-- (BOOL)trySelect __attribute__((swift_name("trySelect()")));
-- (id _Nullable)trySelectOtherOtherOp:(BbnativesharedKotlinx_coroutines_coreLockFreeLinkedListNodePrepareOp * _Nullable)otherOp __attribute__((swift_name("trySelectOther(otherOp:)")));
-@property (readonly) id<BbnativesharedKotlinContinuation> completion __attribute__((swift_name("completion")));
-@property (readonly) BOOL isSelected __attribute__((swift_name("isSelected")));
-@end
-
-__attribute__((swift_name("KotlinFunction")))
-@protocol BbnativesharedKotlinFunction
-@required
-@end
-
-__attribute__((swift_name("KotlinSuspendFunction0")))
-@protocol BbnativesharedKotlinSuspendFunction0 <BbnativesharedKotlinFunction>
-@required
-
-/**
- * @note This method converts instances of CancellationException to errors.
- * Other uncaught Kotlin exceptions are fatal.
-*/
-- (void)invokeWithCompletionHandler:(void (^)(id _Nullable_result, NSError * _Nullable))completionHandler __attribute__((swift_name("invoke(completionHandler:)")));
+- (void)disposeOnCompletionDisposableHandle:(id<BbnativesharedKotlinx_coroutines_coreDisposableHandle>)disposableHandle __attribute__((swift_name("disposeOnCompletion(disposableHandle:)")));
+- (void)selectInRegistrationPhaseInternalResult:(id _Nullable)internalResult __attribute__((swift_name("selectInRegistrationPhase(internalResult:)")));
+- (BOOL)trySelectClauseObject:(id)clauseObject result:(id _Nullable)result __attribute__((swift_name("trySelect(clauseObject:result:)")));
+@property (readonly) id<BbnativesharedKotlinCoroutineContext> context __attribute__((swift_name("context")));
 @end
 
 __attribute__((swift_name("Kotlinx_serialization_coreCompositeEncoder")))
@@ -3285,200 +3340,6 @@ __attribute__((swift_name("Kotlinx_serialization_coreCompositeDecoder")))
 __attribute__((objc_subclassing_restricted))
 __attribute__((swift_name("KotlinNothing")))
 @interface BbnativesharedKotlinNothing : BbnativesharedBase
-@end
-
-__attribute__((swift_name("Kotlinx_coroutines_coreAtomicDesc")))
-@interface BbnativesharedKotlinx_coroutines_coreAtomicDesc : BbnativesharedBase
-- (instancetype)init __attribute__((swift_name("init()"))) __attribute__((objc_designated_initializer));
-+ (instancetype)new __attribute__((availability(swift, unavailable, message="use object initializers instead")));
-- (void)completeOp:(BbnativesharedKotlinx_coroutines_coreAtomicOp<id> *)op failure:(id _Nullable)failure __attribute__((swift_name("complete(op:failure:)")));
-- (id _Nullable)prepareOp:(BbnativesharedKotlinx_coroutines_coreAtomicOp<id> *)op __attribute__((swift_name("prepare(op:)")));
-@property BbnativesharedKotlinx_coroutines_coreAtomicOp<id> *atomicOp __attribute__((swift_name("atomicOp")));
-@end
-
-__attribute__((swift_name("Kotlinx_coroutines_coreOpDescriptor")))
-@interface BbnativesharedKotlinx_coroutines_coreOpDescriptor : BbnativesharedBase
-- (instancetype)init __attribute__((swift_name("init()"))) __attribute__((objc_designated_initializer));
-+ (instancetype)new __attribute__((availability(swift, unavailable, message="use object initializers instead")));
-- (BOOL)isEarlierThanThat:(BbnativesharedKotlinx_coroutines_coreOpDescriptor *)that __attribute__((swift_name("isEarlierThan(that:)")));
-- (id _Nullable)performAffected:(id _Nullable)affected __attribute__((swift_name("perform(affected:)")));
-- (NSString *)description __attribute__((swift_name("description()")));
-@property (readonly) BbnativesharedKotlinx_coroutines_coreAtomicOp<id> * _Nullable atomicOp __attribute__((swift_name("atomicOp")));
-@end
-
-__attribute__((objc_subclassing_restricted))
-__attribute__((swift_name("Kotlinx_coroutines_coreLockFreeLinkedListNode.PrepareOp")))
-@interface BbnativesharedKotlinx_coroutines_coreLockFreeLinkedListNodePrepareOp : BbnativesharedKotlinx_coroutines_coreOpDescriptor
-- (instancetype)initWithAffected:(BbnativesharedKotlinx_coroutines_coreLockFreeLinkedListNode *)affected next:(BbnativesharedKotlinx_coroutines_coreLockFreeLinkedListNode *)next desc:(BbnativesharedKotlinx_coroutines_coreLockFreeLinkedListNodeAbstractAtomicDesc *)desc __attribute__((swift_name("init(affected:next:desc:)"))) __attribute__((objc_designated_initializer));
-- (instancetype)init __attribute__((swift_name("init()"))) __attribute__((objc_designated_initializer)) __attribute__((unavailable));
-+ (instancetype)new __attribute__((unavailable));
-- (void)finishPrepare __attribute__((swift_name("finishPrepare()")));
-- (id _Nullable)performAffected:(id _Nullable)affected __attribute__((swift_name("perform(affected:)")));
-- (NSString *)description __attribute__((swift_name("description()")));
-@property (readonly) BbnativesharedKotlinx_coroutines_coreLockFreeLinkedListNode *affected __attribute__((swift_name("affected")));
-@property (readonly) BbnativesharedKotlinx_coroutines_coreAtomicOp<id> *atomicOp __attribute__((swift_name("atomicOp")));
-@property (readonly) BbnativesharedKotlinx_coroutines_coreLockFreeLinkedListNodeAbstractAtomicDesc *desc __attribute__((swift_name("desc")));
-@property (readonly) BbnativesharedKotlinx_coroutines_coreLockFreeLinkedListNode *next __attribute__((swift_name("next")));
-@end
-
-__attribute__((swift_name("Kotlinx_coroutines_coreAtomicOp")))
-@interface BbnativesharedKotlinx_coroutines_coreAtomicOp<__contravariant T> : BbnativesharedKotlinx_coroutines_coreOpDescriptor
-- (instancetype)init __attribute__((swift_name("init()"))) __attribute__((objc_designated_initializer));
-+ (instancetype)new __attribute__((availability(swift, unavailable, message="use object initializers instead")));
-- (void)completeAffected:(T _Nullable)affected failure:(id _Nullable)failure __attribute__((swift_name("complete(affected:failure:)")));
-- (id _Nullable)decideDecision:(id _Nullable)decision __attribute__((swift_name("decide(decision:)")));
-- (id _Nullable)performAffected:(id _Nullable)affected __attribute__((swift_name("perform(affected:)")));
-- (id _Nullable)prepareAffected:(T _Nullable)affected __attribute__((swift_name("prepare(affected:)")));
-@property (readonly) BbnativesharedKotlinx_coroutines_coreAtomicOp<id> *atomicOp __attribute__((swift_name("atomicOp")));
-@property (readonly) id _Nullable consensus __attribute__((swift_name("consensus")));
-@property (readonly) BOOL isDecided __attribute__((swift_name("isDecided")));
-@property (readonly) int64_t opSequence __attribute__((swift_name("opSequence")));
-@end
-
-__attribute__((swift_name("Kotlinx_coroutines_coreLockFreeLinkedListNode")))
-@interface BbnativesharedKotlinx_coroutines_coreLockFreeLinkedListNode : BbnativesharedBase
-- (instancetype)init __attribute__((swift_name("init()"))) __attribute__((objc_designated_initializer));
-+ (instancetype)new __attribute__((availability(swift, unavailable, message="use object initializers instead")));
-- (void)addLastNode:(BbnativesharedKotlinx_coroutines_coreLockFreeLinkedListNode *)node __attribute__((swift_name("addLast(node:)")));
-- (BOOL)addLastIfNode:(BbnativesharedKotlinx_coroutines_coreLockFreeLinkedListNode *)node condition:(BbnativesharedBoolean *(^)(void))condition __attribute__((swift_name("addLastIf(node:condition:)")));
-- (BOOL)addLastIfPrevNode:(BbnativesharedKotlinx_coroutines_coreLockFreeLinkedListNode *)node predicate:(BbnativesharedBoolean *(^)(BbnativesharedKotlinx_coroutines_coreLockFreeLinkedListNode *))predicate __attribute__((swift_name("addLastIfPrev(node:predicate:)")));
-- (BOOL)addLastIfPrevAndIfNode:(BbnativesharedKotlinx_coroutines_coreLockFreeLinkedListNode *)node predicate:(BbnativesharedBoolean *(^)(BbnativesharedKotlinx_coroutines_coreLockFreeLinkedListNode *))predicate condition:(BbnativesharedBoolean *(^)(void))condition __attribute__((swift_name("addLastIfPrevAndIf(node:predicate:condition:)")));
-- (BOOL)addOneIfEmptyNode:(BbnativesharedKotlinx_coroutines_coreLockFreeLinkedListNode *)node __attribute__((swift_name("addOneIfEmpty(node:)")));
-- (BbnativesharedKotlinx_coroutines_coreLockFreeLinkedListNodeAddLastDesc<BbnativesharedKotlinx_coroutines_coreLockFreeLinkedListNode *> *)describeAddLastNode:(BbnativesharedKotlinx_coroutines_coreLockFreeLinkedListNode *)node __attribute__((swift_name("describeAddLast(node:)")));
-- (BbnativesharedKotlinx_coroutines_coreLockFreeLinkedListNodeRemoveFirstDesc<BbnativesharedKotlinx_coroutines_coreLockFreeLinkedListNode *> *)describeRemoveFirst __attribute__((swift_name("describeRemoveFirst()")));
-- (void)helpRemove __attribute__((swift_name("helpRemove()")));
-
-/**
- * @note This method has protected visibility in Kotlin source and is intended only for use by subclasses.
-*/
-- (BbnativesharedKotlinx_coroutines_coreLockFreeLinkedListNode * _Nullable)nextIfRemoved __attribute__((swift_name("nextIfRemoved()")));
-- (BOOL)remove __attribute__((swift_name("remove()")));
-- (id _Nullable)removeFirstIfIsInstanceOfOrPeekIfPredicate:(BbnativesharedBoolean *(^)(id _Nullable))predicate __attribute__((swift_name("removeFirstIfIsInstanceOfOrPeekIf(predicate:)")));
-- (BbnativesharedKotlinx_coroutines_coreLockFreeLinkedListNode * _Nullable)removeFirstOrNull __attribute__((swift_name("removeFirstOrNull()")));
-- (NSString *)description __attribute__((swift_name("description()")));
-@property (readonly) BOOL isRemoved __attribute__((swift_name("isRemoved")));
-@property (readonly, getter=next_) id next __attribute__((swift_name("next")));
-@property (readonly) BbnativesharedKotlinx_coroutines_coreLockFreeLinkedListNode *nextNode __attribute__((swift_name("nextNode")));
-@property (readonly) BbnativesharedKotlinx_coroutines_coreLockFreeLinkedListNode *prevNode __attribute__((swift_name("prevNode")));
-@end
-
-__attribute__((swift_name("Kotlinx_coroutines_coreLockFreeLinkedListNode.AbstractAtomicDesc")))
-@interface BbnativesharedKotlinx_coroutines_coreLockFreeLinkedListNodeAbstractAtomicDesc : BbnativesharedKotlinx_coroutines_coreAtomicDesc
-- (instancetype)init __attribute__((swift_name("init()"))) __attribute__((objc_designated_initializer));
-+ (instancetype)new __attribute__((availability(swift, unavailable, message="use object initializers instead")));
-- (void)completeOp:(BbnativesharedKotlinx_coroutines_coreAtomicOp<id> *)op failure:(id _Nullable)failure __attribute__((swift_name("complete(op:failure:)")));
-
-/**
- * @note This method has protected visibility in Kotlin source and is intended only for use by subclasses.
-*/
-- (id _Nullable)failureAffected:(BbnativesharedKotlinx_coroutines_coreLockFreeLinkedListNode *)affected __attribute__((swift_name("failure(affected:)")));
-
-/**
- * @note This method has protected visibility in Kotlin source and is intended only for use by subclasses.
-*/
-- (void)finishOnSuccessAffected:(BbnativesharedKotlinx_coroutines_coreLockFreeLinkedListNode *)affected next:(BbnativesharedKotlinx_coroutines_coreLockFreeLinkedListNode *)next __attribute__((swift_name("finishOnSuccess(affected:next:)")));
-- (void)finishPreparePrepareOp:(BbnativesharedKotlinx_coroutines_coreLockFreeLinkedListNodePrepareOp *)prepareOp __attribute__((swift_name("finishPrepare(prepareOp:)")));
-- (id _Nullable)onPreparePrepareOp:(BbnativesharedKotlinx_coroutines_coreLockFreeLinkedListNodePrepareOp *)prepareOp __attribute__((swift_name("onPrepare(prepareOp:)")));
-- (void)onRemovedAffected:(BbnativesharedKotlinx_coroutines_coreLockFreeLinkedListNode *)affected __attribute__((swift_name("onRemoved(affected:)")));
-- (id _Nullable)prepareOp:(BbnativesharedKotlinx_coroutines_coreAtomicOp<id> *)op __attribute__((swift_name("prepare(op:)")));
-
-/**
- * @note This method has protected visibility in Kotlin source and is intended only for use by subclasses.
-*/
-- (BOOL)retryAffected:(BbnativesharedKotlinx_coroutines_coreLockFreeLinkedListNode *)affected next:(id)next __attribute__((swift_name("retry(affected:next:)")));
-
-/**
- * @note This method has protected visibility in Kotlin source and is intended only for use by subclasses.
-*/
-- (BbnativesharedKotlinx_coroutines_coreLockFreeLinkedListNode * _Nullable)takeAffectedNodeOp:(BbnativesharedKotlinx_coroutines_coreOpDescriptor *)op __attribute__((swift_name("takeAffectedNode(op:)")));
-- (id)updatedNextAffected:(BbnativesharedKotlinx_coroutines_coreLockFreeLinkedListNode *)affected next:(BbnativesharedKotlinx_coroutines_coreLockFreeLinkedListNode *)next __attribute__((swift_name("updatedNext(affected:next:)")));
-
-/**
- * @note This property has protected visibility in Kotlin source and is intended only for use by subclasses.
-*/
-@property (readonly) BbnativesharedKotlinx_coroutines_coreLockFreeLinkedListNode * _Nullable affectedNode __attribute__((swift_name("affectedNode")));
-
-/**
- * @note This property has protected visibility in Kotlin source and is intended only for use by subclasses.
-*/
-@property (readonly) BbnativesharedKotlinx_coroutines_coreLockFreeLinkedListNode * _Nullable originalNext __attribute__((swift_name("originalNext")));
-@end
-
-__attribute__((swift_name("Kotlinx_coroutines_coreLockFreeLinkedListNodeAddLastDesc")))
-@interface BbnativesharedKotlinx_coroutines_coreLockFreeLinkedListNodeAddLastDesc<T> : BbnativesharedKotlinx_coroutines_coreLockFreeLinkedListNodeAbstractAtomicDesc
-- (instancetype)initWithQueue:(BbnativesharedKotlinx_coroutines_coreLockFreeLinkedListNode *)queue node:(T)node __attribute__((swift_name("init(queue:node:)"))) __attribute__((objc_designated_initializer));
-- (instancetype)init __attribute__((swift_name("init()"))) __attribute__((objc_designated_initializer)) __attribute__((unavailable));
-+ (instancetype)new __attribute__((unavailable));
-
-/**
- * @note This method has protected visibility in Kotlin source and is intended only for use by subclasses.
-*/
-- (void)finishOnSuccessAffected:(BbnativesharedKotlinx_coroutines_coreLockFreeLinkedListNode *)affected next:(BbnativesharedKotlinx_coroutines_coreLockFreeLinkedListNode *)next __attribute__((swift_name("finishOnSuccess(affected:next:)")));
-- (void)finishPreparePrepareOp:(BbnativesharedKotlinx_coroutines_coreLockFreeLinkedListNodePrepareOp *)prepareOp __attribute__((swift_name("finishPrepare(prepareOp:)")));
-
-/**
- * @note This method has protected visibility in Kotlin source and is intended only for use by subclasses.
-*/
-- (BOOL)retryAffected:(BbnativesharedKotlinx_coroutines_coreLockFreeLinkedListNode *)affected next:(id)next __attribute__((swift_name("retry(affected:next:)")));
-
-/**
- * @note This method has protected visibility in Kotlin source and is intended only for use by subclasses.
-*/
-- (BbnativesharedKotlinx_coroutines_coreLockFreeLinkedListNode * _Nullable)takeAffectedNodeOp:(BbnativesharedKotlinx_coroutines_coreOpDescriptor *)op __attribute__((swift_name("takeAffectedNode(op:)")));
-- (id)updatedNextAffected:(BbnativesharedKotlinx_coroutines_coreLockFreeLinkedListNode *)affected next:(BbnativesharedKotlinx_coroutines_coreLockFreeLinkedListNode *)next __attribute__((swift_name("updatedNext(affected:next:)")));
-
-/**
- * @note This property has protected visibility in Kotlin source and is intended only for use by subclasses.
-*/
-@property (readonly) BbnativesharedKotlinx_coroutines_coreLockFreeLinkedListNode * _Nullable affectedNode __attribute__((swift_name("affectedNode")));
-@property (readonly) T node __attribute__((swift_name("node")));
-
-/**
- * @note This property has protected visibility in Kotlin source and is intended only for use by subclasses.
-*/
-@property (readonly) BbnativesharedKotlinx_coroutines_coreLockFreeLinkedListNode *originalNext __attribute__((swift_name("originalNext")));
-@property (readonly) BbnativesharedKotlinx_coroutines_coreLockFreeLinkedListNode *queue __attribute__((swift_name("queue")));
-@end
-
-__attribute__((swift_name("Kotlinx_coroutines_coreLockFreeLinkedListNodeRemoveFirstDesc")))
-@interface BbnativesharedKotlinx_coroutines_coreLockFreeLinkedListNodeRemoveFirstDesc<T> : BbnativesharedKotlinx_coroutines_coreLockFreeLinkedListNodeAbstractAtomicDesc
-- (instancetype)initWithQueue:(BbnativesharedKotlinx_coroutines_coreLockFreeLinkedListNode *)queue __attribute__((swift_name("init(queue:)"))) __attribute__((objc_designated_initializer));
-- (instancetype)init __attribute__((swift_name("init()"))) __attribute__((objc_designated_initializer)) __attribute__((unavailable));
-+ (instancetype)new __attribute__((unavailable));
-
-/**
- * @note This method has protected visibility in Kotlin source and is intended only for use by subclasses.
-*/
-- (id _Nullable)failureAffected:(BbnativesharedKotlinx_coroutines_coreLockFreeLinkedListNode *)affected __attribute__((swift_name("failure(affected:)")));
-
-/**
- * @note This method has protected visibility in Kotlin source and is intended only for use by subclasses.
-*/
-- (void)finishOnSuccessAffected:(BbnativesharedKotlinx_coroutines_coreLockFreeLinkedListNode *)affected next:(BbnativesharedKotlinx_coroutines_coreLockFreeLinkedListNode *)next __attribute__((swift_name("finishOnSuccess(affected:next:)")));
-- (void)finishPreparePrepareOp:(BbnativesharedKotlinx_coroutines_coreLockFreeLinkedListNodePrepareOp *)prepareOp __attribute__((swift_name("finishPrepare(prepareOp:)")));
-
-/**
- * @note This method has protected visibility in Kotlin source and is intended only for use by subclasses.
-*/
-- (BOOL)retryAffected:(BbnativesharedKotlinx_coroutines_coreLockFreeLinkedListNode *)affected next:(id)next __attribute__((swift_name("retry(affected:next:)")));
-
-/**
- * @note This method has protected visibility in Kotlin source and is intended only for use by subclasses.
-*/
-- (BbnativesharedKotlinx_coroutines_coreLockFreeLinkedListNode * _Nullable)takeAffectedNodeOp:(BbnativesharedKotlinx_coroutines_coreOpDescriptor *)op __attribute__((swift_name("takeAffectedNode(op:)")));
-- (id)updatedNextAffected:(BbnativesharedKotlinx_coroutines_coreLockFreeLinkedListNode *)affected next:(BbnativesharedKotlinx_coroutines_coreLockFreeLinkedListNode *)next __attribute__((swift_name("updatedNext(affected:next:)")));
-
-/**
- * @note This property has protected visibility in Kotlin source and is intended only for use by subclasses.
-*/
-@property (readonly) BbnativesharedKotlinx_coroutines_coreLockFreeLinkedListNode * _Nullable affectedNode __attribute__((swift_name("affectedNode")));
-
-/**
- * @note This property has protected visibility in Kotlin source and is intended only for use by subclasses.
-*/
-@property (readonly) BbnativesharedKotlinx_coroutines_coreLockFreeLinkedListNode * _Nullable originalNext __attribute__((swift_name("originalNext")));
-@property (readonly) BbnativesharedKotlinx_coroutines_coreLockFreeLinkedListNode *queue __attribute__((swift_name("queue")));
-@property (readonly) T _Nullable result __attribute__((swift_name("result")));
 @end
 
 #pragma pop_macro("_Nullable_result")
