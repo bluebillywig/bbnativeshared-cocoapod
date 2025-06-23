@@ -548,7 +548,6 @@ __attribute__((swift_name("ProgramController")))
 @property BbnativesharedMediaClip * _Nullable clipData __attribute__((swift_name("clipData")));
 @property NSString * _Nullable contentId __attribute__((swift_name("contentId")));
 @property id<BbnativesharedEventBusInterface> _Nullable eventBus __attribute__((swift_name("eventBus")));
-@property void (^ _Nullable listener)(BbnativesharedState *) __attribute__((swift_name("listener")));
 @property id<BbnativesharedMediaControllerInterface> _Nullable mediaController __attribute__((swift_name("mediaController")));
 @property id<BbnativesharedNetworkInterface> _Nullable network __attribute__((swift_name("network")));
 @property id<BbnativesharedPosterControllerInterface> _Nullable posterController __attribute__((swift_name("posterController")));
