@@ -1051,6 +1051,7 @@ __attribute__((swift_name("Action.Companion")))
 /**
  * @note annotations
  *   kotlinx.serialization.Serializable
+ *   kotlinx.serialization.SerialName(value="AdSchedulingData")
 */
 __attribute__((objc_subclassing_restricted))
 __attribute__((swift_name("AdSchedulingData")))
@@ -1127,9 +1128,9 @@ __attribute__((swift_name("AdUnit.Companion")))
 __attribute__((objc_subclassing_restricted))
 __attribute__((swift_name("AppConfig")))
 @interface BbnativesharedAppConfig : BbnativesharedBase
-- (instancetype)initWithId:(NSString * _Nullable)id type:(NSString * _Nullable)type showThumbnails:(BbnativesharedBoolean * _Nullable)showThumbnails showNextPreviousControls:(BbnativesharedBoolean * _Nullable)showNextPreviousControls subtype:(NSString * _Nullable)subtype swipeDirection:(NSString * _Nullable)swipeDirection backgroundColor:(NSString * _Nullable)backgroundColor skin_foregroundColor:(NSString * _Nullable)skin_foregroundColor clipAdInterval:(BbnativesharedInt * _Nullable)clipAdInterval firstAdPosition:(BbnativesharedInt * _Nullable)firstAdPosition minuteAdInterval:(BbnativesharedInt * _Nullable)minuteAdInterval listThumbnailHeight:(BbnativesharedInt * _Nullable)listThumbnailHeight listThumbnailResponsiveHeight:(BbnativesharedBoolean * _Nullable)listThumbnailResponsiveHeight listThumbnailGap:(BbnativesharedInt * _Nullable)listThumbnailGap showThumbnailDuration:(BbnativesharedBoolean * _Nullable)showThumbnailDuration showThumbnailTitle:(BbnativesharedBoolean * _Nullable)showThumbnailTitle thumbnailBackground:(BbnativesharedBoolean * _Nullable)thumbnailBackground cornerRadius:(BbnativesharedInt * _Nullable)cornerRadius adunitId:(NSString * _Nullable)adunitId playout:(BbnativesharedPlayout * _Nullable)playout cliplistid:(NSString * _Nullable)cliplistid viewedClipBehaviour:(NSString * _Nullable)viewedClipBehaviour __attribute__((swift_name("init(id:type:showThumbnails:showNextPreviousControls:subtype:swipeDirection:backgroundColor:skin_foregroundColor:clipAdInterval:firstAdPosition:minuteAdInterval:listThumbnailHeight:listThumbnailResponsiveHeight:listThumbnailGap:showThumbnailDuration:showThumbnailTitle:thumbnailBackground:cornerRadius:adunitId:playout:cliplistid:viewedClipBehaviour:)"))) __attribute__((objc_designated_initializer));
+- (instancetype)initWithId:(NSString * _Nullable)id type:(NSString * _Nullable)type showThumbnails:(BbnativesharedBoolean * _Nullable)showThumbnails showNextPreviousControls:(BbnativesharedBoolean * _Nullable)showNextPreviousControls subtype:(NSString * _Nullable)subtype swipeDirection:(NSString * _Nullable)swipeDirection backgroundColor:(NSString * _Nullable)backgroundColor skin_foregroundColor:(NSString * _Nullable)skin_foregroundColor clipAdInterval:(BbnativesharedInt * _Nullable)clipAdInterval firstAdPosition:(BbnativesharedInt * _Nullable)firstAdPosition minuteAdInterval:(BbnativesharedInt * _Nullable)minuteAdInterval listThumbnailHeight:(BbnativesharedInt * _Nullable)listThumbnailHeight listThumbnailResponsiveHeight:(BbnativesharedBoolean * _Nullable)listThumbnailResponsiveHeight listThumbnailGap:(BbnativesharedInt * _Nullable)listThumbnailGap showThumbnailDuration:(BbnativesharedBoolean * _Nullable)showThumbnailDuration showThumbnailTitle:(BbnativesharedBoolean * _Nullable)showThumbnailTitle useThumbnailsInFullscreen:(BbnativesharedBoolean * _Nullable)useThumbnailsInFullscreen thumbnailBackground:(BbnativesharedBoolean * _Nullable)thumbnailBackground cornerRadius:(BbnativesharedInt * _Nullable)cornerRadius adunitId:(NSString * _Nullable)adunitId playout:(BbnativesharedPlayout * _Nullable)playout cliplistid:(NSString * _Nullable)cliplistid viewedClipBehaviour:(NSString * _Nullable)viewedClipBehaviour __attribute__((swift_name("init(id:type:showThumbnails:showNextPreviousControls:subtype:swipeDirection:backgroundColor:skin_foregroundColor:clipAdInterval:firstAdPosition:minuteAdInterval:listThumbnailHeight:listThumbnailResponsiveHeight:listThumbnailGap:showThumbnailDuration:showThumbnailTitle:useThumbnailsInFullscreen:thumbnailBackground:cornerRadius:adunitId:playout:cliplistid:viewedClipBehaviour:)"))) __attribute__((objc_designated_initializer));
 @property (class, readonly, getter=companion) BbnativesharedAppConfigCompanion *companion __attribute__((swift_name("companion")));
-- (BbnativesharedAppConfig *)doCopyId:(NSString * _Nullable)id type:(NSString * _Nullable)type showThumbnails:(BbnativesharedBoolean * _Nullable)showThumbnails showNextPreviousControls:(BbnativesharedBoolean * _Nullable)showNextPreviousControls subtype:(NSString * _Nullable)subtype swipeDirection:(NSString * _Nullable)swipeDirection backgroundColor:(NSString * _Nullable)backgroundColor skin_foregroundColor:(NSString * _Nullable)skin_foregroundColor clipAdInterval:(BbnativesharedInt * _Nullable)clipAdInterval firstAdPosition:(BbnativesharedInt * _Nullable)firstAdPosition minuteAdInterval:(BbnativesharedInt * _Nullable)minuteAdInterval listThumbnailHeight:(BbnativesharedInt * _Nullable)listThumbnailHeight listThumbnailResponsiveHeight:(BbnativesharedBoolean * _Nullable)listThumbnailResponsiveHeight listThumbnailGap:(BbnativesharedInt * _Nullable)listThumbnailGap showThumbnailDuration:(BbnativesharedBoolean * _Nullable)showThumbnailDuration showThumbnailTitle:(BbnativesharedBoolean * _Nullable)showThumbnailTitle thumbnailBackground:(BbnativesharedBoolean * _Nullable)thumbnailBackground cornerRadius:(BbnativesharedInt * _Nullable)cornerRadius adunitId:(NSString * _Nullable)adunitId playout:(BbnativesharedPlayout * _Nullable)playout cliplistid:(NSString * _Nullable)cliplistid viewedClipBehaviour:(NSString * _Nullable)viewedClipBehaviour __attribute__((swift_name("doCopy(id:type:showThumbnails:showNextPreviousControls:subtype:swipeDirection:backgroundColor:skin_foregroundColor:clipAdInterval:firstAdPosition:minuteAdInterval:listThumbnailHeight:listThumbnailResponsiveHeight:listThumbnailGap:showThumbnailDuration:showThumbnailTitle:thumbnailBackground:cornerRadius:adunitId:playout:cliplistid:viewedClipBehaviour:)")));
+- (BbnativesharedAppConfig *)doCopyId:(NSString * _Nullable)id type:(NSString * _Nullable)type showThumbnails:(BbnativesharedBoolean * _Nullable)showThumbnails showNextPreviousControls:(BbnativesharedBoolean * _Nullable)showNextPreviousControls subtype:(NSString * _Nullable)subtype swipeDirection:(NSString * _Nullable)swipeDirection backgroundColor:(NSString * _Nullable)backgroundColor skin_foregroundColor:(NSString * _Nullable)skin_foregroundColor clipAdInterval:(BbnativesharedInt * _Nullable)clipAdInterval firstAdPosition:(BbnativesharedInt * _Nullable)firstAdPosition minuteAdInterval:(BbnativesharedInt * _Nullable)minuteAdInterval listThumbnailHeight:(BbnativesharedInt * _Nullable)listThumbnailHeight listThumbnailResponsiveHeight:(BbnativesharedBoolean * _Nullable)listThumbnailResponsiveHeight listThumbnailGap:(BbnativesharedInt * _Nullable)listThumbnailGap showThumbnailDuration:(BbnativesharedBoolean * _Nullable)showThumbnailDuration showThumbnailTitle:(BbnativesharedBoolean * _Nullable)showThumbnailTitle useThumbnailsInFullscreen:(BbnativesharedBoolean * _Nullable)useThumbnailsInFullscreen thumbnailBackground:(BbnativesharedBoolean * _Nullable)thumbnailBackground cornerRadius:(BbnativesharedInt * _Nullable)cornerRadius adunitId:(NSString * _Nullable)adunitId playout:(BbnativesharedPlayout * _Nullable)playout cliplistid:(NSString * _Nullable)cliplistid viewedClipBehaviour:(NSString * _Nullable)viewedClipBehaviour __attribute__((swift_name("doCopy(id:type:showThumbnails:showNextPreviousControls:subtype:swipeDirection:backgroundColor:skin_foregroundColor:clipAdInterval:firstAdPosition:minuteAdInterval:listThumbnailHeight:listThumbnailResponsiveHeight:listThumbnailGap:showThumbnailDuration:showThumbnailTitle:useThumbnailsInFullscreen:thumbnailBackground:cornerRadius:adunitId:playout:cliplistid:viewedClipBehaviour:)")));
 - (BOOL)isEqual:(id _Nullable)other __attribute__((swift_name("isEqual(_:)")));
 - (NSUInteger)hash __attribute__((swift_name("hash()")));
 - (NSString *)description __attribute__((swift_name("description()")));
@@ -1154,6 +1155,7 @@ __attribute__((swift_name("AppConfig")))
 @property (readonly) NSString * _Nullable swipeDirection __attribute__((swift_name("swipeDirection")));
 @property (readonly) BbnativesharedBoolean * _Nullable thumbnailBackground __attribute__((swift_name("thumbnailBackground")));
 @property (readonly) NSString * _Nullable type __attribute__((swift_name("type")));
+@property (readonly) BbnativesharedBoolean * _Nullable useThumbnailsInFullscreen __attribute__((swift_name("useThumbnailsInFullscreen")));
 @property (readonly) NSString * _Nullable viewedClipBehaviour __attribute__((swift_name("viewedClipBehaviour")));
 @end
 
@@ -1186,6 +1188,11 @@ __attribute__((swift_name("Audiotrack")))
 @property (readonly) NSString * _Nullable createddate __attribute__((swift_name("createddate")));
 @property (readonly) NSString * _Nullable exactlength __attribute__((swift_name("exactlength")));
 @property NSString * _Nullable id __attribute__((swift_name("id")));
+
+/**
+ * @note annotations
+ *   kotlinx.serialization.SerialName(value="IsDefaultLanguage")
+*/
 @property (readonly) BbnativesharedBoolean * _Nullable isDefaultLanguage __attribute__((swift_name("isDefaultLanguage")));
 @property BbnativesharedBoolean * _Nullable isSelected __attribute__((swift_name("isSelected")));
 @property NSString * _Nullable isocode __attribute__((swift_name("isocode")));
@@ -1537,8 +1544,23 @@ __attribute__((swift_name("LineItem_")))
 @property (readonly) NSString * _Nullable type __attribute__((swift_name("type")));
 @property (readonly) NSString * _Nullable updatedBy __attribute__((swift_name("updatedBy")));
 @property (readonly) NSString * _Nullable updateddate __attribute__((swift_name("updateddate")));
+
+/**
+ * @note annotations
+ *   kotlinx.serialization.SerialName(value="vast_subtype")
+*/
 @property (readonly) NSString * _Nullable vastSubtype __attribute__((swift_name("vastSubtype")));
+
+/**
+ * @note annotations
+ *   kotlinx.serialization.SerialName(value="vast_url")
+*/
 @property (readonly) NSString * _Nullable vastUrl __attribute__((swift_name("vastUrl")));
+
+/**
+ * @note annotations
+ *   kotlinx.serialization.SerialName(value="vast_xml")
+*/
 @property (readonly) NSString * _Nullable vastXml __attribute__((swift_name("vastXml")));
 @end
 
@@ -1572,8 +1594,23 @@ __attribute__((swift_name("MediaAsset")))
 @property (readonly) NSString * _Nullable id __attribute__((swift_name("id")));
 @property (readonly) BbnativesharedBoolean * _Nullable isDefaultLanguage __attribute__((swift_name("isDefaultLanguage")));
 @property (readonly) NSString * _Nullable jobdefid __attribute__((swift_name("jobdefid")));
+
+/**
+ * @note annotations
+ *   kotlinx.serialization.SerialName(value="language-id")
+*/
 @property (readonly) NSString * _Nullable languageId __attribute__((swift_name("languageId")));
+
+/**
+ * @note annotations
+ *   kotlinx.serialization.SerialName(value="language-isocode")
+*/
 @property (readonly) NSString * _Nullable languageIsocode __attribute__((swift_name("languageIsocode")));
+
+/**
+ * @note annotations
+ *   kotlinx.serialization.SerialName(value="language-name")
+*/
 @property (readonly) NSString * _Nullable languageName __attribute__((swift_name("languageName")));
 @property (readonly) NSString * _Nullable length __attribute__((swift_name("length")));
 @property (readonly) NSString * _Nullable mediatype __attribute__((swift_name("mediatype")));
@@ -1597,6 +1634,7 @@ __attribute__((swift_name("MediaAsset.Companion")))
 /**
  * @note annotations
  *   kotlinx.serialization.Serializable
+ *   kotlinx.serialization.SerialName(value="MediaClip")
 */
 __attribute__((objc_subclassing_restricted))
 __attribute__((swift_name("MediaClip")))
@@ -1634,6 +1672,11 @@ __attribute__((swift_name("MediaClip")))
 @property (readonly) NSArray<BbnativesharedHighlight *> * _Nullable highlights __attribute__((swift_name("highlights")));
 @property (readonly) NSString * _Nullable id __attribute__((swift_name("id")));
 @property (readonly) NSString * _Nullable importSource __attribute__((swift_name("importSource")));
+
+/**
+ * @note annotations
+ *   kotlinx.serialization.SerialName(value="importUrl")
+*/
 @property (readonly) NSString * _Nullable importURL __attribute__((swift_name("importURL")));
 @property (readonly) NSString * _Nullable isDynamic __attribute__((swift_name("isDynamic")));
 @property (readonly) NSString * _Nullable isOutro __attribute__((swift_name("isOutro")));
@@ -1665,6 +1708,11 @@ __attribute__((swift_name("MediaClip")))
 @property (readonly) NSString * _Nullable useThumbsFromMetadata __attribute__((swift_name("useThumbsFromMetadata")));
 @property (readonly) NSString * _Nullable usetype __attribute__((swift_name("usetype")));
 @property (readonly) BbnativesharedLong * _Nullable width __attribute__((swift_name("width")));
+
+/**
+ * @note annotations
+ *   kotlinx.serialization.SerialName(value="youtubeImportId")
+*/
 @property (readonly) NSString * _Nullable youtubeImportID __attribute__((swift_name("youtubeImportID")));
 @end
 
@@ -1682,6 +1730,7 @@ __attribute__((swift_name("MediaClip.Companion")))
 /**
  * @note annotations
  *   kotlinx.serialization.Serializable
+ *   kotlinx.serialization.SerialName(value="MediaClipList")
 */
 __attribute__((objc_subclassing_restricted))
 __attribute__((swift_name("MediaClipList")))
@@ -1698,13 +1747,33 @@ __attribute__((swift_name("MediaClipList")))
 @property (readonly) NSString * _Nullable allowDatasource __attribute__((swift_name("allowDatasource")));
 @property (readonly) BbnativesharedBoolean * _Nullable allowDatasource_boolean __attribute__((swift_name("allowDatasource_boolean")));
 @property (readonly) BbnativesharedLong * _Nullable count __attribute__((swift_name("count")));
+
+/**
+ * @note annotations
+ *   kotlinx.serialization.SerialName(value="createdby_string")
+*/
 @property (readonly) NSString * _Nullable createdbyString __attribute__((swift_name("createdbyString")));
 @property (readonly) NSString * _Nullable createddate __attribute__((swift_name("createddate")));
 @property (readonly) NSString * _Nullable deeplink __attribute__((swift_name("deeplink")));
+
+/**
+ * @note annotations
+ *   kotlinx.serialization.SerialName(value="filters_string")
+*/
 @property (readonly) NSString * _Nullable filtersString __attribute__((swift_name("filtersString")));
 @property (readonly) NSString * _Nullable id __attribute__((swift_name("id")));
+
+/**
+ * @note annotations
+ *   kotlinx.serialization.SerialName(value="isEmpty_boolean")
+*/
 @property (readonly) BbnativesharedBoolean * _Nullable isEmptyBoolean __attribute__((swift_name("isEmptyBoolean")));
 @property (readonly) NSArray<BbnativesharedContentItem *> * _Nullable items __attribute__((swift_name("items")));
+
+/**
+ * @note annotations
+ *   kotlinx.serialization.SerialName(value="listtype_string")
+*/
 @property (readonly) NSString * _Nullable listtypeString __attribute__((swift_name("listtypeString")));
 @property (readonly) NSString * _Nullable mediatype __attribute__((swift_name("mediatype")));
 @property (readonly) NSString * _Nullable modifieddate __attribute__((swift_name("modifieddate")));
@@ -1713,10 +1782,20 @@ __attribute__((swift_name("MediaClipList")))
 @property (readonly) NSString * _Nullable parentid __attribute__((swift_name("parentid")));
 @property (readonly) NSString * _Nullable parentpublicationid __attribute__((swift_name("parentpublicationid")));
 @property (readonly) NSArray<NSString *> * _Nullable publication __attribute__((swift_name("publication")));
+
+/**
+ * @note annotations
+ *   kotlinx.serialization.SerialName(value="published_date")
+*/
 @property (readonly) NSString * _Nullable publishedDate __attribute__((swift_name("publishedDate")));
 @property (readonly) BbnativesharedDouble * _Nullable score __attribute__((swift_name("score")));
 @property (readonly) NSString * _Nullable status __attribute__((swift_name("status")));
 @property (readonly) NSString * _Nullable title __attribute__((swift_name("title")));
+
+/**
+ * @note annotations
+ *   kotlinx.serialization.SerialName(value="updatedby_string")
+*/
 @property (readonly) NSString * _Nullable updatedbyString __attribute__((swift_name("updatedbyString")));
 @property (readonly) NSString * _Nullable usetype __attribute__((swift_name("usetype")));
 @end
@@ -1805,7 +1884,17 @@ __attribute__((swift_name("PlayerSettings")))
 - (BOOL)isEqual:(id _Nullable)other __attribute__((swift_name("isEqual(_:)")));
 - (NSUInteger)hash __attribute__((swift_name("hash()")));
 - (NSString *)description __attribute__((swift_name("description()")));
+
+/**
+ * @note annotations
+ *   kotlinx.serialization.SerialName(value="autoPlay")
+*/
 @property (readonly) BOOL autoPlay __attribute__((swift_name("autoPlay")));
+
+/**
+ * @note annotations
+ *   kotlinx.serialization.SerialName(value="playout")
+*/
 @property (readonly) NSString *playout __attribute__((swift_name("playout")));
 @end
 
@@ -1868,6 +1957,11 @@ __attribute__((swift_name("Playout")))
 @property (readonly) NSString * _Nullable castButton __attribute__((swift_name("castButton")));
 @property (readonly) NSString * _Nullable centerButtonType __attribute__((swift_name("centerButtonType")));
 @property (readonly) NSString * _Nullable clearBothOption __attribute__((swift_name("clearBothOption")));
+
+/**
+ * @note annotations
+ *   kotlinx.serialization.SerialName(value="clickUrl")
+*/
 @property (readonly) NSString * _Nullable clickURL __attribute__((swift_name("clickURL")));
 @property (readonly) NSString * _Nullable clipAdInterval __attribute__((swift_name("clipAdInterval")));
 @property NSString * _Nullable commercialAdIcon __attribute__((swift_name("commercialAdIcon")));
@@ -1896,6 +1990,11 @@ __attribute__((swift_name("Playout")))
 @property (readonly) NSString * _Nullable defaultAudioTrack __attribute__((swift_name("defaultAudioTrack")));
 @property (readonly) NSString * _Nullable defaultSubtitle __attribute__((swift_name("defaultSubtitle")));
 @property (readonly) NSString * _Nullable defaultSubtitleOnlyIfMuted __attribute__((swift_name("defaultSubtitleOnlyIfMuted")));
+
+/**
+ * @note annotations
+ *   kotlinx.serialization.SerialName(value="description")
+*/
 @property (readonly) NSString * _Nullable descriptionShowHide __attribute__((swift_name("descriptionShowHide")));
 @property (readonly) NSString * _Nullable disableContextMenuNavigate __attribute__((swift_name("disableContextMenuNavigate")));
 @property (readonly) NSString * _Nullable disableCookies __attribute__((swift_name("disableCookies")));
@@ -1907,6 +2006,11 @@ __attribute__((swift_name("Playout")))
 @property (readonly) NSString * _Nullable exitscreenItemsListId __attribute__((swift_name("exitscreenItemsListId")));
 @property (readonly) NSString * _Nullable firstAdPosition __attribute__((swift_name("firstAdPosition")));
 @property (readonly) BbnativesharedFitMode * _Nullable fitmode __attribute__((swift_name("fitmode")));
+
+/**
+ * @note annotations
+ *   kotlinx.serialization.SerialName(value="float_player")
+*/
 @property (readonly) NSString * _Nullable floatPlayer __attribute__((swift_name("floatPlayer")));
 @property (readonly) NSString * _Nullable forceAndroidNativeVideo __attribute__((swift_name("forceAndroidNativeVideo")));
 @property (readonly) NSString * _Nullable forceCanAutoPlay __attribute__((swift_name("forceCanAutoPlay")));
@@ -1914,6 +2018,11 @@ __attribute__((swift_name("Playout")))
 @property (readonly) NSString * _Nullable forceInview __attribute__((swift_name("forceInview")));
 @property (readonly) NSString * _Nullable forceNativeFullscreen __attribute__((swift_name("forceNativeFullscreen")));
 @property (readonly) NSString * _Nullable fullScreen __attribute__((swift_name("fullScreen")));
+
+/**
+ * @note annotations
+ *   kotlinx.serialization.SerialName(value="googleAnalytics_customVars")
+*/
 @property (readonly) NSString * _Nullable googleAnalyticsCustomVars __attribute__((swift_name("googleAnalyticsCustomVars")));
 @property (readonly) NSString * _Nullable googleAnalyticsId __attribute__((swift_name("googleAnalyticsId")));
 @property (readonly) BbnativesharedBoolean * _Nullable hasAdunits __attribute__((swift_name("hasAdunits")));
@@ -1924,10 +2033,35 @@ __attribute__((swift_name("Playout")))
 @property (readonly) NSString * _Nullable iframeBreakout __attribute__((swift_name("iframeBreakout")));
 @property (readonly) NSString * _Nullable ignoreProjectMetadata __attribute__((swift_name("ignoreProjectMetadata")));
 @property (readonly) NSString * _Nullable ignoreSingleMediaResource __attribute__((swift_name("ignoreSingleMediaResource")));
+
+/**
+ * @note annotations
+ *   kotlinx.serialization.SerialName(value="interactivity_inView")
+*/
 @property (readonly) NSString * _Nullable interactivityInView __attribute__((swift_name("interactivityInView")));
+
+/**
+ * @note annotations
+ *   kotlinx.serialization.SerialName(value="interactivity_mouseIn")
+*/
 @property (readonly) NSString * _Nullable interactivityMouseIn __attribute__((swift_name("interactivityMouseIn")));
+
+/**
+ * @note annotations
+ *   kotlinx.serialization.SerialName(value="interactivity_mouseOut")
+*/
 @property (readonly) NSString * _Nullable interactivityMouseOut __attribute__((swift_name("interactivityMouseOut")));
+
+/**
+ * @note annotations
+ *   kotlinx.serialization.SerialName(value="interactivity_onClick")
+*/
 @property (readonly) NSString * _Nullable interactivityOnClick __attribute__((swift_name("interactivityOnClick")));
+
+/**
+ * @note annotations
+ *   kotlinx.serialization.SerialName(value="interactivity_outView")
+*/
 @property (readonly) NSString * _Nullable interactivityOutView __attribute__((swift_name("interactivityOutView")));
 @property (readonly) NSString * _Nullable inviewMargin __attribute__((swift_name("inviewMargin")));
 @property (readonly) NSString * _Nullable label __attribute__((swift_name("label")));
@@ -1969,7 +2103,17 @@ __attribute__((swift_name("Playout")))
 @property (readonly) NSString * _Nullable relatedItems __attribute__((swift_name("relatedItems")));
 @property (readonly) NSString * _Nullable relatedItemsPause __attribute__((swift_name("relatedItemsPause")));
 @property (readonly) NSString * _Nullable responsiveSizing __attribute__((swift_name("responsiveSizing")));
+
+/**
+ * @note annotations
+ *   kotlinx.serialization.SerialName(value="restriction_npaOnly")
+*/
 @property (readonly) NSString * _Nullable restrictionNpaOnly __attribute__((swift_name("restrictionNpaOnly")));
+
+/**
+ * @note annotations
+ *   kotlinx.serialization.SerialName(value="restriction_npcOnly")
+*/
 @property (readonly) NSString * _Nullable restrictionNpcOnly __attribute__((swift_name("restrictionNpcOnly")));
 @property (readonly) NSString * _Nullable shareButton __attribute__((swift_name("shareButton")));
 @property (readonly) NSString * _Nullable shareButtonDirectLink __attribute__((swift_name("shareButtonDirectLink")));
@@ -2028,6 +2172,11 @@ __attribute__((swift_name("Playout")))
 @property (readonly) NSString * _Nullable titlePause __attribute__((swift_name("titlePause")));
 @property (readonly) NSString * _Nullable type __attribute__((swift_name("type")));
 @property (readonly) NSString * _Nullable updateddate __attribute__((swift_name("updateddate")));
+
+/**
+ * @note annotations
+ *   kotlinx.serialization.SerialName(value="use2018skin")
+*/
 @property (readonly) NSString * _Nullable use2018Skin __attribute__((swift_name("use2018Skin")));
 @property (readonly) NSString * _Nullable useDeeplinkForFacebook __attribute__((swift_name("useDeeplinkForFacebook")));
 @property (readonly) NSString * _Nullable useDeeplinkForRelatedItems __attribute__((swift_name("useDeeplinkForRelatedItems")));
@@ -2067,6 +2216,11 @@ __attribute__((swift_name("Procedure")))
 - (NSString *)description __attribute__((swift_name("description()")));
 @property (readonly) NSArray<BbnativesharedAction *> * _Nullable actions __attribute__((swift_name("actions")));
 @property (readonly) BbnativesharedCondition * _Nullable condition __attribute__((swift_name("condition")));
+
+/**
+ * @note annotations
+ *   kotlinx.serialization.SerialName(value="else_actions")
+*/
 @property (readonly) NSArray<BbnativesharedKotlinx_serialization_jsonJsonElement *> * _Nullable elseActions __attribute__((swift_name("elseActions")));
 @property (readonly) NSString * _Nullable id __attribute__((swift_name("id")));
 @property (readonly) NSString * _Nullable type __attribute__((swift_name("type")));
@@ -2086,6 +2240,7 @@ __attribute__((swift_name("Procedure.Companion")))
 /**
  * @note annotations
  *   kotlinx.serialization.Serializable
+ *   kotlinx.serialization.SerialName(value="Project")
 */
 __attribute__((objc_subclassing_restricted))
 __attribute__((swift_name("Project")))
@@ -2172,7 +2327,17 @@ __attribute__((swift_name("Publication")))
 @property (readonly) NSString * _Nullable liveMediaAssetPath __attribute__((swift_name("liveMediaAssetPath")));
 @property (readonly) NSString * _Nullable mobileMediaAssetPath __attribute__((swift_name("mobileMediaAssetPath")));
 @property (readonly) NSString * _Nullable name __attribute__((swift_name("name")));
+
+/**
+ * @note annotations
+ *   kotlinx.serialization.SerialName(value="playoutUrl")
+*/
 @property (readonly) NSString * _Nullable playoutURL __attribute__((swift_name("playoutURL")));
+
+/**
+ * @note annotations
+ *   kotlinx.serialization.SerialName(value="providerUrl")
+*/
 @property (readonly) NSString * _Nullable providerURL __attribute__((swift_name("providerURL")));
 @property (readonly) NSString * _Nullable publicationLabel __attribute__((swift_name("publicationLabel")));
 @property (readonly) NSString * _Nullable publisherid __attribute__((swift_name("publisherid")));
@@ -2183,8 +2348,18 @@ __attribute__((swift_name("Publication")))
 @property (readonly) NSString * _Nullable statspublication __attribute__((swift_name("statspublication")));
 @property (readonly) NSString * _Nullable statsserver __attribute__((swift_name("statsserver")));
 @property (readonly) NSString * _Nullable status __attribute__((swift_name("status")));
+
+/**
+ * @note annotations
+ *   kotlinx.serialization.SerialName(value="__streamingMediaAssetPath")
+*/
 @property (readonly) NSString * _Nullable streamingMediaAssetPath __attribute__((swift_name("streamingMediaAssetPath")));
 @property (readonly) NSString * _Nullable streamingMediaAssetPathTimeline __attribute__((swift_name("streamingMediaAssetPathTimeline")));
+
+/**
+ * @note annotations
+ *   kotlinx.serialization.SerialName(value="#text")
+*/
 @property (readonly) NSString * _Nullable text __attribute__((swift_name("text")));
 @property (readonly) NSString * _Nullable timeZone __attribute__((swift_name("timeZone")));
 @property (readonly) NSString * _Nullable type __attribute__((swift_name("type")));
