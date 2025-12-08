@@ -6,7 +6,7 @@
 #import <Foundation/NSString.h>
 #import <Foundation/NSValue.h>
 
-@class BbnativesharedAction, BbnativesharedActionCompanion, BbnativesharedAdMacroHelperCompanion, BbnativesharedAdSchedulingControllerCompanion, BbnativesharedAdSchedulingData, BbnativesharedAdSchedulingDataCompanion, BbnativesharedAdUnit, BbnativesharedAdUnitCompanion, BbnativesharedApiMethod, BbnativesharedApiProperty, BbnativesharedAppConfig, BbnativesharedAppConfigCompanion, BbnativesharedAudiotrack, BbnativesharedAudiotrackCompanion, BbnativesharedAutoPlayNextTimerCompanion, BbnativesharedBBModel, BbnativesharedBlueBillywigLoggerCompanion, BbnativesharedCapabilitiesCompanion, BbnativesharedChapter, BbnativesharedChapterCompanion, BbnativesharedCondition, BbnativesharedConditionCompanion, BbnativesharedContentItem, BbnativesharedContentItemCompanion, BbnativesharedContentItemFactoryCompanion, BbnativesharedContentLoaderCompanion, BbnativesharedDates, BbnativesharedDatesCompanion, BbnativesharedEmbedControllerCompanion, BbnativesharedEmbedData, BbnativesharedEmbedDataCompanion, BbnativesharedEmbedObject, BbnativesharedEmbedObjectCompanion, BbnativesharedEventHandler, BbnativesharedEventHandlerCompanion, BbnativesharedEventName, BbnativesharedFitMode, BbnativesharedHighlight, BbnativesharedHighlightCompanion, BbnativesharedInstantFactoryCompanion, BbnativesharedKotlinAbstractCoroutineContextElement, BbnativesharedKotlinAbstractCoroutineContextKey<B, E>, BbnativesharedKotlinArray<T>, BbnativesharedKotlinEnum<E>, BbnativesharedKotlinEnumCompanion, BbnativesharedKotlinException, BbnativesharedKotlinIllegalStateException, BbnativesharedKotlinNothing, BbnativesharedKotlinRuntimeException, BbnativesharedKotlinThrowable, BbnativesharedKotlinx_coroutines_coreCoroutineDispatcher, BbnativesharedKotlinx_coroutines_coreCoroutineDispatcherKey, BbnativesharedKotlinx_datetimeInstant, BbnativesharedKotlinx_datetimeInstantCompanion, BbnativesharedKotlinx_serialization_coreSerialKind, BbnativesharedKotlinx_serialization_coreSerializersModule, BbnativesharedKotlinx_serialization_jsonClassDiscriminatorMode, BbnativesharedKotlinx_serialization_jsonJson, BbnativesharedKotlinx_serialization_jsonJsonConfiguration, BbnativesharedKotlinx_serialization_jsonJsonDefault, BbnativesharedKotlinx_serialization_jsonJsonElement, BbnativesharedKotlinx_serialization_jsonJsonElementCompanion, BbnativesharedLanguage, BbnativesharedLanguages, BbnativesharedLanguagesCompanion, BbnativesharedLineItem_, BbnativesharedLineItem_Companion, BbnativesharedLogger, BbnativesharedMasterController, BbnativesharedMasterControllerCompanion, BbnativesharedMediaAsset, BbnativesharedMediaAssetCompanion, BbnativesharedMediaClip, BbnativesharedMediaClipCompanion, BbnativesharedMediaClipList, BbnativesharedMediaClipListCompanion, BbnativesharedMsasController, BbnativesharedMsasControllerCompanion, BbnativesharedParameter, BbnativesharedParameterCompanion, BbnativesharedPhase, BbnativesharedPlatformCompanion, BbnativesharedPlayer, BbnativesharedPlayerCompanion, BbnativesharedPlayerSettings, BbnativesharedPlayerSettingsCompanion, BbnativesharedPlayout, BbnativesharedPlayoutCompanion, BbnativesharedPosType, BbnativesharedProcedure, BbnativesharedProcedureCompanion, BbnativesharedProgramController, BbnativesharedProgramControllerCompanion, BbnativesharedProject, BbnativesharedProjectCompanion, BbnativesharedPublication, BbnativesharedPublicationCompanion, BbnativesharedQuality, BbnativesharedRelatedItemsHelperCompanion, BbnativesharedRequestParams, BbnativesharedRequestParamsCompanion, BbnativesharedShortsEngineCompanion, BbnativesharedSoftEmbargoTimerCompanion, BbnativesharedState, BbnativesharedStep, BbnativesharedStepCompanion, BbnativesharedSubtitle, BbnativesharedSubtitleCompanion, BbnativesharedThumbnail, BbnativesharedThumbnailCompanion, BbnativesharedTimeline, BbnativesharedTimelineCompanion, BbnativesharedTypedObject, BbnativesharedTypedObjectCompanion, BbnativesharedVersioningData, BbnativesharedVersioningDataCompanion, BbnativesharedVideoTrack, BbnativesharedVideoTrackCompanion;
+@class BbnativesharedAction, BbnativesharedActionCompanion, BbnativesharedAdMacroHelperCompanion, BbnativesharedAdSchedulingControllerCompanion, BbnativesharedAdSchedulingData, BbnativesharedAdSchedulingDataCompanion, BbnativesharedAdUnit, BbnativesharedAdUnitCompanion, BbnativesharedApiMethod, BbnativesharedApiProperty, BbnativesharedAppConfig, BbnativesharedAppConfigCompanion, BbnativesharedAudiotrack, BbnativesharedAudiotrackCompanion, BbnativesharedAutoPlayNextTimerCompanion, BbnativesharedBBModel, BbnativesharedBlueBillywigLoggerCompanion, BbnativesharedCapabilitiesCompanion, BbnativesharedChapter, BbnativesharedChapterCompanion, BbnativesharedCondition, BbnativesharedConditionCompanion, BbnativesharedContentItem, BbnativesharedContentItemCompanion, BbnativesharedContentItemFactoryCompanion, BbnativesharedContentLoaderCompanion, BbnativesharedCustomField, BbnativesharedCustomFieldCompanion, BbnativesharedCustomFields, BbnativesharedCustomFieldsCompanion, BbnativesharedDates, BbnativesharedDatesCompanion, BbnativesharedEmbedControllerCompanion, BbnativesharedEmbedData, BbnativesharedEmbedDataCompanion, BbnativesharedEmbedObject, BbnativesharedEmbedObjectCompanion, BbnativesharedEventHandler, BbnativesharedEventHandlerCompanion, BbnativesharedEventName, BbnativesharedFitMode, BbnativesharedHighlight, BbnativesharedHighlightCompanion, BbnativesharedInstantFactoryCompanion, BbnativesharedKotlinAbstractCoroutineContextElement, BbnativesharedKotlinAbstractCoroutineContextKey<B, E>, BbnativesharedKotlinArray<T>, BbnativesharedKotlinEnum<E>, BbnativesharedKotlinEnumCompanion, BbnativesharedKotlinException, BbnativesharedKotlinIllegalStateException, BbnativesharedKotlinNothing, BbnativesharedKotlinRuntimeException, BbnativesharedKotlinThrowable, BbnativesharedKotlinx_coroutines_coreCoroutineDispatcher, BbnativesharedKotlinx_coroutines_coreCoroutineDispatcherKey, BbnativesharedKotlinx_datetimeInstant, BbnativesharedKotlinx_datetimeInstantCompanion, BbnativesharedKotlinx_serialization_coreSerialKind, BbnativesharedKotlinx_serialization_coreSerializersModule, BbnativesharedKotlinx_serialization_jsonClassDiscriminatorMode, BbnativesharedKotlinx_serialization_jsonJson, BbnativesharedKotlinx_serialization_jsonJsonConfiguration, BbnativesharedKotlinx_serialization_jsonJsonDefault, BbnativesharedKotlinx_serialization_jsonJsonElement, BbnativesharedKotlinx_serialization_jsonJsonElementCompanion, BbnativesharedLanguage, BbnativesharedLanguages, BbnativesharedLanguagesCompanion, BbnativesharedLineItem_, BbnativesharedLineItem_Companion, BbnativesharedLogger, BbnativesharedMasterController, BbnativesharedMasterControllerCompanion, BbnativesharedMediaAsset, BbnativesharedMediaAssetCompanion, BbnativesharedMediaClip, BbnativesharedMediaClipCompanion, BbnativesharedMediaClipList, BbnativesharedMediaClipListCompanion, BbnativesharedMsasController, BbnativesharedMsasControllerCompanion, BbnativesharedParameter, BbnativesharedParameterCompanion, BbnativesharedPhase, BbnativesharedPlatformCompanion, BbnativesharedPlayer, BbnativesharedPlayerCompanion, BbnativesharedPlayerSettings, BbnativesharedPlayerSettingsCompanion, BbnativesharedPlayout, BbnativesharedPlayoutCompanion, BbnativesharedPosType, BbnativesharedProcedure, BbnativesharedProcedureCompanion, BbnativesharedProgramController, BbnativesharedProgramControllerCompanion, BbnativesharedProject, BbnativesharedProjectCompanion, BbnativesharedPublication, BbnativesharedPublicationCompanion, BbnativesharedQuality, BbnativesharedRelatedItemsHelperCompanion, BbnativesharedRequestParams, BbnativesharedRequestParamsCompanion, BbnativesharedShortsEngineCompanion, BbnativesharedSoftEmbargoTimerCompanion, BbnativesharedState, BbnativesharedStep, BbnativesharedStepCompanion, BbnativesharedSubtitle, BbnativesharedSubtitleCompanion, BbnativesharedThumbnail, BbnativesharedThumbnailCompanion, BbnativesharedTimeline, BbnativesharedTimelineCompanion, BbnativesharedTypedObject, BbnativesharedTypedObjectCompanion, BbnativesharedVersioningData, BbnativesharedVersioningDataCompanion, BbnativesharedVideoTrack, BbnativesharedVideoTrackCompanion;
 
 @protocol BbnativesharedAdControllerInterface, BbnativesharedContentItemInterface, BbnativesharedEventBusInterface, BbnativesharedEventListenerInterface, BbnativesharedKotlinAnnotation, BbnativesharedKotlinComparable, BbnativesharedKotlinContinuation, BbnativesharedKotlinContinuationInterceptor, BbnativesharedKotlinCoroutineContext, BbnativesharedKotlinCoroutineContextElement, BbnativesharedKotlinCoroutineContextKey, BbnativesharedKotlinIterator, BbnativesharedKotlinKAnnotatedElement, BbnativesharedKotlinKClass, BbnativesharedKotlinKClassifier, BbnativesharedKotlinKDeclarationContainer, BbnativesharedKotlinx_coroutines_coreCoroutineScope, BbnativesharedKotlinx_coroutines_coreFlow, BbnativesharedKotlinx_coroutines_coreFlowCollector, BbnativesharedKotlinx_coroutines_coreMutableSharedFlow, BbnativesharedKotlinx_coroutines_coreMutableStateFlow, BbnativesharedKotlinx_coroutines_coreRunnable, BbnativesharedKotlinx_coroutines_coreSharedFlow, BbnativesharedKotlinx_coroutines_coreStateFlow, BbnativesharedKotlinx_serialization_coreCompositeDecoder, BbnativesharedKotlinx_serialization_coreCompositeEncoder, BbnativesharedKotlinx_serialization_coreDecoder, BbnativesharedKotlinx_serialization_coreDeserializationStrategy, BbnativesharedKotlinx_serialization_coreEncoder, BbnativesharedKotlinx_serialization_coreKSerializer, BbnativesharedKotlinx_serialization_coreSerialDescriptor, BbnativesharedKotlinx_serialization_coreSerialFormat, BbnativesharedKotlinx_serialization_coreSerializationStrategy, BbnativesharedKotlinx_serialization_coreSerializersModuleCollector, BbnativesharedKotlinx_serialization_coreStringFormat, BbnativesharedKotlinx_serialization_jsonJsonNamingStrategy, BbnativesharedMediaControllerInterface, BbnativesharedNetworkInterface, BbnativesharedPosterControllerInterface;
 
@@ -712,6 +712,7 @@ __attribute__((swift_name("ApiProperty")))
 @property (class, readonly) BbnativesharedApiProperty *admediawidth __attribute__((swift_name("admediawidth")));
 @property (class, readonly) BbnativesharedApiProperty *admediaheight __attribute__((swift_name("admediaheight")));
 @property (class, readonly) BbnativesharedApiProperty *inview __attribute__((swift_name("inview")));
+@property (class, readonly) BbnativesharedApiProperty *iscasting __attribute__((swift_name("iscasting")));
 + (BbnativesharedKotlinArray<BbnativesharedApiProperty *> *)values __attribute__((swift_name("values()")));
 @property (class, readonly) NSArray<BbnativesharedApiProperty *> *entries __attribute__((swift_name("entries")));
 @end
@@ -1024,6 +1025,8 @@ __attribute__((swift_name("BlueBillywigLogger.Companion")))
 + (instancetype)allocWithZone:(struct _NSZone *)zone __attribute__((unavailable));
 + (instancetype)companion __attribute__((swift_name("init()")));
 @property (class, readonly, getter=shared) BbnativesharedBlueBillywigLoggerCompanion *shared __attribute__((swift_name("shared")));
+- (id _Nullable)getFromJsonArrayPath:(NSString *)path arr:(NSArray<BbnativesharedKotlinx_serialization_jsonJsonElement *> *)arr __attribute__((swift_name("getFromJsonArray(path:arr:)")));
+- (id _Nullable)getFromJsonObjectPath:(NSString *)path obj:(NSDictionary<NSString *, BbnativesharedKotlinx_serialization_jsonJsonElement *> *)obj __attribute__((swift_name("getFromJsonObject(path:obj:)")));
 @property (readonly) NSString *TAG __attribute__((swift_name("TAG")));
 @end
 
@@ -1363,6 +1366,62 @@ __attribute__((swift_name("ContentItemFactory.Companion")))
 - (BbnativesharedMediaClipList *)createMediaClipListId:(NSString *)id title:(NSString * _Nullable)title deeplink:(NSString * _Nullable)deeplink __attribute__((swift_name("createMediaClipList(id:title:deeplink:)")));
 - (BbnativesharedProject *)createProjectId:(NSString *)id __attribute__((swift_name("createProject(id:)")));
 - (BbnativesharedProject *)createProjectId:(NSString *)id title:(NSString * _Nullable)title deeplink:(NSString * _Nullable)deeplink __attribute__((swift_name("createProject(id:title:deeplink:)")));
+@end
+
+
+/**
+ * @note annotations
+ *   kotlinx.serialization.Serializable
+*/
+__attribute__((objc_subclassing_restricted))
+__attribute__((swift_name("CustomField")))
+@interface BbnativesharedCustomField : BbnativesharedBase
+- (instancetype)initWithName:(NSString * _Nullable)name type:(NSString * _Nullable)type includeInStats:(BbnativesharedBoolean * _Nullable)includeInStats __attribute__((swift_name("init(name:type:includeInStats:)"))) __attribute__((objc_designated_initializer));
+@property (class, readonly, getter=companion) BbnativesharedCustomFieldCompanion *companion __attribute__((swift_name("companion")));
+- (BbnativesharedCustomField *)doCopyName:(NSString * _Nullable)name type:(NSString * _Nullable)type includeInStats:(BbnativesharedBoolean * _Nullable)includeInStats __attribute__((swift_name("doCopy(name:type:includeInStats:)")));
+- (BOOL)isEqual:(id _Nullable)other __attribute__((swift_name("isEqual(_:)")));
+- (NSUInteger)hash __attribute__((swift_name("hash()")));
+- (NSString *)description __attribute__((swift_name("description()")));
+@property (readonly) BbnativesharedBoolean * _Nullable includeInStats __attribute__((swift_name("includeInStats")));
+@property (readonly) NSString * _Nullable name __attribute__((swift_name("name")));
+@property (readonly) NSString * _Nullable type __attribute__((swift_name("type")));
+@end
+
+__attribute__((objc_subclassing_restricted))
+__attribute__((swift_name("CustomField.Companion")))
+@interface BbnativesharedCustomFieldCompanion : BbnativesharedBase
++ (instancetype)alloc __attribute__((unavailable));
++ (instancetype)allocWithZone:(struct _NSZone *)zone __attribute__((unavailable));
++ (instancetype)companion __attribute__((swift_name("init()")));
+@property (class, readonly, getter=shared) BbnativesharedCustomFieldCompanion *shared __attribute__((swift_name("shared")));
+- (id<BbnativesharedKotlinx_serialization_coreKSerializer>)serializer __attribute__((swift_name("serializer()")));
+@end
+
+
+/**
+ * @note annotations
+ *   kotlinx.serialization.Serializable
+*/
+__attribute__((objc_subclassing_restricted))
+__attribute__((swift_name("CustomFields")))
+@interface BbnativesharedCustomFields : BbnativesharedBase
+- (instancetype)initWithMediaclip:(NSArray<BbnativesharedCustomField *> * _Nullable)mediaclip __attribute__((swift_name("init(mediaclip:)"))) __attribute__((objc_designated_initializer));
+@property (class, readonly, getter=companion) BbnativesharedCustomFieldsCompanion *companion __attribute__((swift_name("companion")));
+- (BbnativesharedCustomFields *)doCopyMediaclip:(NSArray<BbnativesharedCustomField *> * _Nullable)mediaclip __attribute__((swift_name("doCopy(mediaclip:)")));
+- (BOOL)isEqual:(id _Nullable)other __attribute__((swift_name("isEqual(_:)")));
+- (NSUInteger)hash __attribute__((swift_name("hash()")));
+- (NSString *)description __attribute__((swift_name("description()")));
+@property (readonly) NSArray<BbnativesharedCustomField *> * _Nullable mediaclip __attribute__((swift_name("mediaclip")));
+@end
+
+__attribute__((objc_subclassing_restricted))
+__attribute__((swift_name("CustomFields.Companion")))
+@interface BbnativesharedCustomFieldsCompanion : BbnativesharedBase
++ (instancetype)alloc __attribute__((unavailable));
++ (instancetype)allocWithZone:(struct _NSZone *)zone __attribute__((unavailable));
++ (instancetype)companion __attribute__((swift_name("init()")));
+@property (class, readonly, getter=shared) BbnativesharedCustomFieldsCompanion *shared __attribute__((swift_name("shared")));
+- (id<BbnativesharedKotlinx_serialization_coreKSerializer>)serializer __attribute__((swift_name("serializer()")));
 @end
 
 
@@ -2342,9 +2401,9 @@ __attribute__((objc_subclassing_restricted))
 __attribute__((swift_name("Publication")))
 @interface BbnativesharedPublication : BbnativesharedBase
 - (instancetype)initWithId:(NSString *)id name:(NSString *)name status:(NSString *)status __attribute__((swift_name("init(id:name:status:)"))) __attribute__((objc_designated_initializer));
-- (instancetype)initWithId:(NSString * _Nullable)id name:(NSString * _Nullable)name status:(NSString * _Nullable)status type:(NSString * _Nullable)type publisherid:(NSString * _Nullable)publisherid label:(NSString * _Nullable)label baseurl:(NSString * _Nullable)baseurl baseuri:(NSString * _Nullable)baseuri sourcepath:(NSString * _Nullable)sourcepath text:(NSString * _Nullable)text bidadapters:(NSString * _Nullable)bidadapters usePreferredPlayMode:(NSString * _Nullable)usePreferredPlayMode useThumbsFromMetadata:(NSString * _Nullable)useThumbsFromMetadata embedAsync:(NSString * _Nullable)embedAsync avoidPreload:(NSString * _Nullable)avoidPreload avoidMediaManager:(NSString * _Nullable)avoidMediaManager avoidAndroidNativeHLS:(NSString * _Nullable)avoidAndroidNativeHLS serverUploadScript:(NSString * _Nullable)serverUploadScript statsserver:(NSString * _Nullable)statsserver statspublication:(NSString * _Nullable)statspublication playoutURL:(NSString * _Nullable)playoutURL defaultMediaAssetPath:(NSString * _Nullable)defaultMediaAssetPath contextMenuLink:(NSString * _Nullable)contextMenuLink streamingMediaAssetPath:(NSString * _Nullable)streamingMediaAssetPath rtmphost:(NSString * _Nullable)rtmphost publicationLabel:(NSString * _Nullable)publicationLabel streamingMediaAssetPathTimeline:(NSString * _Nullable)streamingMediaAssetPathTimeline mobileMediaAssetPath:(NSString * _Nullable)mobileMediaAssetPath providerURL:(NSString * _Nullable)providerURL secureMediaAssetPath:(NSString * _Nullable)secureMediaAssetPath timeZone:(NSString * _Nullable)timeZone liveMediaAssetPath:(NSString * _Nullable)liveMediaAssetPath enableChat:(NSString * _Nullable)enableChat wsChatEndpoint:(NSString * _Nullable)wsChatEndpoint __attribute__((swift_name("init(id:name:status:type:publisherid:label:baseurl:baseuri:sourcepath:text:bidadapters:usePreferredPlayMode:useThumbsFromMetadata:embedAsync:avoidPreload:avoidMediaManager:avoidAndroidNativeHLS:serverUploadScript:statsserver:statspublication:playoutURL:defaultMediaAssetPath:contextMenuLink:streamingMediaAssetPath:rtmphost:publicationLabel:streamingMediaAssetPathTimeline:mobileMediaAssetPath:providerURL:secureMediaAssetPath:timeZone:liveMediaAssetPath:enableChat:wsChatEndpoint:)"))) __attribute__((objc_designated_initializer));
+- (instancetype)initWithId:(NSString * _Nullable)id name:(NSString * _Nullable)name status:(NSString * _Nullable)status type:(NSString * _Nullable)type publisherid:(NSString * _Nullable)publisherid label:(NSString * _Nullable)label baseurl:(NSString * _Nullable)baseurl baseuri:(NSString * _Nullable)baseuri sourcepath:(NSString * _Nullable)sourcepath text:(NSString * _Nullable)text bidadapters:(NSString * _Nullable)bidadapters usePreferredPlayMode:(NSString * _Nullable)usePreferredPlayMode useThumbsFromMetadata:(NSString * _Nullable)useThumbsFromMetadata embedAsync:(NSString * _Nullable)embedAsync avoidPreload:(NSString * _Nullable)avoidPreload avoidMediaManager:(NSString * _Nullable)avoidMediaManager avoidAndroidNativeHLS:(NSString * _Nullable)avoidAndroidNativeHLS serverUploadScript:(NSString * _Nullable)serverUploadScript statsserver:(NSString * _Nullable)statsserver statspublication:(NSString * _Nullable)statspublication playoutURL:(NSString * _Nullable)playoutURL defaultMediaAssetPath:(NSString * _Nullable)defaultMediaAssetPath contextMenuLink:(NSString * _Nullable)contextMenuLink streamingMediaAssetPath:(NSString * _Nullable)streamingMediaAssetPath rtmphost:(NSString * _Nullable)rtmphost publicationLabel:(NSString * _Nullable)publicationLabel streamingMediaAssetPathTimeline:(NSString * _Nullable)streamingMediaAssetPathTimeline mobileMediaAssetPath:(NSString * _Nullable)mobileMediaAssetPath providerURL:(NSString * _Nullable)providerURL secureMediaAssetPath:(NSString * _Nullable)secureMediaAssetPath timeZone:(NSString * _Nullable)timeZone liveMediaAssetPath:(NSString * _Nullable)liveMediaAssetPath enableChat:(NSString * _Nullable)enableChat wsChatEndpoint:(NSString * _Nullable)wsChatEndpoint customfields:(BbnativesharedCustomFields * _Nullable)customfields __attribute__((swift_name("init(id:name:status:type:publisherid:label:baseurl:baseuri:sourcepath:text:bidadapters:usePreferredPlayMode:useThumbsFromMetadata:embedAsync:avoidPreload:avoidMediaManager:avoidAndroidNativeHLS:serverUploadScript:statsserver:statspublication:playoutURL:defaultMediaAssetPath:contextMenuLink:streamingMediaAssetPath:rtmphost:publicationLabel:streamingMediaAssetPathTimeline:mobileMediaAssetPath:providerURL:secureMediaAssetPath:timeZone:liveMediaAssetPath:enableChat:wsChatEndpoint:customfields:)"))) __attribute__((objc_designated_initializer));
 @property (class, readonly, getter=companion) BbnativesharedPublicationCompanion *companion __attribute__((swift_name("companion")));
-- (BbnativesharedPublication *)doCopyId:(NSString * _Nullable)id name:(NSString * _Nullable)name status:(NSString * _Nullable)status type:(NSString * _Nullable)type publisherid:(NSString * _Nullable)publisherid label:(NSString * _Nullable)label baseurl:(NSString * _Nullable)baseurl baseuri:(NSString * _Nullable)baseuri sourcepath:(NSString * _Nullable)sourcepath text:(NSString * _Nullable)text bidadapters:(NSString * _Nullable)bidadapters usePreferredPlayMode:(NSString * _Nullable)usePreferredPlayMode useThumbsFromMetadata:(NSString * _Nullable)useThumbsFromMetadata embedAsync:(NSString * _Nullable)embedAsync avoidPreload:(NSString * _Nullable)avoidPreload avoidMediaManager:(NSString * _Nullable)avoidMediaManager avoidAndroidNativeHLS:(NSString * _Nullable)avoidAndroidNativeHLS serverUploadScript:(NSString * _Nullable)serverUploadScript statsserver:(NSString * _Nullable)statsserver statspublication:(NSString * _Nullable)statspublication playoutURL:(NSString * _Nullable)playoutURL defaultMediaAssetPath:(NSString * _Nullable)defaultMediaAssetPath contextMenuLink:(NSString * _Nullable)contextMenuLink streamingMediaAssetPath:(NSString * _Nullable)streamingMediaAssetPath rtmphost:(NSString * _Nullable)rtmphost publicationLabel:(NSString * _Nullable)publicationLabel streamingMediaAssetPathTimeline:(NSString * _Nullable)streamingMediaAssetPathTimeline mobileMediaAssetPath:(NSString * _Nullable)mobileMediaAssetPath providerURL:(NSString * _Nullable)providerURL secureMediaAssetPath:(NSString * _Nullable)secureMediaAssetPath timeZone:(NSString * _Nullable)timeZone liveMediaAssetPath:(NSString * _Nullable)liveMediaAssetPath enableChat:(NSString * _Nullable)enableChat wsChatEndpoint:(NSString * _Nullable)wsChatEndpoint __attribute__((swift_name("doCopy(id:name:status:type:publisherid:label:baseurl:baseuri:sourcepath:text:bidadapters:usePreferredPlayMode:useThumbsFromMetadata:embedAsync:avoidPreload:avoidMediaManager:avoidAndroidNativeHLS:serverUploadScript:statsserver:statspublication:playoutURL:defaultMediaAssetPath:contextMenuLink:streamingMediaAssetPath:rtmphost:publicationLabel:streamingMediaAssetPathTimeline:mobileMediaAssetPath:providerURL:secureMediaAssetPath:timeZone:liveMediaAssetPath:enableChat:wsChatEndpoint:)")));
+- (BbnativesharedPublication *)doCopyId:(NSString * _Nullable)id name:(NSString * _Nullable)name status:(NSString * _Nullable)status type:(NSString * _Nullable)type publisherid:(NSString * _Nullable)publisherid label:(NSString * _Nullable)label baseurl:(NSString * _Nullable)baseurl baseuri:(NSString * _Nullable)baseuri sourcepath:(NSString * _Nullable)sourcepath text:(NSString * _Nullable)text bidadapters:(NSString * _Nullable)bidadapters usePreferredPlayMode:(NSString * _Nullable)usePreferredPlayMode useThumbsFromMetadata:(NSString * _Nullable)useThumbsFromMetadata embedAsync:(NSString * _Nullable)embedAsync avoidPreload:(NSString * _Nullable)avoidPreload avoidMediaManager:(NSString * _Nullable)avoidMediaManager avoidAndroidNativeHLS:(NSString * _Nullable)avoidAndroidNativeHLS serverUploadScript:(NSString * _Nullable)serverUploadScript statsserver:(NSString * _Nullable)statsserver statspublication:(NSString * _Nullable)statspublication playoutURL:(NSString * _Nullable)playoutURL defaultMediaAssetPath:(NSString * _Nullable)defaultMediaAssetPath contextMenuLink:(NSString * _Nullable)contextMenuLink streamingMediaAssetPath:(NSString * _Nullable)streamingMediaAssetPath rtmphost:(NSString * _Nullable)rtmphost publicationLabel:(NSString * _Nullable)publicationLabel streamingMediaAssetPathTimeline:(NSString * _Nullable)streamingMediaAssetPathTimeline mobileMediaAssetPath:(NSString * _Nullable)mobileMediaAssetPath providerURL:(NSString * _Nullable)providerURL secureMediaAssetPath:(NSString * _Nullable)secureMediaAssetPath timeZone:(NSString * _Nullable)timeZone liveMediaAssetPath:(NSString * _Nullable)liveMediaAssetPath enableChat:(NSString * _Nullable)enableChat wsChatEndpoint:(NSString * _Nullable)wsChatEndpoint customfields:(BbnativesharedCustomFields * _Nullable)customfields __attribute__((swift_name("doCopy(id:name:status:type:publisherid:label:baseurl:baseuri:sourcepath:text:bidadapters:usePreferredPlayMode:useThumbsFromMetadata:embedAsync:avoidPreload:avoidMediaManager:avoidAndroidNativeHLS:serverUploadScript:statsserver:statspublication:playoutURL:defaultMediaAssetPath:contextMenuLink:streamingMediaAssetPath:rtmphost:publicationLabel:streamingMediaAssetPathTimeline:mobileMediaAssetPath:providerURL:secureMediaAssetPath:timeZone:liveMediaAssetPath:enableChat:wsChatEndpoint:customfields:)")));
 - (BOOL)isEqual:(id _Nullable)other __attribute__((swift_name("isEqual(_:)")));
 - (NSUInteger)hash __attribute__((swift_name("hash()")));
 - (NSString *)description __attribute__((swift_name("description()")));
@@ -2355,6 +2414,7 @@ __attribute__((swift_name("Publication")))
 @property (readonly) NSString * _Nullable baseurl __attribute__((swift_name("baseurl")));
 @property (readonly) NSString * _Nullable bidadapters __attribute__((swift_name("bidadapters")));
 @property (readonly) NSString * _Nullable contextMenuLink __attribute__((swift_name("contextMenuLink")));
+@property (readonly) BbnativesharedCustomFields * _Nullable customfields __attribute__((swift_name("customfields")));
 @property (readonly) NSString * _Nullable defaultMediaAssetPath __attribute__((swift_name("defaultMediaAssetPath")));
 @property (readonly) NSString * _Nullable embedAsync __attribute__((swift_name("embedAsync")));
 @property (readonly) NSString * _Nullable enableChat __attribute__((swift_name("enableChat")));
@@ -2895,6 +2955,16 @@ __attribute__((swift_name("Kotlinx_coroutines_coreMutableStateFlow")))
 - (BOOL)compareAndSetExpect:(id _Nullable)expect update:(id _Nullable)update __attribute__((swift_name("compareAndSet(expect:update:)")));
 @end
 
+
+/**
+ * @note annotations
+ *   kotlinx.serialization.Serializable(with=NormalClass(value=kotlinx/serialization/json/JsonElementSerializer))
+*/
+__attribute__((swift_name("Kotlinx_serialization_jsonJsonElement")))
+@interface BbnativesharedKotlinx_serialization_jsonJsonElement : BbnativesharedBase
+@property (class, readonly, getter=companion) BbnativesharedKotlinx_serialization_jsonJsonElementCompanion *companion __attribute__((swift_name("companion")));
+@end
+
 __attribute__((swift_name("Kotlinx_serialization_coreSerializationStrategy")))
 @protocol BbnativesharedKotlinx_serialization_coreSerializationStrategy
 @required
@@ -2912,16 +2982,6 @@ __attribute__((swift_name("Kotlinx_serialization_coreDeserializationStrategy")))
 __attribute__((swift_name("Kotlinx_serialization_coreKSerializer")))
 @protocol BbnativesharedKotlinx_serialization_coreKSerializer <BbnativesharedKotlinx_serialization_coreSerializationStrategy, BbnativesharedKotlinx_serialization_coreDeserializationStrategy>
 @required
-@end
-
-
-/**
- * @note annotations
- *   kotlinx.serialization.Serializable(with=NormalClass(value=kotlinx/serialization/json/JsonElementSerializer))
-*/
-__attribute__((swift_name("Kotlinx_serialization_jsonJsonElement")))
-@interface BbnativesharedKotlinx_serialization_jsonJsonElement : BbnativesharedBase
-@property (class, readonly, getter=companion) BbnativesharedKotlinx_serialization_jsonJsonElementCompanion *companion __attribute__((swift_name("companion")));
 @end
 
 __attribute__((swift_name("Kotlinx_serialization_coreSerializersModule")))
@@ -3119,6 +3179,16 @@ __attribute__((swift_name("KotlinCancellationException")))
 - (instancetype)initWithMessage:(NSString * _Nullable)message cause:(BbnativesharedKotlinThrowable * _Nullable)cause __attribute__((swift_name("init(message:cause:)"))) __attribute__((objc_designated_initializer));
 @end
 
+__attribute__((objc_subclassing_restricted))
+__attribute__((swift_name("Kotlinx_serialization_jsonJsonElement.Companion")))
+@interface BbnativesharedKotlinx_serialization_jsonJsonElementCompanion : BbnativesharedBase
++ (instancetype)alloc __attribute__((unavailable));
++ (instancetype)allocWithZone:(struct _NSZone *)zone __attribute__((unavailable));
++ (instancetype)companion __attribute__((swift_name("init()")));
+@property (class, readonly, getter=shared) BbnativesharedKotlinx_serialization_jsonJsonElementCompanion *shared __attribute__((swift_name("shared")));
+- (id<BbnativesharedKotlinx_serialization_coreKSerializer>)serializer __attribute__((swift_name("serializer()")));
+@end
+
 __attribute__((swift_name("Kotlinx_serialization_coreEncoder")))
 @protocol BbnativesharedKotlinx_serialization_coreEncoder
 @required
@@ -3258,16 +3328,6 @@ __attribute__((swift_name("Kotlinx_serialization_coreDecoder")))
 - (int16_t)decodeShort __attribute__((swift_name("decodeShort()")));
 - (NSString *)decodeString __attribute__((swift_name("decodeString()")));
 @property (readonly) BbnativesharedKotlinx_serialization_coreSerializersModule *serializersModule __attribute__((swift_name("serializersModule")));
-@end
-
-__attribute__((objc_subclassing_restricted))
-__attribute__((swift_name("Kotlinx_serialization_jsonJsonElement.Companion")))
-@interface BbnativesharedKotlinx_serialization_jsonJsonElementCompanion : BbnativesharedBase
-+ (instancetype)alloc __attribute__((unavailable));
-+ (instancetype)allocWithZone:(struct _NSZone *)zone __attribute__((unavailable));
-+ (instancetype)companion __attribute__((swift_name("init()")));
-@property (class, readonly, getter=shared) BbnativesharedKotlinx_serialization_jsonJsonElementCompanion *shared __attribute__((swift_name("shared")));
-- (id<BbnativesharedKotlinx_serialization_coreKSerializer>)serializer __attribute__((swift_name("serializer()")));
 @end
 
 
