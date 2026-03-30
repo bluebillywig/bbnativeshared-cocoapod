@@ -2,10 +2,13 @@ Pod::Spec.new do |spec|
 
   spec.name         = "BlueBillywigNativeShared-iOS"
   spec.version = "8.46.0"
-  spec.summary      = "Blue Billywig native shared framework"
+  spec.summary      = "Shared business logic framework for the Blue Billywig Native Player SDK"
 
   spec.description  = <<-DESC
-  Blue Billywig native shared framwork is a shared code base used in BlueBillywigNativePlayerKit
+  Shared cross-platform business logic framework used by BlueBillywigNativePlayerKit-iOS.
+  Contains controllers, data models, networking, and event handling that power the
+  Blue Billywig Native Player SDK. This is an internal dependency — install
+  BlueBillywigNativePlayerKit-iOS instead for player integration.
                    DESC
 
   spec.homepage     = "https://www.bluebillywig.com/"
