@@ -687,6 +687,12 @@ __attribute__((swift_name("ProgramController")))
 - (void)skipAd __attribute__((swift_name("skipAd()")));
 - (void)spliceIntoContentListSplicePosition:(int32_t)splicePosition items:(NSArray<id<BbnativesharedContentItemInterface>> *)items __attribute__((swift_name("spliceIntoContentList(splicePosition:items:)")));
 - (void)spliceOutoffContentListSplicePosition:(int32_t)splicePosition __attribute__((swift_name("spliceOutoffContentList(splicePosition:)")));
+
+/**
+ * unload content
+ *   NB it does NOT unload the context (nor the playout;)!
+ */
+- (void)unload __attribute__((swift_name("unload()")));
 @property id<BbnativesharedAdControllerInterface> _Nullable adController __attribute__((swift_name("adController")));
 @property BbnativesharedMediaClip * _Nullable clipData __attribute__((swift_name("clipData")));
 @property NSString * _Nullable contentId __attribute__((swift_name("contentId")));
@@ -722,6 +728,7 @@ __attribute__((swift_name("StatsController")))
 - (instancetype)initWithEventBus:(id<BbnativesharedEventBusInterface> _Nullable)eventBus network:(id<BbnativesharedNetworkInterface> _Nullable)network __attribute__((swift_name("init(eventBus:network:)"))) __attribute__((objc_designated_initializer));
 - (void)__destruct __attribute__((swift_name("__destruct()")));
 - (void)onEventEventType:(BbnativesharedEventName *)eventType data:(NSDictionary<NSString *, id> * _Nullable)data __attribute__((swift_name("onEvent(eventType:data:)")));
+- (void)reset __attribute__((swift_name("reset()")));
 @property id<BbnativesharedEventBusInterface> _Nullable eventBus __attribute__((swift_name("eventBus")));
 @end
 
@@ -956,6 +963,7 @@ __attribute__((swift_name("EventName")))
 @property (class, readonly) BbnativesharedEventName *canplay __attribute__((swift_name("canplay")));
 @property (class, readonly) BbnativesharedEventName *playing __attribute__((swift_name("playing")));
 @property (class, readonly) BbnativesharedEventName *pause __attribute__((swift_name("pause")));
+@property (class, readonly) BbnativesharedEventName *stalled __attribute__((swift_name("stalled")));
 @property (class, readonly) BbnativesharedEventName *ended __attribute__((swift_name("ended")));
 @property (class, readonly) BbnativesharedEventName *fullscreen __attribute__((swift_name("fullscreen")));
 @property (class, readonly) BbnativesharedEventName *retractfullscreen __attribute__((swift_name("retractfullscreen")));
@@ -1175,6 +1183,7 @@ __attribute__((swift_name("BlueBillywigLogger")))
 - (void)logMediaClipEventEvent:(NSString *)event aux:(NSDictionary<NSString *, NSString *> *)aux __attribute__((swift_name("logMediaClipEvent(event:aux:)")));
 - (void)onClipDataLoadedEventType:(BbnativesharedEventName *)eventType payload:(NSDictionary<NSString *, id> * _Nullable)payload __attribute__((swift_name("onClipDataLoaded(eventType:payload:)")));
 - (void)onEventEventType:(BbnativesharedEventName *)eventType data:(NSDictionary<NSString *, id> * _Nullable)data __attribute__((swift_name("onEvent(eventType:data:)")));
+- (void)reset __attribute__((swift_name("reset()")));
 
 /**
  * @note This property has protected visibility in Kotlin source and is intended only for use by subclasses.
