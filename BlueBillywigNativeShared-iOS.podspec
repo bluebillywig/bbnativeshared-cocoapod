@@ -1,7 +1,7 @@
 Pod::Spec.new do |spec|
 
   spec.name         = "BlueBillywigNativeShared-iOS"
-  spec.version = "8.49.0"
+  spec.version = "8.50.0"
   spec.summary      = "Shared business logic framework for the Blue Billywig Native Player SDK"
 
   spec.description  = <<-DESC
