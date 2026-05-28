@@ -144,10 +144,22 @@ __attribute__((swift_name("KotlinBoolean")))
 + (instancetype)numberWithBool:(BOOL)value;
 @end
 
+
+/**
+ * @suppress
+ */
 __attribute__((objc_subclassing_restricted))
 __attribute__((swift_name("AdMacroHelper")))
 @interface BbnativesharedAdMacroHelper : BbnativesharedBase
+
+/**
+ * @suppress
+ */
 - (instancetype)init __attribute__((swift_name("init()"))) __attribute__((objc_designated_initializer));
+
+/**
+ * @suppress
+ */
 + (instancetype)new __attribute__((availability(swift, unavailable, message="use object initializers instead")));
 @property (class, readonly, getter=companion) BbnativesharedAdMacroHelperCompanion *companion __attribute__((swift_name("companion")));
 
@@ -156,6 +168,7 @@ __attribute__((swift_name("AdMacroHelper")))
  *
  * @param {string} macro - the macro, including leading and trailing brackets
  * @return {string|Object} the resolved value, which might be an empty string, or NULL
+ * @suppress
  */
 - (NSString * _Nullable)resolveBracketMacroMacro:(NSString *)macro __attribute__((swift_name("resolveBracketMacro(macro:)")));
 - (NSString * _Nullable)resolveMacroMacro:(NSString *)macro __attribute__((swift_name("resolveMacro(macro:)")));
@@ -165,6 +178,7 @@ __attribute__((swift_name("AdMacroHelper")))
  *
  * @param {String} macro - the macro, including leading and trailing %% markers
  * @return {String} the resolved value, which might be an empty string, or NULL
+ * @suppress
  */
 - (NSString * _Nullable)resolvePercentMacroMacro:(NSString *)macro __attribute__((swift_name("resolvePercentMacro(macro:)")));
 - (void)updateSettingsSettings:(NSDictionary<NSString *, id> *)settings __attribute__((swift_name("updateSettings(settings:)")));
@@ -264,10 +278,22 @@ __attribute__((swift_name("Capabilities.Companion")))
 - (BOOL)canPlayTypeType:(NSString *)type __attribute__((swift_name("canPlayType(type:)")));
 @end
 
+
+/**
+ * @suppress
+ */
 __attribute__((objc_subclassing_restricted))
 __attribute__((swift_name("InstantFactory")))
 @interface BbnativesharedInstantFactory : BbnativesharedBase
+
+/**
+ * @suppress
+ */
 - (instancetype)init __attribute__((swift_name("init()"))) __attribute__((objc_designated_initializer));
+
+/**
+ * @suppress
+ */
 + (instancetype)new __attribute__((availability(swift, unavailable, message="use object initializers instead")));
 @property (class, readonly, getter=companion) BbnativesharedInstantFactoryCompanion *companion __attribute__((swift_name("companion")));
 @end
@@ -282,16 +308,19 @@ __attribute__((swift_name("InstantFactory.Companion")))
 
 /**
  * @param {String} str , e.g. "2024-05-25T23:59:00" or "Sat, 25 May 2024 23:59:00 +0200"
+ * @suppress
  */
 - (BbnativesharedKotlinInstant * _Nullable)tryCreateOfDateTimeStr:(NSString *)str __attribute__((swift_name("tryCreateOfDateTime(str:)")));
 
 /**
  * @param {String} str , e.g. "Sat, 25 May 2024 23:59:00 +0200"
+ * @suppress
  */
 - (BbnativesharedKotlinInstant * _Nullable)tryCreateOfFullDateTimeStr:(NSString *)str __attribute__((swift_name("tryCreateOfFullDateTime(str:)")));
 
 /**
  * @param {String} str , e.g. "2024-05-25T23:59:00Z"
+ * @suppress
  */
 - (BbnativesharedKotlinInstant * _Nullable)tryCreateOfIso8601DateTimeStr:(NSString *)str __attribute__((swift_name("tryCreateOfIso8601DateTime(str:)")));
 @end
@@ -383,6 +412,8 @@ __attribute__((swift_name("RelatedItemsHelper.Companion")))
 
 
 /**
+ * The ShortsEngine listens to various player events to try and automatically insert mainroll ad items
+ * in a playlist based on where the player currently is in the playlist
  * @suppress
  */
 __attribute__((objc_subclassing_restricted))
@@ -523,6 +554,7 @@ __attribute__((swift_name("InViewController")))
 
 /**
  * Get inView
+ * @suppress
  */
 - (BOOL)getInView __attribute__((swift_name("getInView()")));
 - (void)onEventEventType:(BbnativesharedEventName *)eventType data:(NSDictionary<NSString *, id> * _Nullable)data __attribute__((swift_name("onEvent(eventType:data:)")));
@@ -531,6 +563,7 @@ __attribute__((swift_name("InViewController")))
  * Set inView (forced)
  *
  * @param mixed inView TRUE, FALSE, or NULL (meaning unforced)
+ * @suppress
  */
 - (void)setInViewInView:(BbnativesharedBoolean * _Nullable)inView __attribute__((swift_name("setInView(inView:)")));
 
@@ -663,16 +696,19 @@ __attribute__((swift_name("ProgramController")))
 
 /**
  * load ad services data
+ * @suppress
  */
 - (void)loadAdServicesDataAdServicesData:(NSArray<BbnativesharedAdUnit *> *)adServicesData initiator:(NSString * _Nullable)initiator autoPlay:(BbnativesharedBoolean * _Nullable)autoPlay seekPosition:(id _Nullable)seekPosition context:(NSDictionary<NSString *, id> * _Nullable)context __attribute__((swift_name("loadAdServicesData(adServicesData:initiator:autoPlay:seekPosition:context:)")));
 
 /**
  * load content data
+ * @suppress
  */
 - (void)loadContentContent:(id<BbnativesharedContentItemInterface>)content initiator:(NSString * _Nullable)initiator autoPlay:(BbnativesharedBoolean * _Nullable)autoPlay seekPosition:(id _Nullable)seekPosition context:(NSDictionary<NSString *, id> * _Nullable)context listOffset:(BbnativesharedInt * _Nullable)listOffset __attribute__((swift_name("loadContent(content:initiator:autoPlay:seekPosition:context:listOffset:)")));
 
 /**
  * load content
+ * @suppress
  */
 - (void)loadContentByIdContentId:(NSString *)contentId contentIndicator:(NSString * _Nullable)contentIndicator initiator:(NSString * _Nullable)initiator autoPlay:(BbnativesharedBoolean * _Nullable)autoPlay seekPosition:(id _Nullable)seekPosition context:(NSDictionary<NSString *, id> * _Nullable)context listOffset:(BbnativesharedInt * _Nullable)listOffset __attribute__((swift_name("loadContentById(contentId:contentIndicator:initiator:autoPlay:seekPosition:context:listOffset:)")));
 - (void)onEventEventType:(BbnativesharedEventName *)eventType data:(NSDictionary<NSString *, id> * _Nullable)data __attribute__((swift_name("onEvent(eventType:data:)")));
@@ -691,6 +727,7 @@ __attribute__((swift_name("ProgramController")))
 /**
  * unload content
  *   NB it does NOT unload the context (nor the playout;)!
+ * @suppress
  */
 - (void)unload __attribute__((swift_name("unload()")));
 @property id<BbnativesharedAdControllerInterface> _Nullable adController __attribute__((swift_name("adController")));
@@ -732,10 +769,22 @@ __attribute__((swift_name("StatsController")))
 @property id<BbnativesharedEventBusInterface> _Nullable eventBus __attribute__((swift_name("eventBus")));
 @end
 
+
+/**
+ * @suppress
+ */
 __attribute__((objc_subclassing_restricted))
 __attribute__((swift_name("ContentLoader")))
 @interface BbnativesharedContentLoader : BbnativesharedBase <BbnativesharedKotlinx_coroutines_coreCoroutineScope>
+
+/**
+ * @suppress
+ */
 - (instancetype)init __attribute__((swift_name("init()"))) __attribute__((objc_designated_initializer));
+
+/**
+ * @suppress
+ */
 + (instancetype)new __attribute__((availability(swift, unavailable, message="use object initializers instead")));
 @property (class, readonly, getter=companion) BbnativesharedContentLoaderCompanion *companion __attribute__((swift_name("companion")));
 - (void)__destruct __attribute__((swift_name("__destruct()")));
@@ -753,6 +802,10 @@ __attribute__((swift_name("ContentLoader.Companion")))
 + (instancetype)allocWithZone:(struct _NSZone *)zone __attribute__((unavailable));
 + (instancetype)companion __attribute__((swift_name("init()")));
 @property (class, readonly, getter=shared) BbnativesharedContentLoaderCompanion *shared __attribute__((swift_name("shared")));
+
+/**
+ * @suppress
+ */
 - (NSString *)fixDataInconsistenciesDataString:(NSString *)dataString __attribute__((swift_name("fixDataInconsistencies(dataString:)")));
 - (BbnativesharedMediaClip * _Nullable)parseMediaClipJsonString:(NSString *)jsonString __attribute__((swift_name("parseMediaClip(jsonString:)")));
 - (BbnativesharedMediaClipList * _Nullable)parseMediaClipListJsonString:(NSString *)jsonString __attribute__((swift_name("parseMediaClipList(jsonString:)")));
@@ -761,18 +814,38 @@ __attribute__((swift_name("ContentLoader.Companion")))
 @property (readonly) BbnativesharedKotlinx_serialization_jsonJson *optimizedJsonParser __attribute__((swift_name("optimizedJsonParser")));
 @end
 
+
+/**
+ * @suppress
+ */
 __attribute__((objc_subclassing_restricted))
 __attribute__((swift_name("Language")))
 @interface BbnativesharedLanguage : BbnativesharedBase
 - (instancetype)initWithIso:(NSString * _Nullable)iso translations:(BbnativesharedMutableDictionary<NSString *, NSString *> *)translations __attribute__((swift_name("init(iso:translations:)"))) __attribute__((objc_designated_initializer));
 - (BbnativesharedLanguage *)doCopyIso:(NSString * _Nullable)iso translations:(BbnativesharedMutableDictionary<NSString *, NSString *> *)translations __attribute__((swift_name("doCopy(iso:translations:)")));
+
+/**
+ * @suppress
+ */
 - (BOOL)isEqual:(id _Nullable)other __attribute__((swift_name("isEqual(_:)")));
+
+/**
+ * @suppress
+ */
 - (NSUInteger)hash __attribute__((swift_name("hash()")));
+
+/**
+ * @suppress
+ */
 - (NSString *)description __attribute__((swift_name("description()")));
 @property NSString * _Nullable iso __attribute__((swift_name("iso")));
 @property BbnativesharedMutableDictionary<NSString *, NSString *> *translations __attribute__((swift_name("translations")));
 @end
 
+
+/**
+ * @suppress
+ */
 __attribute__((objc_subclassing_restricted))
 __attribute__((swift_name("Languages")))
 @interface BbnativesharedLanguages : BbnativesharedBase
@@ -809,10 +882,62 @@ __attribute__((swift_name("KotlinEnum")))
 @property (readonly) int32_t ordinal __attribute__((swift_name("ordinal")));
 @end
 
+
+/**
+ * ApiMethod
+ * *  load
+ * *  play
+ * *  pause
+ * *  seek
+ * *  autoPlayNextCancel
+ * *  collapse
+ * *  expand
+ * *  enterFullScreen
+ * *  exitFullScreen
+ * *  handleWidgetEvent
+ * *  setVolume
+ * *  setMuted
+ * *  skipAd
+ * *  showInterfaceElement
+ * *  hideInterfaceElement
+ * *  enableInterfaceElement
+ * *  disableInterfaceElement
+ * *  doOpenUrl
+ * *  doShare
+ * *  setSubtitle
+ * *  selectAudioTrack
+ * *  updatePlayout
+ */
 __attribute__((objc_subclassing_restricted))
 __attribute__((swift_name("ApiMethod")))
 @interface BbnativesharedApiMethod : BbnativesharedKotlinEnum<BbnativesharedApiMethod *>
 + (instancetype)alloc __attribute__((unavailable));
+
+/**
+ * ApiMethod
+ * *  load
+ * *  play
+ * *  pause
+ * *  seek
+ * *  autoPlayNextCancel
+ * *  collapse
+ * *  expand
+ * *  enterFullScreen
+ * *  exitFullScreen
+ * *  handleWidgetEvent
+ * *  setVolume
+ * *  setMuted
+ * *  skipAd
+ * *  showInterfaceElement
+ * *  hideInterfaceElement
+ * *  enableInterfaceElement
+ * *  disableInterfaceElement
+ * *  doOpenUrl
+ * *  doShare
+ * *  setSubtitle
+ * *  selectAudioTrack
+ * *  updatePlayout
+ */
 + (instancetype)allocWithZone:(struct _NSZone *)zone __attribute__((unavailable));
 - (instancetype)initWithName:(NSString *)name ordinal:(int32_t)ordinal __attribute__((swift_name("init(name:ordinal:)"))) __attribute__((objc_designated_initializer)) __attribute__((unavailable));
 @property (class, readonly) BbnativesharedApiMethod *load_ __attribute__((swift_name("load_")));
@@ -841,10 +966,48 @@ __attribute__((swift_name("ApiMethod")))
 @property (class, readonly) NSArray<BbnativesharedApiMethod *> *entries __attribute__((swift_name("entries")));
 @end
 
+
+/**
+ * ApiProperty
+ * *  phase
+ * *  state
+ * *  mode
+ * *  playoutData
+ * *  projectData
+ * *  clipData
+ * *  relatedItems
+ * *  volume
+ * *  muted
+ * *  controls
+ * *  duration
+ * *  adMediaWidth
+ * *  adMediaHeight
+ * *  inView
+ * *  isCasting
+ */
 __attribute__((objc_subclassing_restricted))
 __attribute__((swift_name("ApiProperty")))
 @interface BbnativesharedApiProperty : BbnativesharedKotlinEnum<BbnativesharedApiProperty *>
 + (instancetype)alloc __attribute__((unavailable));
+
+/**
+ * ApiProperty
+ * *  phase
+ * *  state
+ * *  mode
+ * *  playoutData
+ * *  projectData
+ * *  clipData
+ * *  relatedItems
+ * *  volume
+ * *  muted
+ * *  controls
+ * *  duration
+ * *  adMediaWidth
+ * *  adMediaHeight
+ * *  inView
+ * *  isCasting
+ */
 + (instancetype)allocWithZone:(struct _NSZone *)zone __attribute__((unavailable));
 - (instancetype)initWithName:(NSString *)name ordinal:(int32_t)ordinal __attribute__((swift_name("init(name:ordinal:)"))) __attribute__((objc_designated_initializer)) __attribute__((unavailable));
 @property (class, readonly) BbnativesharedApiProperty *phase __attribute__((swift_name("phase")));
@@ -1031,10 +1194,28 @@ __attribute__((swift_name("FitMode")))
 @property (class, readonly) NSArray<BbnativesharedFitMode *> *entries __attribute__((swift_name("entries")));
 @end
 
+
+/**
+ * Phase
+ * *  INIT
+ * *  PRE
+ * *  MAIN
+ * *  POST
+ * *  EXIT
+ */
 __attribute__((objc_subclassing_restricted))
 __attribute__((swift_name("Phase")))
 @interface BbnativesharedPhase : BbnativesharedKotlinEnum<BbnativesharedPhase *>
 + (instancetype)alloc __attribute__((unavailable));
+
+/**
+ * Phase
+ * *  INIT
+ * *  PRE
+ * *  MAIN
+ * *  POST
+ * *  EXIT
+ */
 + (instancetype)allocWithZone:(struct _NSZone *)zone __attribute__((unavailable));
 - (instancetype)initWithName:(NSString *)name ordinal:(int32_t)ordinal __attribute__((swift_name("init(name:ordinal:)"))) __attribute__((objc_designated_initializer)) __attribute__((unavailable));
 @property (class, readonly) BbnativesharedPhase *theInit __attribute__((swift_name("theInit")));
@@ -1064,10 +1245,28 @@ __attribute__((swift_name("PosType")))
 @property (class, readonly) NSArray<BbnativesharedPosType *> *entries __attribute__((swift_name("entries")));
 @end
 
+
+/**
+ * State
+ * *  IDLE
+ * *  LOADING
+ * *  PAUSED
+ * *  PLAYING
+ * *  ERROR
+ */
 __attribute__((objc_subclassing_restricted))
 __attribute__((swift_name("State")))
 @interface BbnativesharedState : BbnativesharedKotlinEnum<BbnativesharedState *>
 + (instancetype)alloc __attribute__((unavailable));
+
+/**
+ * State
+ * *  IDLE
+ * *  LOADING
+ * *  PAUSED
+ * *  PLAYING
+ * *  ERROR
+ */
 + (instancetype)allocWithZone:(struct _NSZone *)zone __attribute__((unavailable));
 - (instancetype)initWithName:(NSString *)name ordinal:(int32_t)ordinal __attribute__((swift_name("init(name:ordinal:)"))) __attribute__((objc_designated_initializer)) __attribute__((unavailable));
 @property (class, readonly) BbnativesharedState *idle __attribute__((swift_name("idle")));
@@ -1210,6 +1409,10 @@ __attribute__((swift_name("BlueBillywigLogger.Companion")))
 @property (readonly) NSString *TAG __attribute__((swift_name("TAG")));
 @end
 
+
+/**
+ * @suppress
+ */
 __attribute__((objc_subclassing_restricted))
 __attribute__((swift_name("CustomStatistics")))
 @interface BbnativesharedCustomStatistics : BbnativesharedBase
@@ -1431,9 +1634,21 @@ __attribute__((swift_name("Audiotrack.Companion")))
 - (id<BbnativesharedKotlinx_serialization_coreKSerializer>)serializer __attribute__((swift_name("serializer()")));
 @end
 
+
+/**
+ * @suppress
+ */
 __attribute__((swift_name("BBModel")))
 @interface BbnativesharedBBModel : BbnativesharedBase
+
+/**
+ * @suppress
+ */
 - (instancetype)init __attribute__((swift_name("init()"))) __attribute__((objc_designated_initializer));
+
+/**
+ * @suppress
+ */
 + (instancetype)new __attribute__((availability(swift, unavailable, message="use object initializers instead")));
 @property NSString * _Nullable bbCpJwtCookieString __attribute__((swift_name("bbCpJwtCookieString")));
 @property NSString * _Nullable rawJsonString __attribute__((swift_name("rawJsonString")));
@@ -1549,13 +1764,29 @@ __attribute__((swift_name("ContentItemFactory.Companion")))
 - (BbnativesharedProject *)createProjectId:(NSString *)id title:(NSString * _Nullable)title deeplink:(NSString * _Nullable)deeplink __attribute__((swift_name("createProject(id:title:deeplink:)")));
 @end
 
+
+/**
+ * @suppress
+ */
 __attribute__((objc_subclassing_restricted))
 __attribute__((swift_name("ContextFrame")))
 @interface BbnativesharedContextFrame : BbnativesharedBase
 - (instancetype)initWithContentList:(NSMutableArray<id<BbnativesharedContentItemInterface>> *)contentList contentListIndex:(int32_t)contentListIndex contextCollectionType:(NSString * _Nullable)contextCollectionType contextCollectionId:(NSString * _Nullable)contextCollectionId contextEntityType:(NSString * _Nullable)contextEntityType contextEntityId:(NSString * _Nullable)contextEntityId contentIndicator:(NSString * _Nullable)contentIndicator contentId:(NSString * _Nullable)contentId clipListId:(NSString * _Nullable)clipListId nestingLevel:(int32_t)nestingLevel __attribute__((swift_name("init(contentList:contentListIndex:contextCollectionType:contextCollectionId:contextEntityType:contextEntityId:contentIndicator:contentId:clipListId:nestingLevel:)"))) __attribute__((objc_designated_initializer));
 - (BbnativesharedContextFrame *)doCopyContentList:(NSMutableArray<id<BbnativesharedContentItemInterface>> *)contentList contentListIndex:(int32_t)contentListIndex contextCollectionType:(NSString * _Nullable)contextCollectionType contextCollectionId:(NSString * _Nullable)contextCollectionId contextEntityType:(NSString * _Nullable)contextEntityType contextEntityId:(NSString * _Nullable)contextEntityId contentIndicator:(NSString * _Nullable)contentIndicator contentId:(NSString * _Nullable)contentId clipListId:(NSString * _Nullable)clipListId nestingLevel:(int32_t)nestingLevel __attribute__((swift_name("doCopy(contentList:contentListIndex:contextCollectionType:contextCollectionId:contextEntityType:contextEntityId:contentIndicator:contentId:clipListId:nestingLevel:)")));
+
+/**
+ * @suppress
+ */
 - (BOOL)isEqual:(id _Nullable)other __attribute__((swift_name("isEqual(_:)")));
+
+/**
+ * @suppress
+ */
 - (NSUInteger)hash __attribute__((swift_name("hash()")));
+
+/**
+ * @suppress
+ */
 - (NSString *)description __attribute__((swift_name("description()")));
 @property (readonly) NSString * _Nullable clipListId __attribute__((swift_name("clipListId")));
 @property (readonly) NSString * _Nullable contentId __attribute__((swift_name("contentId")));
@@ -1699,6 +1930,10 @@ __attribute__((swift_name("EmbedObject")))
 @interface BbnativesharedEmbedObject : BbnativesharedBBModel
 - (instancetype)initWithPublicationData:(BbnativesharedPublication *)publicationData clipData:(BbnativesharedMediaClip *)clipData __attribute__((swift_name("init(publicationData:clipData:)"))) __attribute__((objc_designated_initializer));
 - (instancetype)initWithPublicationData:(BbnativesharedPublication * _Nullable)publicationData embedData:(BbnativesharedEmbedData * _Nullable)embedData playoutData:(BbnativesharedPlayout * _Nullable)playoutData clipData:(BbnativesharedMediaClip * _Nullable)clipData clipListData:(BbnativesharedMediaClipList * _Nullable)clipListData projectData:(BbnativesharedProject * _Nullable)projectData adServicesData:(NSArray<BbnativesharedAdUnit *> * _Nullable)adServicesData adSchedulingData:(BbnativesharedAdSchedulingData * _Nullable)adSchedulingData appConfig:(BbnativesharedAppConfig * _Nullable)appConfig protocol:(NSString * _Nullable)protocol userLanguage:(NSString * _Nullable)userLanguage userDeviceType:(NSString * _Nullable)userDeviceType playoutSafeName:(NSString * _Nullable)playoutSafeName contentIndicator:(NSString * _Nullable)contentIndicator contentId:(NSString * _Nullable)contentId playerWidth:(NSString * _Nullable)playerWidth playerHeight:(NSString * _Nullable)playerHeight playerUrl:(NSString * _Nullable)playerUrl scriptTarget:(NSString * _Nullable)scriptTarget playerBase:(NSString * _Nullable)playerBase playerPath:(NSString * _Nullable)playerPath scriptLink:(NSString * _Nullable)scriptLink requestParams:(BbnativesharedRequestParams * _Nullable)requestParams versioningData:(BbnativesharedVersioningData * _Nullable)versioningData __attribute__((swift_name("init(publicationData:embedData:playoutData:clipData:clipListData:projectData:adServicesData:adSchedulingData:appConfig:protocol:userLanguage:userDeviceType:playoutSafeName:contentIndicator:contentId:playerWidth:playerHeight:playerUrl:scriptTarget:playerBase:playerPath:scriptLink:requestParams:versioningData:)"))) __attribute__((objc_designated_initializer));
+
+/**
+ * @suppress
+ */
 - (instancetype)init __attribute__((swift_name("init()"))) __attribute__((objc_designated_initializer)) __attribute__((unavailable));
 + (instancetype)new __attribute__((unavailable));
 @property (class, readonly, getter=companion) BbnativesharedEmbedObjectCompanion *companion __attribute__((swift_name("companion")));
@@ -1801,6 +2036,8 @@ __attribute__((swift_name("Highlight.Companion")))
 
 
 /**
+ * @suppress
+ *
  * @note annotations
  *   kotlinx.serialization.Serializable
 */
@@ -1811,8 +2048,20 @@ __attribute__((swift_name("LineItem_")))
 - (instancetype)initWithId:(NSString * _Nullable)id type:(NSString * _Nullable)type status:(NSString * _Nullable)status createddate:(NSString * _Nullable)createddate createdBy:(NSString * _Nullable)createdBy updateddate:(NSString * _Nullable)updateddate updatedBy:(NSString * _Nullable)updatedBy creativeType:(NSString * _Nullable)creativeType creativeId:(NSString * _Nullable)creativeId timeout:(BbnativesharedLong * _Nullable)timeout preferredPlayMode:(NSString * _Nullable)preferredPlayMode playout:(NSDictionary<NSString *, id> * _Nullable)playout title:(NSString * _Nullable)title code:(NSString * _Nullable)code vastUrl:(NSString * _Nullable)vastUrl vastXml:(NSString * _Nullable)vastXml vastSubtype:(NSString * _Nullable)vastSubtype label:(NSString * _Nullable)label relatedAdunits:(NSArray<BbnativesharedKotlinx_serialization_jsonJsonElement *> * _Nullable)relatedAdunits __attribute__((swift_name("init(id:type:status:createddate:createdBy:updateddate:updatedBy:creativeType:creativeId:timeout:preferredPlayMode:playout:title:code:vastUrl:vastXml:vastSubtype:label:relatedAdunits:)"))) __attribute__((objc_designated_initializer));
 @property (class, readonly, getter=companion) BbnativesharedLineItem_Companion *companion __attribute__((swift_name("companion")));
 - (BbnativesharedLineItem_ *)doCopyId:(NSString * _Nullable)id type:(NSString * _Nullable)type status:(NSString * _Nullable)status createddate:(NSString * _Nullable)createddate createdBy:(NSString * _Nullable)createdBy updateddate:(NSString * _Nullable)updateddate updatedBy:(NSString * _Nullable)updatedBy creativeType:(NSString * _Nullable)creativeType creativeId:(NSString * _Nullable)creativeId timeout:(BbnativesharedLong * _Nullable)timeout preferredPlayMode:(NSString * _Nullable)preferredPlayMode playout:(NSDictionary<NSString *, id> * _Nullable)playout title:(NSString * _Nullable)title code:(NSString * _Nullable)code vastUrl:(NSString * _Nullable)vastUrl vastXml:(NSString * _Nullable)vastXml vastSubtype:(NSString * _Nullable)vastSubtype label:(NSString * _Nullable)label relatedAdunits:(NSArray<BbnativesharedKotlinx_serialization_jsonJsonElement *> * _Nullable)relatedAdunits __attribute__((swift_name("doCopy(id:type:status:createddate:createdBy:updateddate:updatedBy:creativeType:creativeId:timeout:preferredPlayMode:playout:title:code:vastUrl:vastXml:vastSubtype:label:relatedAdunits:)")));
+
+/**
+ * @suppress
+ */
 - (BOOL)isEqual:(id _Nullable)other __attribute__((swift_name("isEqual(_:)")));
+
+/**
+ * @suppress
+ */
 - (NSUInteger)hash __attribute__((swift_name("hash()")));
+
+/**
+ * @suppress
+ */
 - (NSString *)description __attribute__((swift_name("description()")));
 @property (readonly) NSString * _Nullable code __attribute__((swift_name("code")));
 @property (readonly) NSString * _Nullable createdBy __attribute__((swift_name("createdBy")));
@@ -1850,13 +2099,25 @@ __attribute__((swift_name("LineItem_")))
 @property (readonly) NSString * _Nullable vastXml __attribute__((swift_name("vastXml")));
 @end
 
+
+/**
+ * @suppress
+ */
 __attribute__((objc_subclassing_restricted))
 __attribute__((swift_name("LineItem_.Companion")))
 @interface BbnativesharedLineItem_Companion : BbnativesharedBase
 + (instancetype)alloc __attribute__((unavailable));
+
+/**
+ * @suppress
+ */
 + (instancetype)allocWithZone:(struct _NSZone *)zone __attribute__((unavailable));
 + (instancetype)companion __attribute__((swift_name("init()")));
 @property (class, readonly, getter=shared) BbnativesharedLineItem_Companion *shared __attribute__((swift_name("shared")));
+
+/**
+ * @suppress
+ */
 - (id<BbnativesharedKotlinx_serialization_coreKSerializer>)serializer __attribute__((swift_name("serializer()")));
 @end
 
@@ -1918,6 +2179,8 @@ __attribute__((swift_name("MediaAsset.Companion")))
 
 
 /**
+ * MediaClip
+ *
  * @note annotations
  *   kotlinx.serialization.Serializable
  *   kotlinx.serialization.SerialName(value="MediaClip")
@@ -1932,8 +2195,20 @@ __attribute__((swift_name("MediaClip")))
 - (instancetype)initWithSeen0:(int32_t)seen0 isPrefetch:(BOOL)isPrefetch isPlayed:(BOOL)isPlayed serializationConstructorMarker:(id _Nullable)serializationConstructorMarker __attribute__((swift_name("init(seen0:isPrefetch:isPlayed:serializationConstructorMarker:)"))) __attribute__((objc_designated_initializer)) __attribute__((unavailable));
 @property (class, readonly, getter=companion) BbnativesharedMediaClipCompanion *companion __attribute__((swift_name("companion")));
 - (BbnativesharedMediaClip *)doCopyId:(NSString * _Nullable)id title:(NSString * _Nullable)title deeplink:(NSString * _Nullable)deeplink gendeeplink:(NSString * _Nullable)gendeeplink sourcetype:(NSString * _Nullable)sourcetype length:(NSString * _Nullable)length mediatype:(NSString * _Nullable)mediatype mediatype_override:(NSString * _Nullable)mediatype_override fitmode:(NSString * _Nullable)fitmode usetype:(NSString * _Nullable)usetype useThumbsFromMetadata:(NSString * _Nullable)useThumbsFromMetadata location:(NSString * _Nullable)location originalfilename:(NSString * _Nullable)originalfilename sourceid:(NSString * _Nullable)sourceid description:(NSString * _Nullable)description copyright:(NSString * _Nullable)copyright author:(NSString * _Nullable)author status:(NSString * _Nullable)status createddate:(NSString * _Nullable)createddate updateddate:(NSString * _Nullable)updateddate publisheddate:(NSString * _Nullable)publisheddate width:(BbnativesharedLong * _Nullable)width height:(BbnativesharedLong * _Nullable)height dar:(NSString * _Nullable)dar originalWidth:(BbnativesharedLong * _Nullable)originalWidth originalHeight:(BbnativesharedLong * _Nullable)originalHeight date:(BbnativesharedDates * _Nullable)date src:(NSString * _Nullable)src cat:(NSArray<NSString *> * _Nullable)cat thumbnails:(NSArray<BbnativesharedThumbnail *> * _Nullable)thumbnails movingThumbnails:(NSArray<BbnativesharedThumbnail *> * _Nullable)movingThumbnails assets:(NSArray<BbnativesharedMediaAsset *> * _Nullable)assets hasJobs:(NSString * _Nullable)hasJobs hasFailedJobs:(BbnativesharedBoolean * _Nullable)hasFailedJobs hasRunningJobs:(BbnativesharedBoolean * _Nullable)hasRunningJobs hasNewJobs:(BbnativesharedBoolean * _Nullable)hasNewJobs transcodingFinished:(BbnativesharedBoolean * _Nullable)transcodingFinished isYoutubeImport:(BbnativesharedBoolean * _Nullable)isYoutubeImport subtitles:(NSArray<BbnativesharedSubtitle *> * _Nullable)subtitles subtitletracks:(NSArray<BbnativesharedSubtitle *> * _Nullable)subtitletracks transcript:(NSString * _Nullable)transcript timelineId:(NSString * _Nullable)timelineId timelines:(NSArray<BbnativesharedTimeline *> * _Nullable)timelines audiotracks:(NSArray<BbnativesharedAudiotrack *> * _Nullable)audiotracks youtubeImportID:(NSString * _Nullable)youtubeImportID importSource:(NSString * _Nullable)importSource importURL:(NSString * _Nullable)importURL disablecommercials:(NSString * _Nullable)disablecommercials isDynamic:(NSString * _Nullable)isDynamic checkbox:(NSString * _Nullable)checkbox comment:(NSString * _Nullable)comment chapters:(NSArray<BbnativesharedChapter *> * _Nullable)chapters highlights:(NSArray<BbnativesharedHighlight *> * _Nullable)highlights softEmbargo:(NSString * _Nullable)softEmbargo isOutro:(NSString * _Nullable)isOutro relatedItemsListId:(NSString * _Nullable)relatedItemsListId cpRuleViolations:(NSArray<NSString *> * _Nullable)cpRuleViolations cpp:(NSString * _Nullable)cpp projectId:(NSString * _Nullable)projectId __attribute__((swift_name("doCopy(id:title:deeplink:gendeeplink:sourcetype:length:mediatype:mediatype_override:fitmode:usetype:useThumbsFromMetadata:location:originalfilename:sourceid:description:copyright:author:status:createddate:updateddate:publisheddate:width:height:dar:originalWidth:originalHeight:date:src:cat:thumbnails:movingThumbnails:assets:hasJobs:hasFailedJobs:hasRunningJobs:hasNewJobs:transcodingFinished:isYoutubeImport:subtitles:subtitletracks:transcript:timelineId:timelines:audiotracks:youtubeImportID:importSource:importURL:disablecommercials:isDynamic:checkbox:comment:chapters:highlights:softEmbargo:isOutro:relatedItemsListId:cpRuleViolations:cpp:projectId:)")));
+
+/**
+ * MediaClip
+ */
 - (BOOL)isEqual:(id _Nullable)other __attribute__((swift_name("isEqual(_:)")));
+
+/**
+ * MediaClip
+ */
 - (NSUInteger)hash __attribute__((swift_name("hash()")));
+
+/**
+ * MediaClip
+ */
 - (NSString *)description __attribute__((swift_name("description()")));
 @property (readonly) NSArray<BbnativesharedMediaAsset *> * _Nullable assets __attribute__((swift_name("assets")));
 @property (readonly) NSArray<BbnativesharedAudiotrack *> * _Nullable audiotracks __attribute__((swift_name("audiotracks")));
@@ -2006,13 +2281,25 @@ __attribute__((swift_name("MediaClip")))
 @property (readonly) NSString * _Nullable youtubeImportID __attribute__((swift_name("youtubeImportID")));
 @end
 
+
+/**
+ * MediaClip
+ */
 __attribute__((objc_subclassing_restricted))
 __attribute__((swift_name("MediaClip.Companion")))
 @interface BbnativesharedMediaClipCompanion : BbnativesharedBase
 + (instancetype)alloc __attribute__((unavailable));
+
+/**
+ * MediaClip
+ */
 + (instancetype)allocWithZone:(struct _NSZone *)zone __attribute__((unavailable));
 + (instancetype)companion __attribute__((swift_name("init()")));
 @property (class, readonly, getter=shared) BbnativesharedMediaClipCompanion *shared __attribute__((swift_name("shared")));
+
+/**
+ * MediaClip
+ */
 - (id<BbnativesharedKotlinx_serialization_coreKSerializer>)serializer __attribute__((swift_name("serializer()")));
 @end
 
@@ -2164,6 +2451,8 @@ __attribute__((swift_name("Player.Companion")))
 
 
 /**
+ * @suppress
+ *
  * @note annotations
  *   kotlinx.serialization.Serializable
 */
@@ -2174,8 +2463,20 @@ __attribute__((swift_name("PlayerSettings")))
 - (instancetype)initWithPlayout:(NSString *)playout autoPlay:(BOOL)autoPlay __attribute__((swift_name("init(playout:autoPlay:)"))) __attribute__((objc_designated_initializer));
 @property (class, readonly, getter=companion) BbnativesharedPlayerSettingsCompanion *companion __attribute__((swift_name("companion")));
 - (BbnativesharedPlayerSettings *)doCopyPlayout:(NSString *)playout autoPlay:(BOOL)autoPlay __attribute__((swift_name("doCopy(playout:autoPlay:)")));
+
+/**
+ * @suppress
+ */
 - (BOOL)isEqual:(id _Nullable)other __attribute__((swift_name("isEqual(_:)")));
+
+/**
+ * @suppress
+ */
 - (NSUInteger)hash __attribute__((swift_name("hash()")));
+
+/**
+ * @suppress
+ */
 - (NSString *)description __attribute__((swift_name("description()")));
 
 /**
@@ -2191,18 +2492,32 @@ __attribute__((swift_name("PlayerSettings")))
 @property (readonly) NSString *playout __attribute__((swift_name("playout")));
 @end
 
+
+/**
+ * @suppress
+ */
 __attribute__((objc_subclassing_restricted))
 __attribute__((swift_name("PlayerSettings.Companion")))
 @interface BbnativesharedPlayerSettingsCompanion : BbnativesharedBase
 + (instancetype)alloc __attribute__((unavailable));
+
+/**
+ * @suppress
+ */
 + (instancetype)allocWithZone:(struct _NSZone *)zone __attribute__((unavailable));
 + (instancetype)companion __attribute__((swift_name("init()")));
 @property (class, readonly, getter=shared) BbnativesharedPlayerSettingsCompanion *shared __attribute__((swift_name("shared")));
+
+/**
+ * @suppress
+ */
 - (id<BbnativesharedKotlinx_serialization_coreKSerializer>)serializer __attribute__((swift_name("serializer()")));
 @end
 
 
 /**
+ * Playout
+ *
  * @note annotations
  *   kotlinx.serialization.Serializable
 */
@@ -2212,8 +2527,20 @@ __attribute__((swift_name("Playout")))
 - (instancetype)initWithId:(NSString * _Nullable)id main:(NSString * _Nullable)main type:(NSString * _Nullable)type name:(NSString * _Nullable)name status:(NSString * _Nullable)status createddate:(NSString * _Nullable)createddate updateddate:(NSString * _Nullable)updateddate label:(NSString * _Nullable)label publication:(NSString * _Nullable)publication player:(BbnativesharedPlayer * _Nullable)player playerid:(NSString * _Nullable)playerid centerButtonType:(NSString * _Nullable)centerButtonType cornerRadius:(NSString * _Nullable)cornerRadius responsiveSizing:(NSString * _Nullable)responsiveSizing aspectRatio:(NSString * _Nullable)aspectRatio width:(NSString * _Nullable)width height:(NSString * _Nullable)height autoHeight:(NSString * _Nullable)autoHeight alphaControlBar:(NSString * _Nullable)alphaControlBar skin_backgroundColor:(NSString * _Nullable)skin_backgroundColor skin_foregroundColor:(NSString * _Nullable)skin_foregroundColor skin_widgetColor:(NSString * _Nullable)skin_widgetColor bgColor:(NSString * _Nullable)bgColor logoId:(NSString * _Nullable)logoId logoAlign:(NSString * _Nullable)logoAlign logoClickUrl:(NSString * _Nullable)logoClickUrl controlBar:(NSString * _Nullable)controlBar controlBarPlacement:(NSString * _Nullable)controlBarPlacement timeDisplay:(NSString * _Nullable)timeDisplay timeLine:(NSString * _Nullable)timeLine muteButton:(NSString * _Nullable)muteButton volume:(NSString * _Nullable)volume volumeOrientation:(NSString * _Nullable)volumeOrientation languageSelect:(NSString * _Nullable)languageSelect qualitySelector:(NSString * _Nullable)qualitySelector playbackRateSelector:(NSString * _Nullable)playbackRateSelector fullScreen:(NSString * _Nullable)fullScreen showStartControlBar:(NSString * _Nullable)showStartControlBar shareButton:(NSString * _Nullable)shareButton shareButtonPause:(NSString * _Nullable)shareButtonPause shareButtonEnd:(NSString * _Nullable)shareButtonEnd shareButtonEmbedCode:(NSString * _Nullable)shareButtonEmbedCode shareButtonEmail:(NSString * _Nullable)shareButtonEmail shareButtonFacebook:(NSString * _Nullable)shareButtonFacebook shareButtonLinkedIn:(NSString * _Nullable)shareButtonLinkedIn shareButtonPinterest:(NSString * _Nullable)shareButtonPinterest shareButtonTwitter:(NSString * _Nullable)shareButtonTwitter shareButtonWhatsApp:(NSString * _Nullable)shareButtonWhatsApp castButton:(NSString * _Nullable)castButton audioDescriptionButton:(NSString * _Nullable)audioDescriptionButton showBigPlayButton:(NSString * _Nullable)showBigPlayButton showBigReplayButton:(NSString * _Nullable)showBigReplayButton title:(NSString * _Nullable)title date:(NSString * _Nullable)date authorCopyright:(NSString * _Nullable)authorCopyright authorCopyrightAlign:(NSString * _Nullable)authorCopyrightAlign authorCopyrightPrefixText:(NSString * _Nullable)authorCopyrightPrefixText autoPlayNext:(NSString * _Nullable)autoPlayNext relatedItems:(NSString * _Nullable)relatedItems relatedItemsPause:(NSString * _Nullable)relatedItemsPause useDeeplinkForRelatedItems:(NSString * _Nullable)useDeeplinkForRelatedItems useDeeplinkForRelatedItemsPause:(NSString * _Nullable)useDeeplinkForRelatedItemsPause exitscreenItemsListId:(NSString * _Nullable)exitscreenItemsListId randomizeRelatedItems:(NSString * _Nullable)randomizeRelatedItems useDeeplinkForFacebook:(NSString * _Nullable)useDeeplinkForFacebook shareTwitterText:(NSString * _Nullable)shareTwitterText sharePlayout:(NSString * _Nullable)sharePlayout skinBehaviour:(NSString * _Nullable)skinBehaviour skinOnTimeline:(NSString * _Nullable)skinOnTimeline nativeControls:(NSString * _Nullable)nativeControls youTubeHosting:(NSString * _Nullable)youTubeHosting youTubeSkinInMainPhase:(NSString * _Nullable)youTubeSkinInMainPhase forceNativeFullscreen:(NSString * _Nullable)forceNativeFullscreen preferHD:(NSString * _Nullable)preferHD nedStatLoggerUrl:(NSString * _Nullable)nedStatLoggerUrl googleAnalyticsId:(NSString * _Nullable)googleAnalyticsId piwikUrl:(NSString * _Nullable)piwikUrl piwikSiteId:(NSString * _Nullable)piwikSiteId disableCookies:(NSString * _Nullable)disableCookies disableContextMenuNavigate:(NSString * _Nullable)disableContextMenuNavigate playerSignature:(NSString * _Nullable)playerSignature playerSignatureLink:(NSString * _Nullable)playerSignatureLink autoPlay:(NSString * _Nullable)autoPlay autoMute:(NSString * _Nullable)autoMute autoMuteIfNeededForAutoPlay:(NSString * _Nullable)autoMuteIfNeededForAutoPlay autoLoop:(NSString * _Nullable)autoLoop floatPlayer:(NSString * _Nullable)floatPlayer interactivityInView:(NSString * _Nullable)interactivityInView interactivityOutView:(NSString * _Nullable)interactivityOutView inviewMargin:(NSString * _Nullable)inviewMargin textAbovePlayer:(NSString * _Nullable)textAbovePlayer textCommercialSkip:(NSString * _Nullable)textCommercialSkip startCollapsed:(NSString * _Nullable)startCollapsed playInOverlay:(NSString * _Nullable)playInOverlay hidePlayerOnEnd:(NSString * _Nullable)hidePlayerOnEnd waitForApproval:(NSString * _Nullable)waitForApproval interactivityMouseIn:(NSString * _Nullable)interactivityMouseIn interactivityMouseOut:(NSString * _Nullable)interactivityMouseOut interactivityOnClick:(NSString * _Nullable)interactivityOnClick clickURL:(NSString * _Nullable)clickURL nsiNoAutoPlay:(NSString * _Nullable)nsiNoAutoPlay nsiNoPlayer:(NSString * _Nullable)nsiNoPlayer placementOption:(NSString * _Nullable)placementOption placementDOMSelector:(NSString * _Nullable)placementDOMSelector iframeBreakout:(NSString * _Nullable)iframeBreakout clearBothOption:(NSString * _Nullable)clearBothOption forceInview:(NSString * _Nullable)forceInview customCode:(NSString * _Nullable)customCode preferFlashPlayback:(NSString * _Nullable)preferFlashPlayback preloadMainroll:(NSString * _Nullable)preloadMainroll disableHtml5VPAID:(NSString * _Nullable)disableHtml5VPAID enableHtml5VPAID:(NSString * _Nullable)enableHtml5VPAID commercialPauseButton:(NSString * _Nullable)commercialPauseButton commercialMuteButton:(NSString * _Nullable)commercialMuteButton commercialAdIcon:(NSString * _Nullable)commercialAdIcon commercialProgressBar:(NSString * _Nullable)commercialProgressBar commercialProgressBarColor:(NSString * _Nullable)commercialProgressBarColor commercials:(NSString * _Nullable)commercials textCommercialTimeRemaining:(NSString * _Nullable)textCommercialTimeRemaining commercialBehaviour:(NSString * _Nullable)commercialBehaviour minClipDurationPreroll:(NSString * _Nullable)minClipDurationPreroll minClipDurationPostroll:(NSString * _Nullable)minClipDurationPostroll allowBBIma:(NSString * _Nullable)allowBBIma fitmode:(BbnativesharedFitMode * _Nullable)fitmode mobileRotateOnFullScreenMismatch:(NSString * _Nullable)mobileRotateOnFullScreenMismatch noStats:(NSString * _Nullable)noStats forceAndroidNativeVideo:(NSString * _Nullable)forceAndroidNativeVideo forceIOSNativeVideo:(NSString * _Nullable)forceIOSNativeVideo use2018Skin:(NSString * _Nullable)use2018Skin useThumbsFromMetadata:(NSString * _Nullable)useThumbsFromMetadata audioTrackSelect:(NSString * _Nullable)audioTrackSelect shareText:(NSString * _Nullable)shareText shareButtonDirectLink:(NSString * _Nullable)shareButtonDirectLink googleAnalyticsCustomVars:(NSString * _Nullable)googleAnalyticsCustomVars supportIABConsent:(NSString * _Nullable)supportIABConsent restrictionNpaOnly:(NSString * _Nullable)restrictionNpaOnly restrictionNpcOnly:(NSString * _Nullable)restrictionNpcOnly enableSubtitlesByDefault:(NSString * _Nullable)enableSubtitlesByDefault defaultSubtitle:(NSString * _Nullable)defaultSubtitle defaultSubtitleOnlyIfMuted:(NSString * _Nullable)defaultSubtitleOnlyIfMuted defaultAudioTrack:(NSString * _Nullable)defaultAudioTrack forceCanAutoPlay:(NSString * _Nullable)forceCanAutoPlay avoidMutedAutoplay:(NSString * _Nullable)avoidMutedAutoplay stickyMode:(NSString * _Nullable)stickyMode disableKeyboardControls:(NSString * _Nullable)disableKeyboardControls taggingDisabled:(NSString * _Nullable)taggingDisabled skipOffset:(NSString * _Nullable)skipOffset skipCounterText:(NSString * _Nullable)skipCounterText skipButtonText:(NSString * _Nullable)skipButtonText blockInsecureVPAID:(NSString * _Nullable)blockInsecureVPAID shareButtonGooglePlus:(NSString * _Nullable)shareButtonGooglePlus timelineId:(NSString * _Nullable)timelineId templateId:(NSString * _Nullable)templateId adunits:(NSArray<BbnativesharedKotlinx_serialization_jsonJsonElement *> * _Nullable)adunits hasAdunits:(BbnativesharedBoolean * _Nullable)hasAdunits adunitsPreroll:(NSArray<BbnativesharedAdUnit *> * _Nullable)adunitsPreroll ignoreSingleMediaResource:(NSString * _Nullable)ignoreSingleMediaResource ignoreProjectMetadata:(NSString * _Nullable)ignoreProjectMetadata noPosterInExitPhase:(NSString * _Nullable)noPosterInExitPhase logProgressAsQuartiles:(NSString * _Nullable)logProgressAsQuartiles autoPauseAfterPrePhase:(NSString * _Nullable)autoPauseAfterPrePhase autoPlayOnlyWithPrerollAd:(NSString * _Nullable)autoPlayOnlyWithPrerollAd showOnlyWhenPrerollAvailable:(NSString * _Nullable)showOnlyWhenPrerollAvailable showBigPauseButtons:(NSString * _Nullable)showBigPauseButtons titlePause:(NSString * _Nullable)titlePause authorCopyrightPause:(NSString * _Nullable)authorCopyrightPause authorCopyrightAlignPause:(NSString * _Nullable)authorCopyrightAlignPause authorCopyrightPrefixTextPause:(NSString * _Nullable)authorCopyrightPrefixTextPause showStartDuration:(NSString * _Nullable)showStartDuration disableMovingThumbnail:(NSString * _Nullable)disableMovingThumbnail shareButtonHover:(NSString * _Nullable)shareButtonHover showBigHoverButtons:(NSString * _Nullable)showBigHoverButtons titleHover:(NSString * _Nullable)titleHover authorCopyrightHover:(NSString * _Nullable)authorCopyrightHover titleEnd:(NSString * _Nullable)titleEnd authorCopyrightEnd:(NSString * _Nullable)authorCopyrightEnd softEmbargoCustomPosterClipId:(NSString * _Nullable)softEmbargoCustomPosterClipId softEmbargoFontColor:(NSString * _Nullable)softEmbargoFontColor softEmbargoHasCustomPoster:(NSString * _Nullable)softEmbargoHasCustomPoster softEmbargoText:(NSString * _Nullable)softEmbargoText softEmbargoTimerHidden:(NSString * _Nullable)softEmbargoTimerHidden adsystem_buid:(NSString * _Nullable)adsystem_buid adsystem_rdid:(NSString * _Nullable)adsystem_rdid adsystem_idtype:(NSString * _Nullable)adsystem_idtype adsystem_is_lat:(NSString * _Nullable)adsystem_is_lat swipeDirection:(NSString * _Nullable)swipeDirection hideSwipeControls:(NSString * _Nullable)hideSwipeControls descriptionShowHide:(NSString * _Nullable)descriptionShowHide showPlayButton:(NSString * _Nullable)showPlayButton autoLoopClip:(NSString * _Nullable)autoLoopClip shortsId:(NSString * _Nullable)shortsId adunitId:(NSString * _Nullable)adunitId clipAdInterval:(NSString * _Nullable)clipAdInterval firstAdPosition:(NSString * _Nullable)firstAdPosition assetPreloadWindow:(NSString * _Nullable)assetPreloadWindow placeholderText:(NSString * _Nullable)placeholderText placeholderTextColor:(NSString * _Nullable)placeholderTextColor ctaExitScreen:(NSString * _Nullable)ctaExitScreen ctaMidplay:(NSString * _Nullable)ctaMidplay ctaMidplayPosition:(NSString * _Nullable)ctaMidplayPosition ctaText:(NSString * _Nullable)ctaText ctaTextColor:(NSString * _Nullable)ctaTextColor ctaBackgroundColor:(NSString * _Nullable)ctaBackgroundColor ctaUrlField:(NSString * _Nullable)ctaUrlField ctaButtonText:(NSString * _Nullable)ctaButtonText ctaButtonLabelField:(NSString * _Nullable)ctaButtonLabelField ctaButtonUseAccentColor:(NSString * _Nullable)ctaButtonUseAccentColor ctaButtonPosition:(NSString * _Nullable)ctaButtonPosition eventHandlers:(NSArray<BbnativesharedEventHandler *> * _Nullable)eventHandlers __attribute__((swift_name("init(id:main:type:name:status:createddate:updateddate:label:publication:player:playerid:centerButtonType:cornerRadius:responsiveSizing:aspectRatio:width:height:autoHeight:alphaControlBar:skin_backgroundColor:skin_foregroundColor:skin_widgetColor:bgColor:logoId:logoAlign:logoClickUrl:controlBar:controlBarPlacement:timeDisplay:timeLine:muteButton:volume:volumeOrientation:languageSelect:qualitySelector:playbackRateSelector:fullScreen:showStartControlBar:shareButton:shareButtonPause:shareButtonEnd:shareButtonEmbedCode:shareButtonEmail:shareButtonFacebook:shareButtonLinkedIn:shareButtonPinterest:shareButtonTwitter:shareButtonWhatsApp:castButton:audioDescriptionButton:showBigPlayButton:showBigReplayButton:title:date:authorCopyright:authorCopyrightAlign:authorCopyrightPrefixText:autoPlayNext:relatedItems:relatedItemsPause:useDeeplinkForRelatedItems:useDeeplinkForRelatedItemsPause:exitscreenItemsListId:randomizeRelatedItems:useDeeplinkForFacebook:shareTwitterText:sharePlayout:skinBehaviour:skinOnTimeline:nativeControls:youTubeHosting:youTubeSkinInMainPhase:forceNativeFullscreen:preferHD:nedStatLoggerUrl:googleAnalyticsId:piwikUrl:piwikSiteId:disableCookies:disableContextMenuNavigate:playerSignature:playerSignatureLink:autoPlay:autoMute:autoMuteIfNeededForAutoPlay:autoLoop:floatPlayer:interactivityInView:interactivityOutView:inviewMargin:textAbovePlayer:textCommercialSkip:startCollapsed:playInOverlay:hidePlayerOnEnd:waitForApproval:interactivityMouseIn:interactivityMouseOut:interactivityOnClick:clickURL:nsiNoAutoPlay:nsiNoPlayer:placementOption:placementDOMSelector:iframeBreakout:clearBothOption:forceInview:customCode:preferFlashPlayback:preloadMainroll:disableHtml5VPAID:enableHtml5VPAID:commercialPauseButton:commercialMuteButton:commercialAdIcon:commercialProgressBar:commercialProgressBarColor:commercials:textCommercialTimeRemaining:commercialBehaviour:minClipDurationPreroll:minClipDurationPostroll:allowBBIma:fitmode:mobileRotateOnFullScreenMismatch:noStats:forceAndroidNativeVideo:forceIOSNativeVideo:use2018Skin:useThumbsFromMetadata:audioTrackSelect:shareText:shareButtonDirectLink:googleAnalyticsCustomVars:supportIABConsent:restrictionNpaOnly:restrictionNpcOnly:enableSubtitlesByDefault:defaultSubtitle:defaultSubtitleOnlyIfMuted:defaultAudioTrack:forceCanAutoPlay:avoidMutedAutoplay:stickyMode:disableKeyboardControls:taggingDisabled:skipOffset:skipCounterText:skipButtonText:blockInsecureVPAID:shareButtonGooglePlus:timelineId:templateId:adunits:hasAdunits:adunitsPreroll:ignoreSingleMediaResource:ignoreProjectMetadata:noPosterInExitPhase:logProgressAsQuartiles:autoPauseAfterPrePhase:autoPlayOnlyWithPrerollAd:showOnlyWhenPrerollAvailable:showBigPauseButtons:titlePause:authorCopyrightPause:authorCopyrightAlignPause:authorCopyrightPrefixTextPause:showStartDuration:disableMovingThumbnail:shareButtonHover:showBigHoverButtons:titleHover:authorCopyrightHover:titleEnd:authorCopyrightEnd:softEmbargoCustomPosterClipId:softEmbargoFontColor:softEmbargoHasCustomPoster:softEmbargoText:softEmbargoTimerHidden:adsystem_buid:adsystem_rdid:adsystem_idtype:adsystem_is_lat:swipeDirection:hideSwipeControls:descriptionShowHide:showPlayButton:autoLoopClip:shortsId:adunitId:clipAdInterval:firstAdPosition:assetPreloadWindow:placeholderText:placeholderTextColor:ctaExitScreen:ctaMidplay:ctaMidplayPosition:ctaText:ctaTextColor:ctaBackgroundColor:ctaUrlField:ctaButtonText:ctaButtonLabelField:ctaButtonUseAccentColor:ctaButtonPosition:eventHandlers:)"))) __attribute__((objc_designated_initializer));
 @property (class, readonly, getter=companion) BbnativesharedPlayoutCompanion *companion __attribute__((swift_name("companion")));
 - (BbnativesharedPlayout *)doCopyId:(NSString * _Nullable)id main:(NSString * _Nullable)main type:(NSString * _Nullable)type name:(NSString * _Nullable)name status:(NSString * _Nullable)status createddate:(NSString * _Nullable)createddate updateddate:(NSString * _Nullable)updateddate label:(NSString * _Nullable)label publication:(NSString * _Nullable)publication player:(BbnativesharedPlayer * _Nullable)player playerid:(NSString * _Nullable)playerid centerButtonType:(NSString * _Nullable)centerButtonType cornerRadius:(NSString * _Nullable)cornerRadius responsiveSizing:(NSString * _Nullable)responsiveSizing aspectRatio:(NSString * _Nullable)aspectRatio width:(NSString * _Nullable)width height:(NSString * _Nullable)height autoHeight:(NSString * _Nullable)autoHeight alphaControlBar:(NSString * _Nullable)alphaControlBar skin_backgroundColor:(NSString * _Nullable)skin_backgroundColor skin_foregroundColor:(NSString * _Nullable)skin_foregroundColor skin_widgetColor:(NSString * _Nullable)skin_widgetColor bgColor:(NSString * _Nullable)bgColor logoId:(NSString * _Nullable)logoId logoAlign:(NSString * _Nullable)logoAlign logoClickUrl:(NSString * _Nullable)logoClickUrl controlBar:(NSString * _Nullable)controlBar controlBarPlacement:(NSString * _Nullable)controlBarPlacement timeDisplay:(NSString * _Nullable)timeDisplay timeLine:(NSString * _Nullable)timeLine muteButton:(NSString * _Nullable)muteButton volume:(NSString * _Nullable)volume volumeOrientation:(NSString * _Nullable)volumeOrientation languageSelect:(NSString * _Nullable)languageSelect qualitySelector:(NSString * _Nullable)qualitySelector playbackRateSelector:(NSString * _Nullable)playbackRateSelector fullScreen:(NSString * _Nullable)fullScreen showStartControlBar:(NSString * _Nullable)showStartControlBar shareButton:(NSString * _Nullable)shareButton shareButtonPause:(NSString * _Nullable)shareButtonPause shareButtonEnd:(NSString * _Nullable)shareButtonEnd shareButtonEmbedCode:(NSString * _Nullable)shareButtonEmbedCode shareButtonEmail:(NSString * _Nullable)shareButtonEmail shareButtonFacebook:(NSString * _Nullable)shareButtonFacebook shareButtonLinkedIn:(NSString * _Nullable)shareButtonLinkedIn shareButtonPinterest:(NSString * _Nullable)shareButtonPinterest shareButtonTwitter:(NSString * _Nullable)shareButtonTwitter shareButtonWhatsApp:(NSString * _Nullable)shareButtonWhatsApp castButton:(NSString * _Nullable)castButton audioDescriptionButton:(NSString * _Nullable)audioDescriptionButton showBigPlayButton:(NSString * _Nullable)showBigPlayButton showBigReplayButton:(NSString * _Nullable)showBigReplayButton title:(NSString * _Nullable)title date:(NSString * _Nullable)date authorCopyright:(NSString * _Nullable)authorCopyright authorCopyrightAlign:(NSString * _Nullable)authorCopyrightAlign authorCopyrightPrefixText:(NSString * _Nullable)authorCopyrightPrefixText autoPlayNext:(NSString * _Nullable)autoPlayNext relatedItems:(NSString * _Nullable)relatedItems relatedItemsPause:(NSString * _Nullable)relatedItemsPause useDeeplinkForRelatedItems:(NSString * _Nullable)useDeeplinkForRelatedItems useDeeplinkForRelatedItemsPause:(NSString * _Nullable)useDeeplinkForRelatedItemsPause exitscreenItemsListId:(NSString * _Nullable)exitscreenItemsListId randomizeRelatedItems:(NSString * _Nullable)randomizeRelatedItems useDeeplinkForFacebook:(NSString * _Nullable)useDeeplinkForFacebook shareTwitterText:(NSString * _Nullable)shareTwitterText sharePlayout:(NSString * _Nullable)sharePlayout skinBehaviour:(NSString * _Nullable)skinBehaviour skinOnTimeline:(NSString * _Nullable)skinOnTimeline nativeControls:(NSString * _Nullable)nativeControls youTubeHosting:(NSString * _Nullable)youTubeHosting youTubeSkinInMainPhase:(NSString * _Nullable)youTubeSkinInMainPhase forceNativeFullscreen:(NSString * _Nullable)forceNativeFullscreen preferHD:(NSString * _Nullable)preferHD nedStatLoggerUrl:(NSString * _Nullable)nedStatLoggerUrl googleAnalyticsId:(NSString * _Nullable)googleAnalyticsId piwikUrl:(NSString * _Nullable)piwikUrl piwikSiteId:(NSString * _Nullable)piwikSiteId disableCookies:(NSString * _Nullable)disableCookies disableContextMenuNavigate:(NSString * _Nullable)disableContextMenuNavigate playerSignature:(NSString * _Nullable)playerSignature playerSignatureLink:(NSString * _Nullable)playerSignatureLink autoPlay:(NSString * _Nullable)autoPlay autoMute:(NSString * _Nullable)autoMute autoMuteIfNeededForAutoPlay:(NSString * _Nullable)autoMuteIfNeededForAutoPlay autoLoop:(NSString * _Nullable)autoLoop floatPlayer:(NSString * _Nullable)floatPlayer interactivityInView:(NSString * _Nullable)interactivityInView interactivityOutView:(NSString * _Nullable)interactivityOutView inviewMargin:(NSString * _Nullable)inviewMargin textAbovePlayer:(NSString * _Nullable)textAbovePlayer textCommercialSkip:(NSString * _Nullable)textCommercialSkip startCollapsed:(NSString * _Nullable)startCollapsed playInOverlay:(NSString * _Nullable)playInOverlay hidePlayerOnEnd:(NSString * _Nullable)hidePlayerOnEnd waitForApproval:(NSString * _Nullable)waitForApproval interactivityMouseIn:(NSString * _Nullable)interactivityMouseIn interactivityMouseOut:(NSString * _Nullable)interactivityMouseOut interactivityOnClick:(NSString * _Nullable)interactivityOnClick clickURL:(NSString * _Nullable)clickURL nsiNoAutoPlay:(NSString * _Nullable)nsiNoAutoPlay nsiNoPlayer:(NSString * _Nullable)nsiNoPlayer placementOption:(NSString * _Nullable)placementOption placementDOMSelector:(NSString * _Nullable)placementDOMSelector iframeBreakout:(NSString * _Nullable)iframeBreakout clearBothOption:(NSString * _Nullable)clearBothOption forceInview:(NSString * _Nullable)forceInview customCode:(NSString * _Nullable)customCode preferFlashPlayback:(NSString * _Nullable)preferFlashPlayback preloadMainroll:(NSString * _Nullable)preloadMainroll disableHtml5VPAID:(NSString * _Nullable)disableHtml5VPAID enableHtml5VPAID:(NSString * _Nullable)enableHtml5VPAID commercialPauseButton:(NSString * _Nullable)commercialPauseButton commercialMuteButton:(NSString * _Nullable)commercialMuteButton commercialAdIcon:(NSString * _Nullable)commercialAdIcon commercialProgressBar:(NSString * _Nullable)commercialProgressBar commercialProgressBarColor:(NSString * _Nullable)commercialProgressBarColor commercials:(NSString * _Nullable)commercials textCommercialTimeRemaining:(NSString * _Nullable)textCommercialTimeRemaining commercialBehaviour:(NSString * _Nullable)commercialBehaviour minClipDurationPreroll:(NSString * _Nullable)minClipDurationPreroll minClipDurationPostroll:(NSString * _Nullable)minClipDurationPostroll allowBBIma:(NSString * _Nullable)allowBBIma fitmode:(BbnativesharedFitMode * _Nullable)fitmode mobileRotateOnFullScreenMismatch:(NSString * _Nullable)mobileRotateOnFullScreenMismatch noStats:(NSString * _Nullable)noStats forceAndroidNativeVideo:(NSString * _Nullable)forceAndroidNativeVideo forceIOSNativeVideo:(NSString * _Nullable)forceIOSNativeVideo use2018Skin:(NSString * _Nullable)use2018Skin useThumbsFromMetadata:(NSString * _Nullable)useThumbsFromMetadata audioTrackSelect:(NSString * _Nullable)audioTrackSelect shareText:(NSString * _Nullable)shareText shareButtonDirectLink:(NSString * _Nullable)shareButtonDirectLink googleAnalyticsCustomVars:(NSString * _Nullable)googleAnalyticsCustomVars supportIABConsent:(NSString * _Nullable)supportIABConsent restrictionNpaOnly:(NSString * _Nullable)restrictionNpaOnly restrictionNpcOnly:(NSString * _Nullable)restrictionNpcOnly enableSubtitlesByDefault:(NSString * _Nullable)enableSubtitlesByDefault defaultSubtitle:(NSString * _Nullable)defaultSubtitle defaultSubtitleOnlyIfMuted:(NSString * _Nullable)defaultSubtitleOnlyIfMuted defaultAudioTrack:(NSString * _Nullable)defaultAudioTrack forceCanAutoPlay:(NSString * _Nullable)forceCanAutoPlay avoidMutedAutoplay:(NSString * _Nullable)avoidMutedAutoplay stickyMode:(NSString * _Nullable)stickyMode disableKeyboardControls:(NSString * _Nullable)disableKeyboardControls taggingDisabled:(NSString * _Nullable)taggingDisabled skipOffset:(NSString * _Nullable)skipOffset skipCounterText:(NSString * _Nullable)skipCounterText skipButtonText:(NSString * _Nullable)skipButtonText blockInsecureVPAID:(NSString * _Nullable)blockInsecureVPAID shareButtonGooglePlus:(NSString * _Nullable)shareButtonGooglePlus timelineId:(NSString * _Nullable)timelineId templateId:(NSString * _Nullable)templateId adunits:(NSArray<BbnativesharedKotlinx_serialization_jsonJsonElement *> * _Nullable)adunits hasAdunits:(BbnativesharedBoolean * _Nullable)hasAdunits adunitsPreroll:(NSArray<BbnativesharedAdUnit *> * _Nullable)adunitsPreroll ignoreSingleMediaResource:(NSString * _Nullable)ignoreSingleMediaResource ignoreProjectMetadata:(NSString * _Nullable)ignoreProjectMetadata noPosterInExitPhase:(NSString * _Nullable)noPosterInExitPhase logProgressAsQuartiles:(NSString * _Nullable)logProgressAsQuartiles autoPauseAfterPrePhase:(NSString * _Nullable)autoPauseAfterPrePhase autoPlayOnlyWithPrerollAd:(NSString * _Nullable)autoPlayOnlyWithPrerollAd showOnlyWhenPrerollAvailable:(NSString * _Nullable)showOnlyWhenPrerollAvailable showBigPauseButtons:(NSString * _Nullable)showBigPauseButtons titlePause:(NSString * _Nullable)titlePause authorCopyrightPause:(NSString * _Nullable)authorCopyrightPause authorCopyrightAlignPause:(NSString * _Nullable)authorCopyrightAlignPause authorCopyrightPrefixTextPause:(NSString * _Nullable)authorCopyrightPrefixTextPause showStartDuration:(NSString * _Nullable)showStartDuration disableMovingThumbnail:(NSString * _Nullable)disableMovingThumbnail shareButtonHover:(NSString * _Nullable)shareButtonHover showBigHoverButtons:(NSString * _Nullable)showBigHoverButtons titleHover:(NSString * _Nullable)titleHover authorCopyrightHover:(NSString * _Nullable)authorCopyrightHover titleEnd:(NSString * _Nullable)titleEnd authorCopyrightEnd:(NSString * _Nullable)authorCopyrightEnd softEmbargoCustomPosterClipId:(NSString * _Nullable)softEmbargoCustomPosterClipId softEmbargoFontColor:(NSString * _Nullable)softEmbargoFontColor softEmbargoHasCustomPoster:(NSString * _Nullable)softEmbargoHasCustomPoster softEmbargoText:(NSString * _Nullable)softEmbargoText softEmbargoTimerHidden:(NSString * _Nullable)softEmbargoTimerHidden adsystem_buid:(NSString * _Nullable)adsystem_buid adsystem_rdid:(NSString * _Nullable)adsystem_rdid adsystem_idtype:(NSString * _Nullable)adsystem_idtype adsystem_is_lat:(NSString * _Nullable)adsystem_is_lat swipeDirection:(NSString * _Nullable)swipeDirection hideSwipeControls:(NSString * _Nullable)hideSwipeControls descriptionShowHide:(NSString * _Nullable)descriptionShowHide showPlayButton:(NSString * _Nullable)showPlayButton autoLoopClip:(NSString * _Nullable)autoLoopClip shortsId:(NSString * _Nullable)shortsId adunitId:(NSString * _Nullable)adunitId clipAdInterval:(NSString * _Nullable)clipAdInterval firstAdPosition:(NSString * _Nullable)firstAdPosition assetPreloadWindow:(NSString * _Nullable)assetPreloadWindow placeholderText:(NSString * _Nullable)placeholderText placeholderTextColor:(NSString * _Nullable)placeholderTextColor ctaExitScreen:(NSString * _Nullable)ctaExitScreen ctaMidplay:(NSString * _Nullable)ctaMidplay ctaMidplayPosition:(NSString * _Nullable)ctaMidplayPosition ctaText:(NSString * _Nullable)ctaText ctaTextColor:(NSString * _Nullable)ctaTextColor ctaBackgroundColor:(NSString * _Nullable)ctaBackgroundColor ctaUrlField:(NSString * _Nullable)ctaUrlField ctaButtonText:(NSString * _Nullable)ctaButtonText ctaButtonLabelField:(NSString * _Nullable)ctaButtonLabelField ctaButtonUseAccentColor:(NSString * _Nullable)ctaButtonUseAccentColor ctaButtonPosition:(NSString * _Nullable)ctaButtonPosition eventHandlers:(NSArray<BbnativesharedEventHandler *> * _Nullable)eventHandlers __attribute__((swift_name("doCopy(id:main:type:name:status:createddate:updateddate:label:publication:player:playerid:centerButtonType:cornerRadius:responsiveSizing:aspectRatio:width:height:autoHeight:alphaControlBar:skin_backgroundColor:skin_foregroundColor:skin_widgetColor:bgColor:logoId:logoAlign:logoClickUrl:controlBar:controlBarPlacement:timeDisplay:timeLine:muteButton:volume:volumeOrientation:languageSelect:qualitySelector:playbackRateSelector:fullScreen:showStartControlBar:shareButton:shareButtonPause:shareButtonEnd:shareButtonEmbedCode:shareButtonEmail:shareButtonFacebook:shareButtonLinkedIn:shareButtonPinterest:shareButtonTwitter:shareButtonWhatsApp:castButton:audioDescriptionButton:showBigPlayButton:showBigReplayButton:title:date:authorCopyright:authorCopyrightAlign:authorCopyrightPrefixText:autoPlayNext:relatedItems:relatedItemsPause:useDeeplinkForRelatedItems:useDeeplinkForRelatedItemsPause:exitscreenItemsListId:randomizeRelatedItems:useDeeplinkForFacebook:shareTwitterText:sharePlayout:skinBehaviour:skinOnTimeline:nativeControls:youTubeHosting:youTubeSkinInMainPhase:forceNativeFullscreen:preferHD:nedStatLoggerUrl:googleAnalyticsId:piwikUrl:piwikSiteId:disableCookies:disableContextMenuNavigate:playerSignature:playerSignatureLink:autoPlay:autoMute:autoMuteIfNeededForAutoPlay:autoLoop:floatPlayer:interactivityInView:interactivityOutView:inviewMargin:textAbovePlayer:textCommercialSkip:startCollapsed:playInOverlay:hidePlayerOnEnd:waitForApproval:interactivityMouseIn:interactivityMouseOut:interactivityOnClick:clickURL:nsiNoAutoPlay:nsiNoPlayer:placementOption:placementDOMSelector:iframeBreakout:clearBothOption:forceInview:customCode:preferFlashPlayback:preloadMainroll:disableHtml5VPAID:enableHtml5VPAID:commercialPauseButton:commercialMuteButton:commercialAdIcon:commercialProgressBar:commercialProgressBarColor:commercials:textCommercialTimeRemaining:commercialBehaviour:minClipDurationPreroll:minClipDurationPostroll:allowBBIma:fitmode:mobileRotateOnFullScreenMismatch:noStats:forceAndroidNativeVideo:forceIOSNativeVideo:use2018Skin:useThumbsFromMetadata:audioTrackSelect:shareText:shareButtonDirectLink:googleAnalyticsCustomVars:supportIABConsent:restrictionNpaOnly:restrictionNpcOnly:enableSubtitlesByDefault:defaultSubtitle:defaultSubtitleOnlyIfMuted:defaultAudioTrack:forceCanAutoPlay:avoidMutedAutoplay:stickyMode:disableKeyboardControls:taggingDisabled:skipOffset:skipCounterText:skipButtonText:blockInsecureVPAID:shareButtonGooglePlus:timelineId:templateId:adunits:hasAdunits:adunitsPreroll:ignoreSingleMediaResource:ignoreProjectMetadata:noPosterInExitPhase:logProgressAsQuartiles:autoPauseAfterPrePhase:autoPlayOnlyWithPrerollAd:showOnlyWhenPrerollAvailable:showBigPauseButtons:titlePause:authorCopyrightPause:authorCopyrightAlignPause:authorCopyrightPrefixTextPause:showStartDuration:disableMovingThumbnail:shareButtonHover:showBigHoverButtons:titleHover:authorCopyrightHover:titleEnd:authorCopyrightEnd:softEmbargoCustomPosterClipId:softEmbargoFontColor:softEmbargoHasCustomPoster:softEmbargoText:softEmbargoTimerHidden:adsystem_buid:adsystem_rdid:adsystem_idtype:adsystem_is_lat:swipeDirection:hideSwipeControls:descriptionShowHide:showPlayButton:autoLoopClip:shortsId:adunitId:clipAdInterval:firstAdPosition:assetPreloadWindow:placeholderText:placeholderTextColor:ctaExitScreen:ctaMidplay:ctaMidplayPosition:ctaText:ctaTextColor:ctaBackgroundColor:ctaUrlField:ctaButtonText:ctaButtonLabelField:ctaButtonUseAccentColor:ctaButtonPosition:eventHandlers:)")));
+
+/**
+ * Playout
+ */
 - (BOOL)isEqual:(id _Nullable)other __attribute__((swift_name("isEqual(_:)")));
+
+/**
+ * Playout
+ */
 - (NSUInteger)hash __attribute__((swift_name("hash()")));
+
+/**
+ * Playout
+ */
 - (NSString *)description __attribute__((swift_name("description()")));
 @property (readonly) NSString * _Nullable adsystem_buid __attribute__((swift_name("adsystem_buid")));
 @property (readonly) NSString * _Nullable adsystem_idtype __attribute__((swift_name("adsystem_idtype")));
@@ -2486,13 +2813,25 @@ __attribute__((swift_name("Playout")))
 @property (readonly) NSString * _Nullable youTubeSkinInMainPhase __attribute__((swift_name("youTubeSkinInMainPhase")));
 @end
 
+
+/**
+ * Playout
+ */
 __attribute__((objc_subclassing_restricted))
 __attribute__((swift_name("Playout.Companion")))
 @interface BbnativesharedPlayoutCompanion : BbnativesharedBase
 + (instancetype)alloc __attribute__((unavailable));
+
+/**
+ * Playout
+ */
 + (instancetype)allocWithZone:(struct _NSZone *)zone __attribute__((unavailable));
 + (instancetype)companion __attribute__((swift_name("init()")));
 @property (class, readonly, getter=shared) BbnativesharedPlayoutCompanion *shared __attribute__((swift_name("shared")));
+
+/**
+ * Playout
+ */
 - (id<BbnativesharedKotlinx_serialization_coreKSerializer>)serializer __attribute__((swift_name("serializer()")));
 @end
 
@@ -2534,6 +2873,8 @@ __attribute__((swift_name("Procedure.Companion")))
 
 
 /**
+ * Project
+ *
  * @note annotations
  *   kotlinx.serialization.Serializable
  *   kotlinx.serialization.SerialName(value="Project")
@@ -2548,8 +2889,20 @@ __attribute__((swift_name("Project")))
 - (instancetype)initWithSeen0:(int32_t)seen0 isPrefetch:(BOOL)isPrefetch isPlayed:(BOOL)isPlayed serializationConstructorMarker:(id _Nullable)serializationConstructorMarker __attribute__((swift_name("init(seen0:isPrefetch:isPlayed:serializationConstructorMarker:)"))) __attribute__((objc_designated_initializer)) __attribute__((unavailable));
 @property (class, readonly, getter=companion) BbnativesharedProjectCompanion *companion __attribute__((swift_name("companion")));
 - (BbnativesharedProject *)doCopyId:(NSString * _Nullable)id title:(NSString * _Nullable)title deeplink:(NSString * _Nullable)deeplink status:(NSString * _Nullable)status createddate:(NSString * _Nullable)createddate thumbnails:(NSArray<BbnativesharedThumbnail *> * _Nullable)thumbnails name:(NSString * _Nullable)name createdBy:(NSString * _Nullable)createdBy updateddate:(NSString * _Nullable)updateddate updatedBy:(NSString * _Nullable)updatedBy subtype:(NSString * _Nullable)subtype cat:(NSArray<NSString *> * _Nullable)cat clipCount:(BbnativesharedLong * _Nullable)clipCount publisheddate:(NSString * _Nullable)publisheddate useGaplessPlayback:(BbnativesharedBoolean * _Nullable)useGaplessPlayback distribution:(NSString * _Nullable)distribution goal:(NSString * _Nullable)goal useGaplessMetadata:(BbnativesharedBoolean * _Nullable)useGaplessMetadata useThumbsFromMetadata:(NSString * _Nullable)useThumbsFromMetadata noIntroClip:(BbnativesharedBoolean * _Nullable)noIntroClip analysis:(NSString * _Nullable)analysis description:(NSString * _Nullable)description author:(NSString * _Nullable)author copyright:(NSString * _Nullable)copyright transcript:(NSString * _Nullable)transcript label:(NSString * _Nullable)label chapters:(NSArray<BbnativesharedChapter *> * _Nullable)chapters timelineId:(NSString * _Nullable)timelineId timelines:(NSArray<BbnativesharedTimeline *> * _Nullable)timelines cpRuleViolations:(NSArray<NSString *> * _Nullable)cpRuleViolations cpp:(NSString * _Nullable)cpp relatedItemsListId:(NSString * _Nullable)relatedItemsListId mainMediaClipId:(NSString * _Nullable)mainMediaClipId mainMediaClipData:(BbnativesharedMediaClip * _Nullable)mainMediaClipData __attribute__((swift_name("doCopy(id:title:deeplink:status:createddate:thumbnails:name:createdBy:updateddate:updatedBy:subtype:cat:clipCount:publisheddate:useGaplessPlayback:distribution:goal:useGaplessMetadata:useThumbsFromMetadata:noIntroClip:analysis:description:author:copyright:transcript:label:chapters:timelineId:timelines:cpRuleViolations:cpp:relatedItemsListId:mainMediaClipId:mainMediaClipData:)")));
+
+/**
+ * Project
+ */
 - (BOOL)isEqual:(id _Nullable)other __attribute__((swift_name("isEqual(_:)")));
+
+/**
+ * Project
+ */
 - (NSUInteger)hash __attribute__((swift_name("hash()")));
+
+/**
+ * Project
+ */
 - (NSString *)description __attribute__((swift_name("description()")));
 @property (readonly) NSString * _Nullable analysis __attribute__((swift_name("analysis")));
 @property (readonly) NSString * _Nullable author __attribute__((swift_name("author")));
@@ -2587,13 +2940,25 @@ __attribute__((swift_name("Project")))
 @property (readonly) NSString * _Nullable useThumbsFromMetadata __attribute__((swift_name("useThumbsFromMetadata")));
 @end
 
+
+/**
+ * Project
+ */
 __attribute__((objc_subclassing_restricted))
 __attribute__((swift_name("Project.Companion")))
 @interface BbnativesharedProjectCompanion : BbnativesharedBase
 + (instancetype)alloc __attribute__((unavailable));
+
+/**
+ * Project
+ */
 + (instancetype)allocWithZone:(struct _NSZone *)zone __attribute__((unavailable));
 + (instancetype)companion __attribute__((swift_name("init()")));
 @property (class, readonly, getter=shared) BbnativesharedProjectCompanion *shared __attribute__((swift_name("shared")));
+
+/**
+ * Project
+ */
 - (id<BbnativesharedKotlinx_serialization_coreKSerializer>)serializer __attribute__((swift_name("serializer()")));
 @end
 
@@ -2942,6 +3307,10 @@ __attribute__((swift_name("VideoTrack.Companion")))
 __attribute__((objc_subclassing_restricted))
 __attribute__((swift_name("ContentItemKt")))
 @interface BbnativesharedContentItemKt : BbnativesharedBase
+
+/**
+ * @suppress
+ */
 @property (class, readonly) BbnativesharedKotlinx_serialization_coreSerializersModule *contentItemSerializersModule __attribute__((swift_name("contentItemSerializersModule")));
 @end
 
