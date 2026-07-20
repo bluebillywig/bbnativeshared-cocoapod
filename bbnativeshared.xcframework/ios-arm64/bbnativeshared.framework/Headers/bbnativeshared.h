@@ -862,6 +862,8 @@ __attribute__((swift_name("Languages.Companion")))
 + (instancetype)allocWithZone:(struct _NSZone *)zone __attribute__((unavailable));
 + (instancetype)companion __attribute__((swift_name("init()")));
 @property (class, readonly, getter=shared) BbnativesharedLanguagesCompanion *shared __attribute__((swift_name("shared")));
+- (BOOL)isSignLanguageIsoCodeIsoCode:(NSString * _Nullable)isoCode __attribute__((swift_name("isSignLanguageIsoCode(isoCode:)")));
+- (NSString *)languageFromIsoCodeIsoCode:(NSString * _Nullable)isoCode __attribute__((swift_name("languageFromIsoCode(isoCode:)")));
 - (NSString *)translateIso:(NSString *)iso text:(NSString *)text __attribute__((swift_name("translate(iso:text:)")));
 @property (readonly) BbnativesharedLanguages *instance __attribute__((swift_name("instance")));
 @end
