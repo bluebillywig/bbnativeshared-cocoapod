@@ -1190,6 +1190,7 @@ __attribute__((swift_name("EventName")))
 @property (class, readonly) BbnativesharedEventName *adpaused __attribute__((swift_name("adpaused")));
 @property (class, readonly) BbnativesharedEventName *adresumed __attribute__((swift_name("adresumed")));
 @property (class, readonly) BbnativesharedEventName *adprogress __attribute__((swift_name("adprogress")));
+@property (class, readonly) BbnativesharedEventName *adcompanionshown __attribute__((swift_name("adcompanionshown")));
 @property (class, readonly) BbnativesharedEventName *audiotrackschanged __attribute__((swift_name("audiotrackschanged")));
 @property (class, readonly) BbnativesharedEventName *subtitletrackschanged __attribute__((swift_name("subtitletrackschanged")));
 @property (class, readonly) BbnativesharedEventName *qualitytrackschanged __attribute__((swift_name("qualitytrackschanged")));
