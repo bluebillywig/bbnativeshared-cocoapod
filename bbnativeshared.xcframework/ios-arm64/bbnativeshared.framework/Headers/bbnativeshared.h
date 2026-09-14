@@ -1487,15 +1487,16 @@ __attribute__((swift_name("Action.Companion")))
 __attribute__((objc_subclassing_restricted))
 __attribute__((swift_name("AdSchedulingData")))
 @interface BbnativesharedAdSchedulingData : BbnativesharedBase
-- (instancetype)initWithScheduleId:(BbnativesharedInt * _Nullable)scheduleId scheduleCode:(NSString * _Nullable)scheduleCode macros:(NSDictionary<NSString *, BbnativesharedKotlinArray<NSString *> *> * _Nullable)macros __attribute__((swift_name("init(scheduleId:scheduleCode:macros:)"))) __attribute__((objc_designated_initializer));
+- (instancetype)initWithScheduleId:(BbnativesharedInt * _Nullable)scheduleId scheduleCode:(NSString * _Nullable)scheduleCode macros:(NSDictionary<NSString *, BbnativesharedKotlinArray<NSString *> *> * _Nullable)macros skippableAdBreaks:(NSArray<NSString *> * _Nullable)skippableAdBreaks __attribute__((swift_name("init(scheduleId:scheduleCode:macros:skippableAdBreaks:)"))) __attribute__((objc_designated_initializer));
 @property (class, readonly, getter=companion) BbnativesharedAdSchedulingDataCompanion *companion __attribute__((swift_name("companion")));
-- (BbnativesharedAdSchedulingData *)doCopyScheduleId:(BbnativesharedInt * _Nullable)scheduleId scheduleCode:(NSString * _Nullable)scheduleCode macros:(NSDictionary<NSString *, BbnativesharedKotlinArray<NSString *> *> * _Nullable)macros __attribute__((swift_name("doCopy(scheduleId:scheduleCode:macros:)")));
+- (BbnativesharedAdSchedulingData *)doCopyScheduleId:(BbnativesharedInt * _Nullable)scheduleId scheduleCode:(NSString * _Nullable)scheduleCode macros:(NSDictionary<NSString *, BbnativesharedKotlinArray<NSString *> *> * _Nullable)macros skippableAdBreaks:(NSArray<NSString *> * _Nullable)skippableAdBreaks __attribute__((swift_name("doCopy(scheduleId:scheduleCode:macros:skippableAdBreaks:)")));
 - (BOOL)isEqual:(id _Nullable)other __attribute__((swift_name("isEqual(_:)")));
 - (NSUInteger)hash __attribute__((swift_name("hash()")));
 - (NSString *)description __attribute__((swift_name("description()")));
 @property (readonly) NSDictionary<NSString *, BbnativesharedKotlinArray<NSString *> *> * _Nullable macros __attribute__((swift_name("macros")));
 @property (readonly) NSString * _Nullable scheduleCode __attribute__((swift_name("scheduleCode")));
 @property (readonly) BbnativesharedInt * _Nullable scheduleId __attribute__((swift_name("scheduleId")));
+@property (readonly) NSArray<NSString *> * _Nullable skippableAdBreaks __attribute__((swift_name("skippableAdBreaks")));
 @end
 
 __attribute__((objc_subclassing_restricted))
