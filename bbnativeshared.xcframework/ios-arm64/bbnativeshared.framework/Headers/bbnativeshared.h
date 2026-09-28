@@ -6,9 +6,9 @@
 #import <Foundation/NSString.h>
 #import <Foundation/NSValue.h>
 
-@class BbnativesharedAction, BbnativesharedActionCompanion, BbnativesharedAdMacroHelperCompanion, BbnativesharedAdSchedulingControllerCompanion, BbnativesharedAdSchedulingData, BbnativesharedAdSchedulingDataCompanion, BbnativesharedAdUnit, BbnativesharedAdUnitCompanion, BbnativesharedApiMethod, BbnativesharedApiProperty, BbnativesharedAppConfig, BbnativesharedAppConfigCompanion, BbnativesharedAudiotrack, BbnativesharedAudiotrackCompanion, BbnativesharedAutoPlayNextTimerCompanion, BbnativesharedBBModel, BbnativesharedBlueBillywigLoggerCompanion, BbnativesharedBuildVersion, BbnativesharedCapabilitiesCompanion, BbnativesharedChapter, BbnativesharedChapterCompanion, BbnativesharedCondition, BbnativesharedConditionCompanion, BbnativesharedContentItem, BbnativesharedContentItemCompanion, BbnativesharedContentItemFactoryCompanion, BbnativesharedContentLoaderCompanion, BbnativesharedContextFrame, BbnativesharedCustomField, BbnativesharedCustomFieldCompanion, BbnativesharedCustomFields, BbnativesharedCustomFieldsCompanion, BbnativesharedDates, BbnativesharedDatesCompanion, BbnativesharedEmbedControllerCompanion, BbnativesharedEmbedData, BbnativesharedEmbedDataCompanion, BbnativesharedEmbedObject, BbnativesharedEmbedObjectCompanion, BbnativesharedEventHandler, BbnativesharedEventHandlerCompanion, BbnativesharedEventName, BbnativesharedFitMode, BbnativesharedHighlight, BbnativesharedHighlightCompanion, BbnativesharedInstantFactoryCompanion, BbnativesharedKotlinAbstractCoroutineContextElement, BbnativesharedKotlinAbstractCoroutineContextKey<B, E>, BbnativesharedKotlinArray<T>, BbnativesharedKotlinEnum<E>, BbnativesharedKotlinEnumCompanion, BbnativesharedKotlinException, BbnativesharedKotlinIllegalStateException, BbnativesharedKotlinInstant, BbnativesharedKotlinInstantCompanion, BbnativesharedKotlinNothing, BbnativesharedKotlinRuntimeException, BbnativesharedKotlinThrowable, BbnativesharedKotlinx_coroutines_coreCoroutineDispatcher, BbnativesharedKotlinx_coroutines_coreCoroutineDispatcherKey, BbnativesharedKotlinx_serialization_coreSerialKind, BbnativesharedKotlinx_serialization_coreSerializersModule, BbnativesharedKotlinx_serialization_jsonClassDiscriminatorMode, BbnativesharedKotlinx_serialization_jsonJson, BbnativesharedKotlinx_serialization_jsonJsonConfiguration, BbnativesharedKotlinx_serialization_jsonJsonDefault, BbnativesharedKotlinx_serialization_jsonJsonElement, BbnativesharedKotlinx_serialization_jsonJsonElementCompanion, BbnativesharedLanguage, BbnativesharedLanguages, BbnativesharedLanguagesCompanion, BbnativesharedLineItem_, BbnativesharedLineItem_Companion, BbnativesharedLogger, BbnativesharedMasterController, BbnativesharedMasterControllerCompanion, BbnativesharedMediaAsset, BbnativesharedMediaAssetCompanion, BbnativesharedMediaClip, BbnativesharedMediaClipCompanion, BbnativesharedMediaClipList, BbnativesharedMediaClipListCompanion, BbnativesharedMsasController, BbnativesharedMsasControllerCompanion, BbnativesharedParameter, BbnativesharedParameterCompanion, BbnativesharedPhase, BbnativesharedPlatformCompanion, BbnativesharedPlayer, BbnativesharedPlayerCompanion, BbnativesharedPlayerSettings, BbnativesharedPlayerSettingsCompanion, BbnativesharedPlayout, BbnativesharedPlayoutCompanion, BbnativesharedPosType, BbnativesharedProcedure, BbnativesharedProcedureCompanion, BbnativesharedProgramController, BbnativesharedProgramControllerCompanion, BbnativesharedProject, BbnativesharedProjectCompanion, BbnativesharedPublication, BbnativesharedPublicationCompanion, BbnativesharedQuality, BbnativesharedRelatedItemsHelperCompanion, BbnativesharedRequestParams, BbnativesharedRequestParamsCompanion, BbnativesharedShortsEngineCompanion, BbnativesharedSoftEmbargoTimerCompanion, BbnativesharedState, BbnativesharedStep, BbnativesharedStepCompanion, BbnativesharedSubtitle, BbnativesharedSubtitleCompanion, BbnativesharedThumbnail, BbnativesharedThumbnailCompanion, BbnativesharedTimeline, BbnativesharedTimelineCompanion, BbnativesharedTypedObject, BbnativesharedTypedObjectCompanion, BbnativesharedVersioningData, BbnativesharedVersioningDataCompanion, BbnativesharedVideoTrack, BbnativesharedVideoTrackCompanion;
+@class BbnativesharedAction, BbnativesharedActionCompanion, BbnativesharedAdMacroHelperCompanion, BbnativesharedAdSchedulingControllerCompanion, BbnativesharedAdSchedulingData, BbnativesharedAdSchedulingDataCompanion, BbnativesharedAdUnit, BbnativesharedAdUnitCompanion, BbnativesharedApiMethod, BbnativesharedApiProperty, BbnativesharedAppConfig, BbnativesharedAppConfigCompanion, BbnativesharedAudiotrack, BbnativesharedAudiotrackCompanion, BbnativesharedAutoPlayNextTimerCompanion, BbnativesharedBBModel, BbnativesharedBlueBillywigLoggerCompanion, BbnativesharedBuildVersion, BbnativesharedCapabilitiesCompanion, BbnativesharedChapter, BbnativesharedChapterCompanion, BbnativesharedCondition, BbnativesharedConditionCompanion, BbnativesharedContentItem, BbnativesharedContentItemCompanion, BbnativesharedContentItemFactoryCompanion, BbnativesharedContentLoaderCompanion, BbnativesharedContextFrame, BbnativesharedCustomField, BbnativesharedCustomFieldCompanion, BbnativesharedCustomFields, BbnativesharedCustomFieldsCompanion, BbnativesharedDates, BbnativesharedDatesCompanion, BbnativesharedEmbedControllerCompanion, BbnativesharedEmbedData, BbnativesharedEmbedDataCompanion, BbnativesharedEmbedObject, BbnativesharedEmbedObjectCompanion, BbnativesharedEventHandler, BbnativesharedEventHandlerCompanion, BbnativesharedEventName, BbnativesharedFitMode, BbnativesharedFontAsset, BbnativesharedFontAssetCompanion, BbnativesharedFontClip, BbnativesharedFontClipCompanion, BbnativesharedFontFace, BbnativesharedFontFile, BbnativesharedFontFileEntry, BbnativesharedFontResolution, BbnativesharedFontResolutionLoaded, BbnativesharedFontResolutionSystem, BbnativesharedFontResolutionUnavailable, BbnativesharedFontResolutionUnusable, BbnativesharedFontResolverCompanion, BbnativesharedFontRole, BbnativesharedFontSpec, BbnativesharedFontSpecClip, BbnativesharedFontSpecCompanion, BbnativesharedFontSpecNamed, BbnativesharedFontSpecNone, BbnativesharedHighlight, BbnativesharedHighlightCompanion, BbnativesharedInstantFactoryCompanion, BbnativesharedKotlinAbstractCoroutineContextElement, BbnativesharedKotlinAbstractCoroutineContextKey<B, E>, BbnativesharedKotlinArray<T>, BbnativesharedKotlinByteArray, BbnativesharedKotlinByteIterator, BbnativesharedKotlinEnum<E>, BbnativesharedKotlinEnumCompanion, BbnativesharedKotlinException, BbnativesharedKotlinIllegalStateException, BbnativesharedKotlinInstant, BbnativesharedKotlinInstantCompanion, BbnativesharedKotlinNothing, BbnativesharedKotlinRuntimeException, BbnativesharedKotlinThrowable, BbnativesharedKotlinx_coroutines_coreCoroutineDispatcher, BbnativesharedKotlinx_coroutines_coreCoroutineDispatcherKey, BbnativesharedKotlinx_serialization_coreSerialKind, BbnativesharedKotlinx_serialization_coreSerializersModule, BbnativesharedKotlinx_serialization_jsonClassDiscriminatorMode, BbnativesharedKotlinx_serialization_jsonJson, BbnativesharedKotlinx_serialization_jsonJsonConfiguration, BbnativesharedKotlinx_serialization_jsonJsonDefault, BbnativesharedKotlinx_serialization_jsonJsonElement, BbnativesharedKotlinx_serialization_jsonJsonElementCompanion, BbnativesharedLanguage, BbnativesharedLanguages, BbnativesharedLanguagesCompanion, BbnativesharedLineItem_, BbnativesharedLineItem_Companion, BbnativesharedLogger, BbnativesharedMasterController, BbnativesharedMasterControllerCompanion, BbnativesharedMediaAsset, BbnativesharedMediaAssetCompanion, BbnativesharedMediaClip, BbnativesharedMediaClipCompanion, BbnativesharedMediaClipList, BbnativesharedMediaClipListCompanion, BbnativesharedMsasController, BbnativesharedMsasControllerCompanion, BbnativesharedParameter, BbnativesharedParameterCompanion, BbnativesharedPhase, BbnativesharedPlatformCompanion, BbnativesharedPlayer, BbnativesharedPlayerCompanion, BbnativesharedPlayerSettings, BbnativesharedPlayerSettingsCompanion, BbnativesharedPlayout, BbnativesharedPlayoutCompanion, BbnativesharedPosType, BbnativesharedProcedure, BbnativesharedProcedureCompanion, BbnativesharedProgramController, BbnativesharedProgramControllerCompanion, BbnativesharedProject, BbnativesharedProjectCompanion, BbnativesharedPublication, BbnativesharedPublicationCompanion, BbnativesharedQuality, BbnativesharedRelatedItemsHelperCompanion, BbnativesharedRequestParams, BbnativesharedRequestParamsCompanion, BbnativesharedShortsEngineCompanion, BbnativesharedSoftEmbargoTimerCompanion, BbnativesharedState, BbnativesharedStep, BbnativesharedStepCompanion, BbnativesharedSubtitle, BbnativesharedSubtitleCompanion, BbnativesharedThumbnail, BbnativesharedThumbnailCompanion, BbnativesharedTimeline, BbnativesharedTimelineCompanion, BbnativesharedTypedObject, BbnativesharedTypedObjectCompanion, BbnativesharedVersioningData, BbnativesharedVersioningDataCompanion, BbnativesharedVideoTrack, BbnativesharedVideoTrackCompanion;
 
-@protocol BbnativesharedAdControllerInterface, BbnativesharedContentItemInterface, BbnativesharedEventBusInterface, BbnativesharedEventListenerInterface, BbnativesharedKotlinAnnotation, BbnativesharedKotlinComparable, BbnativesharedKotlinContinuation, BbnativesharedKotlinContinuationInterceptor, BbnativesharedKotlinCoroutineContext, BbnativesharedKotlinCoroutineContextElement, BbnativesharedKotlinCoroutineContextKey, BbnativesharedKotlinIterator, BbnativesharedKotlinKAnnotatedElement, BbnativesharedKotlinKClass, BbnativesharedKotlinKClassifier, BbnativesharedKotlinKDeclarationContainer, BbnativesharedKotlinx_coroutines_coreCoroutineScope, BbnativesharedKotlinx_coroutines_coreFlow, BbnativesharedKotlinx_coroutines_coreFlowCollector, BbnativesharedKotlinx_coroutines_coreMutableSharedFlow, BbnativesharedKotlinx_coroutines_coreMutableStateFlow, BbnativesharedKotlinx_coroutines_coreRunnable, BbnativesharedKotlinx_coroutines_coreSharedFlow, BbnativesharedKotlinx_coroutines_coreStateFlow, BbnativesharedKotlinx_serialization_coreCompositeDecoder, BbnativesharedKotlinx_serialization_coreCompositeEncoder, BbnativesharedKotlinx_serialization_coreDecoder, BbnativesharedKotlinx_serialization_coreDeserializationStrategy, BbnativesharedKotlinx_serialization_coreEncoder, BbnativesharedKotlinx_serialization_coreKSerializer, BbnativesharedKotlinx_serialization_coreSerialDescriptor, BbnativesharedKotlinx_serialization_coreSerialFormat, BbnativesharedKotlinx_serialization_coreSerializationStrategy, BbnativesharedKotlinx_serialization_coreSerializersModuleCollector, BbnativesharedKotlinx_serialization_coreStringFormat, BbnativesharedKotlinx_serialization_jsonJsonNamingStrategy, BbnativesharedMediaControllerInterface, BbnativesharedNetworkInterface, BbnativesharedPosterControllerInterface;
+@protocol BbnativesharedAdControllerInterface, BbnativesharedContentItemInterface, BbnativesharedEventBusInterface, BbnativesharedEventListenerInterface, BbnativesharedFontFileStoreInterface, BbnativesharedKotlinAnnotation, BbnativesharedKotlinComparable, BbnativesharedKotlinContinuation, BbnativesharedKotlinContinuationInterceptor, BbnativesharedKotlinCoroutineContext, BbnativesharedKotlinCoroutineContextElement, BbnativesharedKotlinCoroutineContextKey, BbnativesharedKotlinIterator, BbnativesharedKotlinKAnnotatedElement, BbnativesharedKotlinKClass, BbnativesharedKotlinKClassifier, BbnativesharedKotlinKDeclarationContainer, BbnativesharedKotlinx_coroutines_coreCoroutineScope, BbnativesharedKotlinx_coroutines_coreFlow, BbnativesharedKotlinx_coroutines_coreFlowCollector, BbnativesharedKotlinx_coroutines_coreMutableSharedFlow, BbnativesharedKotlinx_coroutines_coreMutableStateFlow, BbnativesharedKotlinx_coroutines_coreRunnable, BbnativesharedKotlinx_coroutines_coreSharedFlow, BbnativesharedKotlinx_coroutines_coreStateFlow, BbnativesharedKotlinx_serialization_coreCompositeDecoder, BbnativesharedKotlinx_serialization_coreCompositeEncoder, BbnativesharedKotlinx_serialization_coreDecoder, BbnativesharedKotlinx_serialization_coreDeserializationStrategy, BbnativesharedKotlinx_serialization_coreEncoder, BbnativesharedKotlinx_serialization_coreKSerializer, BbnativesharedKotlinx_serialization_coreSerialDescriptor, BbnativesharedKotlinx_serialization_coreSerialFormat, BbnativesharedKotlinx_serialization_coreSerializationStrategy, BbnativesharedKotlinx_serialization_coreSerializersModuleCollector, BbnativesharedKotlinx_serialization_coreStringFormat, BbnativesharedKotlinx_serialization_jsonJsonNamingStrategy, BbnativesharedMediaControllerInterface, BbnativesharedNetworkInterface, BbnativesharedPosterControllerInterface;
 
 NS_ASSUME_NONNULL_BEGIN
 #pragma clang diagnostic push
@@ -276,6 +276,217 @@ __attribute__((swift_name("Capabilities.Companion")))
 + (instancetype)companion __attribute__((swift_name("init()")));
 @property (class, readonly, getter=shared) BbnativesharedCapabilitiesCompanion *shared __attribute__((swift_name("shared")));
 - (BOOL)canPlayTypeType:(NSString *)type __attribute__((swift_name("canPlayType(type:)")));
+@end
+
+
+/**
+ * Resolves a playout's font settings into something the platform can render with
+ * (#20287 / #19065).
+ *
+ * A role is stored on the playout as an Id plus a name - `skin_fontHeadingId` + `skin_fontHeading`
+ * for the heading, `skin_fontBodyId` + `skin_fontBody` for the body - and [FontSpec.from]
+ * classifies that pair. A [FontSpec.Clip] goes to `/json/mediaclip/<id>` for a family name and the
+ * first ttf/otf asset, which is then downloaded, validated and cached; a [FontSpec.Named] resolves
+ * to [FontResolution.System] with no i/o at all; [FontSpec.None] is [FontResolution.Unusable].
+ *
+ * A [FontSpec.Named] font touches neither cache nor network - the platform asks the OS for it by
+ * name and falls back to the built-in Lato when the device does not have it - so only a
+ * [FontSpec.Clip] side can time out.
+ *
+ * One clip id is one file: a font mediaclip holds a single uploaded font, converted to several web
+ * formats, so there is nothing to match on - the first asset a native platform can register wins.
+ *
+ * The two roles resolve independently and neither covers for the other: a role that is cleared or
+ * unusable renders in the built-in Lato while the other role keeps its font.
+ *
+ * The parts that need no i/o are pure functions on the companion object; of those the platforms
+ * need only [cacheKey] and [clipCacheKey], to manage the cache directory themselves.
+ *
+ * **One resolver serves exactly one publication.** [baseUrl] and [defaultMediaAssetPath] are fixed
+ * at construction, so every url, cache key and memo entry belongs to that one publication by
+ * construction - which is what lets the in-memory maps key on the bare clip id. Point a live
+ * resolver at a second publication and one publication's clip id answers for another's font. The
+ * SDKs build one once the embed's urls are known; when those urls change they [__destruct] it and
+ * build a new one.
+ *
+ * The same invariant is what makes [__destruct] safe while a platform writer is still running: it
+ * drops the resolver's `downloads` slots, so its successor never sees them, and a different
+ * publication produces different cache keys - [cacheKey] hashes the absolute url the file comes
+ * from - so the loose writer cannot collide with any key the successor asks for.
+ *
+ * @property baseUrl               publication base url without a trailing slash, e.g.
+ *                                 `https://demo.bbvms.com`.
+ * @property defaultMediaAssetPath `Publication.defaultMediaAssetPath`; `assets[].src` values are
+ *                                 relative to it, so it decides which origin a face comes from.
+ */
+__attribute__((objc_subclassing_restricted))
+__attribute__((swift_name("FontResolver")))
+@interface BbnativesharedFontResolver : BbnativesharedBase <BbnativesharedKotlinx_coroutines_coreCoroutineScope>
+- (instancetype)initWithNetwork:(id<BbnativesharedNetworkInterface> _Nullable)network fileStore:(id<BbnativesharedFontFileStoreInterface> _Nullable)fileStore baseUrl:(NSString *)baseUrl defaultMediaAssetPath:(NSString *)defaultMediaAssetPath __attribute__((swift_name("init(network:fileStore:baseUrl:defaultMediaAssetPath:)"))) __attribute__((objc_designated_initializer));
+@property (class, readonly, getter=companion) BbnativesharedFontResolverCompanion *companion __attribute__((swift_name("companion")));
+- (void)__destruct __attribute__((swift_name("__destruct()")));
+
+/**
+ * Full resolution of one spec. Returns a [FontResolution] for every outcome; the caller decides
+ * between "use it" and "fall back to Lato".
+ *
+ * @note This method converts instances of CancellationException to errors.
+ * Other uncaught Kotlin exceptions are fatal.
+*/
+- (void)resolveSpec:(BbnativesharedFontSpec *)spec completionHandler:(void (^)(BbnativesharedFontResolution * _Nullable, NSError * _Nullable))completionHandler __attribute__((swift_name("resolve(spec:completionHandler:)")));
+
+/**
+ * [resolveAsync] with [DEFAULT_TIMEOUT_MS]. Exists because Kotlin default arguments are
+ * invisible to Objective-C, so Swift cannot omit `timeoutMs` on the call above.
+ */
+- (void)resolveAsyncSpec:(BbnativesharedFontSpec *)spec onResult:(void (^)(BbnativesharedFontResolution *resolution))onResult __attribute__((swift_name("resolveAsync(spec:onResult:)")));
+
+/**
+ * Fire-and-forget resolution of one spec. Calls [onResult] immediately, on the calling thread,
+ * when [resolveCached] can answer; otherwise on [callbackDispatcher] after resolution or after
+ * [timeoutMs], whichever comes first. A timeout does not cancel the download.
+ *
+ * [onResult] can arrive *after* [__destruct], carrying [REASON_DESTROYED]: teardown is what
+ * produces that verdict, so its delivery outlives teardown by design. The callback has to
+ * survive its owner being gone - both SDKs check the view is still attached before they
+ * register a font.
+ */
+- (void)resolveAsyncSpec:(BbnativesharedFontSpec *)spec timeoutMs:(int64_t)timeoutMs onResult:(void (^)(BbnativesharedFontResolution *resolution))onResult __attribute__((swift_name("resolveAsync(spec:timeoutMs:onResult:)")));
+
+/**
+ * [resolveBoth] with [DEFAULT_TIMEOUT_MS]. Exists because Kotlin default arguments are
+ * invisible to Objective-C, so Swift cannot omit `timeoutMs` on the call above.
+ */
+- (void)resolveBothHeading:(BbnativesharedFontSpec *)heading body:(BbnativesharedFontSpec *)body onResult:(void (^)(BbnativesharedFontResolution *heading, BbnativesharedFontResolution *body))onResult __attribute__((swift_name("resolveBoth(heading:body:onResult:)")));
+
+/**
+ * Both roles at once: [heading] and [body] resolve concurrently and are reported in a single
+ * [onResult] call, exactly once - synchronously on the calling thread when [resolveCached] can
+ * answer both sides, otherwise on [callbackDispatcher].
+ *
+ * The two sides are independent. Each gets its own [timeoutMs] window and both windows open at
+ * the same moment, so a slow or dead heading font falls back to Lato while the body font still
+ * arrives as [FontResolution.Loaded].
+ *
+ * The same clip id in both roles is fetched once: the two sides share one resolution instead
+ * of racing each other into the memo.
+ *
+ * [onResult] can arrive after [__destruct], carrying [REASON_DESTROYED] for whichever side the
+ * cancelled scope still owed an answer - see [resolveAsync]. This is the entry point both SDKs
+ * use, so the guard belongs to the caller: check the view is still attached before registering
+ * a font.
+ */
+- (void)resolveBothHeading:(BbnativesharedFontSpec *)heading body:(BbnativesharedFontSpec *)body timeoutMs:(int64_t)timeoutMs onResult:(void (^)(BbnativesharedFontResolution *heading, BbnativesharedFontResolution *body))onResult __attribute__((swift_name("resolveBoth(heading:body:timeoutMs:onResult:)")));
+
+/**
+ * The resolution for [spec] if it can be answered without any i/o beyond a synchronous cache
+ * read, else null. Null is not a verdict - call [resolveAsync] for that.
+ *
+ * Both [FontSpec.None] and an uncached [FontSpec.Clip] return null and the return value does
+ * not say which: the caller tells them apart by the spec it passed in. A cleared role is a
+ * verdict [resolve] produces ([FontResolution.Unusable]), not a cache miss, and answering it
+ * here would make it indistinguishable from a cold clip.
+ */
+- (BbnativesharedFontResolution * _Nullable)resolveCachedSpec:(BbnativesharedFontSpec *)spec __attribute__((swift_name("resolveCached(spec:)")));
+@property (readonly) NSString *baseUrl __attribute__((swift_name("baseUrl")));
+
+/**
+ * Dispatcher the [resolveAsync] / [resolveBoth] callbacks are delivered on. Defaults to the
+ * main thread, which is where a font has to be registered on both platforms. A host without a
+ * main run loop - a unit test, a headless embedding - must set its own before the first call.
+ */
+@property BbnativesharedKotlinx_coroutines_coreCoroutineDispatcher *callbackDispatcher __attribute__((swift_name("callbackDispatcher")));
+@property (readonly) id<BbnativesharedKotlinCoroutineContext> coroutineContext __attribute__((swift_name("coroutineContext")));
+@property (readonly) NSString *defaultMediaAssetPath __attribute__((swift_name("defaultMediaAssetPath")));
+@property id<BbnativesharedFontFileStoreInterface> _Nullable fileStore __attribute__((swift_name("fileStore")));
+@property id<BbnativesharedNetworkInterface> _Nullable network __attribute__((swift_name("network")));
+@end
+
+__attribute__((objc_subclassing_restricted))
+__attribute__((swift_name("FontResolver.Companion")))
+@interface BbnativesharedFontResolverCompanion : BbnativesharedBase
++ (instancetype)alloc __attribute__((unavailable));
++ (instancetype)allocWithZone:(struct _NSZone *)zone __attribute__((unavailable));
++ (instancetype)companion __attribute__((swift_name("init()")));
+@property (class, readonly, getter=shared) BbnativesharedFontResolverCompanion *shared __attribute__((swift_name("shared")));
+
+/**
+ * Cache key for one face: asset id plus the **absolute url** it is downloaded from, so a
+ * re-pointed src is a different key and re-downloads instead of serving a stale file, and
+ * two publications sharing an asset id and a relative path on different CDNs do not share
+ * one file. Two faces that really are the same url are the same bytes and do share it.
+ */
+- (NSString *)cacheKeyFace:(BbnativesharedFontFace *)face __attribute__((swift_name("cacheKey(face:)")));
+
+/**
+ * Cache key for one font clip's json, namespaced by [baseUrl]'s origin: clip id 2495 is a
+ * different font on every publication and two resolvers can share one cache directory.
+ * Falls back to the same `noid` placeholder as [cacheKey] when the id is blank, so the key
+ * is never `bbfont-clip-<scope>-.json`, which every blank id would collide on.
+ */
+- (NSString *)clipCacheKeyFontId:(NSString *)fontId baseUrl:(NSString *)baseUrl __attribute__((swift_name("clipCacheKey(fontId:baseUrl:)")));
+
+/** How long the SDKs wait before drawing with Lato. Tunable per call. */
+@property (readonly) int64_t DEFAULT_TIMEOUT_MS __attribute__((swift_name("DEFAULT_TIMEOUT_MS")));
+
+/**
+ * Safety net on one font file download: how long the shared resolution waits for a
+ * platform store that has not called back. It is there for a store that breaks the
+ * "exactly one callback" contract, not for a slow connection, and it is far longer than
+ * [DEFAULT_TIMEOUT_MS] because nothing waits on it but the resolver - the store cannot be
+ * called off and the SDK is already drawing in Lato. See [download].
+ *
+ * A platform that schedules its own retry must **derive** its window from this constant -
+ * read it, do not copy the number. A retry that fires while the first download is still
+ * running learns nothing the running one would not have told it, and a hard-coded copy
+ * next to this becomes wrong the moment this changes, silently and on one platform only.
+ */
+@property (readonly) int64_t DOWNLOAD_TIMEOUT_MS __attribute__((swift_name("DOWNLOAD_TIMEOUT_MS")));
+
+/**
+ * Upper bound on `numTables` before the offset table is nonsense rather than a font.
+ *
+ * The verdict this feeds is permanent, so the bound is deliberately loose: shipped fonts
+ * carry ten to twenty-odd tables and the fattest CJK and variable fonts about thirty, so
+ * 64 is double the worst real case and still an order of magnitude below the
+ * 32-odd-thousand a garbage header produces. Not a spec limit, which is 65535.
+ */
+@property (readonly) int32_t MAX_SFNT_TABLES __attribute__((swift_name("MAX_SFNT_TABLES")));
+
+/**
+ * The smallest a font can possibly be: a 12-byte sfnt offset table plus one 16-byte table
+ * record. See the OpenType spec, "Table Directory".
+ */
+@property (readonly) int64_t MIN_SFNT_BYTES __attribute__((swift_name("MIN_SFNT_BYTES")));
+
+/** Formats the native platforms can register. woff/woff2/eot/svg/swf are ignored. */
+@property (readonly) NSSet<NSString *> *NATIVE_FORMATS __attribute__((swift_name("NATIVE_FORMATS")));
+@property (readonly) NSString *REASON_BAD_TABLE_COUNT __attribute__((swift_name("REASON_BAD_TABLE_COUNT")));
+
+/** [__destruct] already ran: there is no scope left to resolve on. */
+@property (readonly) NSString *REASON_DESTROYED __attribute__((swift_name("REASON_DESTROYED")));
+@property (readonly) NSString *REASON_DOWNLOAD_FAILED __attribute__((swift_name("REASON_DOWNLOAD_FAILED")));
+@property (readonly) NSString *REASON_EMPTY_FILE __attribute__((swift_name("REASON_EMPTY_FILE")));
+@property (readonly) NSString *REASON_FETCH_FAILED __attribute__((swift_name("REASON_FETCH_FAILED")));
+@property (readonly) NSString *REASON_NOT_SFNT __attribute__((swift_name("REASON_NOT_SFNT")));
+@property (readonly) NSString *REASON_NO_FAMILY_NAME __attribute__((swift_name("REASON_NO_FAMILY_NAME")));
+@property (readonly) NSString *REASON_NO_FILE_STORE __attribute__((swift_name("REASON_NO_FILE_STORE")));
+@property (readonly) NSString *REASON_NO_FONT_ID __attribute__((swift_name("REASON_NO_FONT_ID")));
+@property (readonly) NSString *REASON_NO_NATIVE_FACE __attribute__((swift_name("REASON_NO_NATIVE_FACE")));
+@property (readonly) NSString *REASON_PARSE_FAILED __attribute__((swift_name("REASON_PARSE_FAILED")));
+@property (readonly) NSString *REASON_SIZE_MISMATCH __attribute__((swift_name("REASON_SIZE_MISMATCH")));
+@property (readonly) NSString *REASON_TIMEOUT __attribute__((swift_name("REASON_TIMEOUT")));
+@property (readonly) NSString *REASON_TOO_SHORT __attribute__((swift_name("REASON_TOO_SHORT")));
+
+/** A platform implementation threw where the contract says it should call back. */
+@property (readonly) NSString *REASON_UNEXPECTED __attribute__((swift_name("REASON_UNEXPECTED")));
+
+/**
+ * How long one clip json request may take before it counts as a failed attempt. Two fit
+ * inside a resolution ([fetchClipJson] retries once) and both together stay far shorter
+ * than [DOWNLOAD_TIMEOUT_MS].
+ */
+@property (readonly) int64_t REQUEST_TIMEOUT_MS __attribute__((swift_name("REQUEST_TIMEOUT_MS")));
 @end
 
 
@@ -1221,6 +1432,62 @@ __attribute__((swift_name("FitMode")))
 
 
 /**
+ * The two font roles a playout can set (#20287 / #19065): one font for headings, one for body
+ * text. Each role is stored as an id/name pair, exactly as Channels stores
+ * `fontFamilyPrimaryId` / `fontFamilyPrimary` (#20288 decision 14), and falls back to the
+ * built-in Lato on its own - an unusable heading font never drags the body font down with it.
+ *
+ * The absent-vs-cleared rule for partial playout payloads keys on [playoutKey] (the Id field):
+ * a payload without that key leaves the role alone. The Shorts app config carries the same two
+ * roles under camelCase keys ([appConfigKey] / [appConfigNameKey], #20286), and the same rule
+ * applies there.
+ *
+ * The four key names are on the enum rather than spelled out at each call site because the SDKs
+ * need them as *strings* - they inspect the raw payload map, which a parsed model cannot do.
+ *
+ * @property playoutKey       the `Playout` Id field of this role (`skin_fontHeadingId` / `skin_fontBodyId`)
+ * @property playoutNameKey   the `Playout` name field of this role (`skin_fontHeading` / `skin_fontBody`)
+ * @property appConfigKey     the `AppConfig` Id field of this role (`skinFontHeadingId` / `skinFontBodyId`)
+ * @property appConfigNameKey the `AppConfig` name field of this role (`skinFontHeading` / `skinFontBody`)
+ */
+__attribute__((objc_subclassing_restricted))
+__attribute__((swift_name("FontRole")))
+@interface BbnativesharedFontRole : BbnativesharedKotlinEnum<BbnativesharedFontRole *>
++ (instancetype)alloc __attribute__((unavailable));
+
+/**
+ * The two font roles a playout can set (#20287 / #19065): one font for headings, one for body
+ * text. Each role is stored as an id/name pair, exactly as Channels stores
+ * `fontFamilyPrimaryId` / `fontFamilyPrimary` (#20288 decision 14), and falls back to the
+ * built-in Lato on its own - an unusable heading font never drags the body font down with it.
+ *
+ * The absent-vs-cleared rule for partial playout payloads keys on [playoutKey] (the Id field):
+ * a payload without that key leaves the role alone. The Shorts app config carries the same two
+ * roles under camelCase keys ([appConfigKey] / [appConfigNameKey], #20286), and the same rule
+ * applies there.
+ *
+ * The four key names are on the enum rather than spelled out at each call site because the SDKs
+ * need them as *strings* - they inspect the raw payload map, which a parsed model cannot do.
+ *
+ * @property playoutKey       the `Playout` Id field of this role (`skin_fontHeadingId` / `skin_fontBodyId`)
+ * @property playoutNameKey   the `Playout` name field of this role (`skin_fontHeading` / `skin_fontBody`)
+ * @property appConfigKey     the `AppConfig` Id field of this role (`skinFontHeadingId` / `skinFontBodyId`)
+ * @property appConfigNameKey the `AppConfig` name field of this role (`skinFontHeading` / `skinFontBody`)
+ */
++ (instancetype)allocWithZone:(struct _NSZone *)zone __attribute__((unavailable));
+- (instancetype)initWithName:(NSString *)name ordinal:(int32_t)ordinal __attribute__((swift_name("init(name:ordinal:)"))) __attribute__((objc_designated_initializer)) __attribute__((unavailable));
+@property (class, readonly) BbnativesharedFontRole *heading __attribute__((swift_name("heading")));
+@property (class, readonly) BbnativesharedFontRole *body __attribute__((swift_name("body")));
++ (BbnativesharedKotlinArray<BbnativesharedFontRole *> *)values __attribute__((swift_name("values()")));
+@property (class, readonly) NSArray<BbnativesharedFontRole *> *entries __attribute__((swift_name("entries")));
+@property (readonly) NSString *appConfigKey __attribute__((swift_name("appConfigKey")));
+@property (readonly) NSString *appConfigNameKey __attribute__((swift_name("appConfigNameKey")));
+@property (readonly) NSString *playoutKey __attribute__((swift_name("playoutKey")));
+@property (readonly) NSString *playoutNameKey __attribute__((swift_name("playoutNameKey")));
+@end
+
+
+/**
  * Phase
  * *  INIT
  * *  PRE
@@ -1343,6 +1610,70 @@ __attribute__((swift_name("EventBusInterface")))
 - (void)triggerEventType:(BbnativesharedEventName *)eventType __attribute__((swift_name("trigger(eventType:)")));
 - (void)triggerEventType:(BbnativesharedEventName *)eventType data:(NSDictionary<NSString *, id> *)data __attribute__((swift_name("trigger(eventType:data:)")));
 @property NSMutableArray<id<BbnativesharedEventListenerInterface>> *listeners __attribute__((swift_name("listeners")));
+@end
+
+
+/**
+ * Platform file cache for downloaded font files (#20287).
+ *
+ * The shared module owns *what* to download, the key it lives under, and whether the bytes are a
+ * real font; the platform owns the download and the directory. Callback-based on purpose:
+ * Swift cannot implement a Kotlin interface with `suspend` members.
+ *
+ * Contract:
+ * - Storage survives app launches (a caches directory is the right place; the OS may evict it and
+ *   the shared module treats a miss as "download again").
+ * - [cachedFile] and [cachedContents] must be cheap and synchronous - they sit on the path that
+ *   answers "is this font already here?" before the first frame is drawn.
+ * - Keys are opaque, filesystem-safe strings produced by `FontResolver.cacheKey` /
+ *   `FontResolver.clipCacheKey`. They already encode the asset id and the download url, and the
+ *   clip key the publication as well, so a changed src - or the same clip id on another
+ *   publication - is a different key and re-downloads by itself. One store can therefore serve
+ *   several publications.
+ * - [download] must overwrite an existing entry for the same key and must report the byte count
+ *   it wrote plus the `Content-Length` the server declared (null when absent). It must not
+ *   validate anything; the shared module does that.
+ * - Exactly one of the two callbacks of [download] must be called, exactly once.
+ * - [download] itself must return as soon as the transfer is on its way: it reports through its
+ *   callbacks. A [download] that transfers the whole file before returning would make the two font
+ *   roles wait for each other.
+ * - Calls for one key are serialised **within one resolver**, and that is as far as the shared
+ *   module's guarantee goes. Two things routinely produce more than one resolver on one store:
+ *   every player view owns its own resolver on the same directory, and a view that switches
+ *   publication replaces its resolver while the predecessor's transfers are still running (they
+ *   cannot be cancelled, see [download]). So a store must make each per-key write atomic itself -
+ *   stage the bytes in a file unique to that download (a uuid, not `<key>.part`) and rename it
+ *   onto the target - or two interleaved streams end up registered as one font.
+ *
+ * @suppress
+ */
+__attribute__((swift_name("FontFileStoreInterface")))
+@protocol BbnativesharedFontFileStoreInterface
+@required
+- (void)__destruct __attribute__((swift_name("__destruct()")));
+
+/** Full contents of the file cached under [key], or null when there is none. */
+- (BbnativesharedKotlinByteArray * _Nullable)cachedContentsKey:(NSString *)key __attribute__((swift_name("cachedContents(key:)")));
+
+/** Metadata + first bytes of the file cached under [key], or null when there is none. */
+- (BbnativesharedFontFileEntry * _Nullable)cachedFileKey:(NSString *)key __attribute__((swift_name("cachedFile(key:)")));
+
+/**
+ * Download [url] into the cache under [key], replacing what was there.
+ *
+ * There is no cancel handle by design: once a key has been handed over, the transfer runs to
+ * its end and fills the cache for the next launch. The shared module stops *waiting* long
+ * before that, so the callback may well land after its resolver's `__destruct` - a store that
+ * touches its owner from the callback must survive that, and the shared module simply drops
+ * the bytes it has nobody left to hand them to.
+ */
+- (void)downloadKey:(NSString *)key url:(NSString *)url onSuccess:(void (^)(BbnativesharedFontFileEntry *entry))onSuccess onFailure:(void (^)(NSString *error))onFailure __attribute__((swift_name("download(key:url:onSuccess:onFailure:)")));
+
+/** Write [contents] under [key], replacing what was there. Returns null when it failed. */
+- (BbnativesharedFontFileEntry * _Nullable)putKey:(NSString *)key contents:(BbnativesharedKotlinByteArray *)contents __attribute__((swift_name("put(key:contents:)")));
+
+/** Drop the entry for [key]. Called when its bytes failed validation. */
+- (void)removeKey:(NSString *)key __attribute__((swift_name("remove(key:)")));
 @end
 
 
@@ -1560,9 +1891,23 @@ __attribute__((swift_name("AdUnit.Companion")))
 __attribute__((objc_subclassing_restricted))
 __attribute__((swift_name("AppConfig")))
 @interface BbnativesharedAppConfig : BbnativesharedBase
-- (instancetype)initWithId:(NSString * _Nullable)id type:(NSString * _Nullable)type showThumbnails:(BbnativesharedBoolean * _Nullable)showThumbnails showNextPreviousControls:(BbnativesharedBoolean * _Nullable)showNextPreviousControls subtype:(NSString * _Nullable)subtype swipeDirection:(NSString * _Nullable)swipeDirection backgroundColor:(NSString * _Nullable)backgroundColor skin_foregroundColor:(NSString * _Nullable)skin_foregroundColor clipAdInterval:(BbnativesharedInt * _Nullable)clipAdInterval firstAdPosition:(BbnativesharedInt * _Nullable)firstAdPosition minuteAdInterval:(BbnativesharedInt * _Nullable)minuteAdInterval listThumbnailHeight:(BbnativesharedInt * _Nullable)listThumbnailHeight listThumbnailResponsiveHeight:(BbnativesharedBoolean * _Nullable)listThumbnailResponsiveHeight listThumbnailGap:(BbnativesharedInt * _Nullable)listThumbnailGap showThumbnailDuration:(BbnativesharedBoolean * _Nullable)showThumbnailDuration showThumbnailTitle:(BbnativesharedBoolean * _Nullable)showThumbnailTitle useThumbnailsInFullscreen:(BbnativesharedBoolean * _Nullable)useThumbnailsInFullscreen thumbnailBackground:(BbnativesharedBoolean * _Nullable)thumbnailBackground cornerRadius:(BbnativesharedInt * _Nullable)cornerRadius adunitId:(NSString * _Nullable)adunitId playout:(BbnativesharedPlayout * _Nullable)playout cliplistid:(NSString * _Nullable)cliplistid viewedClipBehaviour:(NSString * _Nullable)viewedClipBehaviour durationBackgroundColor:(NSString * _Nullable)durationBackgroundColor showOutlineForUnwatchedClips:(BbnativesharedBoolean * _Nullable)showOutlineForUnwatchedClips outlineColor:(NSString * _Nullable)outlineColor showPlayIconInTimestamp:(BbnativesharedBoolean * _Nullable)showPlayIconInTimestamp shelfMovingThumbnail:(BbnativesharedBoolean * _Nullable)shelfMovingThumbnail __attribute__((swift_name("init(id:type:showThumbnails:showNextPreviousControls:subtype:swipeDirection:backgroundColor:skin_foregroundColor:clipAdInterval:firstAdPosition:minuteAdInterval:listThumbnailHeight:listThumbnailResponsiveHeight:listThumbnailGap:showThumbnailDuration:showThumbnailTitle:useThumbnailsInFullscreen:thumbnailBackground:cornerRadius:adunitId:playout:cliplistid:viewedClipBehaviour:durationBackgroundColor:showOutlineForUnwatchedClips:outlineColor:showPlayIconInTimestamp:shelfMovingThumbnail:)"))) __attribute__((objc_designated_initializer));
+- (instancetype)initWithId:(NSString * _Nullable)id type:(NSString * _Nullable)type showThumbnails:(BbnativesharedBoolean * _Nullable)showThumbnails showNextPreviousControls:(BbnativesharedBoolean * _Nullable)showNextPreviousControls subtype:(NSString * _Nullable)subtype swipeDirection:(NSString * _Nullable)swipeDirection backgroundColor:(NSString * _Nullable)backgroundColor skin_foregroundColor:(NSString * _Nullable)skin_foregroundColor skinFontHeadingId:(NSString * _Nullable)skinFontHeadingId skinFontBodyId:(NSString * _Nullable)skinFontBodyId skinFontHeading:(NSString * _Nullable)skinFontHeading skinFontBody:(NSString * _Nullable)skinFontBody clipAdInterval:(BbnativesharedInt * _Nullable)clipAdInterval firstAdPosition:(BbnativesharedInt * _Nullable)firstAdPosition minuteAdInterval:(BbnativesharedInt * _Nullable)minuteAdInterval listThumbnailHeight:(BbnativesharedInt * _Nullable)listThumbnailHeight listThumbnailResponsiveHeight:(BbnativesharedBoolean * _Nullable)listThumbnailResponsiveHeight listThumbnailGap:(BbnativesharedInt * _Nullable)listThumbnailGap showThumbnailDuration:(BbnativesharedBoolean * _Nullable)showThumbnailDuration showThumbnailTitle:(BbnativesharedBoolean * _Nullable)showThumbnailTitle useThumbnailsInFullscreen:(BbnativesharedBoolean * _Nullable)useThumbnailsInFullscreen thumbnailBackground:(BbnativesharedBoolean * _Nullable)thumbnailBackground cornerRadius:(BbnativesharedInt * _Nullable)cornerRadius adunitId:(NSString * _Nullable)adunitId playout:(BbnativesharedPlayout * _Nullable)playout cliplistid:(NSString * _Nullable)cliplistid viewedClipBehaviour:(NSString * _Nullable)viewedClipBehaviour durationBackgroundColor:(NSString * _Nullable)durationBackgroundColor showOutlineForUnwatchedClips:(BbnativesharedBoolean * _Nullable)showOutlineForUnwatchedClips outlineColor:(NSString * _Nullable)outlineColor showPlayIconInTimestamp:(BbnativesharedBoolean * _Nullable)showPlayIconInTimestamp shelfMovingThumbnail:(BbnativesharedBoolean * _Nullable)shelfMovingThumbnail __attribute__((swift_name("init(id:type:showThumbnails:showNextPreviousControls:subtype:swipeDirection:backgroundColor:skin_foregroundColor:skinFontHeadingId:skinFontBodyId:skinFontHeading:skinFontBody:clipAdInterval:firstAdPosition:minuteAdInterval:listThumbnailHeight:listThumbnailResponsiveHeight:listThumbnailGap:showThumbnailDuration:showThumbnailTitle:useThumbnailsInFullscreen:thumbnailBackground:cornerRadius:adunitId:playout:cliplistid:viewedClipBehaviour:durationBackgroundColor:showOutlineForUnwatchedClips:outlineColor:showPlayIconInTimestamp:shelfMovingThumbnail:)"))) __attribute__((objc_designated_initializer));
 @property (class, readonly, getter=companion) BbnativesharedAppConfigCompanion *companion __attribute__((swift_name("companion")));
-- (BbnativesharedAppConfig *)doCopyId:(NSString * _Nullable)id type:(NSString * _Nullable)type showThumbnails:(BbnativesharedBoolean * _Nullable)showThumbnails showNextPreviousControls:(BbnativesharedBoolean * _Nullable)showNextPreviousControls subtype:(NSString * _Nullable)subtype swipeDirection:(NSString * _Nullable)swipeDirection backgroundColor:(NSString * _Nullable)backgroundColor skin_foregroundColor:(NSString * _Nullable)skin_foregroundColor clipAdInterval:(BbnativesharedInt * _Nullable)clipAdInterval firstAdPosition:(BbnativesharedInt * _Nullable)firstAdPosition minuteAdInterval:(BbnativesharedInt * _Nullable)minuteAdInterval listThumbnailHeight:(BbnativesharedInt * _Nullable)listThumbnailHeight listThumbnailResponsiveHeight:(BbnativesharedBoolean * _Nullable)listThumbnailResponsiveHeight listThumbnailGap:(BbnativesharedInt * _Nullable)listThumbnailGap showThumbnailDuration:(BbnativesharedBoolean * _Nullable)showThumbnailDuration showThumbnailTitle:(BbnativesharedBoolean * _Nullable)showThumbnailTitle useThumbnailsInFullscreen:(BbnativesharedBoolean * _Nullable)useThumbnailsInFullscreen thumbnailBackground:(BbnativesharedBoolean * _Nullable)thumbnailBackground cornerRadius:(BbnativesharedInt * _Nullable)cornerRadius adunitId:(NSString * _Nullable)adunitId playout:(BbnativesharedPlayout * _Nullable)playout cliplistid:(NSString * _Nullable)cliplistid viewedClipBehaviour:(NSString * _Nullable)viewedClipBehaviour durationBackgroundColor:(NSString * _Nullable)durationBackgroundColor showOutlineForUnwatchedClips:(BbnativesharedBoolean * _Nullable)showOutlineForUnwatchedClips outlineColor:(NSString * _Nullable)outlineColor showPlayIconInTimestamp:(BbnativesharedBoolean * _Nullable)showPlayIconInTimestamp shelfMovingThumbnail:(BbnativesharedBoolean * _Nullable)shelfMovingThumbnail __attribute__((swift_name("doCopy(id:type:showThumbnails:showNextPreviousControls:subtype:swipeDirection:backgroundColor:skin_foregroundColor:clipAdInterval:firstAdPosition:minuteAdInterval:listThumbnailHeight:listThumbnailResponsiveHeight:listThumbnailGap:showThumbnailDuration:showThumbnailTitle:useThumbnailsInFullscreen:thumbnailBackground:cornerRadius:adunitId:playout:cliplistid:viewedClipBehaviour:durationBackgroundColor:showOutlineForUnwatchedClips:outlineColor:showPlayIconInTimestamp:shelfMovingThumbnail:)")));
+- (BbnativesharedAppConfig *)doCopyId:(NSString * _Nullable)id type:(NSString * _Nullable)type showThumbnails:(BbnativesharedBoolean * _Nullable)showThumbnails showNextPreviousControls:(BbnativesharedBoolean * _Nullable)showNextPreviousControls subtype:(NSString * _Nullable)subtype swipeDirection:(NSString * _Nullable)swipeDirection backgroundColor:(NSString * _Nullable)backgroundColor skin_foregroundColor:(NSString * _Nullable)skin_foregroundColor skinFontHeadingId:(NSString * _Nullable)skinFontHeadingId skinFontBodyId:(NSString * _Nullable)skinFontBodyId skinFontHeading:(NSString * _Nullable)skinFontHeading skinFontBody:(NSString * _Nullable)skinFontBody clipAdInterval:(BbnativesharedInt * _Nullable)clipAdInterval firstAdPosition:(BbnativesharedInt * _Nullable)firstAdPosition minuteAdInterval:(BbnativesharedInt * _Nullable)minuteAdInterval listThumbnailHeight:(BbnativesharedInt * _Nullable)listThumbnailHeight listThumbnailResponsiveHeight:(BbnativesharedBoolean * _Nullable)listThumbnailResponsiveHeight listThumbnailGap:(BbnativesharedInt * _Nullable)listThumbnailGap showThumbnailDuration:(BbnativesharedBoolean * _Nullable)showThumbnailDuration showThumbnailTitle:(BbnativesharedBoolean * _Nullable)showThumbnailTitle useThumbnailsInFullscreen:(BbnativesharedBoolean * _Nullable)useThumbnailsInFullscreen thumbnailBackground:(BbnativesharedBoolean * _Nullable)thumbnailBackground cornerRadius:(BbnativesharedInt * _Nullable)cornerRadius adunitId:(NSString * _Nullable)adunitId playout:(BbnativesharedPlayout * _Nullable)playout cliplistid:(NSString * _Nullable)cliplistid viewedClipBehaviour:(NSString * _Nullable)viewedClipBehaviour durationBackgroundColor:(NSString * _Nullable)durationBackgroundColor showOutlineForUnwatchedClips:(BbnativesharedBoolean * _Nullable)showOutlineForUnwatchedClips outlineColor:(NSString * _Nullable)outlineColor showPlayIconInTimestamp:(BbnativesharedBoolean * _Nullable)showPlayIconInTimestamp shelfMovingThumbnail:(BbnativesharedBoolean * _Nullable)shelfMovingThumbnail __attribute__((swift_name("doCopy(id:type:showThumbnails:showNextPreviousControls:subtype:swipeDirection:backgroundColor:skin_foregroundColor:skinFontHeadingId:skinFontBodyId:skinFontHeading:skinFontBody:clipAdInterval:firstAdPosition:minuteAdInterval:listThumbnailHeight:listThumbnailResponsiveHeight:listThumbnailGap:showThumbnailDuration:showThumbnailTitle:useThumbnailsInFullscreen:thumbnailBackground:cornerRadius:adunitId:playout:cliplistid:viewedClipBehaviour:durationBackgroundColor:showOutlineForUnwatchedClips:outlineColor:showPlayIconInTimestamp:shelfMovingThumbnail:)")));
+
+/**
+ * What [role]'s font is actually set to, the Shorts counterpart of `Playout.effectiveSkinFont`
+ * (#20286): the app config stores the same Id + name pair per role, only in camelCase. Reads
+ * that role's two fields and classifies them with [FontSpec.from].
+ *
+ * The same warning applies as on the playout: an **absent** `skinFontHeadingId` /
+ * `skinFontBodyId` means "leave that role alone", and a present Id clears the role whenever
+ * [FontSpec.from] reads it as [FontSpec.None] - any spelling of zero, anything that is not a
+ * plain optionally-signed run of digits, and a negative Id with a blank name. A parsed
+ * AppConfig cannot tell absent from null, so an SDK acting on a partial update must check the
+ * raw payload for [FontRole.appConfigKey] first.
+ */
+- (BbnativesharedFontSpec *)effectiveSkinFontRole:(BbnativesharedFontRole *)role __attribute__((swift_name("effectiveSkinFont(role:)")));
 - (BOOL)isEqual:(id _Nullable)other __attribute__((swift_name("isEqual(_:)")));
 - (NSUInteger)hash __attribute__((swift_name("hash()")));
 - (NSString *)description __attribute__((swift_name("description()")));
@@ -1587,6 +1932,10 @@ __attribute__((swift_name("AppConfig")))
 @property (readonly) BbnativesharedBoolean * _Nullable showThumbnailDuration __attribute__((swift_name("showThumbnailDuration")));
 @property (readonly) BbnativesharedBoolean * _Nullable showThumbnailTitle __attribute__((swift_name("showThumbnailTitle")));
 @property (readonly) BbnativesharedBoolean * _Nullable showThumbnails __attribute__((swift_name("showThumbnails")));
+@property (readonly) NSString * _Nullable skinFontBody __attribute__((swift_name("skinFontBody")));
+@property (readonly) NSString * _Nullable skinFontBodyId __attribute__((swift_name("skinFontBodyId")));
+@property (readonly) NSString * _Nullable skinFontHeading __attribute__((swift_name("skinFontHeading")));
+@property (readonly) NSString * _Nullable skinFontHeadingId __attribute__((swift_name("skinFontHeadingId")));
 @property (readonly) NSString * _Nullable skin_foregroundColor __attribute__((swift_name("skin_foregroundColor")));
 @property (readonly) NSString * _Nullable subtype __attribute__((swift_name("subtype")));
 @property (readonly) NSString * _Nullable swipeDirection __attribute__((swift_name("swipeDirection")));
@@ -2029,6 +2378,666 @@ __attribute__((swift_name("EventHandler.Companion")))
 + (instancetype)companion __attribute__((swift_name("init()")));
 @property (class, readonly, getter=shared) BbnativesharedEventHandlerCompanion *shared __attribute__((swift_name("shared")));
 - (id<BbnativesharedKotlinx_serialization_coreKSerializer>)serializer __attribute__((swift_name("serializer()")));
+@end
+
+
+/**
+ * One asset of a font [FontClip], i.e. one entry of `/json/mediaclip/<id>` -> `assets[]`.
+ *
+ * A font clip is a single uploaded file the backend converted to several formats, so its assets
+ * differ only in [mediatype]:
+ * ```
+ * { "id": "40001", "mediatype": "woff", "src": "/media/2020/01/14/2495.woff" }
+ * { "id": "40002", "mediatype": "ttf",  "src": "/media/2020/01/14/2495.ttf"  }
+ * ```
+ *
+ * Unknown keys are ignored, so an asset that carries extra backend fields still decodes.
+ *
+ * @note annotations
+ *   kotlinx.serialization.Serializable
+*/
+__attribute__((objc_subclassing_restricted))
+__attribute__((swift_name("FontAsset")))
+@interface BbnativesharedFontAsset : BbnativesharedBase
+- (instancetype)initWithId:(NSString * _Nullable)id mediatype:(NSString * _Nullable)mediatype src:(NSString * _Nullable)src status:(NSString * _Nullable)status __attribute__((swift_name("init(id:mediatype:src:status:)"))) __attribute__((objc_designated_initializer));
+@property (class, readonly, getter=companion) BbnativesharedFontAssetCompanion *companion __attribute__((swift_name("companion")));
+- (BbnativesharedFontAsset *)doCopyId:(NSString * _Nullable)id mediatype:(NSString * _Nullable)mediatype src:(NSString * _Nullable)src status:(NSString * _Nullable)status __attribute__((swift_name("doCopy(id:mediatype:src:status:)")));
+
+/**
+ * One asset of a font [FontClip], i.e. one entry of `/json/mediaclip/<id>` -> `assets[]`.
+ *
+ * A font clip is a single uploaded file the backend converted to several formats, so its assets
+ * differ only in [mediatype]:
+ * ```
+ * { "id": "40001", "mediatype": "woff", "src": "/media/2020/01/14/2495.woff" }
+ * { "id": "40002", "mediatype": "ttf",  "src": "/media/2020/01/14/2495.ttf"  }
+ * ```
+ *
+ * Unknown keys are ignored, so an asset that carries extra backend fields still decodes.
+ */
+- (BOOL)isEqual:(id _Nullable)other __attribute__((swift_name("isEqual(_:)")));
+
+/**
+ * One asset of a font [FontClip], i.e. one entry of `/json/mediaclip/<id>` -> `assets[]`.
+ *
+ * A font clip is a single uploaded file the backend converted to several formats, so its assets
+ * differ only in [mediatype]:
+ * ```
+ * { "id": "40001", "mediatype": "woff", "src": "/media/2020/01/14/2495.woff" }
+ * { "id": "40002", "mediatype": "ttf",  "src": "/media/2020/01/14/2495.ttf"  }
+ * ```
+ *
+ * Unknown keys are ignored, so an asset that carries extra backend fields still decodes.
+ */
+- (NSUInteger)hash __attribute__((swift_name("hash()")));
+
+/**
+ * One asset of a font [FontClip], i.e. one entry of `/json/mediaclip/<id>` -> `assets[]`.
+ *
+ * A font clip is a single uploaded file the backend converted to several formats, so its assets
+ * differ only in [mediatype]:
+ * ```
+ * { "id": "40001", "mediatype": "woff", "src": "/media/2020/01/14/2495.woff" }
+ * { "id": "40002", "mediatype": "ttf",  "src": "/media/2020/01/14/2495.ttf"  }
+ * ```
+ *
+ * Unknown keys are ignored, so an asset that carries extra backend fields still decodes.
+ */
+- (NSString *)description __attribute__((swift_name("description()")));
+
+/** Lower-cased, trimmed [mediatype] (`"ttf"`, `"otf"`, `"woff"`, ...), or null when absent. */
+@property (readonly) NSString * _Nullable format __attribute__((swift_name("format")));
+@property (readonly) NSString * _Nullable id __attribute__((swift_name("id")));
+@property (readonly) NSString * _Nullable mediatype __attribute__((swift_name("mediatype")));
+@property (readonly) NSString * _Nullable src __attribute__((swift_name("src")));
+
+/**
+ * Parsed for completeness and deliberately not consulted: an unpublished clip 404s on
+ * `/json/mediaclip/<id>`, so a clip that arrives at all is one the resolver may use, and
+ * gating on this string would add a way to reject a font that is demonstrably there.
+ */
+@property (readonly) NSString * _Nullable status __attribute__((swift_name("status")));
+@end
+
+
+/**
+ * One asset of a font [FontClip], i.e. one entry of `/json/mediaclip/<id>` -> `assets[]`.
+ *
+ * A font clip is a single uploaded file the backend converted to several formats, so its assets
+ * differ only in [mediatype]:
+ * ```
+ * { "id": "40001", "mediatype": "woff", "src": "/media/2020/01/14/2495.woff" }
+ * { "id": "40002", "mediatype": "ttf",  "src": "/media/2020/01/14/2495.ttf"  }
+ * ```
+ *
+ * Unknown keys are ignored, so an asset that carries extra backend fields still decodes.
+ */
+__attribute__((objc_subclassing_restricted))
+__attribute__((swift_name("FontAsset.Companion")))
+@interface BbnativesharedFontAssetCompanion : BbnativesharedBase
++ (instancetype)alloc __attribute__((unavailable));
+
+/**
+ * One asset of a font [FontClip], i.e. one entry of `/json/mediaclip/<id>` -> `assets[]`.
+ *
+ * A font clip is a single uploaded file the backend converted to several formats, so its assets
+ * differ only in [mediatype]:
+ * ```
+ * { "id": "40001", "mediatype": "woff", "src": "/media/2020/01/14/2495.woff" }
+ * { "id": "40002", "mediatype": "ttf",  "src": "/media/2020/01/14/2495.ttf"  }
+ * ```
+ *
+ * Unknown keys are ignored, so an asset that carries extra backend fields still decodes.
+ */
++ (instancetype)allocWithZone:(struct _NSZone *)zone __attribute__((unavailable));
++ (instancetype)companion __attribute__((swift_name("init()")));
+@property (class, readonly, getter=shared) BbnativesharedFontAssetCompanion *shared __attribute__((swift_name("shared")));
+
+/**
+ * One asset of a font [FontClip], i.e. one entry of `/json/mediaclip/<id>` -> `assets[]`.
+ *
+ * A font clip is a single uploaded file the backend converted to several formats, so its assets
+ * differ only in [mediatype]:
+ * ```
+ * { "id": "40001", "mediatype": "woff", "src": "/media/2020/01/14/2495.woff" }
+ * { "id": "40002", "mediatype": "ttf",  "src": "/media/2020/01/14/2495.ttf"  }
+ * ```
+ *
+ * Unknown keys are ignored, so an asset that carries extra backend fields still decodes.
+ */
+- (id<BbnativesharedKotlinx_serialization_coreKSerializer>)serializer __attribute__((swift_name("serializer()")));
+@end
+
+
+/**
+ * A font media clip as returned by `/json/mediaclip/<id>` (public for published clips).
+ *
+ * Deliberately *not* [MediaClip]: [FontResolver][com.bluebillywig.bbnativeshared.FontResolver]
+ * only ever needs an id, an [originalfilename] and a list of assets, so [FontClip] is a minimal
+ * read model with just those fields rather than a dependency on the large polymorphic
+ * [MediaClip]/[ContentItem] hierarchy and its `ContentLoader.fixDataInconsistencies`
+ * post-processing. Unknown keys are ignored, so whatever shape the backend sends decodes as well.
+ *
+ * The family name is [originalfilename] minus its extension, which is how Channels has resolved
+ * font names since #19081. No filename means the clip is unusable.
+ *
+ * @note annotations
+ *   kotlinx.serialization.Serializable
+*/
+__attribute__((objc_subclassing_restricted))
+__attribute__((swift_name("FontClip")))
+@interface BbnativesharedFontClip : BbnativesharedBase
+- (instancetype)initWithId:(NSString * _Nullable)id type:(NSString * _Nullable)type mediatype:(NSString * _Nullable)mediatype originalfilename:(NSString * _Nullable)originalfilename status:(NSString * _Nullable)status src:(NSString * _Nullable)src assets:(NSArray<BbnativesharedFontAsset *> * _Nullable)assets __attribute__((swift_name("init(id:type:mediatype:originalfilename:status:src:assets:)"))) __attribute__((objc_designated_initializer));
+@property (class, readonly, getter=companion) BbnativesharedFontClipCompanion *companion __attribute__((swift_name("companion")));
+- (BbnativesharedFontClip *)doCopyId:(NSString * _Nullable)id type:(NSString * _Nullable)type mediatype:(NSString * _Nullable)mediatype originalfilename:(NSString * _Nullable)originalfilename status:(NSString * _Nullable)status src:(NSString * _Nullable)src assets:(NSArray<BbnativesharedFontAsset *> * _Nullable)assets __attribute__((swift_name("doCopy(id:type:mediatype:originalfilename:status:src:assets:)")));
+
+/**
+ * A font media clip as returned by `/json/mediaclip/<id>` (public for published clips).
+ *
+ * Deliberately *not* [MediaClip]: [FontResolver][com.bluebillywig.bbnativeshared.FontResolver]
+ * only ever needs an id, an [originalfilename] and a list of assets, so [FontClip] is a minimal
+ * read model with just those fields rather than a dependency on the large polymorphic
+ * [MediaClip]/[ContentItem] hierarchy and its `ContentLoader.fixDataInconsistencies`
+ * post-processing. Unknown keys are ignored, so whatever shape the backend sends decodes as well.
+ *
+ * The family name is [originalfilename] minus its extension, which is how Channels has resolved
+ * font names since #19081. No filename means the clip is unusable.
+ */
+- (BOOL)isEqual:(id _Nullable)other __attribute__((swift_name("isEqual(_:)")));
+
+/**
+ * A font media clip as returned by `/json/mediaclip/<id>` (public for published clips).
+ *
+ * Deliberately *not* [MediaClip]: [FontResolver][com.bluebillywig.bbnativeshared.FontResolver]
+ * only ever needs an id, an [originalfilename] and a list of assets, so [FontClip] is a minimal
+ * read model with just those fields rather than a dependency on the large polymorphic
+ * [MediaClip]/[ContentItem] hierarchy and its `ContentLoader.fixDataInconsistencies`
+ * post-processing. Unknown keys are ignored, so whatever shape the backend sends decodes as well.
+ *
+ * The family name is [originalfilename] minus its extension, which is how Channels has resolved
+ * font names since #19081. No filename means the clip is unusable.
+ */
+- (NSUInteger)hash __attribute__((swift_name("hash()")));
+
+/**
+ * A font media clip as returned by `/json/mediaclip/<id>` (public for published clips).
+ *
+ * Deliberately *not* [MediaClip]: [FontResolver][com.bluebillywig.bbnativeshared.FontResolver]
+ * only ever needs an id, an [originalfilename] and a list of assets, so [FontClip] is a minimal
+ * read model with just those fields rather than a dependency on the large polymorphic
+ * [MediaClip]/[ContentItem] hierarchy and its `ContentLoader.fixDataInconsistencies`
+ * post-processing. Unknown keys are ignored, so whatever shape the backend sends decodes as well.
+ *
+ * The family name is [originalfilename] minus its extension, which is how Channels has resolved
+ * font names since #19081. No filename means the clip is unusable.
+ */
+- (NSString *)description __attribute__((swift_name("description()")));
+@property (readonly) NSArray<BbnativesharedFontAsset *> * _Nullable assets __attribute__((swift_name("assets")));
+@property (readonly) NSString * _Nullable id __attribute__((swift_name("id")));
+@property (readonly) NSString * _Nullable mediatype __attribute__((swift_name("mediatype")));
+@property (readonly) NSString * _Nullable originalfilename __attribute__((swift_name("originalfilename")));
+
+/**
+ * Top-level clip src. Present but unreliable: on some clips it points at the dead
+ * pre-conversion `/upload/...` path, on others it is the only working path while the
+ * per-asset `src` values are `/media/` stubs (#20224). Not used for resolution.
+ */
+@property (readonly) NSString * _Nullable src __attribute__((swift_name("src")));
+
+/** Parsed, not consulted - see [FontAsset.status]. */
+@property (readonly) NSString * _Nullable status __attribute__((swift_name("status")));
+@property (readonly) NSString * _Nullable type __attribute__((swift_name("type")));
+@end
+
+
+/**
+ * A font media clip as returned by `/json/mediaclip/<id>` (public for published clips).
+ *
+ * Deliberately *not* [MediaClip]: [FontResolver][com.bluebillywig.bbnativeshared.FontResolver]
+ * only ever needs an id, an [originalfilename] and a list of assets, so [FontClip] is a minimal
+ * read model with just those fields rather than a dependency on the large polymorphic
+ * [MediaClip]/[ContentItem] hierarchy and its `ContentLoader.fixDataInconsistencies`
+ * post-processing. Unknown keys are ignored, so whatever shape the backend sends decodes as well.
+ *
+ * The family name is [originalfilename] minus its extension, which is how Channels has resolved
+ * font names since #19081. No filename means the clip is unusable.
+ */
+__attribute__((objc_subclassing_restricted))
+__attribute__((swift_name("FontClip.Companion")))
+@interface BbnativesharedFontClipCompanion : BbnativesharedBase
++ (instancetype)alloc __attribute__((unavailable));
+
+/**
+ * A font media clip as returned by `/json/mediaclip/<id>` (public for published clips).
+ *
+ * Deliberately *not* [MediaClip]: [FontResolver][com.bluebillywig.bbnativeshared.FontResolver]
+ * only ever needs an id, an [originalfilename] and a list of assets, so [FontClip] is a minimal
+ * read model with just those fields rather than a dependency on the large polymorphic
+ * [MediaClip]/[ContentItem] hierarchy and its `ContentLoader.fixDataInconsistencies`
+ * post-processing. Unknown keys are ignored, so whatever shape the backend sends decodes as well.
+ *
+ * The family name is [originalfilename] minus its extension, which is how Channels has resolved
+ * font names since #19081. No filename means the clip is unusable.
+ */
++ (instancetype)allocWithZone:(struct _NSZone *)zone __attribute__((unavailable));
++ (instancetype)companion __attribute__((swift_name("init()")));
+@property (class, readonly, getter=shared) BbnativesharedFontClipCompanion *shared __attribute__((swift_name("shared")));
+
+/**
+ * A font media clip as returned by `/json/mediaclip/<id>` (public for published clips).
+ *
+ * Deliberately *not* [MediaClip]: [FontResolver][com.bluebillywig.bbnativeshared.FontResolver]
+ * only ever needs an id, an [originalfilename] and a list of assets, so [FontClip] is a minimal
+ * read model with just those fields rather than a dependency on the large polymorphic
+ * [MediaClip]/[ContentItem] hierarchy and its `ContentLoader.fixDataInconsistencies`
+ * post-processing. Unknown keys are ignored, so whatever shape the backend sends decodes as well.
+ *
+ * The family name is [originalfilename] minus its extension, which is how Channels has resolved
+ * font names since #19081. No filename means the clip is unusable.
+ */
+- (id<BbnativesharedKotlinx_serialization_coreKSerializer>)serializer __attribute__((swift_name("serializer()")));
+@end
+
+
+/**
+ * The one downloadable face of a font clip. Only `ttf` and `otf` faces are ever produced - the
+ * native platforms cannot register woff/woff2/eot/svg.
+ *
+ * @property family    resolved family name of the owning clip (see `FontResolver.familyName`)
+ * @property mediatype `"ttf"` or `"otf"`
+ * @property assetId   `assets[].id`, part of the cache key
+ * @property src       raw `assets[].src`, as the clip json carries it
+ * @property url       absolute url: a relative [src] is prefixed with `defaultMediaAssetPath`, an
+ *                     absolute one is kept as it is, and a protocol-relative one (`//host/...`)
+ *                     becomes `https://host/...`
+ */
+__attribute__((objc_subclassing_restricted))
+__attribute__((swift_name("FontFace")))
+@interface BbnativesharedFontFace : BbnativesharedBase
+- (instancetype)initWithFamily:(NSString *)family mediatype:(NSString *)mediatype assetId:(NSString * _Nullable)assetId src:(NSString *)src url:(NSString *)url __attribute__((swift_name("init(family:mediatype:assetId:src:url:)"))) __attribute__((objc_designated_initializer));
+- (BbnativesharedFontFace *)doCopyFamily:(NSString *)family mediatype:(NSString *)mediatype assetId:(NSString * _Nullable)assetId src:(NSString *)src url:(NSString *)url __attribute__((swift_name("doCopy(family:mediatype:assetId:src:url:)")));
+
+/**
+ * The one downloadable face of a font clip. Only `ttf` and `otf` faces are ever produced - the
+ * native platforms cannot register woff/woff2/eot/svg.
+ *
+ * @property family    resolved family name of the owning clip (see `FontResolver.familyName`)
+ * @property mediatype `"ttf"` or `"otf"`
+ * @property assetId   `assets[].id`, part of the cache key
+ * @property src       raw `assets[].src`, as the clip json carries it
+ * @property url       absolute url: a relative [src] is prefixed with `defaultMediaAssetPath`, an
+ *                     absolute one is kept as it is, and a protocol-relative one (`//host/...`)
+ *                     becomes `https://host/...`
+ */
+- (BOOL)isEqual:(id _Nullable)other __attribute__((swift_name("isEqual(_:)")));
+
+/**
+ * The one downloadable face of a font clip. Only `ttf` and `otf` faces are ever produced - the
+ * native platforms cannot register woff/woff2/eot/svg.
+ *
+ * @property family    resolved family name of the owning clip (see `FontResolver.familyName`)
+ * @property mediatype `"ttf"` or `"otf"`
+ * @property assetId   `assets[].id`, part of the cache key
+ * @property src       raw `assets[].src`, as the clip json carries it
+ * @property url       absolute url: a relative [src] is prefixed with `defaultMediaAssetPath`, an
+ *                     absolute one is kept as it is, and a protocol-relative one (`//host/...`)
+ *                     becomes `https://host/...`
+ */
+- (NSUInteger)hash __attribute__((swift_name("hash()")));
+
+/**
+ * The one downloadable face of a font clip. Only `ttf` and `otf` faces are ever produced - the
+ * native platforms cannot register woff/woff2/eot/svg.
+ *
+ * @property family    resolved family name of the owning clip (see `FontResolver.familyName`)
+ * @property mediatype `"ttf"` or `"otf"`
+ * @property assetId   `assets[].id`, part of the cache key
+ * @property src       raw `assets[].src`, as the clip json carries it
+ * @property url       absolute url: a relative [src] is prefixed with `defaultMediaAssetPath`, an
+ *                     absolute one is kept as it is, and a protocol-relative one (`//host/...`)
+ *                     becomes `https://host/...`
+ */
+- (NSString *)description __attribute__((swift_name("description()")));
+@property (readonly) NSString * _Nullable assetId __attribute__((swift_name("assetId")));
+@property (readonly) NSString *family __attribute__((swift_name("family")));
+@property (readonly) NSString *mediatype __attribute__((swift_name("mediatype")));
+@property (readonly) NSString *src __attribute__((swift_name("src")));
+@property (readonly) NSString *url __attribute__((swift_name("url")));
+@end
+
+
+/** A downloaded, validated font file on disk, together with the face it came from. */
+__attribute__((objc_subclassing_restricted))
+__attribute__((swift_name("FontFile")))
+@interface BbnativesharedFontFile : BbnativesharedBase
+- (instancetype)initWithPath:(NSString *)path face:(BbnativesharedFontFace *)face byteCount:(int64_t)byteCount __attribute__((swift_name("init(path:face:byteCount:)"))) __attribute__((objc_designated_initializer));
+- (BbnativesharedFontFile *)doCopyPath:(NSString *)path face:(BbnativesharedFontFace *)face byteCount:(int64_t)byteCount __attribute__((swift_name("doCopy(path:face:byteCount:)")));
+
+/** A downloaded, validated font file on disk, together with the face it came from. */
+- (BOOL)isEqual:(id _Nullable)other __attribute__((swift_name("isEqual(_:)")));
+
+/** A downloaded, validated font file on disk, together with the face it came from. */
+- (NSUInteger)hash __attribute__((swift_name("hash()")));
+
+/** A downloaded, validated font file on disk, together with the face it came from. */
+- (NSString *)description __attribute__((swift_name("description()")));
+@property (readonly) int64_t byteCount __attribute__((swift_name("byteCount")));
+@property (readonly) BbnativesharedFontFace *face __attribute__((swift_name("face")));
+@property (readonly) NSString *path __attribute__((swift_name("path")));
+@end
+
+
+/**
+ * What a `FontFileStoreInterface` knows about one cached file.
+ *
+ * [header] carries the first bytes of the file so the shared module can do the sfnt check without
+ * reading the whole file back into memory: 4 bytes cover the magic, 6 are enough for the declared
+ * table count and 28 cover the whole offset table plus one table record. iOS hands over 28 today,
+ * so the table-count check runs there; Android hands over 4, so it is skipped and only the magic
+ * and the byte count are judged. More is never wrong - the shared module reads what it needs and
+ * ignores the rest. [contentLength] is the value the server declared, or null when it did not.
+ *
+ * NB: [header] is a [ByteArray], so the generated `equals`/`hashCode` compare it by identity.
+ * Compare the fields you care about, not whole entries.
+ */
+__attribute__((objc_subclassing_restricted))
+__attribute__((swift_name("FontFileEntry")))
+@interface BbnativesharedFontFileEntry : BbnativesharedBase
+- (instancetype)initWithKey:(NSString *)key path:(NSString *)path byteCount:(int64_t)byteCount header:(BbnativesharedKotlinByteArray *)header contentLength:(BbnativesharedLong * _Nullable)contentLength __attribute__((swift_name("init(key:path:byteCount:header:contentLength:)"))) __attribute__((objc_designated_initializer));
+- (BbnativesharedFontFileEntry *)doCopyKey:(NSString *)key path:(NSString *)path byteCount:(int64_t)byteCount header:(BbnativesharedKotlinByteArray *)header contentLength:(BbnativesharedLong * _Nullable)contentLength __attribute__((swift_name("doCopy(key:path:byteCount:header:contentLength:)")));
+
+/**
+ * What a `FontFileStoreInterface` knows about one cached file.
+ *
+ * [header] carries the first bytes of the file so the shared module can do the sfnt check without
+ * reading the whole file back into memory: 4 bytes cover the magic, 6 are enough for the declared
+ * table count and 28 cover the whole offset table plus one table record. iOS hands over 28 today,
+ * so the table-count check runs there; Android hands over 4, so it is skipped and only the magic
+ * and the byte count are judged. More is never wrong - the shared module reads what it needs and
+ * ignores the rest. [contentLength] is the value the server declared, or null when it did not.
+ *
+ * NB: [header] is a [ByteArray], so the generated `equals`/`hashCode` compare it by identity.
+ * Compare the fields you care about, not whole entries.
+ */
+- (BOOL)isEqual:(id _Nullable)other __attribute__((swift_name("isEqual(_:)")));
+
+/**
+ * What a `FontFileStoreInterface` knows about one cached file.
+ *
+ * [header] carries the first bytes of the file so the shared module can do the sfnt check without
+ * reading the whole file back into memory: 4 bytes cover the magic, 6 are enough for the declared
+ * table count and 28 cover the whole offset table plus one table record. iOS hands over 28 today,
+ * so the table-count check runs there; Android hands over 4, so it is skipped and only the magic
+ * and the byte count are judged. More is never wrong - the shared module reads what it needs and
+ * ignores the rest. [contentLength] is the value the server declared, or null when it did not.
+ *
+ * NB: [header] is a [ByteArray], so the generated `equals`/`hashCode` compare it by identity.
+ * Compare the fields you care about, not whole entries.
+ */
+- (NSUInteger)hash __attribute__((swift_name("hash()")));
+
+/**
+ * What a `FontFileStoreInterface` knows about one cached file.
+ *
+ * [header] carries the first bytes of the file so the shared module can do the sfnt check without
+ * reading the whole file back into memory: 4 bytes cover the magic, 6 are enough for the declared
+ * table count and 28 cover the whole offset table plus one table record. iOS hands over 28 today,
+ * so the table-count check runs there; Android hands over 4, so it is skipped and only the magic
+ * and the byte count are judged. More is never wrong - the shared module reads what it needs and
+ * ignores the rest. [contentLength] is the value the server declared, or null when it did not.
+ *
+ * NB: [header] is a [ByteArray], so the generated `equals`/`hashCode` compare it by identity.
+ * Compare the fields you care about, not whole entries.
+ */
+- (NSString *)description __attribute__((swift_name("description()")));
+@property (readonly) int64_t byteCount __attribute__((swift_name("byteCount")));
+@property (readonly) BbnativesharedLong * _Nullable contentLength __attribute__((swift_name("contentLength")));
+@property (readonly) BbnativesharedKotlinByteArray *header __attribute__((swift_name("header")));
+@property (readonly) NSString *key __attribute__((swift_name("key")));
+@property (readonly) NSString *path __attribute__((swift_name("path")));
+@end
+
+
+/**
+ * Outcome of resolving one font role's [FontSpec] into something the platform can render with.
+ *
+ * Never a bare null, so the SDKs can log *why* they are falling back to Lato:
+ * - [Loaded]      - a validated font file is on disk
+ * - [System]      - a font name to look up on the device; nothing was downloaded
+ * - [Unusable]    - the clip can never work as it stands: no ttf/otf asset, no family name,
+ *                   unparsable json, or bytes that arrived and are not a font (empty, no sfnt
+ *                   magic, too short to hold an sfnt header). Also the verdict for a cleared
+ *                   role. Retrying will not help; fall back to Lato and stop asking.
+ * - [Unavailable] - the answer never arrived, or not all of it: the clip json could not be
+ *                   fetched, the font file download failed or timed out, fewer bytes arrived than
+ *                   the server declared, resolution timed out, no file store was wired up (yet),
+ *                   or a platform implementation threw. The font itself may be perfectly fine.
+ *                   Fall back to Lato now, worth retrying later.
+ *
+ * The dividing line is *what was learned*, not *how far it got*: a 404 on the font file is
+ * [Unavailable] because the next request may well answer, while an error page served in its place
+ * is [Unusable] because those bytes will never be a font.
+ */
+__attribute__((swift_name("FontResolution")))
+@interface BbnativesharedFontResolution : BbnativesharedBase
+@end
+
+__attribute__((objc_subclassing_restricted))
+__attribute__((swift_name("FontResolution.Loaded")))
+@interface BbnativesharedFontResolutionLoaded : BbnativesharedFontResolution
+- (instancetype)initWithFamily:(NSString *)family file:(BbnativesharedFontFile *)file __attribute__((swift_name("init(family:file:)"))) __attribute__((objc_designated_initializer));
+- (BbnativesharedFontResolutionLoaded *)doCopyFamily:(NSString *)family file:(BbnativesharedFontFile *)file __attribute__((swift_name("doCopy(family:file:)")));
+- (BOOL)isEqual:(id _Nullable)other __attribute__((swift_name("isEqual(_:)")));
+- (NSUInteger)hash __attribute__((swift_name("hash()")));
+- (NSString *)description __attribute__((swift_name("description()")));
+@property (readonly) NSString *family __attribute__((swift_name("family")));
+@property (readonly) BbnativesharedFontFile *file __attribute__((swift_name("file")));
+
+/** Path of the font file on disk, for the platform's font registration call. */
+@property (readonly) NSString *path __attribute__((swift_name("path")));
+@end
+
+
+/**
+ * A font the platform should look up by name on the device; nothing was downloaded; fall back
+ * to Lato when the OS does not have it.
+ *
+ * This is the whole answer for a [FontSpec.Named] role (#20288 decision 15): the shared module
+ * classifies the playout's Id + name pair and hands the name over, the platform does the
+ * lookup. No network, no cache, no file on disk.
+ */
+__attribute__((objc_subclassing_restricted))
+__attribute__((swift_name("FontResolution.System")))
+@interface BbnativesharedFontResolutionSystem : BbnativesharedFontResolution
+- (instancetype)initWithName:(NSString *)name __attribute__((swift_name("init(name:)"))) __attribute__((objc_designated_initializer));
+- (BbnativesharedFontResolutionSystem *)doCopyName:(NSString *)name __attribute__((swift_name("doCopy(name:)")));
+
+/**
+ * A font the platform should look up by name on the device; nothing was downloaded; fall back
+ * to Lato when the OS does not have it.
+ *
+ * This is the whole answer for a [FontSpec.Named] role (#20288 decision 15): the shared module
+ * classifies the playout's Id + name pair and hands the name over, the platform does the
+ * lookup. No network, no cache, no file on disk.
+ */
+- (BOOL)isEqual:(id _Nullable)other __attribute__((swift_name("isEqual(_:)")));
+
+/**
+ * A font the platform should look up by name on the device; nothing was downloaded; fall back
+ * to Lato when the OS does not have it.
+ *
+ * This is the whole answer for a [FontSpec.Named] role (#20288 decision 15): the shared module
+ * classifies the playout's Id + name pair and hands the name over, the platform does the
+ * lookup. No network, no cache, no file on disk.
+ */
+- (NSUInteger)hash __attribute__((swift_name("hash()")));
+
+/**
+ * A font the platform should look up by name on the device; nothing was downloaded; fall back
+ * to Lato when the OS does not have it.
+ *
+ * This is the whole answer for a [FontSpec.Named] role (#20288 decision 15): the shared module
+ * classifies the playout's Id + name pair and hands the name over, the platform does the
+ * lookup. No network, no cache, no file on disk.
+ */
+- (NSString *)description __attribute__((swift_name("description()")));
+@property (readonly) NSString *name __attribute__((swift_name("name")));
+@end
+
+
+/** Transient: nothing was learned about the font. Retrying later can still work. */
+__attribute__((objc_subclassing_restricted))
+__attribute__((swift_name("FontResolution.Unavailable")))
+@interface BbnativesharedFontResolutionUnavailable : BbnativesharedFontResolution
+- (instancetype)initWithError:(NSString *)error __attribute__((swift_name("init(error:)"))) __attribute__((objc_designated_initializer));
+- (BbnativesharedFontResolutionUnavailable *)doCopyError:(NSString *)error __attribute__((swift_name("doCopy(error:)")));
+
+/** Transient: nothing was learned about the font. Retrying later can still work. */
+- (BOOL)isEqual:(id _Nullable)other __attribute__((swift_name("isEqual(_:)")));
+
+/** Transient: nothing was learned about the font. Retrying later can still work. */
+- (NSUInteger)hash __attribute__((swift_name("hash()")));
+
+/** Transient: nothing was learned about the font. Retrying later can still work. */
+- (NSString *)description __attribute__((swift_name("description()")));
+@property (readonly) NSString *error __attribute__((swift_name("error")));
+@end
+
+
+/** Permanent: this clip, as it stands, cannot render. Do not retry. */
+__attribute__((objc_subclassing_restricted))
+__attribute__((swift_name("FontResolution.Unusable")))
+@interface BbnativesharedFontResolutionUnusable : BbnativesharedFontResolution
+- (instancetype)initWithReason:(NSString *)reason __attribute__((swift_name("init(reason:)"))) __attribute__((objc_designated_initializer));
+- (BbnativesharedFontResolutionUnusable *)doCopyReason:(NSString *)reason __attribute__((swift_name("doCopy(reason:)")));
+
+/** Permanent: this clip, as it stands, cannot render. Do not retry. */
+- (BOOL)isEqual:(id _Nullable)other __attribute__((swift_name("isEqual(_:)")));
+
+/** Permanent: this clip, as it stands, cannot render. Do not retry. */
+- (NSUInteger)hash __attribute__((swift_name("hash()")));
+
+/** Permanent: this clip, as it stands, cannot render. Do not retry. */
+- (NSString *)description __attribute__((swift_name("description()")));
+@property (readonly) NSString *reason __attribute__((swift_name("reason")));
+@end
+
+
+/**
+ * What one font role is actually set to (#20287 / #20288 decisions 1, 14, 15).
+ *
+ * The OVP reuses its mixed font selector, so a playout stores each role the way Channels does:
+ * an **Id** field and a **name** field.
+ *
+ * ```
+ * skin_fontHeadingId = "11748"  skin_fontHeading = "Lato-Bold.ttf"  --> Clip("11748")
+ * skin_fontHeadingId = "00742"  skin_fontHeading = "Lato-Bold.ttf"  --> Clip("742")
+ * skin_fontHeadingId = "-1"     skin_fontHeading = "Verdana"        --> Named("Verdana")
+ * skin_fontHeadingId = "-1"     skin_fontHeading = ""               --> None
+ * skin_fontHeadingId = "0"      skin_fontHeading = "Verdana"        --> None
+ * ```
+ *
+ * The reading rule, per role:
+ * - **positive** Id: an uploaded font clip; download, validate and cache it ([Clip]).
+ * - **negative** Id: a font picked from the OVP's built-in name lists, and the name field carries
+ *   the choice ([Named]). The number itself is a placeholder the OVP needed because the selector
+ *   wants an id - **never interpret it beyond "negative"**; it does not identify anything.
+ * - Id `""`, `"0"`, `"-0"`, null or not an integer: cleared ([None]), and the name field is
+ *   ignored. The OVP is supposed to blank the name field on a clear but readers must not rely
+ *   on it: a **stale name** is legitimate there, and the Id field is the only thing that decides.
+ *
+ * Nothing is ever downloaded for a [Named] font: the platform asks the OS for a font by that name
+ * and falls back to the built-in Lato when the device does not have it. The shared module only
+ * classifies.
+ *
+ * The absent-vs-cleared rule for partial `bb_playout_changed` payloads is *not* here - it needs
+ * the raw payload keys, which a parsed model cannot see. It lives in the SDKs and keys on the Id
+ * field. See `Playout.effectiveSkinFont`.
+ */
+__attribute__((swift_name("FontSpec")))
+@interface BbnativesharedFontSpec : BbnativesharedBase
+@property (class, readonly, getter=companion) BbnativesharedFontSpecCompanion *companion __attribute__((swift_name("companion")));
+@end
+
+
+/** An uploaded font mediaclip, by id. Resolved into a file by `FontResolver`. */
+__attribute__((objc_subclassing_restricted))
+__attribute__((swift_name("FontSpec.Clip")))
+@interface BbnativesharedFontSpecClip : BbnativesharedFontSpec
+- (instancetype)initWithId:(NSString *)id __attribute__((swift_name("init(id:)"))) __attribute__((objc_designated_initializer));
+- (BbnativesharedFontSpecClip *)doCopyId:(NSString *)id __attribute__((swift_name("doCopy(id:)")));
+
+/** An uploaded font mediaclip, by id. Resolved into a file by `FontResolver`. */
+- (BOOL)isEqual:(id _Nullable)other __attribute__((swift_name("isEqual(_:)")));
+
+/** An uploaded font mediaclip, by id. Resolved into a file by `FontResolver`. */
+- (NSUInteger)hash __attribute__((swift_name("hash()")));
+
+/** An uploaded font mediaclip, by id. Resolved into a file by `FontResolver`. */
+- (NSString *)description __attribute__((swift_name("description()")));
+@property (readonly) NSString *id __attribute__((swift_name("id")));
+@end
+
+__attribute__((objc_subclassing_restricted))
+__attribute__((swift_name("FontSpec.Companion")))
+@interface BbnativesharedFontSpecCompanion : BbnativesharedBase
++ (instancetype)alloc __attribute__((unavailable));
++ (instancetype)allocWithZone:(struct _NSZone *)zone __attribute__((unavailable));
++ (instancetype)companion __attribute__((swift_name("init()")));
+@property (class, readonly, getter=shared) BbnativesharedFontSpecCompanion *shared __attribute__((swift_name("shared")));
+
+/**
+ * Classifies one role's raw Id and name fields. See the class KDoc for the rule; in
+ * short: positive Id wins as a [Clip], negative Id takes the trimmed [name] as a
+ * [Named] font, everything else - including numeric zero and anything unparsable - is
+ * [None].
+ */
+- (BbnativesharedFontSpec *)fromId:(NSString * _Nullable)id name:(NSString * _Nullable)name __attribute__((swift_name("from(id:name:)")));
+@end
+
+
+/**
+ * A font to look up by name on the device: a family name from the OVP's built-in lists
+ * (`"Verdana"`, `"Montserrat"`). Never downloaded, never cached.
+ */
+__attribute__((objc_subclassing_restricted))
+__attribute__((swift_name("FontSpec.Named")))
+@interface BbnativesharedFontSpecNamed : BbnativesharedFontSpec
+- (instancetype)initWithName:(NSString *)name __attribute__((swift_name("init(name:)"))) __attribute__((objc_designated_initializer));
+- (BbnativesharedFontSpecNamed *)doCopyName:(NSString *)name __attribute__((swift_name("doCopy(name:)")));
+
+/**
+ * A font to look up by name on the device: a family name from the OVP's built-in lists
+ * (`"Verdana"`, `"Montserrat"`). Never downloaded, never cached.
+ */
+- (BOOL)isEqual:(id _Nullable)other __attribute__((swift_name("isEqual(_:)")));
+
+/**
+ * A font to look up by name on the device: a family name from the OVP's built-in lists
+ * (`"Verdana"`, `"Montserrat"`). Never downloaded, never cached.
+ */
+- (NSUInteger)hash __attribute__((swift_name("hash()")));
+
+/**
+ * A font to look up by name on the device: a family name from the OVP's built-in lists
+ * (`"Verdana"`, `"Montserrat"`). Never downloaded, never cached.
+ */
+- (NSString *)description __attribute__((swift_name("description()")));
+@property (readonly) NSString *name __attribute__((swift_name("name")));
+@end
+
+
+/** No font for this role: render in the built-in Lato. */
+__attribute__((objc_subclassing_restricted))
+__attribute__((swift_name("FontSpec.None")))
+@interface BbnativesharedFontSpecNone : BbnativesharedFontSpec
++ (instancetype)alloc __attribute__((unavailable));
+
+/** No font for this role: render in the built-in Lato. */
++ (instancetype)allocWithZone:(struct _NSZone *)zone __attribute__((unavailable));
++ (instancetype)none __attribute__((swift_name("init()")));
+@property (class, readonly, getter=shared) BbnativesharedFontSpecNone *shared __attribute__((swift_name("shared")));
+- (NSString *)description __attribute__((swift_name("description()")));
 @end
 
 
@@ -2552,9 +3561,29 @@ __attribute__((swift_name("PlayerSettings.Companion")))
 __attribute__((objc_subclassing_restricted))
 __attribute__((swift_name("Playout")))
 @interface BbnativesharedPlayout : BbnativesharedBase
-- (instancetype)initWithId:(NSString * _Nullable)id main:(NSString * _Nullable)main type:(NSString * _Nullable)type name:(NSString * _Nullable)name status:(NSString * _Nullable)status createddate:(NSString * _Nullable)createddate updateddate:(NSString * _Nullable)updateddate label:(NSString * _Nullable)label publication:(NSString * _Nullable)publication player:(BbnativesharedPlayer * _Nullable)player playerid:(NSString * _Nullable)playerid centerButtonType:(NSString * _Nullable)centerButtonType cornerRadius:(NSString * _Nullable)cornerRadius responsiveSizing:(NSString * _Nullable)responsiveSizing aspectRatio:(NSString * _Nullable)aspectRatio width:(NSString * _Nullable)width height:(NSString * _Nullable)height autoHeight:(NSString * _Nullable)autoHeight alphaControlBar:(NSString * _Nullable)alphaControlBar skin_backgroundColor:(NSString * _Nullable)skin_backgroundColor skin_foregroundColor:(NSString * _Nullable)skin_foregroundColor skin_widgetColor:(NSString * _Nullable)skin_widgetColor bgColor:(NSString * _Nullable)bgColor logoId:(NSString * _Nullable)logoId logoAlign:(NSString * _Nullable)logoAlign logoClickUrl:(NSString * _Nullable)logoClickUrl controlBar:(NSString * _Nullable)controlBar controlBarPlacement:(NSString * _Nullable)controlBarPlacement timeDisplay:(NSString * _Nullable)timeDisplay timeLine:(NSString * _Nullable)timeLine muteButton:(NSString * _Nullable)muteButton volume:(NSString * _Nullable)volume volumeOrientation:(NSString * _Nullable)volumeOrientation languageSelect:(NSString * _Nullable)languageSelect qualitySelector:(NSString * _Nullable)qualitySelector playbackRateSelector:(NSString * _Nullable)playbackRateSelector fullScreen:(NSString * _Nullable)fullScreen showStartControlBar:(NSString * _Nullable)showStartControlBar shareButton:(NSString * _Nullable)shareButton shareButtonPause:(NSString * _Nullable)shareButtonPause shareButtonEnd:(NSString * _Nullable)shareButtonEnd shareButtonEmbedCode:(NSString * _Nullable)shareButtonEmbedCode shareButtonEmail:(NSString * _Nullable)shareButtonEmail shareButtonFacebook:(NSString * _Nullable)shareButtonFacebook shareButtonLinkedIn:(NSString * _Nullable)shareButtonLinkedIn shareButtonPinterest:(NSString * _Nullable)shareButtonPinterest shareButtonTwitter:(NSString * _Nullable)shareButtonTwitter shareButtonWhatsApp:(NSString * _Nullable)shareButtonWhatsApp castButton:(NSString * _Nullable)castButton audioDescriptionButton:(NSString * _Nullable)audioDescriptionButton signLanguageButton:(NSString * _Nullable)signLanguageButton showBigPlayButton:(NSString * _Nullable)showBigPlayButton showBigReplayButton:(NSString * _Nullable)showBigReplayButton title:(NSString * _Nullable)title date:(NSString * _Nullable)date authorCopyright:(NSString * _Nullable)authorCopyright authorCopyrightAlign:(NSString * _Nullable)authorCopyrightAlign authorCopyrightPrefixText:(NSString * _Nullable)authorCopyrightPrefixText autoPlayNext:(NSString * _Nullable)autoPlayNext relatedItems:(NSString * _Nullable)relatedItems relatedItemsPause:(NSString * _Nullable)relatedItemsPause useDeeplinkForRelatedItems:(NSString * _Nullable)useDeeplinkForRelatedItems useDeeplinkForRelatedItemsPause:(NSString * _Nullable)useDeeplinkForRelatedItemsPause exitscreenItemsListId:(NSString * _Nullable)exitscreenItemsListId randomizeRelatedItems:(NSString * _Nullable)randomizeRelatedItems useDeeplinkForFacebook:(NSString * _Nullable)useDeeplinkForFacebook shareTwitterText:(NSString * _Nullable)shareTwitterText sharePlayout:(NSString * _Nullable)sharePlayout skinBehaviour:(NSString * _Nullable)skinBehaviour skinOnTimeline:(NSString * _Nullable)skinOnTimeline nativeControls:(NSString * _Nullable)nativeControls youTubeHosting:(NSString * _Nullable)youTubeHosting youTubeSkinInMainPhase:(NSString * _Nullable)youTubeSkinInMainPhase forceNativeFullscreen:(NSString * _Nullable)forceNativeFullscreen preferHD:(NSString * _Nullable)preferHD nedStatLoggerUrl:(NSString * _Nullable)nedStatLoggerUrl googleAnalyticsId:(NSString * _Nullable)googleAnalyticsId piwikUrl:(NSString * _Nullable)piwikUrl piwikSiteId:(NSString * _Nullable)piwikSiteId disableCookies:(NSString * _Nullable)disableCookies disableContextMenuNavigate:(NSString * _Nullable)disableContextMenuNavigate playerSignature:(NSString * _Nullable)playerSignature playerSignatureLink:(NSString * _Nullable)playerSignatureLink autoPlay:(NSString * _Nullable)autoPlay autoMute:(NSString * _Nullable)autoMute autoMuteIfNeededForAutoPlay:(NSString * _Nullable)autoMuteIfNeededForAutoPlay autoLoop:(NSString * _Nullable)autoLoop floatPlayer:(NSString * _Nullable)floatPlayer interactivityInView:(NSString * _Nullable)interactivityInView interactivityOutView:(NSString * _Nullable)interactivityOutView inviewMargin:(NSString * _Nullable)inviewMargin textAbovePlayer:(NSString * _Nullable)textAbovePlayer textCommercialSkip:(NSString * _Nullable)textCommercialSkip startCollapsed:(NSString * _Nullable)startCollapsed playInOverlay:(NSString * _Nullable)playInOverlay hidePlayerOnEnd:(NSString * _Nullable)hidePlayerOnEnd waitForApproval:(NSString * _Nullable)waitForApproval interactivityMouseIn:(NSString * _Nullable)interactivityMouseIn interactivityMouseOut:(NSString * _Nullable)interactivityMouseOut interactivityOnClick:(NSString * _Nullable)interactivityOnClick clickURL:(NSString * _Nullable)clickURL nsiNoAutoPlay:(NSString * _Nullable)nsiNoAutoPlay nsiNoPlayer:(NSString * _Nullable)nsiNoPlayer placementOption:(NSString * _Nullable)placementOption placementDOMSelector:(NSString * _Nullable)placementDOMSelector iframeBreakout:(NSString * _Nullable)iframeBreakout clearBothOption:(NSString * _Nullable)clearBothOption forceInview:(NSString * _Nullable)forceInview customCode:(NSString * _Nullable)customCode preferFlashPlayback:(NSString * _Nullable)preferFlashPlayback preloadMainroll:(NSString * _Nullable)preloadMainroll disableHtml5VPAID:(NSString * _Nullable)disableHtml5VPAID enableHtml5VPAID:(NSString * _Nullable)enableHtml5VPAID commercialPauseButton:(NSString * _Nullable)commercialPauseButton commercialMuteButton:(NSString * _Nullable)commercialMuteButton commercialAdIcon:(NSString * _Nullable)commercialAdIcon commercialProgressBar:(NSString * _Nullable)commercialProgressBar commercialProgressBarColor:(NSString * _Nullable)commercialProgressBarColor commercialTimeDisplay:(NSString * _Nullable)commercialTimeDisplay commercials:(NSString * _Nullable)commercials textCommercialTimeRemaining:(NSString * _Nullable)textCommercialTimeRemaining commercialBehaviour:(NSString * _Nullable)commercialBehaviour minClipDurationPreroll:(NSString * _Nullable)minClipDurationPreroll minClipDurationPostroll:(NSString * _Nullable)minClipDurationPostroll allowBBIma:(NSString * _Nullable)allowBBIma fitmode:(BbnativesharedFitMode * _Nullable)fitmode mobileRotateOnFullScreenMismatch:(NSString * _Nullable)mobileRotateOnFullScreenMismatch noStats:(NSString * _Nullable)noStats forceAndroidNativeVideo:(NSString * _Nullable)forceAndroidNativeVideo forceIOSNativeVideo:(NSString * _Nullable)forceIOSNativeVideo use2018Skin:(NSString * _Nullable)use2018Skin useThumbsFromMetadata:(NSString * _Nullable)useThumbsFromMetadata audioTrackSelect:(NSString * _Nullable)audioTrackSelect shareText:(NSString * _Nullable)shareText shareButtonDirectLink:(NSString * _Nullable)shareButtonDirectLink googleAnalyticsCustomVars:(NSString * _Nullable)googleAnalyticsCustomVars supportIABConsent:(NSString * _Nullable)supportIABConsent restrictionNpaOnly:(NSString * _Nullable)restrictionNpaOnly restrictionNpcOnly:(NSString * _Nullable)restrictionNpcOnly enableSubtitlesByDefault:(NSString * _Nullable)enableSubtitlesByDefault defaultSubtitle:(NSString * _Nullable)defaultSubtitle defaultSubtitleOnlyIfMuted:(NSString * _Nullable)defaultSubtitleOnlyIfMuted defaultAudioTrack:(NSString * _Nullable)defaultAudioTrack forceCanAutoPlay:(NSString * _Nullable)forceCanAutoPlay avoidMutedAutoplay:(NSString * _Nullable)avoidMutedAutoplay stickyMode:(NSString * _Nullable)stickyMode disableKeyboardControls:(NSString * _Nullable)disableKeyboardControls taggingDisabled:(NSString * _Nullable)taggingDisabled skipOffset:(NSString * _Nullable)skipOffset skipCounterText:(NSString * _Nullable)skipCounterText skipButtonText:(NSString * _Nullable)skipButtonText blockInsecureVPAID:(NSString * _Nullable)blockInsecureVPAID shareButtonGooglePlus:(NSString * _Nullable)shareButtonGooglePlus timelineId:(NSString * _Nullable)timelineId templateId:(NSString * _Nullable)templateId adunits:(NSArray<BbnativesharedKotlinx_serialization_jsonJsonElement *> * _Nullable)adunits hasAdunits:(BbnativesharedBoolean * _Nullable)hasAdunits adunitsPreroll:(NSArray<BbnativesharedAdUnit *> * _Nullable)adunitsPreroll ignoreSingleMediaResource:(NSString * _Nullable)ignoreSingleMediaResource ignoreProjectMetadata:(NSString * _Nullable)ignoreProjectMetadata noPosterInExitPhase:(NSString * _Nullable)noPosterInExitPhase logProgressAsQuartiles:(NSString * _Nullable)logProgressAsQuartiles autoPauseAfterPrePhase:(NSString * _Nullable)autoPauseAfterPrePhase autoPlayOnlyWithPrerollAd:(NSString * _Nullable)autoPlayOnlyWithPrerollAd showOnlyWhenPrerollAvailable:(NSString * _Nullable)showOnlyWhenPrerollAvailable showBigPauseButtons:(NSString * _Nullable)showBigPauseButtons titlePause:(NSString * _Nullable)titlePause authorCopyrightPause:(NSString * _Nullable)authorCopyrightPause authorCopyrightAlignPause:(NSString * _Nullable)authorCopyrightAlignPause authorCopyrightPrefixTextPause:(NSString * _Nullable)authorCopyrightPrefixTextPause showStartDuration:(NSString * _Nullable)showStartDuration disableMovingThumbnail:(NSString * _Nullable)disableMovingThumbnail shareButtonHover:(NSString * _Nullable)shareButtonHover showBigHoverButtons:(NSString * _Nullable)showBigHoverButtons titleHover:(NSString * _Nullable)titleHover authorCopyrightHover:(NSString * _Nullable)authorCopyrightHover titleEnd:(NSString * _Nullable)titleEnd authorCopyrightEnd:(NSString * _Nullable)authorCopyrightEnd softEmbargoCustomPosterClipId:(NSString * _Nullable)softEmbargoCustomPosterClipId softEmbargoFontColor:(NSString * _Nullable)softEmbargoFontColor softEmbargoHasCustomPoster:(NSString * _Nullable)softEmbargoHasCustomPoster softEmbargoText:(NSString * _Nullable)softEmbargoText softEmbargoTimerHidden:(NSString * _Nullable)softEmbargoTimerHidden adsystem_buid:(NSString * _Nullable)adsystem_buid adsystem_rdid:(NSString * _Nullable)adsystem_rdid adsystem_idtype:(NSString * _Nullable)adsystem_idtype adsystem_is_lat:(NSString * _Nullable)adsystem_is_lat swipeDirection:(NSString * _Nullable)swipeDirection hideSwipeControls:(NSString * _Nullable)hideSwipeControls descriptionShowHide:(NSString * _Nullable)descriptionShowHide showPlayButton:(NSString * _Nullable)showPlayButton autoLoopClip:(NSString * _Nullable)autoLoopClip shortsId:(NSString * _Nullable)shortsId adunitId:(NSString * _Nullable)adunitId clipAdInterval:(NSString * _Nullable)clipAdInterval firstAdPosition:(NSString * _Nullable)firstAdPosition assetPreloadWindow:(NSString * _Nullable)assetPreloadWindow placeholderText:(NSString * _Nullable)placeholderText placeholderTextColor:(NSString * _Nullable)placeholderTextColor ctaExitScreen:(NSString * _Nullable)ctaExitScreen ctaMidplay:(NSString * _Nullable)ctaMidplay ctaMidplayPosition:(NSString * _Nullable)ctaMidplayPosition ctaText:(NSString * _Nullable)ctaText ctaTextColor:(NSString * _Nullable)ctaTextColor ctaBackgroundColor:(NSString * _Nullable)ctaBackgroundColor ctaUrlField:(NSString * _Nullable)ctaUrlField ctaButtonText:(NSString * _Nullable)ctaButtonText ctaButtonLabelField:(NSString * _Nullable)ctaButtonLabelField ctaButtonUseAccentColor:(NSString * _Nullable)ctaButtonUseAccentColor ctaButtonPosition:(NSString * _Nullable)ctaButtonPosition eventHandlers:(NSArray<BbnativesharedEventHandler *> * _Nullable)eventHandlers __attribute__((swift_name("init(id:main:type:name:status:createddate:updateddate:label:publication:player:playerid:centerButtonType:cornerRadius:responsiveSizing:aspectRatio:width:height:autoHeight:alphaControlBar:skin_backgroundColor:skin_foregroundColor:skin_widgetColor:bgColor:logoId:logoAlign:logoClickUrl:controlBar:controlBarPlacement:timeDisplay:timeLine:muteButton:volume:volumeOrientation:languageSelect:qualitySelector:playbackRateSelector:fullScreen:showStartControlBar:shareButton:shareButtonPause:shareButtonEnd:shareButtonEmbedCode:shareButtonEmail:shareButtonFacebook:shareButtonLinkedIn:shareButtonPinterest:shareButtonTwitter:shareButtonWhatsApp:castButton:audioDescriptionButton:signLanguageButton:showBigPlayButton:showBigReplayButton:title:date:authorCopyright:authorCopyrightAlign:authorCopyrightPrefixText:autoPlayNext:relatedItems:relatedItemsPause:useDeeplinkForRelatedItems:useDeeplinkForRelatedItemsPause:exitscreenItemsListId:randomizeRelatedItems:useDeeplinkForFacebook:shareTwitterText:sharePlayout:skinBehaviour:skinOnTimeline:nativeControls:youTubeHosting:youTubeSkinInMainPhase:forceNativeFullscreen:preferHD:nedStatLoggerUrl:googleAnalyticsId:piwikUrl:piwikSiteId:disableCookies:disableContextMenuNavigate:playerSignature:playerSignatureLink:autoPlay:autoMute:autoMuteIfNeededForAutoPlay:autoLoop:floatPlayer:interactivityInView:interactivityOutView:inviewMargin:textAbovePlayer:textCommercialSkip:startCollapsed:playInOverlay:hidePlayerOnEnd:waitForApproval:interactivityMouseIn:interactivityMouseOut:interactivityOnClick:clickURL:nsiNoAutoPlay:nsiNoPlayer:placementOption:placementDOMSelector:iframeBreakout:clearBothOption:forceInview:customCode:preferFlashPlayback:preloadMainroll:disableHtml5VPAID:enableHtml5VPAID:commercialPauseButton:commercialMuteButton:commercialAdIcon:commercialProgressBar:commercialProgressBarColor:commercialTimeDisplay:commercials:textCommercialTimeRemaining:commercialBehaviour:minClipDurationPreroll:minClipDurationPostroll:allowBBIma:fitmode:mobileRotateOnFullScreenMismatch:noStats:forceAndroidNativeVideo:forceIOSNativeVideo:use2018Skin:useThumbsFromMetadata:audioTrackSelect:shareText:shareButtonDirectLink:googleAnalyticsCustomVars:supportIABConsent:restrictionNpaOnly:restrictionNpcOnly:enableSubtitlesByDefault:defaultSubtitle:defaultSubtitleOnlyIfMuted:defaultAudioTrack:forceCanAutoPlay:avoidMutedAutoplay:stickyMode:disableKeyboardControls:taggingDisabled:skipOffset:skipCounterText:skipButtonText:blockInsecureVPAID:shareButtonGooglePlus:timelineId:templateId:adunits:hasAdunits:adunitsPreroll:ignoreSingleMediaResource:ignoreProjectMetadata:noPosterInExitPhase:logProgressAsQuartiles:autoPauseAfterPrePhase:autoPlayOnlyWithPrerollAd:showOnlyWhenPrerollAvailable:showBigPauseButtons:titlePause:authorCopyrightPause:authorCopyrightAlignPause:authorCopyrightPrefixTextPause:showStartDuration:disableMovingThumbnail:shareButtonHover:showBigHoverButtons:titleHover:authorCopyrightHover:titleEnd:authorCopyrightEnd:softEmbargoCustomPosterClipId:softEmbargoFontColor:softEmbargoHasCustomPoster:softEmbargoText:softEmbargoTimerHidden:adsystem_buid:adsystem_rdid:adsystem_idtype:adsystem_is_lat:swipeDirection:hideSwipeControls:descriptionShowHide:showPlayButton:autoLoopClip:shortsId:adunitId:clipAdInterval:firstAdPosition:assetPreloadWindow:placeholderText:placeholderTextColor:ctaExitScreen:ctaMidplay:ctaMidplayPosition:ctaText:ctaTextColor:ctaBackgroundColor:ctaUrlField:ctaButtonText:ctaButtonLabelField:ctaButtonUseAccentColor:ctaButtonPosition:eventHandlers:)"))) __attribute__((objc_designated_initializer));
+- (instancetype)initWithId:(NSString * _Nullable)id main:(NSString * _Nullable)main type:(NSString * _Nullable)type name:(NSString * _Nullable)name status:(NSString * _Nullable)status createddate:(NSString * _Nullable)createddate updateddate:(NSString * _Nullable)updateddate label:(NSString * _Nullable)label publication:(NSString * _Nullable)publication player:(BbnativesharedPlayer * _Nullable)player playerid:(NSString * _Nullable)playerid centerButtonType:(NSString * _Nullable)centerButtonType cornerRadius:(NSString * _Nullable)cornerRadius responsiveSizing:(NSString * _Nullable)responsiveSizing aspectRatio:(NSString * _Nullable)aspectRatio width:(NSString * _Nullable)width height:(NSString * _Nullable)height autoHeight:(NSString * _Nullable)autoHeight alphaControlBar:(NSString * _Nullable)alphaControlBar skin_backgroundColor:(NSString * _Nullable)skin_backgroundColor skin_foregroundColor:(NSString * _Nullable)skin_foregroundColor skin_widgetColor:(NSString * _Nullable)skin_widgetColor skin_fontHeadingId:(NSString * _Nullable)skin_fontHeadingId skin_fontBodyId:(NSString * _Nullable)skin_fontBodyId skin_fontHeading:(NSString * _Nullable)skin_fontHeading skin_fontBody:(NSString * _Nullable)skin_fontBody bgColor:(NSString * _Nullable)bgColor logoId:(NSString * _Nullable)logoId logoAlign:(NSString * _Nullable)logoAlign logoClickUrl:(NSString * _Nullable)logoClickUrl controlBar:(NSString * _Nullable)controlBar controlBarPlacement:(NSString * _Nullable)controlBarPlacement timeDisplay:(NSString * _Nullable)timeDisplay timeLine:(NSString * _Nullable)timeLine muteButton:(NSString * _Nullable)muteButton volume:(NSString * _Nullable)volume volumeOrientation:(NSString * _Nullable)volumeOrientation languageSelect:(NSString * _Nullable)languageSelect qualitySelector:(NSString * _Nullable)qualitySelector playbackRateSelector:(NSString * _Nullable)playbackRateSelector fullScreen:(NSString * _Nullable)fullScreen showStartControlBar:(NSString * _Nullable)showStartControlBar shareButton:(NSString * _Nullable)shareButton shareButtonPause:(NSString * _Nullable)shareButtonPause shareButtonEnd:(NSString * _Nullable)shareButtonEnd shareButtonEmbedCode:(NSString * _Nullable)shareButtonEmbedCode shareButtonEmail:(NSString * _Nullable)shareButtonEmail shareButtonFacebook:(NSString * _Nullable)shareButtonFacebook shareButtonLinkedIn:(NSString * _Nullable)shareButtonLinkedIn shareButtonPinterest:(NSString * _Nullable)shareButtonPinterest shareButtonTwitter:(NSString * _Nullable)shareButtonTwitter shareButtonWhatsApp:(NSString * _Nullable)shareButtonWhatsApp castButton:(NSString * _Nullable)castButton audioDescriptionButton:(NSString * _Nullable)audioDescriptionButton signLanguageButton:(NSString * _Nullable)signLanguageButton showBigPlayButton:(NSString * _Nullable)showBigPlayButton showBigReplayButton:(NSString * _Nullable)showBigReplayButton title:(NSString * _Nullable)title date:(NSString * _Nullable)date authorCopyright:(NSString * _Nullable)authorCopyright authorCopyrightAlign:(NSString * _Nullable)authorCopyrightAlign authorCopyrightPrefixText:(NSString * _Nullable)authorCopyrightPrefixText autoPlayNext:(NSString * _Nullable)autoPlayNext relatedItems:(NSString * _Nullable)relatedItems relatedItemsPause:(NSString * _Nullable)relatedItemsPause useDeeplinkForRelatedItems:(NSString * _Nullable)useDeeplinkForRelatedItems useDeeplinkForRelatedItemsPause:(NSString * _Nullable)useDeeplinkForRelatedItemsPause exitscreenItemsListId:(NSString * _Nullable)exitscreenItemsListId randomizeRelatedItems:(NSString * _Nullable)randomizeRelatedItems useDeeplinkForFacebook:(NSString * _Nullable)useDeeplinkForFacebook shareTwitterText:(NSString * _Nullable)shareTwitterText sharePlayout:(NSString * _Nullable)sharePlayout skinBehaviour:(NSString * _Nullable)skinBehaviour skinOnTimeline:(NSString * _Nullable)skinOnTimeline nativeControls:(NSString * _Nullable)nativeControls youTubeHosting:(NSString * _Nullable)youTubeHosting youTubeSkinInMainPhase:(NSString * _Nullable)youTubeSkinInMainPhase forceNativeFullscreen:(NSString * _Nullable)forceNativeFullscreen preferHD:(NSString * _Nullable)preferHD nedStatLoggerUrl:(NSString * _Nullable)nedStatLoggerUrl googleAnalyticsId:(NSString * _Nullable)googleAnalyticsId piwikUrl:(NSString * _Nullable)piwikUrl piwikSiteId:(NSString * _Nullable)piwikSiteId disableCookies:(NSString * _Nullable)disableCookies disableContextMenuNavigate:(NSString * _Nullable)disableContextMenuNavigate playerSignature:(NSString * _Nullable)playerSignature playerSignatureLink:(NSString * _Nullable)playerSignatureLink autoPlay:(NSString * _Nullable)autoPlay autoMute:(NSString * _Nullable)autoMute autoMuteIfNeededForAutoPlay:(NSString * _Nullable)autoMuteIfNeededForAutoPlay autoLoop:(NSString * _Nullable)autoLoop floatPlayer:(NSString * _Nullable)floatPlayer interactivityInView:(NSString * _Nullable)interactivityInView interactivityOutView:(NSString * _Nullable)interactivityOutView inviewMargin:(NSString * _Nullable)inviewMargin textAbovePlayer:(NSString * _Nullable)textAbovePlayer textCommercialSkip:(NSString * _Nullable)textCommercialSkip startCollapsed:(NSString * _Nullable)startCollapsed playInOverlay:(NSString * _Nullable)playInOverlay hidePlayerOnEnd:(NSString * _Nullable)hidePlayerOnEnd waitForApproval:(NSString * _Nullable)waitForApproval interactivityMouseIn:(NSString * _Nullable)interactivityMouseIn interactivityMouseOut:(NSString * _Nullable)interactivityMouseOut interactivityOnClick:(NSString * _Nullable)interactivityOnClick clickURL:(NSString * _Nullable)clickURL nsiNoAutoPlay:(NSString * _Nullable)nsiNoAutoPlay nsiNoPlayer:(NSString * _Nullable)nsiNoPlayer placementOption:(NSString * _Nullable)placementOption placementDOMSelector:(NSString * _Nullable)placementDOMSelector iframeBreakout:(NSString * _Nullable)iframeBreakout clearBothOption:(NSString * _Nullable)clearBothOption forceInview:(NSString * _Nullable)forceInview customCode:(NSString * _Nullable)customCode preferFlashPlayback:(NSString * _Nullable)preferFlashPlayback preloadMainroll:(NSString * _Nullable)preloadMainroll disableHtml5VPAID:(NSString * _Nullable)disableHtml5VPAID enableHtml5VPAID:(NSString * _Nullable)enableHtml5VPAID commercialPauseButton:(NSString * _Nullable)commercialPauseButton commercialMuteButton:(NSString * _Nullable)commercialMuteButton commercialAdIcon:(NSString * _Nullable)commercialAdIcon commercialProgressBar:(NSString * _Nullable)commercialProgressBar commercialProgressBarColor:(NSString * _Nullable)commercialProgressBarColor commercialTimeDisplay:(NSString * _Nullable)commercialTimeDisplay commercials:(NSString * _Nullable)commercials textCommercialTimeRemaining:(NSString * _Nullable)textCommercialTimeRemaining commercialBehaviour:(NSString * _Nullable)commercialBehaviour minClipDurationPreroll:(NSString * _Nullable)minClipDurationPreroll minClipDurationPostroll:(NSString * _Nullable)minClipDurationPostroll allowBBIma:(NSString * _Nullable)allowBBIma fitmode:(BbnativesharedFitMode * _Nullable)fitmode mobileRotateOnFullScreenMismatch:(NSString * _Nullable)mobileRotateOnFullScreenMismatch noStats:(NSString * _Nullable)noStats forceAndroidNativeVideo:(NSString * _Nullable)forceAndroidNativeVideo forceIOSNativeVideo:(NSString * _Nullable)forceIOSNativeVideo use2018Skin:(NSString * _Nullable)use2018Skin useThumbsFromMetadata:(NSString * _Nullable)useThumbsFromMetadata audioTrackSelect:(NSString * _Nullable)audioTrackSelect shareText:(NSString * _Nullable)shareText shareButtonDirectLink:(NSString * _Nullable)shareButtonDirectLink googleAnalyticsCustomVars:(NSString * _Nullable)googleAnalyticsCustomVars supportIABConsent:(NSString * _Nullable)supportIABConsent restrictionNpaOnly:(NSString * _Nullable)restrictionNpaOnly restrictionNpcOnly:(NSString * _Nullable)restrictionNpcOnly enableSubtitlesByDefault:(NSString * _Nullable)enableSubtitlesByDefault defaultSubtitle:(NSString * _Nullable)defaultSubtitle defaultSubtitleOnlyIfMuted:(NSString * _Nullable)defaultSubtitleOnlyIfMuted defaultAudioTrack:(NSString * _Nullable)defaultAudioTrack forceCanAutoPlay:(NSString * _Nullable)forceCanAutoPlay avoidMutedAutoplay:(NSString * _Nullable)avoidMutedAutoplay stickyMode:(NSString * _Nullable)stickyMode disableKeyboardControls:(NSString * _Nullable)disableKeyboardControls taggingDisabled:(NSString * _Nullable)taggingDisabled skipOffset:(NSString * _Nullable)skipOffset skipCounterText:(NSString * _Nullable)skipCounterText skipButtonText:(NSString * _Nullable)skipButtonText blockInsecureVPAID:(NSString * _Nullable)blockInsecureVPAID shareButtonGooglePlus:(NSString * _Nullable)shareButtonGooglePlus timelineId:(NSString * _Nullable)timelineId templateId:(NSString * _Nullable)templateId adunits:(NSArray<BbnativesharedKotlinx_serialization_jsonJsonElement *> * _Nullable)adunits hasAdunits:(BbnativesharedBoolean * _Nullable)hasAdunits adunitsPreroll:(NSArray<BbnativesharedAdUnit *> * _Nullable)adunitsPreroll ignoreSingleMediaResource:(NSString * _Nullable)ignoreSingleMediaResource ignoreProjectMetadata:(NSString * _Nullable)ignoreProjectMetadata noPosterInExitPhase:(NSString * _Nullable)noPosterInExitPhase logProgressAsQuartiles:(NSString * _Nullable)logProgressAsQuartiles autoPauseAfterPrePhase:(NSString * _Nullable)autoPauseAfterPrePhase autoPlayOnlyWithPrerollAd:(NSString * _Nullable)autoPlayOnlyWithPrerollAd showOnlyWhenPrerollAvailable:(NSString * _Nullable)showOnlyWhenPrerollAvailable showBigPauseButtons:(NSString * _Nullable)showBigPauseButtons titlePause:(NSString * _Nullable)titlePause authorCopyrightPause:(NSString * _Nullable)authorCopyrightPause authorCopyrightAlignPause:(NSString * _Nullable)authorCopyrightAlignPause authorCopyrightPrefixTextPause:(NSString * _Nullable)authorCopyrightPrefixTextPause showStartDuration:(NSString * _Nullable)showStartDuration disableMovingThumbnail:(NSString * _Nullable)disableMovingThumbnail shareButtonHover:(NSString * _Nullable)shareButtonHover showBigHoverButtons:(NSString * _Nullable)showBigHoverButtons titleHover:(NSString * _Nullable)titleHover authorCopyrightHover:(NSString * _Nullable)authorCopyrightHover titleEnd:(NSString * _Nullable)titleEnd authorCopyrightEnd:(NSString * _Nullable)authorCopyrightEnd softEmbargoCustomPosterClipId:(NSString * _Nullable)softEmbargoCustomPosterClipId softEmbargoFontColor:(NSString * _Nullable)softEmbargoFontColor softEmbargoHasCustomPoster:(NSString * _Nullable)softEmbargoHasCustomPoster softEmbargoText:(NSString * _Nullable)softEmbargoText softEmbargoTimerHidden:(NSString * _Nullable)softEmbargoTimerHidden adsystem_buid:(NSString * _Nullable)adsystem_buid adsystem_rdid:(NSString * _Nullable)adsystem_rdid adsystem_idtype:(NSString * _Nullable)adsystem_idtype adsystem_is_lat:(NSString * _Nullable)adsystem_is_lat swipeDirection:(NSString * _Nullable)swipeDirection hideSwipeControls:(NSString * _Nullable)hideSwipeControls descriptionShowHide:(NSString * _Nullable)descriptionShowHide showPlayButton:(NSString * _Nullable)showPlayButton autoLoopClip:(NSString * _Nullable)autoLoopClip shortsId:(NSString * _Nullable)shortsId adunitId:(NSString * _Nullable)adunitId clipAdInterval:(NSString * _Nullable)clipAdInterval firstAdPosition:(NSString * _Nullable)firstAdPosition assetPreloadWindow:(NSString * _Nullable)assetPreloadWindow placeholderText:(NSString * _Nullable)placeholderText placeholderTextColor:(NSString * _Nullable)placeholderTextColor ctaExitScreen:(NSString * _Nullable)ctaExitScreen ctaMidplay:(NSString * _Nullable)ctaMidplay ctaMidplayPosition:(NSString * _Nullable)ctaMidplayPosition ctaText:(NSString * _Nullable)ctaText ctaTextColor:(NSString * _Nullable)ctaTextColor ctaBackgroundColor:(NSString * _Nullable)ctaBackgroundColor ctaUrlField:(NSString * _Nullable)ctaUrlField ctaButtonText:(NSString * _Nullable)ctaButtonText ctaButtonLabelField:(NSString * _Nullable)ctaButtonLabelField ctaButtonUseAccentColor:(NSString * _Nullable)ctaButtonUseAccentColor ctaButtonPosition:(NSString * _Nullable)ctaButtonPosition eventHandlers:(NSArray<BbnativesharedEventHandler *> * _Nullable)eventHandlers __attribute__((swift_name("init(id:main:type:name:status:createddate:updateddate:label:publication:player:playerid:centerButtonType:cornerRadius:responsiveSizing:aspectRatio:width:height:autoHeight:alphaControlBar:skin_backgroundColor:skin_foregroundColor:skin_widgetColor:skin_fontHeadingId:skin_fontBodyId:skin_fontHeading:skin_fontBody:bgColor:logoId:logoAlign:logoClickUrl:controlBar:controlBarPlacement:timeDisplay:timeLine:muteButton:volume:volumeOrientation:languageSelect:qualitySelector:playbackRateSelector:fullScreen:showStartControlBar:shareButton:shareButtonPause:shareButtonEnd:shareButtonEmbedCode:shareButtonEmail:shareButtonFacebook:shareButtonLinkedIn:shareButtonPinterest:shareButtonTwitter:shareButtonWhatsApp:castButton:audioDescriptionButton:signLanguageButton:showBigPlayButton:showBigReplayButton:title:date:authorCopyright:authorCopyrightAlign:authorCopyrightPrefixText:autoPlayNext:relatedItems:relatedItemsPause:useDeeplinkForRelatedItems:useDeeplinkForRelatedItemsPause:exitscreenItemsListId:randomizeRelatedItems:useDeeplinkForFacebook:shareTwitterText:sharePlayout:skinBehaviour:skinOnTimeline:nativeControls:youTubeHosting:youTubeSkinInMainPhase:forceNativeFullscreen:preferHD:nedStatLoggerUrl:googleAnalyticsId:piwikUrl:piwikSiteId:disableCookies:disableContextMenuNavigate:playerSignature:playerSignatureLink:autoPlay:autoMute:autoMuteIfNeededForAutoPlay:autoLoop:floatPlayer:interactivityInView:interactivityOutView:inviewMargin:textAbovePlayer:textCommercialSkip:startCollapsed:playInOverlay:hidePlayerOnEnd:waitForApproval:interactivityMouseIn:interactivityMouseOut:interactivityOnClick:clickURL:nsiNoAutoPlay:nsiNoPlayer:placementOption:placementDOMSelector:iframeBreakout:clearBothOption:forceInview:customCode:preferFlashPlayback:preloadMainroll:disableHtml5VPAID:enableHtml5VPAID:commercialPauseButton:commercialMuteButton:commercialAdIcon:commercialProgressBar:commercialProgressBarColor:commercialTimeDisplay:commercials:textCommercialTimeRemaining:commercialBehaviour:minClipDurationPreroll:minClipDurationPostroll:allowBBIma:fitmode:mobileRotateOnFullScreenMismatch:noStats:forceAndroidNativeVideo:forceIOSNativeVideo:use2018Skin:useThumbsFromMetadata:audioTrackSelect:shareText:shareButtonDirectLink:googleAnalyticsCustomVars:supportIABConsent:restrictionNpaOnly:restrictionNpcOnly:enableSubtitlesByDefault:defaultSubtitle:defaultSubtitleOnlyIfMuted:defaultAudioTrack:forceCanAutoPlay:avoidMutedAutoplay:stickyMode:disableKeyboardControls:taggingDisabled:skipOffset:skipCounterText:skipButtonText:blockInsecureVPAID:shareButtonGooglePlus:timelineId:templateId:adunits:hasAdunits:adunitsPreroll:ignoreSingleMediaResource:ignoreProjectMetadata:noPosterInExitPhase:logProgressAsQuartiles:autoPauseAfterPrePhase:autoPlayOnlyWithPrerollAd:showOnlyWhenPrerollAvailable:showBigPauseButtons:titlePause:authorCopyrightPause:authorCopyrightAlignPause:authorCopyrightPrefixTextPause:showStartDuration:disableMovingThumbnail:shareButtonHover:showBigHoverButtons:titleHover:authorCopyrightHover:titleEnd:authorCopyrightEnd:softEmbargoCustomPosterClipId:softEmbargoFontColor:softEmbargoHasCustomPoster:softEmbargoText:softEmbargoTimerHidden:adsystem_buid:adsystem_rdid:adsystem_idtype:adsystem_is_lat:swipeDirection:hideSwipeControls:descriptionShowHide:showPlayButton:autoLoopClip:shortsId:adunitId:clipAdInterval:firstAdPosition:assetPreloadWindow:placeholderText:placeholderTextColor:ctaExitScreen:ctaMidplay:ctaMidplayPosition:ctaText:ctaTextColor:ctaBackgroundColor:ctaUrlField:ctaButtonText:ctaButtonLabelField:ctaButtonUseAccentColor:ctaButtonPosition:eventHandlers:)"))) __attribute__((objc_designated_initializer));
 @property (class, readonly, getter=companion) BbnativesharedPlayoutCompanion *companion __attribute__((swift_name("companion")));
-- (BbnativesharedPlayout *)doCopyId:(NSString * _Nullable)id main:(NSString * _Nullable)main type:(NSString * _Nullable)type name:(NSString * _Nullable)name status:(NSString * _Nullable)status createddate:(NSString * _Nullable)createddate updateddate:(NSString * _Nullable)updateddate label:(NSString * _Nullable)label publication:(NSString * _Nullable)publication player:(BbnativesharedPlayer * _Nullable)player playerid:(NSString * _Nullable)playerid centerButtonType:(NSString * _Nullable)centerButtonType cornerRadius:(NSString * _Nullable)cornerRadius responsiveSizing:(NSString * _Nullable)responsiveSizing aspectRatio:(NSString * _Nullable)aspectRatio width:(NSString * _Nullable)width height:(NSString * _Nullable)height autoHeight:(NSString * _Nullable)autoHeight alphaControlBar:(NSString * _Nullable)alphaControlBar skin_backgroundColor:(NSString * _Nullable)skin_backgroundColor skin_foregroundColor:(NSString * _Nullable)skin_foregroundColor skin_widgetColor:(NSString * _Nullable)skin_widgetColor bgColor:(NSString * _Nullable)bgColor logoId:(NSString * _Nullable)logoId logoAlign:(NSString * _Nullable)logoAlign logoClickUrl:(NSString * _Nullable)logoClickUrl controlBar:(NSString * _Nullable)controlBar controlBarPlacement:(NSString * _Nullable)controlBarPlacement timeDisplay:(NSString * _Nullable)timeDisplay timeLine:(NSString * _Nullable)timeLine muteButton:(NSString * _Nullable)muteButton volume:(NSString * _Nullable)volume volumeOrientation:(NSString * _Nullable)volumeOrientation languageSelect:(NSString * _Nullable)languageSelect qualitySelector:(NSString * _Nullable)qualitySelector playbackRateSelector:(NSString * _Nullable)playbackRateSelector fullScreen:(NSString * _Nullable)fullScreen showStartControlBar:(NSString * _Nullable)showStartControlBar shareButton:(NSString * _Nullable)shareButton shareButtonPause:(NSString * _Nullable)shareButtonPause shareButtonEnd:(NSString * _Nullable)shareButtonEnd shareButtonEmbedCode:(NSString * _Nullable)shareButtonEmbedCode shareButtonEmail:(NSString * _Nullable)shareButtonEmail shareButtonFacebook:(NSString * _Nullable)shareButtonFacebook shareButtonLinkedIn:(NSString * _Nullable)shareButtonLinkedIn shareButtonPinterest:(NSString * _Nullable)shareButtonPinterest shareButtonTwitter:(NSString * _Nullable)shareButtonTwitter shareButtonWhatsApp:(NSString * _Nullable)shareButtonWhatsApp castButton:(NSString * _Nullable)castButton audioDescriptionButton:(NSString * _Nullable)audioDescriptionButton signLanguageButton:(NSString * _Nullable)signLanguageButton showBigPlayButton:(NSString * _Nullable)showBigPlayButton showBigReplayButton:(NSString * _Nullable)showBigReplayButton title:(NSString * _Nullable)title date:(NSString * _Nullable)date authorCopyright:(NSString * _Nullable)authorCopyright authorCopyrightAlign:(NSString * _Nullable)authorCopyrightAlign authorCopyrightPrefixText:(NSString * _Nullable)authorCopyrightPrefixText autoPlayNext:(NSString * _Nullable)autoPlayNext relatedItems:(NSString * _Nullable)relatedItems relatedItemsPause:(NSString * _Nullable)relatedItemsPause useDeeplinkForRelatedItems:(NSString * _Nullable)useDeeplinkForRelatedItems useDeeplinkForRelatedItemsPause:(NSString * _Nullable)useDeeplinkForRelatedItemsPause exitscreenItemsListId:(NSString * _Nullable)exitscreenItemsListId randomizeRelatedItems:(NSString * _Nullable)randomizeRelatedItems useDeeplinkForFacebook:(NSString * _Nullable)useDeeplinkForFacebook shareTwitterText:(NSString * _Nullable)shareTwitterText sharePlayout:(NSString * _Nullable)sharePlayout skinBehaviour:(NSString * _Nullable)skinBehaviour skinOnTimeline:(NSString * _Nullable)skinOnTimeline nativeControls:(NSString * _Nullable)nativeControls youTubeHosting:(NSString * _Nullable)youTubeHosting youTubeSkinInMainPhase:(NSString * _Nullable)youTubeSkinInMainPhase forceNativeFullscreen:(NSString * _Nullable)forceNativeFullscreen preferHD:(NSString * _Nullable)preferHD nedStatLoggerUrl:(NSString * _Nullable)nedStatLoggerUrl googleAnalyticsId:(NSString * _Nullable)googleAnalyticsId piwikUrl:(NSString * _Nullable)piwikUrl piwikSiteId:(NSString * _Nullable)piwikSiteId disableCookies:(NSString * _Nullable)disableCookies disableContextMenuNavigate:(NSString * _Nullable)disableContextMenuNavigate playerSignature:(NSString * _Nullable)playerSignature playerSignatureLink:(NSString * _Nullable)playerSignatureLink autoPlay:(NSString * _Nullable)autoPlay autoMute:(NSString * _Nullable)autoMute autoMuteIfNeededForAutoPlay:(NSString * _Nullable)autoMuteIfNeededForAutoPlay autoLoop:(NSString * _Nullable)autoLoop floatPlayer:(NSString * _Nullable)floatPlayer interactivityInView:(NSString * _Nullable)interactivityInView interactivityOutView:(NSString * _Nullable)interactivityOutView inviewMargin:(NSString * _Nullable)inviewMargin textAbovePlayer:(NSString * _Nullable)textAbovePlayer textCommercialSkip:(NSString * _Nullable)textCommercialSkip startCollapsed:(NSString * _Nullable)startCollapsed playInOverlay:(NSString * _Nullable)playInOverlay hidePlayerOnEnd:(NSString * _Nullable)hidePlayerOnEnd waitForApproval:(NSString * _Nullable)waitForApproval interactivityMouseIn:(NSString * _Nullable)interactivityMouseIn interactivityMouseOut:(NSString * _Nullable)interactivityMouseOut interactivityOnClick:(NSString * _Nullable)interactivityOnClick clickURL:(NSString * _Nullable)clickURL nsiNoAutoPlay:(NSString * _Nullable)nsiNoAutoPlay nsiNoPlayer:(NSString * _Nullable)nsiNoPlayer placementOption:(NSString * _Nullable)placementOption placementDOMSelector:(NSString * _Nullable)placementDOMSelector iframeBreakout:(NSString * _Nullable)iframeBreakout clearBothOption:(NSString * _Nullable)clearBothOption forceInview:(NSString * _Nullable)forceInview customCode:(NSString * _Nullable)customCode preferFlashPlayback:(NSString * _Nullable)preferFlashPlayback preloadMainroll:(NSString * _Nullable)preloadMainroll disableHtml5VPAID:(NSString * _Nullable)disableHtml5VPAID enableHtml5VPAID:(NSString * _Nullable)enableHtml5VPAID commercialPauseButton:(NSString * _Nullable)commercialPauseButton commercialMuteButton:(NSString * _Nullable)commercialMuteButton commercialAdIcon:(NSString * _Nullable)commercialAdIcon commercialProgressBar:(NSString * _Nullable)commercialProgressBar commercialProgressBarColor:(NSString * _Nullable)commercialProgressBarColor commercialTimeDisplay:(NSString * _Nullable)commercialTimeDisplay commercials:(NSString * _Nullable)commercials textCommercialTimeRemaining:(NSString * _Nullable)textCommercialTimeRemaining commercialBehaviour:(NSString * _Nullable)commercialBehaviour minClipDurationPreroll:(NSString * _Nullable)minClipDurationPreroll minClipDurationPostroll:(NSString * _Nullable)minClipDurationPostroll allowBBIma:(NSString * _Nullable)allowBBIma fitmode:(BbnativesharedFitMode * _Nullable)fitmode mobileRotateOnFullScreenMismatch:(NSString * _Nullable)mobileRotateOnFullScreenMismatch noStats:(NSString * _Nullable)noStats forceAndroidNativeVideo:(NSString * _Nullable)forceAndroidNativeVideo forceIOSNativeVideo:(NSString * _Nullable)forceIOSNativeVideo use2018Skin:(NSString * _Nullable)use2018Skin useThumbsFromMetadata:(NSString * _Nullable)useThumbsFromMetadata audioTrackSelect:(NSString * _Nullable)audioTrackSelect shareText:(NSString * _Nullable)shareText shareButtonDirectLink:(NSString * _Nullable)shareButtonDirectLink googleAnalyticsCustomVars:(NSString * _Nullable)googleAnalyticsCustomVars supportIABConsent:(NSString * _Nullable)supportIABConsent restrictionNpaOnly:(NSString * _Nullable)restrictionNpaOnly restrictionNpcOnly:(NSString * _Nullable)restrictionNpcOnly enableSubtitlesByDefault:(NSString * _Nullable)enableSubtitlesByDefault defaultSubtitle:(NSString * _Nullable)defaultSubtitle defaultSubtitleOnlyIfMuted:(NSString * _Nullable)defaultSubtitleOnlyIfMuted defaultAudioTrack:(NSString * _Nullable)defaultAudioTrack forceCanAutoPlay:(NSString * _Nullable)forceCanAutoPlay avoidMutedAutoplay:(NSString * _Nullable)avoidMutedAutoplay stickyMode:(NSString * _Nullable)stickyMode disableKeyboardControls:(NSString * _Nullable)disableKeyboardControls taggingDisabled:(NSString * _Nullable)taggingDisabled skipOffset:(NSString * _Nullable)skipOffset skipCounterText:(NSString * _Nullable)skipCounterText skipButtonText:(NSString * _Nullable)skipButtonText blockInsecureVPAID:(NSString * _Nullable)blockInsecureVPAID shareButtonGooglePlus:(NSString * _Nullable)shareButtonGooglePlus timelineId:(NSString * _Nullable)timelineId templateId:(NSString * _Nullable)templateId adunits:(NSArray<BbnativesharedKotlinx_serialization_jsonJsonElement *> * _Nullable)adunits hasAdunits:(BbnativesharedBoolean * _Nullable)hasAdunits adunitsPreroll:(NSArray<BbnativesharedAdUnit *> * _Nullable)adunitsPreroll ignoreSingleMediaResource:(NSString * _Nullable)ignoreSingleMediaResource ignoreProjectMetadata:(NSString * _Nullable)ignoreProjectMetadata noPosterInExitPhase:(NSString * _Nullable)noPosterInExitPhase logProgressAsQuartiles:(NSString * _Nullable)logProgressAsQuartiles autoPauseAfterPrePhase:(NSString * _Nullable)autoPauseAfterPrePhase autoPlayOnlyWithPrerollAd:(NSString * _Nullable)autoPlayOnlyWithPrerollAd showOnlyWhenPrerollAvailable:(NSString * _Nullable)showOnlyWhenPrerollAvailable showBigPauseButtons:(NSString * _Nullable)showBigPauseButtons titlePause:(NSString * _Nullable)titlePause authorCopyrightPause:(NSString * _Nullable)authorCopyrightPause authorCopyrightAlignPause:(NSString * _Nullable)authorCopyrightAlignPause authorCopyrightPrefixTextPause:(NSString * _Nullable)authorCopyrightPrefixTextPause showStartDuration:(NSString * _Nullable)showStartDuration disableMovingThumbnail:(NSString * _Nullable)disableMovingThumbnail shareButtonHover:(NSString * _Nullable)shareButtonHover showBigHoverButtons:(NSString * _Nullable)showBigHoverButtons titleHover:(NSString * _Nullable)titleHover authorCopyrightHover:(NSString * _Nullable)authorCopyrightHover titleEnd:(NSString * _Nullable)titleEnd authorCopyrightEnd:(NSString * _Nullable)authorCopyrightEnd softEmbargoCustomPosterClipId:(NSString * _Nullable)softEmbargoCustomPosterClipId softEmbargoFontColor:(NSString * _Nullable)softEmbargoFontColor softEmbargoHasCustomPoster:(NSString * _Nullable)softEmbargoHasCustomPoster softEmbargoText:(NSString * _Nullable)softEmbargoText softEmbargoTimerHidden:(NSString * _Nullable)softEmbargoTimerHidden adsystem_buid:(NSString * _Nullable)adsystem_buid adsystem_rdid:(NSString * _Nullable)adsystem_rdid adsystem_idtype:(NSString * _Nullable)adsystem_idtype adsystem_is_lat:(NSString * _Nullable)adsystem_is_lat swipeDirection:(NSString * _Nullable)swipeDirection hideSwipeControls:(NSString * _Nullable)hideSwipeControls descriptionShowHide:(NSString * _Nullable)descriptionShowHide showPlayButton:(NSString * _Nullable)showPlayButton autoLoopClip:(NSString * _Nullable)autoLoopClip shortsId:(NSString * _Nullable)shortsId adunitId:(NSString * _Nullable)adunitId clipAdInterval:(NSString * _Nullable)clipAdInterval firstAdPosition:(NSString * _Nullable)firstAdPosition assetPreloadWindow:(NSString * _Nullable)assetPreloadWindow placeholderText:(NSString * _Nullable)placeholderText placeholderTextColor:(NSString * _Nullable)placeholderTextColor ctaExitScreen:(NSString * _Nullable)ctaExitScreen ctaMidplay:(NSString * _Nullable)ctaMidplay ctaMidplayPosition:(NSString * _Nullable)ctaMidplayPosition ctaText:(NSString * _Nullable)ctaText ctaTextColor:(NSString * _Nullable)ctaTextColor ctaBackgroundColor:(NSString * _Nullable)ctaBackgroundColor ctaUrlField:(NSString * _Nullable)ctaUrlField ctaButtonText:(NSString * _Nullable)ctaButtonText ctaButtonLabelField:(NSString * _Nullable)ctaButtonLabelField ctaButtonUseAccentColor:(NSString * _Nullable)ctaButtonUseAccentColor ctaButtonPosition:(NSString * _Nullable)ctaButtonPosition eventHandlers:(NSArray<BbnativesharedEventHandler *> * _Nullable)eventHandlers __attribute__((swift_name("doCopy(id:main:type:name:status:createddate:updateddate:label:publication:player:playerid:centerButtonType:cornerRadius:responsiveSizing:aspectRatio:width:height:autoHeight:alphaControlBar:skin_backgroundColor:skin_foregroundColor:skin_widgetColor:bgColor:logoId:logoAlign:logoClickUrl:controlBar:controlBarPlacement:timeDisplay:timeLine:muteButton:volume:volumeOrientation:languageSelect:qualitySelector:playbackRateSelector:fullScreen:showStartControlBar:shareButton:shareButtonPause:shareButtonEnd:shareButtonEmbedCode:shareButtonEmail:shareButtonFacebook:shareButtonLinkedIn:shareButtonPinterest:shareButtonTwitter:shareButtonWhatsApp:castButton:audioDescriptionButton:signLanguageButton:showBigPlayButton:showBigReplayButton:title:date:authorCopyright:authorCopyrightAlign:authorCopyrightPrefixText:autoPlayNext:relatedItems:relatedItemsPause:useDeeplinkForRelatedItems:useDeeplinkForRelatedItemsPause:exitscreenItemsListId:randomizeRelatedItems:useDeeplinkForFacebook:shareTwitterText:sharePlayout:skinBehaviour:skinOnTimeline:nativeControls:youTubeHosting:youTubeSkinInMainPhase:forceNativeFullscreen:preferHD:nedStatLoggerUrl:googleAnalyticsId:piwikUrl:piwikSiteId:disableCookies:disableContextMenuNavigate:playerSignature:playerSignatureLink:autoPlay:autoMute:autoMuteIfNeededForAutoPlay:autoLoop:floatPlayer:interactivityInView:interactivityOutView:inviewMargin:textAbovePlayer:textCommercialSkip:startCollapsed:playInOverlay:hidePlayerOnEnd:waitForApproval:interactivityMouseIn:interactivityMouseOut:interactivityOnClick:clickURL:nsiNoAutoPlay:nsiNoPlayer:placementOption:placementDOMSelector:iframeBreakout:clearBothOption:forceInview:customCode:preferFlashPlayback:preloadMainroll:disableHtml5VPAID:enableHtml5VPAID:commercialPauseButton:commercialMuteButton:commercialAdIcon:commercialProgressBar:commercialProgressBarColor:commercialTimeDisplay:commercials:textCommercialTimeRemaining:commercialBehaviour:minClipDurationPreroll:minClipDurationPostroll:allowBBIma:fitmode:mobileRotateOnFullScreenMismatch:noStats:forceAndroidNativeVideo:forceIOSNativeVideo:use2018Skin:useThumbsFromMetadata:audioTrackSelect:shareText:shareButtonDirectLink:googleAnalyticsCustomVars:supportIABConsent:restrictionNpaOnly:restrictionNpcOnly:enableSubtitlesByDefault:defaultSubtitle:defaultSubtitleOnlyIfMuted:defaultAudioTrack:forceCanAutoPlay:avoidMutedAutoplay:stickyMode:disableKeyboardControls:taggingDisabled:skipOffset:skipCounterText:skipButtonText:blockInsecureVPAID:shareButtonGooglePlus:timelineId:templateId:adunits:hasAdunits:adunitsPreroll:ignoreSingleMediaResource:ignoreProjectMetadata:noPosterInExitPhase:logProgressAsQuartiles:autoPauseAfterPrePhase:autoPlayOnlyWithPrerollAd:showOnlyWhenPrerollAvailable:showBigPauseButtons:titlePause:authorCopyrightPause:authorCopyrightAlignPause:authorCopyrightPrefixTextPause:showStartDuration:disableMovingThumbnail:shareButtonHover:showBigHoverButtons:titleHover:authorCopyrightHover:titleEnd:authorCopyrightEnd:softEmbargoCustomPosterClipId:softEmbargoFontColor:softEmbargoHasCustomPoster:softEmbargoText:softEmbargoTimerHidden:adsystem_buid:adsystem_rdid:adsystem_idtype:adsystem_is_lat:swipeDirection:hideSwipeControls:descriptionShowHide:showPlayButton:autoLoopClip:shortsId:adunitId:clipAdInterval:firstAdPosition:assetPreloadWindow:placeholderText:placeholderTextColor:ctaExitScreen:ctaMidplay:ctaMidplayPosition:ctaText:ctaTextColor:ctaBackgroundColor:ctaUrlField:ctaButtonText:ctaButtonLabelField:ctaButtonUseAccentColor:ctaButtonPosition:eventHandlers:)")));
+- (BbnativesharedPlayout *)doCopyId:(NSString * _Nullable)id main:(NSString * _Nullable)main type:(NSString * _Nullable)type name:(NSString * _Nullable)name status:(NSString * _Nullable)status createddate:(NSString * _Nullable)createddate updateddate:(NSString * _Nullable)updateddate label:(NSString * _Nullable)label publication:(NSString * _Nullable)publication player:(BbnativesharedPlayer * _Nullable)player playerid:(NSString * _Nullable)playerid centerButtonType:(NSString * _Nullable)centerButtonType cornerRadius:(NSString * _Nullable)cornerRadius responsiveSizing:(NSString * _Nullable)responsiveSizing aspectRatio:(NSString * _Nullable)aspectRatio width:(NSString * _Nullable)width height:(NSString * _Nullable)height autoHeight:(NSString * _Nullable)autoHeight alphaControlBar:(NSString * _Nullable)alphaControlBar skin_backgroundColor:(NSString * _Nullable)skin_backgroundColor skin_foregroundColor:(NSString * _Nullable)skin_foregroundColor skin_widgetColor:(NSString * _Nullable)skin_widgetColor skin_fontHeadingId:(NSString * _Nullable)skin_fontHeadingId skin_fontBodyId:(NSString * _Nullable)skin_fontBodyId skin_fontHeading:(NSString * _Nullable)skin_fontHeading skin_fontBody:(NSString * _Nullable)skin_fontBody bgColor:(NSString * _Nullable)bgColor logoId:(NSString * _Nullable)logoId logoAlign:(NSString * _Nullable)logoAlign logoClickUrl:(NSString * _Nullable)logoClickUrl controlBar:(NSString * _Nullable)controlBar controlBarPlacement:(NSString * _Nullable)controlBarPlacement timeDisplay:(NSString * _Nullable)timeDisplay timeLine:(NSString * _Nullable)timeLine muteButton:(NSString * _Nullable)muteButton volume:(NSString * _Nullable)volume volumeOrientation:(NSString * _Nullable)volumeOrientation languageSelect:(NSString * _Nullable)languageSelect qualitySelector:(NSString * _Nullable)qualitySelector playbackRateSelector:(NSString * _Nullable)playbackRateSelector fullScreen:(NSString * _Nullable)fullScreen showStartControlBar:(NSString * _Nullable)showStartControlBar shareButton:(NSString * _Nullable)shareButton shareButtonPause:(NSString * _Nullable)shareButtonPause shareButtonEnd:(NSString * _Nullable)shareButtonEnd shareButtonEmbedCode:(NSString * _Nullable)shareButtonEmbedCode shareButtonEmail:(NSString * _Nullable)shareButtonEmail shareButtonFacebook:(NSString * _Nullable)shareButtonFacebook shareButtonLinkedIn:(NSString * _Nullable)shareButtonLinkedIn shareButtonPinterest:(NSString * _Nullable)shareButtonPinterest shareButtonTwitter:(NSString * _Nullable)shareButtonTwitter shareButtonWhatsApp:(NSString * _Nullable)shareButtonWhatsApp castButton:(NSString * _Nullable)castButton audioDescriptionButton:(NSString * _Nullable)audioDescriptionButton signLanguageButton:(NSString * _Nullable)signLanguageButton showBigPlayButton:(NSString * _Nullable)showBigPlayButton showBigReplayButton:(NSString * _Nullable)showBigReplayButton title:(NSString * _Nullable)title date:(NSString * _Nullable)date authorCopyright:(NSString * _Nullable)authorCopyright authorCopyrightAlign:(NSString * _Nullable)authorCopyrightAlign authorCopyrightPrefixText:(NSString * _Nullable)authorCopyrightPrefixText autoPlayNext:(NSString * _Nullable)autoPlayNext relatedItems:(NSString * _Nullable)relatedItems relatedItemsPause:(NSString * _Nullable)relatedItemsPause useDeeplinkForRelatedItems:(NSString * _Nullable)useDeeplinkForRelatedItems useDeeplinkForRelatedItemsPause:(NSString * _Nullable)useDeeplinkForRelatedItemsPause exitscreenItemsListId:(NSString * _Nullable)exitscreenItemsListId randomizeRelatedItems:(NSString * _Nullable)randomizeRelatedItems useDeeplinkForFacebook:(NSString * _Nullable)useDeeplinkForFacebook shareTwitterText:(NSString * _Nullable)shareTwitterText sharePlayout:(NSString * _Nullable)sharePlayout skinBehaviour:(NSString * _Nullable)skinBehaviour skinOnTimeline:(NSString * _Nullable)skinOnTimeline nativeControls:(NSString * _Nullable)nativeControls youTubeHosting:(NSString * _Nullable)youTubeHosting youTubeSkinInMainPhase:(NSString * _Nullable)youTubeSkinInMainPhase forceNativeFullscreen:(NSString * _Nullable)forceNativeFullscreen preferHD:(NSString * _Nullable)preferHD nedStatLoggerUrl:(NSString * _Nullable)nedStatLoggerUrl googleAnalyticsId:(NSString * _Nullable)googleAnalyticsId piwikUrl:(NSString * _Nullable)piwikUrl piwikSiteId:(NSString * _Nullable)piwikSiteId disableCookies:(NSString * _Nullable)disableCookies disableContextMenuNavigate:(NSString * _Nullable)disableContextMenuNavigate playerSignature:(NSString * _Nullable)playerSignature playerSignatureLink:(NSString * _Nullable)playerSignatureLink autoPlay:(NSString * _Nullable)autoPlay autoMute:(NSString * _Nullable)autoMute autoMuteIfNeededForAutoPlay:(NSString * _Nullable)autoMuteIfNeededForAutoPlay autoLoop:(NSString * _Nullable)autoLoop floatPlayer:(NSString * _Nullable)floatPlayer interactivityInView:(NSString * _Nullable)interactivityInView interactivityOutView:(NSString * _Nullable)interactivityOutView inviewMargin:(NSString * _Nullable)inviewMargin textAbovePlayer:(NSString * _Nullable)textAbovePlayer textCommercialSkip:(NSString * _Nullable)textCommercialSkip startCollapsed:(NSString * _Nullable)startCollapsed playInOverlay:(NSString * _Nullable)playInOverlay hidePlayerOnEnd:(NSString * _Nullable)hidePlayerOnEnd waitForApproval:(NSString * _Nullable)waitForApproval interactivityMouseIn:(NSString * _Nullable)interactivityMouseIn interactivityMouseOut:(NSString * _Nullable)interactivityMouseOut interactivityOnClick:(NSString * _Nullable)interactivityOnClick clickURL:(NSString * _Nullable)clickURL nsiNoAutoPlay:(NSString * _Nullable)nsiNoAutoPlay nsiNoPlayer:(NSString * _Nullable)nsiNoPlayer placementOption:(NSString * _Nullable)placementOption placementDOMSelector:(NSString * _Nullable)placementDOMSelector iframeBreakout:(NSString * _Nullable)iframeBreakout clearBothOption:(NSString * _Nullable)clearBothOption forceInview:(NSString * _Nullable)forceInview customCode:(NSString * _Nullable)customCode preferFlashPlayback:(NSString * _Nullable)preferFlashPlayback preloadMainroll:(NSString * _Nullable)preloadMainroll disableHtml5VPAID:(NSString * _Nullable)disableHtml5VPAID enableHtml5VPAID:(NSString * _Nullable)enableHtml5VPAID commercialPauseButton:(NSString * _Nullable)commercialPauseButton commercialMuteButton:(NSString * _Nullable)commercialMuteButton commercialAdIcon:(NSString * _Nullable)commercialAdIcon commercialProgressBar:(NSString * _Nullable)commercialProgressBar commercialProgressBarColor:(NSString * _Nullable)commercialProgressBarColor commercialTimeDisplay:(NSString * _Nullable)commercialTimeDisplay commercials:(NSString * _Nullable)commercials textCommercialTimeRemaining:(NSString * _Nullable)textCommercialTimeRemaining commercialBehaviour:(NSString * _Nullable)commercialBehaviour minClipDurationPreroll:(NSString * _Nullable)minClipDurationPreroll minClipDurationPostroll:(NSString * _Nullable)minClipDurationPostroll allowBBIma:(NSString * _Nullable)allowBBIma fitmode:(BbnativesharedFitMode * _Nullable)fitmode mobileRotateOnFullScreenMismatch:(NSString * _Nullable)mobileRotateOnFullScreenMismatch noStats:(NSString * _Nullable)noStats forceAndroidNativeVideo:(NSString * _Nullable)forceAndroidNativeVideo forceIOSNativeVideo:(NSString * _Nullable)forceIOSNativeVideo use2018Skin:(NSString * _Nullable)use2018Skin useThumbsFromMetadata:(NSString * _Nullable)useThumbsFromMetadata audioTrackSelect:(NSString * _Nullable)audioTrackSelect shareText:(NSString * _Nullable)shareText shareButtonDirectLink:(NSString * _Nullable)shareButtonDirectLink googleAnalyticsCustomVars:(NSString * _Nullable)googleAnalyticsCustomVars supportIABConsent:(NSString * _Nullable)supportIABConsent restrictionNpaOnly:(NSString * _Nullable)restrictionNpaOnly restrictionNpcOnly:(NSString * _Nullable)restrictionNpcOnly enableSubtitlesByDefault:(NSString * _Nullable)enableSubtitlesByDefault defaultSubtitle:(NSString * _Nullable)defaultSubtitle defaultSubtitleOnlyIfMuted:(NSString * _Nullable)defaultSubtitleOnlyIfMuted defaultAudioTrack:(NSString * _Nullable)defaultAudioTrack forceCanAutoPlay:(NSString * _Nullable)forceCanAutoPlay avoidMutedAutoplay:(NSString * _Nullable)avoidMutedAutoplay stickyMode:(NSString * _Nullable)stickyMode disableKeyboardControls:(NSString * _Nullable)disableKeyboardControls taggingDisabled:(NSString * _Nullable)taggingDisabled skipOffset:(NSString * _Nullable)skipOffset skipCounterText:(NSString * _Nullable)skipCounterText skipButtonText:(NSString * _Nullable)skipButtonText blockInsecureVPAID:(NSString * _Nullable)blockInsecureVPAID shareButtonGooglePlus:(NSString * _Nullable)shareButtonGooglePlus timelineId:(NSString * _Nullable)timelineId templateId:(NSString * _Nullable)templateId adunits:(NSArray<BbnativesharedKotlinx_serialization_jsonJsonElement *> * _Nullable)adunits hasAdunits:(BbnativesharedBoolean * _Nullable)hasAdunits adunitsPreroll:(NSArray<BbnativesharedAdUnit *> * _Nullable)adunitsPreroll ignoreSingleMediaResource:(NSString * _Nullable)ignoreSingleMediaResource ignoreProjectMetadata:(NSString * _Nullable)ignoreProjectMetadata noPosterInExitPhase:(NSString * _Nullable)noPosterInExitPhase logProgressAsQuartiles:(NSString * _Nullable)logProgressAsQuartiles autoPauseAfterPrePhase:(NSString * _Nullable)autoPauseAfterPrePhase autoPlayOnlyWithPrerollAd:(NSString * _Nullable)autoPlayOnlyWithPrerollAd showOnlyWhenPrerollAvailable:(NSString * _Nullable)showOnlyWhenPrerollAvailable showBigPauseButtons:(NSString * _Nullable)showBigPauseButtons titlePause:(NSString * _Nullable)titlePause authorCopyrightPause:(NSString * _Nullable)authorCopyrightPause authorCopyrightAlignPause:(NSString * _Nullable)authorCopyrightAlignPause authorCopyrightPrefixTextPause:(NSString * _Nullable)authorCopyrightPrefixTextPause showStartDuration:(NSString * _Nullable)showStartDuration disableMovingThumbnail:(NSString * _Nullable)disableMovingThumbnail shareButtonHover:(NSString * _Nullable)shareButtonHover showBigHoverButtons:(NSString * _Nullable)showBigHoverButtons titleHover:(NSString * _Nullable)titleHover authorCopyrightHover:(NSString * _Nullable)authorCopyrightHover titleEnd:(NSString * _Nullable)titleEnd authorCopyrightEnd:(NSString * _Nullable)authorCopyrightEnd softEmbargoCustomPosterClipId:(NSString * _Nullable)softEmbargoCustomPosterClipId softEmbargoFontColor:(NSString * _Nullable)softEmbargoFontColor softEmbargoHasCustomPoster:(NSString * _Nullable)softEmbargoHasCustomPoster softEmbargoText:(NSString * _Nullable)softEmbargoText softEmbargoTimerHidden:(NSString * _Nullable)softEmbargoTimerHidden adsystem_buid:(NSString * _Nullable)adsystem_buid adsystem_rdid:(NSString * _Nullable)adsystem_rdid adsystem_idtype:(NSString * _Nullable)adsystem_idtype adsystem_is_lat:(NSString * _Nullable)adsystem_is_lat swipeDirection:(NSString * _Nullable)swipeDirection hideSwipeControls:(NSString * _Nullable)hideSwipeControls descriptionShowHide:(NSString * _Nullable)descriptionShowHide showPlayButton:(NSString * _Nullable)showPlayButton autoLoopClip:(NSString * _Nullable)autoLoopClip shortsId:(NSString * _Nullable)shortsId adunitId:(NSString * _Nullable)adunitId clipAdInterval:(NSString * _Nullable)clipAdInterval firstAdPosition:(NSString * _Nullable)firstAdPosition assetPreloadWindow:(NSString * _Nullable)assetPreloadWindow placeholderText:(NSString * _Nullable)placeholderText placeholderTextColor:(NSString * _Nullable)placeholderTextColor ctaExitScreen:(NSString * _Nullable)ctaExitScreen ctaMidplay:(NSString * _Nullable)ctaMidplay ctaMidplayPosition:(NSString * _Nullable)ctaMidplayPosition ctaText:(NSString * _Nullable)ctaText ctaTextColor:(NSString * _Nullable)ctaTextColor ctaBackgroundColor:(NSString * _Nullable)ctaBackgroundColor ctaUrlField:(NSString * _Nullable)ctaUrlField ctaButtonText:(NSString * _Nullable)ctaButtonText ctaButtonLabelField:(NSString * _Nullable)ctaButtonLabelField ctaButtonUseAccentColor:(NSString * _Nullable)ctaButtonUseAccentColor ctaButtonPosition:(NSString * _Nullable)ctaButtonPosition eventHandlers:(NSArray<BbnativesharedEventHandler *> * _Nullable)eventHandlers __attribute__((swift_name("doCopy(id:main:type:name:status:createddate:updateddate:label:publication:player:playerid:centerButtonType:cornerRadius:responsiveSizing:aspectRatio:width:height:autoHeight:alphaControlBar:skin_backgroundColor:skin_foregroundColor:skin_widgetColor:skin_fontHeadingId:skin_fontBodyId:skin_fontHeading:skin_fontBody:bgColor:logoId:logoAlign:logoClickUrl:controlBar:controlBarPlacement:timeDisplay:timeLine:muteButton:volume:volumeOrientation:languageSelect:qualitySelector:playbackRateSelector:fullScreen:showStartControlBar:shareButton:shareButtonPause:shareButtonEnd:shareButtonEmbedCode:shareButtonEmail:shareButtonFacebook:shareButtonLinkedIn:shareButtonPinterest:shareButtonTwitter:shareButtonWhatsApp:castButton:audioDescriptionButton:signLanguageButton:showBigPlayButton:showBigReplayButton:title:date:authorCopyright:authorCopyrightAlign:authorCopyrightPrefixText:autoPlayNext:relatedItems:relatedItemsPause:useDeeplinkForRelatedItems:useDeeplinkForRelatedItemsPause:exitscreenItemsListId:randomizeRelatedItems:useDeeplinkForFacebook:shareTwitterText:sharePlayout:skinBehaviour:skinOnTimeline:nativeControls:youTubeHosting:youTubeSkinInMainPhase:forceNativeFullscreen:preferHD:nedStatLoggerUrl:googleAnalyticsId:piwikUrl:piwikSiteId:disableCookies:disableContextMenuNavigate:playerSignature:playerSignatureLink:autoPlay:autoMute:autoMuteIfNeededForAutoPlay:autoLoop:floatPlayer:interactivityInView:interactivityOutView:inviewMargin:textAbovePlayer:textCommercialSkip:startCollapsed:playInOverlay:hidePlayerOnEnd:waitForApproval:interactivityMouseIn:interactivityMouseOut:interactivityOnClick:clickURL:nsiNoAutoPlay:nsiNoPlayer:placementOption:placementDOMSelector:iframeBreakout:clearBothOption:forceInview:customCode:preferFlashPlayback:preloadMainroll:disableHtml5VPAID:enableHtml5VPAID:commercialPauseButton:commercialMuteButton:commercialAdIcon:commercialProgressBar:commercialProgressBarColor:commercialTimeDisplay:commercials:textCommercialTimeRemaining:commercialBehaviour:minClipDurationPreroll:minClipDurationPostroll:allowBBIma:fitmode:mobileRotateOnFullScreenMismatch:noStats:forceAndroidNativeVideo:forceIOSNativeVideo:use2018Skin:useThumbsFromMetadata:audioTrackSelect:shareText:shareButtonDirectLink:googleAnalyticsCustomVars:supportIABConsent:restrictionNpaOnly:restrictionNpcOnly:enableSubtitlesByDefault:defaultSubtitle:defaultSubtitleOnlyIfMuted:defaultAudioTrack:forceCanAutoPlay:avoidMutedAutoplay:stickyMode:disableKeyboardControls:taggingDisabled:skipOffset:skipCounterText:skipButtonText:blockInsecureVPAID:shareButtonGooglePlus:timelineId:templateId:adunits:hasAdunits:adunitsPreroll:ignoreSingleMediaResource:ignoreProjectMetadata:noPosterInExitPhase:logProgressAsQuartiles:autoPauseAfterPrePhase:autoPlayOnlyWithPrerollAd:showOnlyWhenPrerollAvailable:showBigPauseButtons:titlePause:authorCopyrightPause:authorCopyrightAlignPause:authorCopyrightPrefixTextPause:showStartDuration:disableMovingThumbnail:shareButtonHover:showBigHoverButtons:titleHover:authorCopyrightHover:titleEnd:authorCopyrightEnd:softEmbargoCustomPosterClipId:softEmbargoFontColor:softEmbargoHasCustomPoster:softEmbargoText:softEmbargoTimerHidden:adsystem_buid:adsystem_rdid:adsystem_idtype:adsystem_is_lat:swipeDirection:hideSwipeControls:descriptionShowHide:showPlayButton:autoLoopClip:shortsId:adunitId:clipAdInterval:firstAdPosition:assetPreloadWindow:placeholderText:placeholderTextColor:ctaExitScreen:ctaMidplay:ctaMidplayPosition:ctaText:ctaTextColor:ctaBackgroundColor:ctaUrlField:ctaButtonText:ctaButtonLabelField:ctaButtonUseAccentColor:ctaButtonPosition:eventHandlers:)")));
+
+/**
+ * What [role]'s font is actually set to: an uploaded clip ([FontSpec.Clip]), a font to look up
+ * by name on the device ([FontSpec.Named]) or nothing ([FontSpec.None]). Reads that role's Id
+ * field and its name field, per [FontSpec.from]. The roles never cover for each other - a
+ * [FontSpec.None] here means Lato for this role only.
+ *
+ * Careful with `bb_playout_changed`: an **absent** `skin_fontHeadingId` / `skin_fontBodyId`
+ * means "leave that role's font alone" - ad scheduling fires partial playouts that lack the
+ * keys. A *present* Id clears the role back to Lato whenever [FontSpec.from] reads it as
+ * [FontSpec.None]: any spelling of zero (`""`, `"0"`, `"-0"`, `"000"`), anything that is not
+ * a plain optionally-signed run of digits (`"+11748"`, `"11748px"`, a stray space), and a
+ * negative Id whose name field is blank.
+ *
+ * Presence is the half this model cannot see: a partially populated Playout cannot tell an
+ * absent key from a null one, so the SDK checks the *raw* payload keys and leaves the value
+ * rule to [FontSpec.from]. The **Id** field decides throughout; the name field is never
+ * authoritative and may hold a stale name.
+ */
+- (BbnativesharedFontSpec *)effectiveSkinFontRole:(BbnativesharedFontRole *)role __attribute__((swift_name("effectiveSkinFont(role:)")));
 
 /**
  * Playout
@@ -2796,6 +3825,10 @@ __attribute__((swift_name("Playout")))
 @property (readonly) NSString * _Nullable skinBehaviour __attribute__((swift_name("skinBehaviour")));
 @property (readonly) NSString * _Nullable skinOnTimeline __attribute__((swift_name("skinOnTimeline")));
 @property (readonly) NSString * _Nullable skin_backgroundColor __attribute__((swift_name("skin_backgroundColor")));
+@property (readonly) NSString * _Nullable skin_fontBody __attribute__((swift_name("skin_fontBody")));
+@property (readonly) NSString * _Nullable skin_fontBodyId __attribute__((swift_name("skin_fontBodyId")));
+@property (readonly) NSString * _Nullable skin_fontHeading __attribute__((swift_name("skin_fontHeading")));
+@property (readonly) NSString * _Nullable skin_fontHeadingId __attribute__((swift_name("skin_fontHeadingId")));
 @property (readonly) NSString * _Nullable skin_foregroundColor __attribute__((swift_name("skin_foregroundColor")));
 @property (readonly) NSString * _Nullable skin_widgetColor __attribute__((swift_name("skin_widgetColor")));
 @property (readonly) NSString * _Nullable skipButtonText __attribute__((swift_name("skipButtonText")));
@@ -3358,27 +4391,6 @@ __attribute__((swift_name("KotlinCoroutineContext")))
 - (id<BbnativesharedKotlinCoroutineContext>)plusContext:(id<BbnativesharedKotlinCoroutineContext>)context __attribute__((swift_name("plus(context:)")));
 @end
 
-
-/**
- * @note annotations
- *   kotlin.SinceKotlin(version="2.3")
-*/
-__attribute__((objc_subclassing_restricted))
-__attribute__((swift_name("KotlinInstant")))
-@interface BbnativesharedKotlinInstant : BbnativesharedBase <BbnativesharedKotlinComparable>
-@property (class, readonly, getter=companion) BbnativesharedKotlinInstantCompanion *companion __attribute__((swift_name("companion")));
-- (int32_t)compareToOther:(BbnativesharedKotlinInstant *)other __attribute__((swift_name("compareTo(other:)")));
-- (BOOL)isEqual:(id _Nullable)other __attribute__((swift_name("isEqual(_:)")));
-- (NSUInteger)hash __attribute__((swift_name("hash()")));
-- (BbnativesharedKotlinInstant *)minusDuration:(int64_t)duration __attribute__((swift_name("minus(duration:)")));
-- (int64_t)minusOther:(BbnativesharedKotlinInstant *)other __attribute__((swift_name("minus(other:)")));
-- (BbnativesharedKotlinInstant *)plusDuration:(int64_t)duration __attribute__((swift_name("plus(duration:)")));
-- (int64_t)toEpochMilliseconds __attribute__((swift_name("toEpochMilliseconds()")));
-- (NSString *)description __attribute__((swift_name("description()")));
-@property (readonly) int64_t epochSeconds __attribute__((swift_name("epochSeconds")));
-@property (readonly) int32_t nanosecondsOfSecond __attribute__((swift_name("nanosecondsOfSecond")));
-@end
-
 __attribute__((swift_name("KotlinThrowable")))
 @interface BbnativesharedKotlinThrowable : BbnativesharedBase
 - (instancetype)init __attribute__((swift_name("init()"))) __attribute__((objc_designated_initializer));
@@ -3408,52 +4420,36 @@ __attribute__((swift_name("KotlinException")))
 - (instancetype)initWithMessage:(NSString * _Nullable)message cause:(BbnativesharedKotlinThrowable * _Nullable)cause __attribute__((swift_name("init(message:cause:)"))) __attribute__((objc_designated_initializer));
 @end
 
-__attribute__((swift_name("Kotlinx_serialization_coreSerialFormat")))
-@protocol BbnativesharedKotlinx_serialization_coreSerialFormat
-@required
-@property (readonly) BbnativesharedKotlinx_serialization_coreSerializersModule *serializersModule __attribute__((swift_name("serializersModule")));
+__attribute__((swift_name("KotlinRuntimeException")))
+@interface BbnativesharedKotlinRuntimeException : BbnativesharedKotlinException
+- (instancetype)init __attribute__((swift_name("init()"))) __attribute__((objc_designated_initializer));
++ (instancetype)new __attribute__((availability(swift, unavailable, message="use object initializers instead")));
+- (instancetype)initWithMessage:(NSString * _Nullable)message __attribute__((swift_name("init(message:)"))) __attribute__((objc_designated_initializer));
+- (instancetype)initWithCause:(BbnativesharedKotlinThrowable * _Nullable)cause __attribute__((swift_name("init(cause:)"))) __attribute__((objc_designated_initializer));
+- (instancetype)initWithMessage:(NSString * _Nullable)message cause:(BbnativesharedKotlinThrowable * _Nullable)cause __attribute__((swift_name("init(message:cause:)"))) __attribute__((objc_designated_initializer));
 @end
 
-__attribute__((swift_name("Kotlinx_serialization_coreStringFormat")))
-@protocol BbnativesharedKotlinx_serialization_coreStringFormat <BbnativesharedKotlinx_serialization_coreSerialFormat>
-@required
-- (id _Nullable)decodeFromStringDeserializer:(id<BbnativesharedKotlinx_serialization_coreDeserializationStrategy>)deserializer string:(NSString *)string __attribute__((swift_name("decodeFromString(deserializer:string:)")));
-- (NSString *)encodeToStringSerializer:(id<BbnativesharedKotlinx_serialization_coreSerializationStrategy>)serializer value:(id _Nullable)value __attribute__((swift_name("encodeToString(serializer:value:)")));
+__attribute__((swift_name("KotlinIllegalStateException")))
+@interface BbnativesharedKotlinIllegalStateException : BbnativesharedKotlinRuntimeException
+- (instancetype)init __attribute__((swift_name("init()"))) __attribute__((objc_designated_initializer));
++ (instancetype)new __attribute__((availability(swift, unavailable, message="use object initializers instead")));
+- (instancetype)initWithMessage:(NSString * _Nullable)message __attribute__((swift_name("init(message:)"))) __attribute__((objc_designated_initializer));
+- (instancetype)initWithCause:(BbnativesharedKotlinThrowable * _Nullable)cause __attribute__((swift_name("init(cause:)"))) __attribute__((objc_designated_initializer));
+- (instancetype)initWithMessage:(NSString * _Nullable)message cause:(BbnativesharedKotlinThrowable * _Nullable)cause __attribute__((swift_name("init(message:cause:)"))) __attribute__((objc_designated_initializer));
 @end
 
-__attribute__((swift_name("Kotlinx_serialization_jsonJson")))
-@interface BbnativesharedKotlinx_serialization_jsonJson : BbnativesharedBase <BbnativesharedKotlinx_serialization_coreStringFormat>
-@property (class, readonly, getter=companion) BbnativesharedKotlinx_serialization_jsonJsonDefault *companion __attribute__((swift_name("companion")));
-- (id _Nullable)decodeFromJsonElementDeserializer:(id<BbnativesharedKotlinx_serialization_coreDeserializationStrategy>)deserializer element:(BbnativesharedKotlinx_serialization_jsonJsonElement *)element __attribute__((swift_name("decodeFromJsonElement(deserializer:element:)")));
-- (id _Nullable)decodeFromStringString:(NSString *)string __attribute__((swift_name("decodeFromString(string:)")));
-- (id _Nullable)decodeFromStringDeserializer:(id<BbnativesharedKotlinx_serialization_coreDeserializationStrategy>)deserializer string:(NSString *)string __attribute__((swift_name("decodeFromString(deserializer:string:)")));
-- (BbnativesharedKotlinx_serialization_jsonJsonElement *)encodeToJsonElementSerializer:(id<BbnativesharedKotlinx_serialization_coreSerializationStrategy>)serializer value:(id _Nullable)value __attribute__((swift_name("encodeToJsonElement(serializer:value:)")));
-- (NSString *)encodeToStringValue:(id _Nullable)value __attribute__((swift_name("encodeToString(value:)")));
-- (NSString *)encodeToStringSerializer:(id<BbnativesharedKotlinx_serialization_coreSerializationStrategy>)serializer value:(id _Nullable)value __attribute__((swift_name("encodeToString(serializer:value:)")));
-- (BbnativesharedKotlinx_serialization_jsonJsonElement *)parseToJsonElementString:(NSString *)string __attribute__((swift_name("parseToJsonElement(string:)")));
-@property (readonly) BbnativesharedKotlinx_serialization_jsonJsonConfiguration *configuration __attribute__((swift_name("configuration")));
-@property (readonly) BbnativesharedKotlinx_serialization_coreSerializersModule *serializersModule __attribute__((swift_name("serializersModule")));
-@end
 
-__attribute__((objc_subclassing_restricted))
-__attribute__((swift_name("KotlinEnumCompanion")))
-@interface BbnativesharedKotlinEnumCompanion : BbnativesharedBase
-+ (instancetype)alloc __attribute__((unavailable));
-+ (instancetype)allocWithZone:(struct _NSZone *)zone __attribute__((unavailable));
-+ (instancetype)companion __attribute__((swift_name("init()")));
-@property (class, readonly, getter=shared) BbnativesharedKotlinEnumCompanion *shared __attribute__((swift_name("shared")));
-@end
-
-__attribute__((objc_subclassing_restricted))
-__attribute__((swift_name("KotlinArray")))
-@interface BbnativesharedKotlinArray<T> : BbnativesharedBase
-+ (instancetype)arrayWithSize:(int32_t)size init:(T _Nullable (^)(BbnativesharedInt *))init __attribute__((swift_name("init(size:init:)")));
-+ (instancetype)alloc __attribute__((unavailable));
-+ (instancetype)allocWithZone:(struct _NSZone *)zone __attribute__((unavailable));
-- (T _Nullable)getIndex:(int32_t)index __attribute__((swift_name("get(index:)")));
-- (id<BbnativesharedKotlinIterator>)iterator __attribute__((swift_name("iterator()")));
-- (void)setIndex:(int32_t)index value:(T _Nullable)value __attribute__((swift_name("set(index:value:)")));
-@property (readonly) int32_t size __attribute__((swift_name("size")));
+/**
+ * @note annotations
+ *   kotlin.SinceKotlin(version="1.4")
+*/
+__attribute__((swift_name("KotlinCancellationException")))
+@interface BbnativesharedKotlinCancellationException : BbnativesharedKotlinIllegalStateException
+- (instancetype)init __attribute__((swift_name("init()"))) __attribute__((objc_designated_initializer));
++ (instancetype)new __attribute__((availability(swift, unavailable, message="use object initializers instead")));
+- (instancetype)initWithMessage:(NSString * _Nullable)message __attribute__((swift_name("init(message:)"))) __attribute__((objc_designated_initializer));
+- (instancetype)initWithCause:(BbnativesharedKotlinThrowable * _Nullable)cause __attribute__((swift_name("init(cause:)"))) __attribute__((objc_designated_initializer));
+- (instancetype)initWithMessage:(NSString * _Nullable)message cause:(BbnativesharedKotlinThrowable * _Nullable)cause __attribute__((swift_name("init(message:cause:)"))) __attribute__((objc_designated_initializer));
 @end
 
 __attribute__((swift_name("KotlinCoroutineContextElement")))
@@ -3504,6 +4500,88 @@ __attribute__((swift_name("Kotlinx_coroutines_coreCoroutineDispatcher")))
 - (BbnativesharedKotlinx_coroutines_coreCoroutineDispatcher *)plusOther:(BbnativesharedKotlinx_coroutines_coreCoroutineDispatcher *)other __attribute__((swift_name("plus(other:)"))) __attribute__((unavailable("Operator '+' on two CoroutineDispatcher objects is meaningless. CoroutineDispatcher is a coroutine context element and `+` is a set-sum operator for coroutine contexts. The dispatcher to the right of `+` just replaces the dispatcher to the left.")));
 - (void)releaseInterceptedContinuationContinuation:(id<BbnativesharedKotlinContinuation>)continuation __attribute__((swift_name("releaseInterceptedContinuation(continuation:)")));
 - (NSString *)description __attribute__((swift_name("description()")));
+@end
+
+
+/**
+ * @note annotations
+ *   kotlin.SinceKotlin(version="2.3")
+*/
+__attribute__((objc_subclassing_restricted))
+__attribute__((swift_name("KotlinInstant")))
+@interface BbnativesharedKotlinInstant : BbnativesharedBase <BbnativesharedKotlinComparable>
+@property (class, readonly, getter=companion) BbnativesharedKotlinInstantCompanion *companion __attribute__((swift_name("companion")));
+- (int32_t)compareToOther:(BbnativesharedKotlinInstant *)other __attribute__((swift_name("compareTo(other:)")));
+- (BOOL)isEqual:(id _Nullable)other __attribute__((swift_name("isEqual(_:)")));
+- (NSUInteger)hash __attribute__((swift_name("hash()")));
+- (BbnativesharedKotlinInstant *)minusDuration:(int64_t)duration __attribute__((swift_name("minus(duration:)")));
+- (int64_t)minusOther:(BbnativesharedKotlinInstant *)other __attribute__((swift_name("minus(other:)")));
+- (BbnativesharedKotlinInstant *)plusDuration:(int64_t)duration __attribute__((swift_name("plus(duration:)")));
+- (int64_t)toEpochMilliseconds __attribute__((swift_name("toEpochMilliseconds()")));
+- (NSString *)description __attribute__((swift_name("description()")));
+@property (readonly) int64_t epochSeconds __attribute__((swift_name("epochSeconds")));
+@property (readonly) int32_t nanosecondsOfSecond __attribute__((swift_name("nanosecondsOfSecond")));
+@end
+
+__attribute__((swift_name("Kotlinx_serialization_coreSerialFormat")))
+@protocol BbnativesharedKotlinx_serialization_coreSerialFormat
+@required
+@property (readonly) BbnativesharedKotlinx_serialization_coreSerializersModule *serializersModule __attribute__((swift_name("serializersModule")));
+@end
+
+__attribute__((swift_name("Kotlinx_serialization_coreStringFormat")))
+@protocol BbnativesharedKotlinx_serialization_coreStringFormat <BbnativesharedKotlinx_serialization_coreSerialFormat>
+@required
+- (id _Nullable)decodeFromStringDeserializer:(id<BbnativesharedKotlinx_serialization_coreDeserializationStrategy>)deserializer string:(NSString *)string __attribute__((swift_name("decodeFromString(deserializer:string:)")));
+- (NSString *)encodeToStringSerializer:(id<BbnativesharedKotlinx_serialization_coreSerializationStrategy>)serializer value:(id _Nullable)value __attribute__((swift_name("encodeToString(serializer:value:)")));
+@end
+
+__attribute__((swift_name("Kotlinx_serialization_jsonJson")))
+@interface BbnativesharedKotlinx_serialization_jsonJson : BbnativesharedBase <BbnativesharedKotlinx_serialization_coreStringFormat>
+@property (class, readonly, getter=companion) BbnativesharedKotlinx_serialization_jsonJsonDefault *companion __attribute__((swift_name("companion")));
+- (id _Nullable)decodeFromJsonElementDeserializer:(id<BbnativesharedKotlinx_serialization_coreDeserializationStrategy>)deserializer element:(BbnativesharedKotlinx_serialization_jsonJsonElement *)element __attribute__((swift_name("decodeFromJsonElement(deserializer:element:)")));
+- (id _Nullable)decodeFromStringString:(NSString *)string __attribute__((swift_name("decodeFromString(string:)")));
+- (id _Nullable)decodeFromStringDeserializer:(id<BbnativesharedKotlinx_serialization_coreDeserializationStrategy>)deserializer string:(NSString *)string __attribute__((swift_name("decodeFromString(deserializer:string:)")));
+- (BbnativesharedKotlinx_serialization_jsonJsonElement *)encodeToJsonElementSerializer:(id<BbnativesharedKotlinx_serialization_coreSerializationStrategy>)serializer value:(id _Nullable)value __attribute__((swift_name("encodeToJsonElement(serializer:value:)")));
+- (NSString *)encodeToStringValue:(id _Nullable)value __attribute__((swift_name("encodeToString(value:)")));
+- (NSString *)encodeToStringSerializer:(id<BbnativesharedKotlinx_serialization_coreSerializationStrategy>)serializer value:(id _Nullable)value __attribute__((swift_name("encodeToString(serializer:value:)")));
+- (BbnativesharedKotlinx_serialization_jsonJsonElement *)parseToJsonElementString:(NSString *)string __attribute__((swift_name("parseToJsonElement(string:)")));
+@property (readonly) BbnativesharedKotlinx_serialization_jsonJsonConfiguration *configuration __attribute__((swift_name("configuration")));
+@property (readonly) BbnativesharedKotlinx_serialization_coreSerializersModule *serializersModule __attribute__((swift_name("serializersModule")));
+@end
+
+__attribute__((objc_subclassing_restricted))
+__attribute__((swift_name("KotlinEnumCompanion")))
+@interface BbnativesharedKotlinEnumCompanion : BbnativesharedBase
++ (instancetype)alloc __attribute__((unavailable));
++ (instancetype)allocWithZone:(struct _NSZone *)zone __attribute__((unavailable));
++ (instancetype)companion __attribute__((swift_name("init()")));
+@property (class, readonly, getter=shared) BbnativesharedKotlinEnumCompanion *shared __attribute__((swift_name("shared")));
+@end
+
+__attribute__((objc_subclassing_restricted))
+__attribute__((swift_name("KotlinArray")))
+@interface BbnativesharedKotlinArray<T> : BbnativesharedBase
++ (instancetype)arrayWithSize:(int32_t)size init:(T _Nullable (^)(BbnativesharedInt *))init __attribute__((swift_name("init(size:init:)")));
++ (instancetype)alloc __attribute__((unavailable));
++ (instancetype)allocWithZone:(struct _NSZone *)zone __attribute__((unavailable));
+- (T _Nullable)getIndex:(int32_t)index __attribute__((swift_name("get(index:)")));
+- (id<BbnativesharedKotlinIterator>)iterator __attribute__((swift_name("iterator()")));
+- (void)setIndex:(int32_t)index value:(T _Nullable)value __attribute__((swift_name("set(index:value:)")));
+@property (readonly) int32_t size __attribute__((swift_name("size")));
+@end
+
+__attribute__((objc_subclassing_restricted))
+__attribute__((swift_name("KotlinByteArray")))
+@interface BbnativesharedKotlinByteArray : BbnativesharedBase
++ (instancetype)arrayWithSize:(int32_t)size __attribute__((swift_name("init(size:)")));
++ (instancetype)arrayWithSize:(int32_t)size init:(BbnativesharedByte *(^)(BbnativesharedInt *))init __attribute__((swift_name("init(size:init:)")));
++ (instancetype)alloc __attribute__((unavailable));
++ (instancetype)allocWithZone:(struct _NSZone *)zone __attribute__((unavailable));
+- (int8_t)getIndex:(int32_t)index __attribute__((swift_name("get(index:)")));
+- (BbnativesharedKotlinByteIterator *)iterator __attribute__((swift_name("iterator()")));
+- (void)setIndex:(int32_t)index value:(int8_t)value __attribute__((swift_name("set(index:value:)")));
+@property (readonly) int32_t size __attribute__((swift_name("size")));
 @end
 
 __attribute__((swift_name("Kotlinx_coroutines_coreFlow")))
@@ -3622,6 +4700,50 @@ __attribute__((swift_name("KotlinCoroutineContextKey")))
 @required
 @end
 
+
+/**
+ * @note annotations
+ *   kotlin.SinceKotlin(version="1.3")
+*/
+__attribute__((swift_name("KotlinContinuation")))
+@protocol BbnativesharedKotlinContinuation
+@required
+- (void)resumeWithResult:(id _Nullable)result __attribute__((swift_name("resumeWith(result:)")));
+@property (readonly) id<BbnativesharedKotlinCoroutineContext> context __attribute__((swift_name("context")));
+@end
+
+
+/**
+ * @note annotations
+ *   kotlin.SinceKotlin(version="1.3")
+ *   kotlin.ExperimentalStdlibApi
+*/
+__attribute__((swift_name("KotlinAbstractCoroutineContextKey")))
+@interface BbnativesharedKotlinAbstractCoroutineContextKey<B, E> : BbnativesharedBase <BbnativesharedKotlinCoroutineContextKey>
+- (instancetype)initWithBaseKey:(id<BbnativesharedKotlinCoroutineContextKey>)baseKey safeCast:(E _Nullable (^)(id<BbnativesharedKotlinCoroutineContextElement> element))safeCast __attribute__((swift_name("init(baseKey:safeCast:)"))) __attribute__((objc_designated_initializer));
+@end
+
+
+/**
+ * @note annotations
+ *   kotlin.ExperimentalStdlibApi
+*/
+__attribute__((objc_subclassing_restricted))
+__attribute__((swift_name("Kotlinx_coroutines_coreCoroutineDispatcher.Key")))
+@interface BbnativesharedKotlinx_coroutines_coreCoroutineDispatcherKey : BbnativesharedKotlinAbstractCoroutineContextKey<id<BbnativesharedKotlinContinuationInterceptor>, BbnativesharedKotlinx_coroutines_coreCoroutineDispatcher *>
++ (instancetype)alloc __attribute__((unavailable));
++ (instancetype)allocWithZone:(struct _NSZone *)zone __attribute__((unavailable));
+- (instancetype)initWithBaseKey:(id<BbnativesharedKotlinCoroutineContextKey>)baseKey safeCast:(id<BbnativesharedKotlinCoroutineContextElement> _Nullable (^)(id<BbnativesharedKotlinCoroutineContextElement> element))safeCast __attribute__((swift_name("init(baseKey:safeCast:)"))) __attribute__((objc_designated_initializer)) __attribute__((unavailable));
++ (instancetype)key __attribute__((swift_name("init()")));
+@property (class, readonly, getter=shared) BbnativesharedKotlinx_coroutines_coreCoroutineDispatcherKey *shared __attribute__((swift_name("shared")));
+@end
+
+__attribute__((swift_name("Kotlinx_coroutines_coreRunnable")))
+@protocol BbnativesharedKotlinx_coroutines_coreRunnable
+@required
+- (void)run __attribute__((swift_name("run()")));
+@end
+
 __attribute__((objc_subclassing_restricted))
 __attribute__((swift_name("KotlinInstant.Companion")))
 @interface BbnativesharedKotlinInstantCompanion : BbnativesharedBase
@@ -3708,80 +4830,12 @@ __attribute__((swift_name("KotlinIterator")))
 - (id _Nullable)next __attribute__((swift_name("next()")));
 @end
 
-
-/**
- * @note annotations
- *   kotlin.SinceKotlin(version="1.3")
-*/
-__attribute__((swift_name("KotlinContinuation")))
-@protocol BbnativesharedKotlinContinuation
-@required
-- (void)resumeWithResult:(id _Nullable)result __attribute__((swift_name("resumeWith(result:)")));
-@property (readonly) id<BbnativesharedKotlinCoroutineContext> context __attribute__((swift_name("context")));
-@end
-
-
-/**
- * @note annotations
- *   kotlin.SinceKotlin(version="1.3")
- *   kotlin.ExperimentalStdlibApi
-*/
-__attribute__((swift_name("KotlinAbstractCoroutineContextKey")))
-@interface BbnativesharedKotlinAbstractCoroutineContextKey<B, E> : BbnativesharedBase <BbnativesharedKotlinCoroutineContextKey>
-- (instancetype)initWithBaseKey:(id<BbnativesharedKotlinCoroutineContextKey>)baseKey safeCast:(E _Nullable (^)(id<BbnativesharedKotlinCoroutineContextElement> element))safeCast __attribute__((swift_name("init(baseKey:safeCast:)"))) __attribute__((objc_designated_initializer));
-@end
-
-
-/**
- * @note annotations
- *   kotlin.ExperimentalStdlibApi
-*/
-__attribute__((objc_subclassing_restricted))
-__attribute__((swift_name("Kotlinx_coroutines_coreCoroutineDispatcher.Key")))
-@interface BbnativesharedKotlinx_coroutines_coreCoroutineDispatcherKey : BbnativesharedKotlinAbstractCoroutineContextKey<id<BbnativesharedKotlinContinuationInterceptor>, BbnativesharedKotlinx_coroutines_coreCoroutineDispatcher *>
-+ (instancetype)alloc __attribute__((unavailable));
-+ (instancetype)allocWithZone:(struct _NSZone *)zone __attribute__((unavailable));
-- (instancetype)initWithBaseKey:(id<BbnativesharedKotlinCoroutineContextKey>)baseKey safeCast:(id<BbnativesharedKotlinCoroutineContextElement> _Nullable (^)(id<BbnativesharedKotlinCoroutineContextElement> element))safeCast __attribute__((swift_name("init(baseKey:safeCast:)"))) __attribute__((objc_designated_initializer)) __attribute__((unavailable));
-+ (instancetype)key __attribute__((swift_name("init()")));
-@property (class, readonly, getter=shared) BbnativesharedKotlinx_coroutines_coreCoroutineDispatcherKey *shared __attribute__((swift_name("shared")));
-@end
-
-__attribute__((swift_name("Kotlinx_coroutines_coreRunnable")))
-@protocol BbnativesharedKotlinx_coroutines_coreRunnable
-@required
-- (void)run __attribute__((swift_name("run()")));
-@end
-
-__attribute__((swift_name("KotlinRuntimeException")))
-@interface BbnativesharedKotlinRuntimeException : BbnativesharedKotlinException
+__attribute__((swift_name("KotlinByteIterator")))
+@interface BbnativesharedKotlinByteIterator : BbnativesharedBase <BbnativesharedKotlinIterator>
 - (instancetype)init __attribute__((swift_name("init()"))) __attribute__((objc_designated_initializer));
 + (instancetype)new __attribute__((availability(swift, unavailable, message="use object initializers instead")));
-- (instancetype)initWithMessage:(NSString * _Nullable)message __attribute__((swift_name("init(message:)"))) __attribute__((objc_designated_initializer));
-- (instancetype)initWithCause:(BbnativesharedKotlinThrowable * _Nullable)cause __attribute__((swift_name("init(cause:)"))) __attribute__((objc_designated_initializer));
-- (instancetype)initWithMessage:(NSString * _Nullable)message cause:(BbnativesharedKotlinThrowable * _Nullable)cause __attribute__((swift_name("init(message:cause:)"))) __attribute__((objc_designated_initializer));
-@end
-
-__attribute__((swift_name("KotlinIllegalStateException")))
-@interface BbnativesharedKotlinIllegalStateException : BbnativesharedKotlinRuntimeException
-- (instancetype)init __attribute__((swift_name("init()"))) __attribute__((objc_designated_initializer));
-+ (instancetype)new __attribute__((availability(swift, unavailable, message="use object initializers instead")));
-- (instancetype)initWithMessage:(NSString * _Nullable)message __attribute__((swift_name("init(message:)"))) __attribute__((objc_designated_initializer));
-- (instancetype)initWithCause:(BbnativesharedKotlinThrowable * _Nullable)cause __attribute__((swift_name("init(cause:)"))) __attribute__((objc_designated_initializer));
-- (instancetype)initWithMessage:(NSString * _Nullable)message cause:(BbnativesharedKotlinThrowable * _Nullable)cause __attribute__((swift_name("init(message:cause:)"))) __attribute__((objc_designated_initializer));
-@end
-
-
-/**
- * @note annotations
- *   kotlin.SinceKotlin(version="1.4")
-*/
-__attribute__((swift_name("KotlinCancellationException")))
-@interface BbnativesharedKotlinCancellationException : BbnativesharedKotlinIllegalStateException
-- (instancetype)init __attribute__((swift_name("init()"))) __attribute__((objc_designated_initializer));
-+ (instancetype)new __attribute__((availability(swift, unavailable, message="use object initializers instead")));
-- (instancetype)initWithMessage:(NSString * _Nullable)message __attribute__((swift_name("init(message:)"))) __attribute__((objc_designated_initializer));
-- (instancetype)initWithCause:(BbnativesharedKotlinThrowable * _Nullable)cause __attribute__((swift_name("init(cause:)"))) __attribute__((objc_designated_initializer));
-- (instancetype)initWithMessage:(NSString * _Nullable)message cause:(BbnativesharedKotlinThrowable * _Nullable)cause __attribute__((swift_name("init(message:cause:)"))) __attribute__((objc_designated_initializer));
+- (BbnativesharedByte *)next __attribute__((swift_name("next()")));
+- (int8_t)nextByte __attribute__((swift_name("nextByte()")));
 @end
 
 __attribute__((objc_subclassing_restricted))
