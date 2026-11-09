@@ -6,7 +6,7 @@
 #import <Foundation/NSString.h>
 #import <Foundation/NSValue.h>
 
-@class BbnativesharedAction, BbnativesharedActionCompanion, BbnativesharedAdMacroHelperCompanion, BbnativesharedAdSchedulingControllerCompanion, BbnativesharedAdSchedulingData, BbnativesharedAdSchedulingDataCompanion, BbnativesharedAdUnit, BbnativesharedAdUnitCompanion, BbnativesharedApiMethod, BbnativesharedApiProperty, BbnativesharedAppConfig, BbnativesharedAppConfigCompanion, BbnativesharedAudiotrack, BbnativesharedAudiotrackCompanion, BbnativesharedAutoPlayNextTimerCompanion, BbnativesharedBBModel, BbnativesharedBlueBillywigLoggerCompanion, BbnativesharedBuildVersion, BbnativesharedCapabilitiesCompanion, BbnativesharedChapter, BbnativesharedChapterCompanion, BbnativesharedCondition, BbnativesharedConditionCompanion, BbnativesharedContentAuth, BbnativesharedContentAuthCompanion, BbnativesharedContentItem, BbnativesharedContentItemCompanion, BbnativesharedContentItemFactoryCompanion, BbnativesharedContentLoaderCompanion, BbnativesharedContextFrame, BbnativesharedCustomField, BbnativesharedCustomFieldCompanion, BbnativesharedCustomFields, BbnativesharedCustomFieldsCompanion, BbnativesharedDates, BbnativesharedDatesCompanion, BbnativesharedEmbedControllerCompanion, BbnativesharedEmbedData, BbnativesharedEmbedDataCompanion, BbnativesharedEmbedObject, BbnativesharedEmbedObjectCompanion, BbnativesharedEventHandler, BbnativesharedEventHandlerCompanion, BbnativesharedEventName, BbnativesharedFitMode, BbnativesharedFontAsset, BbnativesharedFontAssetCompanion, BbnativesharedFontClip, BbnativesharedFontClipCompanion, BbnativesharedFontFace, BbnativesharedFontFile, BbnativesharedFontFileEntry, BbnativesharedFontResolution, BbnativesharedFontResolutionLoaded, BbnativesharedFontResolutionSystem, BbnativesharedFontResolutionUnavailable, BbnativesharedFontResolutionUnusable, BbnativesharedFontResolverCompanion, BbnativesharedFontRole, BbnativesharedFontSpec, BbnativesharedFontSpecClip, BbnativesharedFontSpecCompanion, BbnativesharedFontSpecNamed, BbnativesharedFontSpecNone, BbnativesharedHighlight, BbnativesharedHighlightCompanion, BbnativesharedInstantFactoryCompanion, BbnativesharedKotlinAbstractCoroutineContextElement, BbnativesharedKotlinAbstractCoroutineContextKey<B, E>, BbnativesharedKotlinArray<T>, BbnativesharedKotlinByteArray, BbnativesharedKotlinByteIterator, BbnativesharedKotlinEnum<E>, BbnativesharedKotlinEnumCompanion, BbnativesharedKotlinException, BbnativesharedKotlinIllegalStateException, BbnativesharedKotlinInstant, BbnativesharedKotlinInstantCompanion, BbnativesharedKotlinNothing, BbnativesharedKotlinRuntimeException, BbnativesharedKotlinThrowable, BbnativesharedKotlinx_coroutines_coreCoroutineDispatcher, BbnativesharedKotlinx_coroutines_coreCoroutineDispatcherKey, BbnativesharedKotlinx_serialization_coreSerialKind, BbnativesharedKotlinx_serialization_coreSerializersModule, BbnativesharedKotlinx_serialization_jsonClassDiscriminatorMode, BbnativesharedKotlinx_serialization_jsonJson, BbnativesharedKotlinx_serialization_jsonJsonConfiguration, BbnativesharedKotlinx_serialization_jsonJsonDefault, BbnativesharedKotlinx_serialization_jsonJsonElement, BbnativesharedKotlinx_serialization_jsonJsonElementCompanion, BbnativesharedLanguage, BbnativesharedLanguages, BbnativesharedLanguagesCompanion, BbnativesharedLineItem_, BbnativesharedLineItem_Companion, BbnativesharedLogger, BbnativesharedMasterController, BbnativesharedMasterControllerCompanion, BbnativesharedMediaAsset, BbnativesharedMediaAssetCompanion, BbnativesharedMediaClip, BbnativesharedMediaClipCompanion, BbnativesharedMediaClipList, BbnativesharedMediaClipListCompanion, BbnativesharedMsasController, BbnativesharedMsasControllerCompanion, BbnativesharedOverlayFontsScript, BbnativesharedParameter, BbnativesharedParameterCompanion, BbnativesharedPhase, BbnativesharedPlatformCompanion, BbnativesharedPlayer, BbnativesharedPlayerCompanion, BbnativesharedPlayerSettings, BbnativesharedPlayerSettingsCompanion, BbnativesharedPlayout, BbnativesharedPlayoutCompanion, BbnativesharedPosType, BbnativesharedProcedure, BbnativesharedProcedureCompanion, BbnativesharedProgramController, BbnativesharedProgramControllerCompanion, BbnativesharedProject, BbnativesharedProjectCompanion, BbnativesharedPublication, BbnativesharedPublicationCompanion, BbnativesharedQuality, BbnativesharedRelatedItemsHelperCompanion, BbnativesharedRequestParams, BbnativesharedRequestParamsCompanion, BbnativesharedShortsEngineCompanion, BbnativesharedSoftEmbargoTimerCompanion, BbnativesharedState, BbnativesharedStep, BbnativesharedStepCompanion, BbnativesharedSubtitle, BbnativesharedSubtitleCompanion, BbnativesharedThumbnail, BbnativesharedThumbnailCompanion, BbnativesharedTimeline, BbnativesharedTimelineCompanion, BbnativesharedTypedObject, BbnativesharedTypedObjectCompanion, BbnativesharedVersioningData, BbnativesharedVersioningDataCompanion, BbnativesharedVideoTrack, BbnativesharedVideoTrackCompanion;
+@class BbnativesharedAction, BbnativesharedActionCompanion, BbnativesharedAdMacroHelperCompanion, BbnativesharedAdSchedulingControllerCompanion, BbnativesharedAdSchedulingData, BbnativesharedAdSchedulingDataCompanion, BbnativesharedAdUnit, BbnativesharedAdUnitCompanion, BbnativesharedApiMethod, BbnativesharedApiProperty, BbnativesharedAppConfig, BbnativesharedAppConfigCompanion, BbnativesharedAudiotrack, BbnativesharedAudiotrackCompanion, BbnativesharedAutoPlayNextTimerCompanion, BbnativesharedBBModel, BbnativesharedBlueBillywigLoggerCompanion, BbnativesharedBuildVersion, BbnativesharedCapabilitiesCompanion, BbnativesharedChapter, BbnativesharedChapterCompanion, BbnativesharedCondition, BbnativesharedConditionCompanion, BbnativesharedContentAuth, BbnativesharedContentAuthCompanion, BbnativesharedContentAuthHolder, BbnativesharedContentItem, BbnativesharedContentItemCompanion, BbnativesharedContentItemFactoryCompanion, BbnativesharedContentLoaderCompanion, BbnativesharedContextFrame, BbnativesharedCustomField, BbnativesharedCustomFieldCompanion, BbnativesharedCustomFields, BbnativesharedCustomFieldsCompanion, BbnativesharedDates, BbnativesharedDatesCompanion, BbnativesharedEmbedControllerCompanion, BbnativesharedEmbedData, BbnativesharedEmbedDataCompanion, BbnativesharedEmbedObject, BbnativesharedEmbedObjectCompanion, BbnativesharedEventHandler, BbnativesharedEventHandlerCompanion, BbnativesharedEventName, BbnativesharedFitMode, BbnativesharedFontAsset, BbnativesharedFontAssetCompanion, BbnativesharedFontClip, BbnativesharedFontClipCompanion, BbnativesharedFontFace, BbnativesharedFontFile, BbnativesharedFontFileEntry, BbnativesharedFontResolution, BbnativesharedFontResolutionLoaded, BbnativesharedFontResolutionSystem, BbnativesharedFontResolutionUnavailable, BbnativesharedFontResolutionUnusable, BbnativesharedFontResolverCompanion, BbnativesharedFontRole, BbnativesharedFontSpec, BbnativesharedFontSpecClip, BbnativesharedFontSpecCompanion, BbnativesharedFontSpecNamed, BbnativesharedFontSpecNone, BbnativesharedHighlight, BbnativesharedHighlightCompanion, BbnativesharedInstantFactoryCompanion, BbnativesharedKotlinAbstractCoroutineContextElement, BbnativesharedKotlinAbstractCoroutineContextKey<B, E>, BbnativesharedKotlinArray<T>, BbnativesharedKotlinByteArray, BbnativesharedKotlinByteIterator, BbnativesharedKotlinEnum<E>, BbnativesharedKotlinEnumCompanion, BbnativesharedKotlinException, BbnativesharedKotlinIllegalStateException, BbnativesharedKotlinInstant, BbnativesharedKotlinInstantCompanion, BbnativesharedKotlinNothing, BbnativesharedKotlinRuntimeException, BbnativesharedKotlinThrowable, BbnativesharedKotlinx_coroutines_coreCoroutineDispatcher, BbnativesharedKotlinx_coroutines_coreCoroutineDispatcherKey, BbnativesharedKotlinx_serialization_coreSerialKind, BbnativesharedKotlinx_serialization_coreSerializersModule, BbnativesharedKotlinx_serialization_jsonClassDiscriminatorMode, BbnativesharedKotlinx_serialization_jsonJson, BbnativesharedKotlinx_serialization_jsonJsonConfiguration, BbnativesharedKotlinx_serialization_jsonJsonDefault, BbnativesharedKotlinx_serialization_jsonJsonElement, BbnativesharedKotlinx_serialization_jsonJsonElementCompanion, BbnativesharedLanguage, BbnativesharedLanguages, BbnativesharedLanguagesCompanion, BbnativesharedLineItem_, BbnativesharedLineItem_Companion, BbnativesharedLogger, BbnativesharedMasterController, BbnativesharedMasterControllerCompanion, BbnativesharedMediaAsset, BbnativesharedMediaAssetCompanion, BbnativesharedMediaClip, BbnativesharedMediaClipCompanion, BbnativesharedMediaClipList, BbnativesharedMediaClipListCompanion, BbnativesharedMsasController, BbnativesharedMsasControllerCompanion, BbnativesharedOverlayFontsScript, BbnativesharedParameter, BbnativesharedParameterCompanion, BbnativesharedPhase, BbnativesharedPlatformCompanion, BbnativesharedPlayer, BbnativesharedPlayerCompanion, BbnativesharedPlayerSettings, BbnativesharedPlayerSettingsCompanion, BbnativesharedPlayout, BbnativesharedPlayoutCompanion, BbnativesharedPosType, BbnativesharedProcedure, BbnativesharedProcedureCompanion, BbnativesharedProgramController, BbnativesharedProgramControllerCompanion, BbnativesharedProject, BbnativesharedProjectCompanion, BbnativesharedPublication, BbnativesharedPublicationCompanion, BbnativesharedQuality, BbnativesharedRelatedItemsHelperCompanion, BbnativesharedRequestParams, BbnativesharedRequestParamsCompanion, BbnativesharedShortsEngineCompanion, BbnativesharedSoftEmbargoTimerCompanion, BbnativesharedState, BbnativesharedStep, BbnativesharedStepCompanion, BbnativesharedSubtitle, BbnativesharedSubtitleCompanion, BbnativesharedThumbnail, BbnativesharedThumbnailCompanion, BbnativesharedTimeline, BbnativesharedTimelineCompanion, BbnativesharedTypedObject, BbnativesharedTypedObjectCompanion, BbnativesharedVersioningData, BbnativesharedVersioningDataCompanion, BbnativesharedVideoTrack, BbnativesharedVideoTrackCompanion;
 
 @protocol BbnativesharedAdControllerInterface, BbnativesharedContentItemInterface, BbnativesharedEventBusInterface, BbnativesharedEventListenerInterface, BbnativesharedFontFileStoreInterface, BbnativesharedKotlinAnnotation, BbnativesharedKotlinComparable, BbnativesharedKotlinContinuation, BbnativesharedKotlinContinuationInterceptor, BbnativesharedKotlinCoroutineContext, BbnativesharedKotlinCoroutineContextElement, BbnativesharedKotlinCoroutineContextKey, BbnativesharedKotlinIterator, BbnativesharedKotlinKAnnotatedElement, BbnativesharedKotlinKClass, BbnativesharedKotlinKClassifier, BbnativesharedKotlinKDeclarationContainer, BbnativesharedKotlinx_coroutines_coreCoroutineScope, BbnativesharedKotlinx_coroutines_coreFlow, BbnativesharedKotlinx_coroutines_coreFlowCollector, BbnativesharedKotlinx_coroutines_coreMutableSharedFlow, BbnativesharedKotlinx_coroutines_coreMutableStateFlow, BbnativesharedKotlinx_coroutines_coreRunnable, BbnativesharedKotlinx_coroutines_coreSharedFlow, BbnativesharedKotlinx_coroutines_coreStateFlow, BbnativesharedKotlinx_serialization_coreCompositeDecoder, BbnativesharedKotlinx_serialization_coreCompositeEncoder, BbnativesharedKotlinx_serialization_coreDecoder, BbnativesharedKotlinx_serialization_coreDeserializationStrategy, BbnativesharedKotlinx_serialization_coreEncoder, BbnativesharedKotlinx_serialization_coreKSerializer, BbnativesharedKotlinx_serialization_coreSerialDescriptor, BbnativesharedKotlinx_serialization_coreSerialFormat, BbnativesharedKotlinx_serialization_coreSerializationStrategy, BbnativesharedKotlinx_serialization_coreSerializersModuleCollector, BbnativesharedKotlinx_serialization_coreStringFormat, BbnativesharedKotlinx_serialization_jsonJsonNamingStrategy, BbnativesharedMediaControllerInterface, BbnativesharedNetworkInterface, BbnativesharedPosterControllerInterface;
 
@@ -971,6 +971,9 @@ __attribute__((swift_name("ProgramController")))
 - (void)unload __attribute__((swift_name("unload()")));
 @property id<BbnativesharedAdControllerInterface> _Nullable adController __attribute__((swift_name("adController")));
 @property BbnativesharedMediaClip * _Nullable clipData __attribute__((swift_name("clipData")));
+
+/** This player's credentials: the SDK sets them on a token change, every content request reads them (#21000). */
+@property (readonly) BbnativesharedContentAuthHolder *contentAuthHolder __attribute__((swift_name("contentAuthHolder")));
 @property NSString * _Nullable contentId __attribute__((swift_name("contentId")));
 @property id<BbnativesharedEventBusInterface> _Nullable eventBus __attribute__((swift_name("eventBus")));
 @property id<BbnativesharedMediaControllerInterface> _Nullable mediaController __attribute__((swift_name("mediaController")));
@@ -1038,6 +1041,8 @@ __attribute__((objc_subclassing_restricted))
 __attribute__((swift_name("ContentAuth")))
 @interface BbnativesharedContentAuth : BbnativesharedBase
 @property (class, readonly, getter=companion) BbnativesharedContentAuthCompanion *companion __attribute__((swift_name("companion")));
+- (BOOL)isEqual:(id _Nullable)other __attribute__((swift_name("isEqual(_:)")));
+- (NSUInteger)hash __attribute__((swift_name("hash()")));
 
 /** The headers to send with a request to [url]; empty unless [url] is a Blue Billywig origin. */
 - (NSDictionary<NSString *, NSString *> *)headersForUrl:(NSString *)url __attribute__((swift_name("headersFor(url:)")));
@@ -1063,10 +1068,52 @@ __attribute__((swift_name("ContentAuth.Companion")))
  */
 - (BOOL)isBbAuthOriginUrl:(NSString *)url __attribute__((swift_name("isBbAuthOrigin(url:)")));
 
+/**
+ * The player [options] with the `jwt` / `rpcToken` that the load or updatePlayout [args] carry,
+ * as on the web: a key in [args] replaces the option, also with null. Null when [args] carry
+ * neither key: the credentials stay as they are (#21000).
+ *
+ * A key that is left out is kept. cp-gatekeeper validates the rpcToken and ignores the jwt
+ * when both go out, so an app that moves from an rpcToken to a jwt sends `rpcToken: ""` too.
+ */
+- (NSDictionary<NSString *, id> * _Nullable)optionsWithCredentialsOfArgs:(NSDictionary<NSString *, id> * _Nullable)args options:(NSDictionary<NSString *, id> * _Nullable)options __attribute__((swift_name("optionsWithCredentialsOf(args:options:)")));
+
 /** [url] with the value of any `jwt` / `rpctoken` query parameter replaced, for logging. */
 - (NSString *)redactUrlUrl:(NSString *)url __attribute__((swift_name("redactUrl(url:)")));
 @property (readonly) NSString *HEADER_AUTHORIZATION __attribute__((swift_name("HEADER_AUTHORIZATION")));
 @property (readonly) NSString *HEADER_RPCTOKEN __attribute__((swift_name("HEADER_RPCTOKEN")));
+@end
+
+
+/**
+ * The content-protection credentials of one player (#21000). The player's content loaders and its
+ * CP overlay share one holder and read it when they make a request, so a token change applies to
+ * all of them at once.
+ *
+ * @suppress
+ */
+__attribute__((objc_subclassing_restricted))
+__attribute__((swift_name("ContentAuthHolder")))
+@interface BbnativesharedContentAuthHolder : BbnativesharedBase
+
+/**
+ * The content-protection credentials of one player (#21000). The player's content loaders and its
+ * CP overlay share one holder and read it when they make a request, so a token change applies to
+ * all of them at once.
+ *
+ * @suppress
+ */
+- (instancetype)init __attribute__((swift_name("init()"))) __attribute__((objc_designated_initializer));
+
+/**
+ * The content-protection credentials of one player (#21000). The player's content loaders and its
+ * CP overlay share one holder and read it when they make a request, so a token change applies to
+ * all of them at once.
+ *
+ * @suppress
+ */
++ (instancetype)new __attribute__((availability(swift, unavailable, message="use object initializers instead")));
+@property BbnativesharedContentAuth * _Nullable contentAuth __attribute__((swift_name("contentAuth")));
 @end
 
 
@@ -1094,6 +1141,9 @@ __attribute__((swift_name("ContentLoader")))
 
 /** The app's jwt / rpcToken, sent on every request of this loader to a Blue Billywig origin (#20857). */
 @property BbnativesharedContentAuth * _Nullable contentAuth __attribute__((swift_name("contentAuth")));
+
+/** Where [contentAuth] is kept; a player's loaders share one (#21000). */
+@property BbnativesharedContentAuthHolder *contentAuthHolder __attribute__((swift_name("contentAuthHolder")));
 @property (readonly) id<BbnativesharedKotlinCoroutineContext> coroutineContext __attribute__((swift_name("coroutineContext")));
 @property id<BbnativesharedNetworkInterface> _Nullable network __attribute__((swift_name("network")));
 @end
@@ -1857,11 +1907,6 @@ __attribute__((swift_name("BlueBillywigLogger")))
  * @note This property has protected visibility in Kotlin source and is intended only for use by subclasses.
 */
 @property NSMutableArray<BbnativesharedMutableDictionary<NSString *, NSString *> *> *_enabledQueue __attribute__((swift_name("_enabledQueue")));
-
-/**
- * @note This property has protected visibility in Kotlin source and is intended only for use by subclasses.
-*/
-@property NSString *_loggerUrl __attribute__((swift_name("_loggerUrl")));
 @property (readonly) id<BbnativesharedKotlinCoroutineContext> coroutineContext __attribute__((swift_name("coroutineContext")));
 @property id<BbnativesharedEventBusInterface> _Nullable eventBus __attribute__((swift_name("eventBus")));
 @end
